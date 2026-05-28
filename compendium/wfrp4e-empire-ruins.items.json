@@ -1,0 +1,61 @@
+{
+  "label": "Items (Empire in Ruins)",
+  "folders": {
+    "Spells": "Spells",
+    "Traits": "Traits",
+    "Trappings": "Trappings"
+  },
+  "entries": {
+    "Vindictive Glare": {
+      "name": "Vindictive Glare"
+    },
+    "Helstorm Rocket Battery": {
+      "name": "Helstorm Rocket Battery"
+    },
+    "Predator-Prey Pendant": {
+      "name": "Predator-Prey Pendant"
+    },
+    "Elthrai Cadaith": {
+      "name": "Elthrai Cadaith"
+    },
+    "Induce Frenzy": {
+      "name": "Induce Frenzy"
+    },
+    "Cunnin' Words": {
+      "name": "Cunnin' Words"
+    },
+    "Pure Fire": {
+      "name": "Pure Fire"
+    },
+    "Spell Syphon": {
+      "name": "Spell Syphon"
+    },
+    "Ghal Maraz": {
+      "name": "Ghal Maraz"
+    },
+    "Night Shroud": {
+      "name": "Night Shroud"
+    },
+    "The Silver Seal": {
+      "name": "The Silver Seal"
+    },
+    "Spirit Walk": {
+      "name": "Spirit Walk"
+    },
+    "Ball and Chain": {
+      "name": "Ball and Chain"
+    },
+    "Gork’ll Fix It": {
+      "name": "Gork’ll Fix It"
+    },
+    "Sneaky Stabbin'": {
+      "name": "Sneaky Stabbin'"
+    },
+    "Imitation Ghal Maraz": {
+      "name": "Imitation Ghal Maraz"
+    },
+    "Random Caster": {
+      "name": "Random Caster"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "wfrp4e-pbtt-es",
+  "title": "WFRP4e - El Poder Tras el Trono (Castellano)",
+  "description": "Traducción al castellano de Power Behind the Throne.",
+  "version": "1.0.0",
+  "authors": [{"name": "Tu nombre", "flags": {}}],
+  "esmodules": ["babele-register.js"],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {"minimum": "2.9.1"}
+      }
+    ],
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  }
+}

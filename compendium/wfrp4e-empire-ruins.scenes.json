@@ -1,0 +1,123 @@
+{
+  "label": "Scenes (Empire in Ruins)",
+  "folders": {},
+  "entries": {
+    "Shining Rock": {
+      "name": "Shining Rock",
+      "drawings": {
+        "Altdorf-Middenheim Road": "Altdorf-Middenheim Road",
+        "Shrine Marker": "Shrine Marker",
+        "Shrine": "Shrine",
+        "Priest Quarters": "Priest Quarters",
+        "The Hall": "The Hall",
+        "Kitchen and Stores": "Kitchen and Stores",
+        "Ulrican Dormitory": "Ulrican Dormitory",
+        "Sigmarite Dormitory": "Sigmarite Dormitory"
+      }
+    },
+    "Volkshalle": {
+      "name": "Volkshalle",
+      "drawings": {
+        "COURTYARD": "COURTYARD",
+        "VOLKSHALLE": "VOLKSHALLE",
+        "THE CELLAR": "THE CELLAR",
+        "Main Hall": "Main Hall",
+        "Viewing Hall": "Viewing Hall",
+        "Emperor's Throne": "Emperor's Throne",
+        "Reliquary": "Reliquary",
+        "Main Entrance": "Main Entrance",
+        "Guard Posts": "Guard Posts",
+        "Shrine to Sigmar": "Shrine to Sigmar",
+        "Stairs to Cellar": "Stairs to Cellar",
+        "Under Reliquary": "Under Reliquary",
+        "Wine Racks": "Wine Racks",
+        "Beer Kegs": "Beer Kegs",
+        "Anteroom": "Anteroom",
+        "Stairs Up": "Stairs Up"
+      }
+    },
+    "The Lost Gorge": {
+      "name": "The Lost Gorge",
+      "drawings": {
+        "Ancient Rockfall": "Ancient Rockfall",
+        "Black Fire Pass": "Black Fire Pass",
+        "Traps": "Traps",
+        "Boulder Cluster": "Boulder Cluster",
+        "Pinch Point": "Pinch Point",
+        "Entrance Hole": "Entrance Hole",
+        "Snotrom and Mushlings": "Snotrom and Mushlings",
+        "Fallen Rock - End of Madcraw Territory": "Fallen Rock - End of Madcraw Territory",
+        "Abandoned Camp": "Abandoned Camp",
+        "Purple Cap Colonies": "Purple Cap Colonies",
+        "Bridge over Ravine": "Bridge over Ravine",
+        "Cacklespit's Cave": "Cacklespit's Cave",
+        "Skargobbo Cave": "Skargobbo Cave",
+        "Main Cavern": "Main Cavern",
+        "Runt Caves": "Runt Caves",
+        "The Drop": "The Drop",
+        "To Birthshroom Caves and Beyond": "To Birthshroom Caves and Beyond"
+      }
+    },
+    "Black Fire Pass": {
+      "name": "Black Fire Pass",
+      "drawings": {
+        "Grenztadt": "Grenztadt",
+        "Old Dwarf Road": "Old Dwarf Road",
+        "Bloodmoss Plain": "Bloodmoss Plain",
+        "Battleground": "Battleground",
+        "Dog Peak Pass": "Dog Peak Pass",
+        "Lost Gorge": "Lost Gorge",
+        "Shrine": "Shrine",
+        "Black Fire Keep": "Black Fire Keep",
+        "Dok A Dum": "Dok A Dum",
+        "Temple of Sigmar": "Temple of Sigmar",
+        "Vithang Dum": "Vithang Dum",
+        "Shrine of the Divine Comet": "Shrine of the Divine Comet",
+        "Three Mothers": "Three Mothers",
+        "Zan Mingol": "Zan Mingol",
+        "Mine": "Mine"
+      }
+    },
+    "Wolfshügal Shrine": {
+      "name": "Wolfshügal Shrine",
+      "drawings": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "WOLFSHÙGAL SHRINE": "WOLFSHÙGAL SHRINE",
+        "1. Sacred Crag": "1. Sacred Crag",
+        "2. Overhanging Tree": "2. Overhanging Tree",
+        "3. The Blocked Tunnel": "3. The Blocked Tunnel",
+        "4. Destroyed Huts": "4. Destroyed Huts",
+        "5. Brother Adric's Hut": "5. Brother Adric's Hut"
+      }
+    },
+    "Diesdorf": {
+      "name": "Diesdorf",
+      "drawings": {
+        "The Down": "The Down",
+        "Artillery Field": "Artillery Field",
+        "The Military College": "The Military College",
+        "Gunpowder Magazine": "Gunpowder Magazine",
+        "Dwarf Hall": "Dwarf Hall",
+        "Fortified Gate": "Fortified Gate",
+        "South Gate": "South Gate",
+        "The Triangle": "The Triangle",
+        "Magnus Platz": "Magnus Platz",
+        "West Watch": "West Watch",
+        "Sinkel Theatre": "Sinkel Theatre",
+        "Shallyan Temlpe": "Shallyan Temlpe",
+        "Temple to Sigmar": "Temple to Sigmar",
+        "Docks": "Docks",
+        "Dock Gate": "Dock Gate",
+        "North Gate": "North Gate"
+      }
+    },
+    "Caves of Chaos": {
+      "name": "Caves of Chaos",
+      "notes": {}
+    }
+  }
+}

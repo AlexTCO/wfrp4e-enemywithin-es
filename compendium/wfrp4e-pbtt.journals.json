@@ -1,0 +1,421 @@
+{
+  "label": "Diarios (La Sombra Tras el Trono)",
+  "mapping": {
+    "pages": {
+      "path": "pages",
+      "converter": "pages"
+    }
+  },
+  "entries": {
+    "Power Behind the Throne": {
+      "name": "La Sombra Tras el Trono",
+      "pages": {
+        "Introduction": {
+          "name": "Introducción",
+          "text": { "content": "" }
+        }
+      }
+    },
+    "PBtT - Introduction": {
+      "name": "LST - Introducción",
+      "pages": {
+        "Welcome to Middenheim": {
+          "name": "Bienvenidos a Middenheim",
+          "text": { "content": "" }
+        }
+      }
+    },
+    "PBtT - Chapter 1: Road to Middenheim": {
+      "name": "LST - Capítulo 1: El Camino a Middenheim",
+      "pages": {}
+    },
+    "PBtT - Chapter 2: Middenheim": {
+      "name": "LST - Capítulo 2: Middenheim",
+      "pages": {}
+    },
+    "PBtT - Chapter 3: The Carnival": {
+      "name": "LST - Capítulo 3: El Carnaval",
+      "pages": {}
+    },
+    "PBtT - Chapter 4: Plots and Conspiracies": {
+      "name": "LST - Capítulo 4: Intrigas y Conspiraciones",
+      "pages": {}
+    },
+    "PBtT - Chapter 5: The Purple Hand": {
+      "name": "LST - Capítulo 5: La Mano Púrpura",
+      "pages": {}
+    },
+    "PBtT - Chapter 6: The Jade Sceptre": {
+      "name": "LST - Capítulo 6: El Cetro de Jade",
+      "pages": {}
+    },
+    "PBtT - Chapter 7: Climax": {
+      "name": "LST - Capítulo 7: El Clímax",
+      "pages": {}
+    },
+    "PBtT - Epilogue": {
+      "name": "LST - Epílogo",
+      "pages": {}
+    },
+    "Companion - Introduction": {
+      "name": "Compañero - Introducción",
+      "pages": {}
+    },
+    "Companion - Chapter 1: Deleted Scenes": {
+      "name": "Compañero - Capítulo 1: Escenas Eliminadas",
+      "pages": {
+        "The Graf's Garden Party": {
+          "name": "La Fiesta en el Jardín del Graf",
+          "text": { "content": "" }
+        },
+        "The Wine of Madness": {
+          "name": "El Vino de la Locura",
+          "text": { "content": "" }
+        },
+        "Watch the Birdie": {
+          "name": "Ojo con el Pajarito",
+          "text": { "content": "" }
+        },
+        "Down Among Deadmen": {
+          "name": "Entre los Muertos",
+          "text": { "content": "" }
+        }
+      }
+    },
+    "Companion - Chapter 2: The Ritual": {
+      "name": "Compañero - Capítulo 2: El Ritual",
+      "pages": {}
+    },
+    "Companion - Chapter 3: Flying Death Skulls": {
+      "name": "Compañero - Capítulo 3: Calaveras de la Muerte Voladora",
+      "pages": {}
+    },
+    "Companion - Chapter 4: The Cult of Ulric": {
+      "name": "Compañero - Capítulo 4: El Culto de Ulric",
+      "pages": {}
+    },
+    "Companion - Chapter 5: Familiar Faces": {
+      "name": "Compañero - Capítulo 5: Caras Conocidas",
+      "pages": {}
+    },
+    "Companion - Chapter 6: The Jade Sceptre - A GM's Guide": {
+      "name": "Compañero - Capítulo 6: El Cetro de Jade - Guía del DJ",
+      "pages": {}
+    },
+    "Companion - NPCs": {
+      "name": "Compañero - PNJs",
+      "pages": {}
+    },
+    "Companion - Golthog the Ogre": {
+      "name": "Compañero - Golthog el Ogro",
+      "pages": {}
+    },
+    "Companion - The Changeling": {
+      "name": "Compañero - El Cambiante",
+      "pages": {}
+    },
+    "Gazetteer: Middenheim": {
+      "name": "Gaceta: Middenheim",
+      "pages": {
+        "Overview": {
+          "name": "Vista General",
+          "text": { "content": "" }
+        },
+        "History": {
+          "name": "Historia",
+          "text": { "content": "" }
+        },
+        "Geography": {
+          "name": "Geografía",
+          "text": { "content": "" }
+        },
+        "Government": {
+          "name": "Gobierno",
+          "text": { "content": "" }
+        },
+        "Religion": {
+          "name": "Religión",
+          "text": { "content": "" }
+        },
+        "Trade": {
+          "name": "Comercio",
+          "text": { "content": "" }
+        }
+      }
+    },
+    "Gazetteer: Altquartier": {
+      "name": "Gaceta: Altquartier",
+      "pages": {}
+    },
+    "Gazetteer: Neumarkt": {
+      "name": "Gaceta: Neumarkt",
+      "pages": {}
+    },
+    "Gazetteer: Ostwald": {
+      "name": "Gaceta: Ostwald",
+      "pages": {}
+    },
+    "Gazetteer: Südtor": {
+      "name": "Gaceta: Südtor",
+      "pages": {}
+    },
+    "Gazetteer: Ulricsmund": {
+      "name": "Gaceta: Ulricsmund",
+      "pages": {}
+    },
+    "Gazetteer: Westor": {
+      "name": "Gaceta: Westor",
+      "pages": {}
+    },
+    "Gazetteer: Temple District": {
+      "name": "Gaceta: Distrito del Templo",
+      "pages": {}
+    },
+    "NPC - Ar-Ulric Emil Valgeir": {
+      "name": "PNJ - Ar-Ulric Emil Valgeir",
+      "pages": {}
+    },
+    "NPC - Boris Todbringer": {
+      "name": "PNJ - Boris Todbringer",
+      "pages": {}
+    },
+    "NPC - Etelka Herzen": {
+      "name": "PNJ - Etelka Herzen",
+      "pages": {}
+    },
+    "NPC - Kastor Lieberung": {
+      "name": "PNJ - Kastor Lieberung",
+      "pages": {}
+    },
+    "NPC - Katarina Todbringer": {
+      "name": "PNJ - Katarina Todbringer",
+      "pages": {}
+    },
+    "NPC - Oswald von Konigswald": {
+      "name": "PNJ - Oswald von Konigswald",
+      "pages": {}
+    },
+    "NPC - Rallane Lafarel": {
+      "name": "PNJ - Rallane Lafarel",
+      "pages": {}
+    },
+    "NPC - Richter Kleindeinst": {
+      "name": "PNJ - Richter Kleindeinst",
+      "pages": {}
+    },
+    "NPC - Wasmeier": {
+      "name": "PNJ - Wasmeier",
+      "pages": {}
+    },
+    "NPC - Allavandrel Fanmaris": {
+      "name": "PNJ - Allavandrel Fanmaris",
+      "pages": {}
+    },
+    "NPC - Lothar von Metterberg": {
+      "name": "PNJ - Lothar von Metterberg",
+      "pages": {}
+    },
+    "NPC - Greta Morbidstein": {
+      "name": "PNJ - Greta Morbidstein",
+      "pages": {}
+    },
+    "Location - The Templars' Arms": {
+      "name": "Localización - Las Armas de los Templarios",
+      "pages": {}
+    },
+    "Location - Temple of Ulric": {
+      "name": "Localización - Templo de Ulric",
+      "pages": {}
+    },
+    "Location - Palace of Justice": {
+      "name": "Localización - Palacio de la Justicia",
+      "pages": {}
+    },
+    "Location - Garten Palace": {
+      "name": "Localización - Palacio de Garten",
+      "pages": {}
+    },
+    "Location - The Pit": {
+      "name": "Localización - El Pozo",
+      "pages": {}
+    },
+    "Location - Temple of Shallya": {
+      "name": "Localización - Templo de Shallya",
+      "pages": {}
+    },
+    "Location - Black Rose Brothel": {
+      "name": "Localización - El Burdel de la Rosa Negra",
+      "pages": {}
+    },
+    "Location - Temple of Sigmar": {
+      "name": "Localización - Templo de Sigmar",
+      "pages": {}
+    },
+    "Location - The Eternal Flame": {
+      "name": "Localización - La Llama Eterna",
+      "pages": {}
+    },
+    "Location - Middenheim Gate": {
+      "name": "Localización - Puerta de Middenheim",
+      "pages": {}
+    },
+    "The Purple Hand": {
+      "name": "La Mano Púrpura",
+      "pages": {
+        "Overview": {
+          "name": "Vista General",
+          "text": { "content": "" }
+        },
+        "History": {
+          "name": "Historia",
+          "text": { "content": "" }
+        },
+        "Hierarchy": {
+          "name": "Jerarquía",
+          "text": { "content": "" }
+        },
+        "Rituals": {
+          "name": "Rituales",
+          "text": { "content": "" }
+        }
+      }
+    },
+    "The Jade Sceptre": {
+      "name": "El Cetro de Jade",
+      "pages": {
+        "Overview": {
+          "name": "Vista General",
+          "text": { "content": "" }
+        },
+        "History": {
+          "name": "Historia",
+          "text": { "content": "" }
+        },
+        "Hierarchy": {
+          "name": "Jerarquía",
+          "text": { "content": "" }
+        }
+      }
+    },
+    "Powers That Be: Overview": {
+      "name": "Los que Mandan: Vista General",
+      "pages": {}
+    },
+    "Powers That Be: Nobility": {
+      "name": "Los que Mandan: Nobleza",
+      "pages": {}
+    },
+    "Powers That Be: Church of Ulric": {
+      "name": "Los que Mandan: Iglesia de Ulric",
+      "pages": {}
+    },
+    "Powers That Be: Guilds": {
+      "name": "Los que Mandan: Gremios",
+      "pages": {}
+    },
+    "Powers That Be: Watch": {
+      "name": "Los que Mandan: La Guardia",
+      "pages": {}
+    },
+    "Powers That Be: Cults": {
+      "name": "Los que Mandan: Cultos",
+      "pages": {}
+    },
+    "Grognard Box: The Wedding": {
+      "name": "Caja Gruñón: La Boda",
+      "pages": {}
+    },
+    "Grognard Box: The Assassination": {
+      "name": "Caja Gruñón: El Asesinato",
+      "pages": {}
+    },
+    "Grognard Box: The Witch Hunters": {
+      "name": "Caja Gruñón: Los Cazadores de Brujas",
+      "pages": {}
+    },
+    "Grognard Box: The Carnival Master": {
+      "name": "Caja Gruñón: El Maestro del Carnaval",
+      "pages": {}
+    },
+    "Grognard Box: The Shapeshifter": {
+      "name": "Caja Gruñón: El Cambiaformas",
+      "pages": {}
+    },
+    "Trading: Middenheim": {
+      "name": "Comercio: Middenheim",
+      "pages": {}
+    },
+    "Adventure Hook: Carnival Chaos": {
+      "name": "Gancho de Aventura: Caos en el Carnaval",
+      "pages": {}
+    },
+    "Adventure Hook: Missing Noble": {
+      "name": "Gancho de Aventura: Noble Desaparecido",
+      "pages": {}
+    },
+    "Adventure Hook: The Blackmailer": {
+      "name": "Gancho de Aventura: El Chantajista",
+      "pages": {}
+    },
+    "Adventure Hook: Body in the Pit": {
+      "name": "Gancho de Aventura: Un Cadáver en el Pozo",
+      "pages": {}
+    },
+    "GM Reference: Timeline": {
+      "name": "Referencia del DJ: Línea Temporal",
+      "pages": {}
+    },
+    "GM Reference: Key Relationships": {
+      "name": "Referencia del DJ: Relaciones Clave",
+      "pages": {}
+    },
+    "GM Reference: Conspiracy Threads": {
+      "name": "Referencia del DJ: Hilos de la Conspiración",
+      "pages": {}
+    },
+    "GM Reference: Clues and Evidence": {
+      "name": "Referencia del DJ: Pistas y Pruebas",
+      "pages": {}
+    },
+    "Handout 1": {
+      "name": "Documento del DJ 1",
+      "pages": {}
+    },
+    "Handout 2": {
+      "name": "Documento del DJ 2",
+      "pages": {}
+    },
+    "Handout 3": {
+      "name": "Documento del DJ 3",
+      "pages": {}
+    },
+    "Handout 4": {
+      "name": "Documento del DJ 4",
+      "pages": {}
+    },
+    "Handout 5": {
+      "name": "Documento del DJ 5",
+      "pages": {}
+    },
+    "Handout 6": {
+      "name": "Documento del DJ 6",
+      "pages": {}
+    },
+    "Handout 7": {
+      "name": "Documento del DJ 7",
+      "pages": {}
+    },
+    "Handout 8": {
+      "name": "Documento del DJ 8",
+      "pages": {}
+    },
+    "Handout 9": {
+      "name": "Documento del DJ 9",
+      "pages": {}
+    },
+    "Handout 10": {
+      "name": "Documento del DJ 10",
+      "pages": {}
+    }
+  }
+}

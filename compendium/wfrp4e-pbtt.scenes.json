@@ -1,0 +1,41 @@
+{
+  "label": "Escenas (La Sombra Tras el Trono)",
+  "entries": {
+    "Middenheim - City Overview": {
+      "name": "Middenheim - Vista General de la Ciudad"
+    },
+    "Middenheim - Temple District": {
+      "name": "Middenheim - Distrito del Templo"
+    },
+    "Middenheim - Altquartier": {
+      "name": "Middenheim - Altquartier"
+    },
+    "Middenheim - Neumarkt": {
+      "name": "Middenheim - Neumarkt"
+    },
+    "Middenheim - Ostwald": {
+      "name": "Middenheim - Ostwald"
+    },
+    "Middenheim - Südtor": {
+      "name": "Middenheim - Südtor"
+    },
+    "Middenheim - Ulricsmund": {
+      "name": "Middenheim - Ulricsmund"
+    },
+    "Middenheim - Westor": {
+      "name": "Middenheim - Westor"
+    },
+    "Palace of Justice": {
+      "name": "Palacio de la Justicia"
+    },
+    "Temple of Ulric": {
+      "name": "Templo de Ulric"
+    },
+    "The Carnival": {
+      "name": "El Carnaval"
+    },
+    "The Templars' Arms": {
+      "name": "Las Armas de los Templarios"
+    }
+  }
+}

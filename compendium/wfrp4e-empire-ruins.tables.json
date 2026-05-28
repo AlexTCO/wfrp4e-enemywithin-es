@@ -1,0 +1,215 @@
+{
+  "label": "Tables (Empire in Ruins)",
+  "folders": {},
+  "entries": {
+    "Complications During the Second Attack": {
+      "name": "Complications During the Second Attack",
+      "description": "",
+      "results": {
+        "1-42": "A Son of Ulric charges into combat with a randomly selected Character in the area. The Son of Ulric derives the benefits from charging and may also benefit from outnumbering the Character if they are already engaged.",
+        "88-92": "@UUID[Actor.0Z49f8xUPns5OkTA]{Baron Heinrich} receives a critical hit that requires him to retire from the fight and seek medical attention.",
+        "93-97": "@UUID[Actor.RSmsdG8PqbyKnxlL]{High Capitular Volkmar} receives a critical hit that requires him to retire from the fight and seek medical attention.",
+        "98-100": "Weregardt Schlupmann charges into combat with a randomly selected Character in the area. Weregardt derives the benefits from charging and may also benefit from outnumbering the Character if they are already engaged. If Weregardt is dead the attacker is a regular Son of Ulric.",
+        "43-67": "A Knight of the Fiery Heart is slain.",
+        "68-82": "A Knight of the White Wolf is slain.",
+        "83-87": "@UUID[Actor.LzkGSosXU59kwBIV]{Veiran Thugenheim} receives a critical hit that requires him to retire from the fight and seek medical attention."
+      }
+    },
+    "Random Caster": {
+      "name": "Random Caster",
+      "description": "",
+      "results": {
+        "1-5": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#petty-spells]{Petty}</p>",
+        "6-10": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#arcane-spells]{Arcane}</p>",
+        "11-15": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-beasts]{Beasts}</p>",
+        "16-20": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-death]{Death}</p>",
+        "21-25": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-fire]{Fire}</p>",
+        "26-30": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-heavens]{Heavens}</p>",
+        "31-35": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-metal]{Metal}</p>",
+        "36-40": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-life]{Life}</p>",
+        "41-45": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-light]{Light}</p>",
+        "46-50": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-shadow]{Shadow}</p>",
+        "51-55": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-hedgecraft]{Hedgecraft}</p>",
+        "56-60": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-witchcraft]{Witchcraft}</p>",
+        "61-65": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-daemonology]{Daemonology}</p>",
+        "66-70": "<p>@UUID[JournalEntry.YBVrpUHEjohB1H4f.JournalEntryPage.SCijiCw628GLE2pT#the-lore-of-necromancy]{Necromancy}</p>",
+        "71-79": "<p>@UUID[JournalEntry.gX4TCKy0TPwS68ba.JournalEntryPage.MOIADJ2A0ZOzDGEp]{Slaanesh}</p>",
+        "80-95": "<p>@UUID[JournalEntry.IZVgB7zmTm4rK2yJ.JournalEntryPage.6aHizetwTRbkMZ7W#the-lore-of-tzeentch]{Lore of Tzeentch}</p>",
+        "96-100": "GM's Choice"
+      }
+    },
+    "Dirigible Locations - Rear": {
+      "name": "Dirigible Locations - Rear",
+      "description": "",
+      "results": {
+        "1-50": "Engine",
+        "51-60": "Dcek",
+        "61-70": "Hull",
+        "71-100": "Balloon"
+      }
+    },
+    "Complications During the Third Attack": {
+      "name": "Complications During the Third Attack",
+      "description": "",
+      "results": {
+        "1-42": "A Son of Ulric charges into combat with a randomly selected Character in the area. The Son of Ulric derives the benefits from charging and may also benefit from outnumbering the Character if they are already engaged.",
+        "43-67": "A Knight of the Fiery Heart is slain.",
+        "68-82": "A Knight of the White Wolf is slain.",
+        "83-89": "Ar-Ulric is grappled to the ground, his white wolf pelt is ripped from him and flung into the mud outside the temple.",
+        "88-95": "Grand Theogonist Yorri XV receives a randomly generated critical hit.",
+        "96-100": "Beate Moser charges into combat with a randomly selected Character in the area. Beate derives the benefits from charging and may also benefit from outnumbering the Character if they are already engaged. If Beate is dead the attacker is a regular Son of Ulric."
+      }
+    },
+    "Eating Purple Caps": {
+      "name": "Eating Purple Caps",
+      "description": "These mushrooms are tainted by the magic emanating from the cave and eating them grants powerful visions of the past and future. Within d10 turns of consuming a Purple Cap the Character needs to make a test as if they had consumed a Piece or Weirdroot. If they succumb their eyesight dims and they see colourful patterns swirling through the air around them, reminiscent of Cacklespit’s paintings. Vague shapes, almost like lifeforms, swim through the air. Gradually, the Character begins to experience vivid visions.",
+      "results": {
+        "1-10": "<p><strong>The First Ones.</strong> The world is ice. Glowing figures of light descend into the gorge and everything begins to melt.</p>",
+        "11-20": "<p><strong>Weary wanderers.</strong> An endless line of Dwarfs troops through the gorge towards the Character, clad in golden armour. They are tired and as they march, they slowly sink into the ground. There is an overwhelming air of melancholy.</p>",
+        "21-30": "<p><strong>The Final Battle Begins.</strong> Sigmar strides wearily through the Lower Gorge accompanied by a wolf and a boar. A winged figure looms above him and he raises his hammer. The Character feels hot and agitated.</p>",
+        "31-40": "<p><strong>Shadows Return.</strong> The Character is back in @UUID[Compendium.wfrp4e-eis.journals.ro7SIltM899Ogrk8]{Bogenhafen}, part of @UUID[Compendium.wfrp4e-eis.actors.LG5qATEIFPE9bezB]{Teugen’s} ritual. They know what’s about to happen, but they can’t stop it. Everything happens as it did before, but the ritual is prevented by the Character chanting a prayer to Sigmar. Teugen dies in a holy light. (<em>note, if the Character did not participate in Enemy In Shadows, reroll this vision</em>)</p>",
+        "41-50": "<p><strong>The Great Green</strong>. The Character finds themselves transported to an endless rocky plain, filled with orcs and goblins fighting. Above these greenskins, two huge orcs loom in the sky, having their own fist fight. One of the figures (Mork… or perhaps Gork) notices the Character, leans down and flicks them away with a massive finger. ‘ZOG OFF HUMIE. DIS AIN’T FER YOU’, he bellows.</p>",
+        "51-60": "<p><strong>Taking flight</strong>. Hordes of Madcraw Goblins surge up the gorge like a green tide which washes over the Character. As they pass, each one grows a pair of black greasy wings and flies south.</p>",
+        "61-70": "<p><strong>The Return</strong>. The Character looks up the gorge towards the waterfall and sees themselves and the rest of the party returning from the cave. They look haunted and slightly hysterical.</p>",
+        "71-80": "<p><strong>The Watchers</strong>. Nine inhuman eyes appear burning in the sky, each one distinct from the others. They spin in a circle and the Character becomes dizzy and ecstatic.</p>",
+        "81-90": "<p><strong>The Folded World</strong>. The Character stands still as his compatriots fold into themselves like paper. The gorge folds up, the sky folds up and they are left alone in a void. A voice speaks to them from nothingness, ‘It is in balance.’</p>",
+        "91-100": "<p><strong>Altdorf Aflame</strong>. The Character feels themselves shoot up into the air and hover over Altdorf. Purple and pink tentacles spread across the city, originating in the @UUID[Compendium.wfrp4e-altdorf.journals.cDOlXEpTvnuaOJ0P.JournalEntryPage.TwV8JKaTUnfo3ipT]{Cathedral of Sigmar}.</p>"
+      }
+    },
+    "Footsteps": {
+      "name": "Footsteps",
+      "description": "",
+      "results": {
+        "1-45": "Junior Servant",
+        "46-60": "Senior Servant",
+        "61-80": "Patrolling Knight",
+        "81-96": "Pair of Patrolling Knights",
+        "97-99": "One of the resident Nine Eyes",
+        "100-100": "Wolfgang Holswig-Abenhauer"
+      }
+    },
+    "Spell Syphon": {
+      "name": "Spell Syphon",
+      "description": "",
+      "results": {
+        "1-2": "<b>No Effect</b>: The magical energies boil off in a harmless but spectacular flare of energy.",
+        "3-7": "<b>Spell Syphoned</b>: The Blue Scribes cast the spell instead of the caster. This is in addition to any spell they might cast this round.",
+        "8-9": "<b>Spell Mirrored</b>: Both the caster and the Blue Scribes cast the spell. The Blue Scribes may cast an additional spell this round.",
+        "10-10": "<b>Power Spill</b>: The spells energies are fatally disrupted. Both the caster and the Blue Scribes find themselves at the centre of a Blast 5, Damage 6 explosion."
+      }
+    },
+    "Escaping Streissen": {
+      "name": "Escaping Streissen",
+      "description": "",
+      "results": {
+        "1-25": "A woman opens her front door and sees the Characters. <i>“Ere Larrs, these are the criminals they’re looking for.’</i> She is not minded to help Leitdorf ’s troops and closes the door if they do not insult her in any way.",
+        "26-50": "The Characters see a young Priest of Morr using ashes on his thumb to draw a raven on the forehead of a dead body. He nods to them and does not shout any warning.",
+        "51-75": "Town Criers start to declare that if the Characters do not surrender by the stroke on the next hour then a townsperson will be executed for each of them.",
+        "76-100": "Firewood is taken on to the battlements and small fires are lit to illuminate the walls and make it more difficult for the Characters to escape that way."
+      }
+    },
+    "Wind Table (Empire in Ruins)": {
+      "name": "Wind Table (Empire in Ruins)",
+      "description": "",
+      "results": {
+        "1-3": "<b>Calm Tailwind</b>",
+        "4-7": "<b>Calm Sidewind</b>",
+        "8-10": "<b>Calm Headwind</b>",
+        "11-13": "<b>Light Tailwind</b>: Movement Speed: +5%",
+        "14-17": "<b>Light Sidewind</b>: No Modifiers",
+        "18-20": "<b>Light Headwind</b>: Movement Speed: -5%",
+        "21-23": "<b>Bracing Tailwind</b>: Movement Speed: +10%",
+        "24-27": "<b>Bracing Sidewind</b>: Movement Speed: +5%<br />The movement increase shown can only be achieved through tacking, which requires a successful <b>Sail</b> Test.",
+        "28-30": "<b>Bracing Headwind</b>: Movement Speed: -10%",
+        "31-33": "<b>Strong Tailwind</b>: Movement Speed: +20%",
+        "34-37": "<b>Strong Sidewind</b>: Movement Speed: +10%<br />The movement increase shown can only be achieved through tacking, which requires a successful <b>Sail</b> Test.",
+        "38-40": "<b>Strong Headwind</b>: Movement Speed: -20%",
+        "41-43": "<b>Very Strong Tailwind</b>: Movement Speed: +25%",
+        "44-47": "<b>Very Strong Sidewind</b>: A successful Sail Test must be taken in order to land the balloon and disassemble its more fragile components before it is damaged by the high winds. If the balloon cannot land a successful <b>Difficult (–10) Sail</b> Test must be attempted to steer the balloon in such a way that it does not suffer damage. If the test is failed, roll on the @Table[dirigible-locations-side]{Balloon Hit Location} Chart and apply a Critical Hit to the location in question. The dirigible also loses [[/r 2d10 # Feet of Altidute Loss]] feet of altitude. This problem can be mitigated by turning the dirigible so that the wind is behind it, but this will mean the dirigible speeds off in that direction until the winds die down.",
+        "48-50": "<b>Very Strong Headwind</b>: A successful Sail Test must be taken in order to land the balloon and disassemble its more fragile components before it is damaged by the high winds. If the balloon cannot land a successful <b>Difficult (–10) Sail</b> Test must be attempted to steer the balloon in such a way that it does not suffer damage. If the test is failed, roll on the @Table[dirigible-locations-front]{Balloon Hit Location} Chart and apply a Critical Hit to the location in question. The dirigible also loses [[/r 2d10 # Feet of Altitude Loss]] feet of altitude. This problem can be mitigated by turning the dirigible so that the wind is behind it, but this will mean the dirigible speeds off in that direction until the winds die down."
+      }
+    },
+    "Random Undead": {
+      "name": "Random Undead",
+      "description": "",
+      "results": {
+        "1-30": "[[1d10]] @UUID[Compendium.wfrp4e-core.actors.Mt5JAoOSaEH1PdcP]{Skeletons}",
+        "31-35": "[[2d10]] @UUID[Compendium.wfrp4e-core.actors.Mt5JAoOSaEH1PdcP]{Skeletons}",
+        "36-40": "[[1d10]] @UUID[Compendium.wfrp4e-horned-rat.actors.FRS2PzhU3H98XfTX]{Flying Death Skulls}",
+        "41-45": "3 @UUID[Compendium.wfrp4e-horned-rat.actors.KE2xU8UltLaCnulO]{The Carrion}",
+        "46-80": "[[1d10 + 5]] @UUID[Compendium.wfrp4e-core.actors.T79RqnDOAQLn3I1s]{Zombies}",
+        "81-90": "[[1d10]] @UUID[Compendium.wfrp4e-core.actors.6B7LMdYtunAftsFN]{Crypt Ghouls}",
+        "91-92": "[[1d10]] @UUID[Compendium.wfrp4e-core.actors.hMbcLVjk7eUdxtqC]{Cairn Wraiths}",
+        "93-94": "1 Spirit Host (@UUID[Compendium.wfrp4e-core.actors.GgSxlomoV220kd3G]{Ghost} with @UUID[Compendium.wfrp4e-core.items.E2Es82TvBKa7CoDG]{Swarm} Trait)",
+        "95-100": "Roll Twice"
+      }
+    },
+    "Dirigible Locations - Front": {
+      "name": "Dirigible Locations - Front",
+      "description": "",
+      "results": {
+        "1-50": "Hull",
+        "51-60": "Deck",
+        "61-70": "Engine",
+        "71-100": "Balloon"
+      }
+    },
+    "Wild Magic": {
+      "name": "Wild Magic",
+      "description": "",
+      "results": {
+        "1-20": "<p><strong>The Winds Recede</strong>: The Winds of Magic die down around you, ceasing to feed Daemonic creatures. All creatures within [[2d10]] yards that have both the @UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Daemonic} and @UUID[Compendium.wfrp4e-core.items.D0ImWEIMSDgElsnl]{Unstable} Traits must make a <strong>Challenging (+0) Leadership</strong> Test. Those that fail immediately dissolve back into the Realm of Chaos.</p>",
+        "21-35": "<p><strong>Tzeentch’s Caprice</strong>: Randomly select one NPC or monster within [[1d10]] yards of the caster. This creature must take a <strong>Difficult (–10) Leadership</strong> Test. If they fail, the creature takes one Wound for each level of failure. On a Critical fumble, the creature takes [[1d10]] Wounds for each level of failure. Nothing can reduce these Wounds, including Armour, Talents, or spells.</p>",
+        "36-45": "<p><strong>Chaotic Ebb</strong>: All creatures within [[2d10]] yards that have the @UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Daemonic} Trait have their Target number reduced by [[1d10]] for this round only.</p>",
+        "46-55": "<p><strong>Storm of Pink Fire</strong>: Anyone attempting to cast a spell within [[2d10]] yards automatically produces a gout of pink flame instead of the intended spell effect. This is a <em>magic missile</em> causing +6 Damage which ignores Armour.</p>",
+        "56-65": "<p><strong>Precarious Balance</strong>: The Winds of Magic are temporarily in equilibrium with the power of Chaos. Roll on the Miscast Tables as normal.</p>",
+        "66-75": "<p><strong>The Eye of the Storm</strong>: The Winds of Magic are untroubled, and nothing happens — this time.</p>",
+        "76-85": "<p><strong>Swell of Magic</strong>: The Winds of Magic experience a sudden, unexpected surge. Roll on the Miscast Tables twice.</p>",
+        "86-90": "<p><strong>A Pink Fit</strong>: All creatures within [[1d10]] yards that have the @UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Daemonic} Trait can neither move nor take an Action this round. Instead, their flesh boils and quivers, and a @UUID[Actor.iDy8SDTwJSlCzZMl]{Pink Horror} pops out of their skin at the end of the round, landing beside them. The creatures themselves are unharmed.</p>",
+        "91-94": "<p><strong>Chaotic Surge</strong>: All creatures within [[1d10]] yards that have the @UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Daemonic} Trait gain a + 1 bonus to their Target number for this round only.</p>",
+        "95-99": "<p><strong>Daemonic Possession</strong>: Randomly select one enemy spellcaster within [[2d10]] yards. The selected NPC or monster must make a <strong>Difficult (–10) Willpower</strong> Test or spend the round writhing in agony as their body twists and contorts. At the end of the round, the spellcaster peels their own flesh off, and a Daemon comes forth from the ruins of the corpse. If there is no eligible spellcaster within range, treat this as a result of 66–75: The Eye of the Storm.</p>",
+        "100-100": "<p><strong>Summoned from Beyond</strong>: More Daemons wink into existence beside the caster. [[1d10]] appropriate Daemonic entities appear.</p>"
+      }
+    },
+    "Dirigible Locations - Side": {
+      "name": "Dirigible Locations - Side",
+      "description": "",
+      "results": {
+        "1-50": "Balloon",
+        "51-60": "Dcek",
+        "61-70": "Engine",
+        "71-100": "Hull"
+      }
+    },
+    "Body Thief": {
+      "name": "Body Thief",
+      "description": "",
+      "results": {
+        "1-30": "Blue Horror",
+        "31-60": "Pink Horror",
+        "61-90": "Flamer of Tzeentch",
+        "91-100": "GM's Choice"
+      }
+    },
+    "Exploring Castle Reikguard": {
+      "name": "Exploring Castle Reikguard",
+      "description": "",
+      "results": {
+        "1-50": "<b>Nothing</b>. The Characters search can continue unimpeded.",
+        "51-61": "<b>Just the Place!</b> The Characters feel that if they were eccentric tutors they would want access to a related place they have stumbled across, such as a bookshelf or study. One of them can make a <b>Challenging (+0) Intuition Test, and any SL resulting from that test added or subtracted from their current total.</b>",
+        "62-66": "<b>A Clue!</b> Those scuff marks might be made by a shuffling old tutor. That torn bit of parchment looks like it came from an academic treatise. One Character can make an <b>Average (+20) Track</b> Test, and any SL resulting from that test can be added or subtracted from their current total.",
+        "67-100": "<b>Footsteps!</b> The Characters hear footsteps approaching. They have two Rounds to prepare. If they wish to hide, there are many convenient alcoves, arrow slits, suits of armour, and arrases throughout the castle. Whoever is making the noise will spot a Character on an opposed <b>Perception/Stealth (Urban)</b> Test. Roll d100 to determine who made the footsteps: @Table[footsteps]{Footsteps}"
+      }
+    },
+    "Fire Intensity": {
+      "name": "Fire Intensity",
+      "description": "",
+      "results": {
+        "1-1": "<b>Dies Down</b>: Roll [[/r D10]] and subtract the result from the intensity of the blaze. This is the number of @Condition[Ablaze] Conditions to be applied from the next turn onwards.",
+        "2-2": "<b>Steady Burn</b>: The intensity of the blaze is maintained.",
+        "3-3": "<b>Intense Burn</b>: Roll [[/r D10]] and add the result to the intensity of the blaze. This is the number of @Condition[Ablaze] Conditions to be applied from the next turn onwards.",
+        "4-4": "<b>Fire Spreads</b>: The intensity of the blaze is maintained, but the fire also spreads to the deck, breaking out there with [[/r d10]] @Condition[Ablaze] Conditions."
+      }
+    }
+  }
+}

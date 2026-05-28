@@ -1,0 +1,92 @@
+{
+  "label": "Objetos (La Sombra Tras el Trono)",
+  "mapping": {
+    "description": "system.description.value"
+  },
+  "entries": {
+    "Amulet of the Purple Hand": {
+      "name": "Amuleto de la Mano Púrpura",
+      "description": ""
+    },
+    "Black Cowl": {
+      "name": "Capucha Negra",
+      "description": ""
+    },
+    "Blackmail Letter": {
+      "name": "Carta de Chantaje",
+      "description": ""
+    },
+    "Book of Secrets": {
+      "name": "Libro de Secretos",
+      "description": ""
+    },
+    "Carnival Mask": {
+      "name": "Máscara de Carnaval",
+      "description": ""
+    },
+    "Chaos Star Pendant": {
+      "name": "Colgante de la Estrella del Caos",
+      "description": ""
+    },
+    "Coded Correspondence": {
+      "name": "Correspondencia Cifrada",
+      "description": ""
+    },
+    "Cult Robes": {
+      "name": "Ropajes del Culto",
+      "description": ""
+    },
+    "Etelka's Staff": {
+      "name": "Báculo de Etelka",
+      "description": ""
+    },
+    "Evidence of Corruption": {
+      "name": "Pruebas de Corrupción",
+      "description": ""
+    },
+    "Graf's Signet Ring": {
+      "name": "Sello del Graf",
+      "description": ""
+    },
+    "Jade Sceptre Fragment": {
+      "name": "Fragmento del Cetro de Jade",
+      "description": ""
+    },
+    "Membership List": {
+      "name": "Lista de Miembros",
+      "description": ""
+    },
+    "Purple Hand Token": {
+      "name": "Ficha de la Mano Púrpura",
+      "description": ""
+    },
+    "Ritual Dagger": {
+      "name": "Daga Ritual",
+      "description": ""
+    },
+    "Ritual Scroll": {
+      "name": "Pergamino Ritual",
+      "description": ""
+    },
+    "Secret Message": {
+      "name": "Mensaje Secreto",
+      "description": ""
+    },
+    "Slaanesh Idol": {
+      "name": "Ídolo de Slaanesh",
+      "description": ""
+    },
+    "Tzeentch Amulet": {
+      "name": "Amuleto de Tzeentch",
+      "description": ""
+    },
+    "Wasmeier's Documents": {
+      "name": "Documentos de Wasmeier",
+      "description": ""
+    },
+    "Writ of Immunity": {
+      "name": "Salvoconducto de Inmunidad",
+      "description": ""
+    }
+  }
+}

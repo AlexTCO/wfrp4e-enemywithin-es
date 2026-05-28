@@ -1,0 +1,339 @@
+{
+  "label": "Items (The Horned Rat)",
+  "folders": {
+    "Lore of Plague": "Lore of Plague",
+    "Diseases": "Diseases",
+    "Petty": "Petty",
+    "Spells": "Spells",
+    "Talents": "Talents",
+    "Lore of Stealth": "Lore of Stealth",
+    "Careers": "Careers",
+    "Lore of Ruin": "Lore of Ruin",
+    "Trappings": "Trappings",
+    "Weapons": "Weapons",
+    "Ammunition": "Ammunition"
+  },
+  "entries": {
+    "Warp-grinder": {
+      "name": "Warp-grinder"
+    },
+    "Skitterleap (Plague)": {
+      "name": "Skitterleap (Plague)"
+    },
+    "Rat Thrall": {
+      "name": "Rat Thrall"
+    },
+    "Snare-Net": {
+      "name": "Snare-Net"
+    },
+    "Pavise": {
+      "name": "Pavise"
+    },
+    "Death Globe": {
+      "name": "Death Globe"
+    },
+    "Warp Star Infusion": {
+      "name": "Warp Star Infusion"
+    },
+    "Favour of the Horned Rat": {
+      "name": "Favour of the Horned Rat"
+    },
+    "Warp-Power Accumuluator": {
+      "name": "Warp-Power Accumuluator"
+    },
+    "Beast-Prod": {
+      "name": "Beast-Prod"
+    },
+    "Death Frenzy (Ruin)": {
+      "name": "Death Frenzy (Ruin)"
+    },
+    "Poisoned Wind Mortar": {
+      "name": "Poisoned Wind Mortar"
+    },
+    "Old Guard": {
+      "name": "Old Guard"
+    },
+    "Ghostly Flame": {
+      "name": "Ghostly Flame"
+    },
+    "Veil of Flies": {
+      "name": "Veil of Flies"
+    },
+    "Warplock Pistol": {
+      "name": "Warplock Pistol"
+    },
+    "Flensing Ruin": {
+      "name": "Flensing Ruin"
+    },
+    "Musk of Terror (Ruin)": {
+      "name": "Musk of Terror (Ruin)"
+    },
+    "Death Frenzy (Stealth)": {
+      "name": "Death Frenzy (Stealth)"
+    },
+    "Armour of Darkness": {
+      "name": "Armour of Darkness"
+    },
+    "Howling Warpgale": {
+      "name": "Howling Warpgale"
+    },
+    "Vermintide (Plague)": {
+      "name": "Vermintide (Plague)"
+    },
+    "Vermintide": {
+      "name": "Vermintide"
+    },
+    "Musk of Terror (Plague)": {
+      "name": "Musk of Terror (Plague)"
+    },
+    "Warpstone Tokens": {
+      "name": "Warpstone Tokens"
+    },
+    "Skavenbrew": {
+      "name": "Skavenbrew"
+    },
+    "Bless with Filth": {
+      "name": "Bless with Filth"
+    },
+    "Nurgle's Rot": {
+      "name": "Nurgle's Rot"
+    },
+    "Warp Scroll": {
+      "name": "Warp Scroll"
+    },
+    "Doomrocket": {
+      "name": "Doomrocket"
+    },
+    "Wrack": {
+      "name": "Wrack"
+    },
+    "Swiftscamper": {
+      "name": "Swiftscamper"
+    },
+    "Putrefy": {
+      "name": "Putrefy"
+    },
+    "Infernal Bomb": {
+      "name": "Infernal Bomb"
+    },
+    "Traceless Demise": {
+      "name": "Traceless Demise"
+    },
+    "Rat Claws": {
+      "name": "Rat Claws"
+    },
+    "Warpstone Star": {
+      "name": "Warpstone Star"
+    },
+    "Death Frenzy": {
+      "name": "Death Frenzy"
+    },
+    "Man-trap": {
+      "name": "Man-trap"
+    },
+    "Curse of the Horned Rat (Plague)": {
+      "name": "Curse of the Horned Rat (Plague)"
+    },
+    "Blade of Corruption": {
+      "name": "Blade of Corruption"
+    },
+    "Vector": {
+      "name": "Vector"
+    },
+    "Warp Shield": {
+      "name": "Warp Shield"
+    },
+    "Stickypaws": {
+      "name": "Stickypaws"
+    },
+    "Warpmusket": {
+      "name": "Warpmusket"
+    },
+    "Warp-Blade (Halberd)": {
+      "name": "Warp-Blade (Halberd)"
+    },
+    "Vermintide (Stealth)": {
+      "name": "Vermintide (Stealth)"
+    },
+    "Crackling Doom": {
+      "name": "Crackling Doom"
+    },
+    "Tunnel Fighter": {
+      "name": "Tunnel Fighter"
+    },
+    "Vermintide (Ruin)": {
+      "name": "Vermintide (Ruin)"
+    },
+    "Liber Bubonicus": {
+      "name": "Liber Bubonicus"
+    },
+    "Von Haffenhof's Sword": {
+      "name": "Von Haffenhof's Sword"
+    },
+    "Tail Fighting": {
+      "name": "Tail Fighting"
+    },
+    "Warp Storm": {
+      "name": "Warp Storm"
+    },
+    "Altitude Sickness": {
+      "name": "Altitude Sickness"
+    },
+    "Smoke Bomb": {
+      "name": "Smoke Bomb"
+    },
+    "Things-Catcher": {
+      "name": "Things-Catcher"
+    },
+    "Warp Energy Condenser": {
+      "name": "Warp Energy Condenser"
+    },
+    "Poisoned Wind Globe": {
+      "name": "Poisoned Wind Globe"
+    },
+    "Wither": {
+      "name": "Wither"
+    },
+    "Skitterleap": {
+      "name": "Skitterleap"
+    },
+    "Weeping Wound": {
+      "name": "Weeping Wound"
+    },
+    "Warpstone Buckshot": {
+      "name": "Warpstone Buckshot"
+    },
+    "Skitterleap (Ruin)": {
+      "name": "Skitterleap (Ruin)"
+    },
+    "Pestilent Breath": {
+      "name": "Pestilent Breath"
+    },
+    "Curse of the Horned Rat (Ruin)": {
+      "name": "Curse of the Horned Rat (Ruin)"
+    },
+    "Jezzail Bullet and Powder": {
+      "name": "Jezzail Bullet and Powder"
+    },
+    "Warlock Optics": {
+      "name": "Warlock Optics"
+    },
+    "Ratling Gun Belt": {
+      "name": "Ratling Gun Belt"
+    },
+    "Punch Dagger": {
+      "name": "Punch Dagger"
+    },
+    "Ironbeard": {
+      "name": "Ironbeard"
+    },
+    "Buoyant Passage": {
+      "name": "Buoyant Passage"
+    },
+    "Death Frenzy (Plague)": {
+      "name": "Death Frenzy (Plague)"
+    },
+    "Electro-Whip": {
+      "name": "Electro-Whip"
+    },
+    "Plague Censer": {
+      "name": "Plague Censer"
+    },
+    "Warpfire Fuel Vat": {
+      "name": "Warpfire Fuel Vat"
+    },
+    "Curse of the Horned Rat": {
+      "name": "Curse of the Horned Rat"
+    },
+    "Ratling Gun": {
+      "name": "Ratling Gun"
+    },
+    "Poisonous Pustule": {
+      "name": "Poisonous Pustule"
+    },
+    "Warplock Jezzail": {
+      "name": "Warplock Jezzail"
+    },
+    "Gas Mask": {
+      "name": "Gas Mask"
+    },
+    "Pelt of the Assassin": {
+      "name": "Pelt of the Assassin"
+    },
+    "Flash-Bang": {
+      "name": "Flash-Bang"
+    },
+    "Blade of Nurglitch": {
+      "name": "Blade of Nurglitch"
+    },
+    "Crack’s Call": {
+      "name": "Crack’s Call"
+    },
+    "Tail Weapon": {
+      "name": "Tail Weapon"
+    },
+    "Cinderblast Bomb": {
+      "name": "Cinderblast Bomb"
+    },
+    "Mantle of Contagion": {
+      "name": "Mantle of Contagion"
+    },
+    "Warpstone Charm": {
+      "name": "Warpstone Charm"
+    },
+    "Skitterleap (Stealth)": {
+      "name": "Skitterleap (Stealth)"
+    },
+    "Cloud of Corruption": {
+      "name": "Cloud of Corruption"
+    },
+    "Skalm": {
+      "name": "Skalm"
+    },
+    "Curse of the Horned Rat (Stealth)": {
+      "name": "Curse of the Horned Rat (Stealth)"
+    },
+    "Black Whirlwind": {
+      "name": "Black Whirlwind"
+    },
+    "Scorch": {
+      "name": "Scorch"
+    },
+    "Bleeding Eyerot": {
+      "name": "Bleeding Eyerot"
+    },
+    "Toxic Rain": {
+      "name": "Toxic Rain"
+    },
+    "Warp Lightning": {
+      "name": "Warp Lightning"
+    },
+    "Warpfire Thrower": {
+      "name": "Warpfire Thrower"
+    },
+    "Ironbreaker": {
+      "name": "Ironbreaker"
+    },
+    "Musk of Terror": {
+      "name": "Musk of Terror"
+    },
+    "Warpstone Bullet and Powder": {
+      "name": "Warpstone Bullet and Powder"
+    },
+    "Warp-Blade (Hand Weapon)": {
+      "name": "Warp-Blade (Hand Weapon)"
+    },
+    "Gudii's Shield": {
+      "name": "Gudii's Shield"
+    },
+    "Mark of the Horned Rat": {
+      "name": "Mark of the Horned Rat"
+    },
+    "Musk of Terror (Stealth)": {
+      "name": "Musk of Terror (Stealth)"
+    },
+    "Warpstone Snuff": {
+      "name": "Warpstone Snuff"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "label": "Tablas (La Sombra Tras el Trono)",
+  "entries": {
+    "Carnival Events": {
+      "name": "Eventos del Carnaval",
+      "description": "",
+      "results": {
+        "Acrobats perform": {
+          "text": "Actuación de acróbatas"
+        },
+        "A fight breaks out": {
+          "text": "Estalla una pelea"
+        },
+        "A pickpocket is caught": {
+          "text": "Atrapan a un carterista"
+        },
+        "Dancing bear escapes": {
+          "text": "Un oso bailarín escapa"
+        },
+        "Fire breather performs": {
+          "text": "Actuación de tragafuegos"
+        },
+        "Fortune teller": {
+          "text": "Adivino/a"
+        },
+        "Freak show": {
+          "text": "Espectáculo de fenómenos"
+        },
+        "Jousting contest": {
+          "text": "Torneo de justa"
+        },
+        "Masked ball": {
+          "text": "Baile de máscaras"
+        },
+        "Pie eating contest": {
+          "text": "Concurso de comer pasteles"
+        },
+        "Puppet show": {
+          "text": "Espectáculo de marionetas"
+        },
+        "Street musicians": {
+          "text": "Músicos callejeros"
+        }
+      }
+    },
+    "Purple Hand Activities": {
+      "name": "Actividades de la Mano Púrpura",
+      "description": "",
+      "results": {}
+    },
+    "Middenheim Random Encounters": {
+      "name": "Encuentros Aleatorios en Middenheim",
+      "description": "",
+      "results": {}
+    },
+    "Jade Sceptre Encounters": {
+      "name": "Encuentros del Cetro de Jade",
+      "description": "",
+      "results": {}
+    }
+  }
+}

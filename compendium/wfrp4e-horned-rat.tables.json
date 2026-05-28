@@ -1,0 +1,294 @@
+{
+  "label": "Tables (The Horned Rat)",
+  "folders": {},
+  "entries": {
+    "Warpfire Thrower Fumble Table": {
+      "name": "Warpfire Thrower Fumble Table",
+      "description": "",
+      "results": {
+        "1-1": "<i>Whompf!</i> The device explodes, dealing [[2d10+5]] Damage to everyone within 5 yards of the device.",
+        "2-9": "<i>Fuel Leak</i>: Highly explosive fuel leaks out and ignites. Everyone within 3 yards of the device, including the crew, gains two @Condition[Ablaze] Conditions; those 3–6 yards away gain one @Condition[Ablaze] Condition.",
+        "10-10": "<i>Phut!</i> The Warpfire Thrower fails to activate, but can be fired again the next round."
+      }
+    },
+    "Wandering Beast - Disposition": {
+      "name": "Wandering Beast - Disposition",
+      "description": "",
+      "results": {
+        "1-1": "Recently fought — reduce wounds by 50%",
+        "2-2": "Intimidated — slinks off unless engaged first",
+        "3-5": "Territorial — stands ground but lets Characters retreat",
+        "6-7": "Dozing — Characters may sneak round or surprise",
+        "8-8": "Diseased — suffers from 1 @Condition[Fatigued] Condition",
+        "9-9": "Hungry — ceases attack if given food",
+        "10-10": "Lurking — attacks from hiding if not spotted on <b>Hard (-20) Perception</b> Test"
+      }
+    },
+    "Skavenbrew": {
+      "name": "Skavenbrew",
+      "description": "",
+      "results": {
+        "1-29": "<i>Gone Bad</i>. Gain 2 @Condition[Poisoned] Conditions. The Skavenbrew has no additional effect.",
+        "30-59": "<i>Inspired Hatred</i>. The drinker gains @UUID[Compendium.wfrp4e-core.items.5hH73j2NgPdsLCZN]{Hatred} of all enemies.",
+        "60-89": "<i>Frenzied</i>. The drinker becomes subject to @UUID[Compendium.wfrp4e-core.items.DrNUTPeodEgpWTnT]{Frenzy}.",
+        "90-100": "<i>Rabid</i>. The drinker’s metabolism is driven to a hyperactive, feverish pitch. The drinker is subject to @UUID[Compendium.wfrp4e-core.items.DrNUTPeodEgpWTnT]{Frenzy}, with the following changes.<ul><li><p>Add +2 to Strength Bonus for the purposes of calculating Damage on all attacks.</p></li><li><p>The physical strain causes 1 automatic Wound each round.</p></li></ul>"
+      }
+    },
+    "Poisoned Wind Globe": {
+      "name": "Poisoned Wind Globe",
+      "description": "",
+      "results": {
+        "1-1": "You drop the globe at your feet, but somehow it doesn’t break.",
+        "2-9": "The globe falls [[1d10]] yards short of the target. This may cause it to land behind the thrower, indicating a particularly poor attempt.",
+        "10-10": "You drop the globe at your feet and it shatters."
+      }
+    },
+    "Lower Tunnel Get Help — Max 1": {
+      "name": "Lower Tunnel Get Help — Max 1",
+      "description": "",
+      "results": {
+        "1-3": "Nothing",
+        "4-5": "Nothing",
+        "6-6": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang (20)}",
+        "7-7": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang (15)}",
+        "8-8": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (25)}",
+        "9-9": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (15)}",
+        "10-10": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (10)}"
+      }
+    },
+    "Undercity Hazards - Under-Empire": {
+      "name": "Undercity Hazards - Under-Empire",
+      "description": "",
+      "results": {
+        "1-4": "Roll on @Table[undercity-hazards]{Lower Tunnels}",
+        "5-8": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rat-swarm]{Rat Swarm}",
+        "9-12": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#giant-rat-nest]{Giant Rat Nest}",
+        "13-16": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#giant-rat-nest]{Giant Rat Nest}",
+        "17-20": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang}",
+        "21-24": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang}",
+        "25-28": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang}",
+        "29-32": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang}",
+        "33-36": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang}",
+        "37-40": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "41-44": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "45-48": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "49-52": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "53-56": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "57-60": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "61-64": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "65-68": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "69-72": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "73-76": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "77-80": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "81-84": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "85-88": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-patrol]{Stormvermin Patrol}",
+        "89-92": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-patrol]{Stormvermin Patrol}",
+        "93-96": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-patrol]{Stormvermin Patrol}",
+        "97-100": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-bodyguard]{Stormvermin Bodyguard}"
+      }
+    },
+    "Doomrocket Fumble Table": {
+      "name": "Doomrocket Fumble Table",
+      "description": "",
+      "results": {
+        "1-33": "<i>Dud</i>: The Doomrocket hits the target but fails to explode. Its Damage is decreased to +6 and loses the Blast Quality.",
+        "34-89": "<i>Off Course</i>: Something has come loose, and the Doomrocket veers from its intended course. It strikes [[2d10]] yards away from its intended target. Roll [[1d10]] to determine its direction (1–5 left; 6–10 right).",
+        "90-100": "<i>Explosion!</i> The Doomrocket explodes prematurely, dealing [[2d10+5]] Damage to every creature within 5 yards of the user."
+      }
+    },
+    "It Gets Worse": {
+      "name": "It Gets Worse",
+      "description": "",
+      "results": {
+        "1-5": "No Attack",
+        "6-7": "Skeletons",
+        "8-8": "Flying Death Skull",
+        "10-10": "Spell: [[1d10]]<br />1-3: @UUID[Compendium.wfrp4e-core.items.HqInHmOviuLqymdm]{Screaming Skull}<br />4-6: @UUID[Compendium.wfrp4e-core.items.Bx5CC17pRNITWhg8]{Chain Attack}<br />7-10: @UUID[Compendium.wfrp4e-core.items.ifjDVtgGEh787p20]{Steal Life}",
+        "9-9": "Carrion"
+      }
+    },
+    "Undercity Hazards - Lower Tunnels": {
+      "name": "Undercity Hazards - Lower Tunnels",
+      "description": "",
+      "results": {
+        "1-4": "Roll on @Table[undercity-hazards]{Upper Tunnels}",
+        "5-8": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#confusing-junction]{Confusing Junction}",
+        "9-12": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#confusing-junction]{Confusing Junction}",
+        "13-16": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#slippery-surface]{Slippery Surface}",
+        "17-20": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#unseen-obstacle]{Unseen Obstacle}",
+        "21-24": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#narrow-fissure]{Narrow Fissure}",
+        "25-28": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#narrow-fissure}]{Narrow Fissure (2)}",
+        "29-32": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#wide-cavern]{Wide Cavern}",
+        "33-36": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#low-ceiling]{Low Ceiling}",
+        "37-40": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rockfall]{Rockfall}",
+        "41-44": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stinkdamp]{Stinkdamp}",
+        "45-48": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#giant-rat-nest]{Giant Rat Nest}",
+        "49-52": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#yellow-mould]{Yellow Mould}",
+        "53-56": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#blue-mould]{Blue Mould}",
+        "57-60": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#lurking-spider]{Lurking Spider}",
+        "61-64": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rat-swarm]{Rat Swarm}",
+        "65-68": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#dangerous-artefact]{Dangerous Artefact}",
+        "69-72": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#wellspring-of-ghur]{Wellspring of Ghur}",
+        "73-76": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#ghost]{Ghost}",
+        "77-80": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#yellow-fang-agent]{Yellow Fang Agent}",
+        "81-84": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#beast]{Wandering Beast}",
+        "85-88": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skaven-scout]{Skaven Scout}",
+        "89-92": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang}",
+        "93-96": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol}",
+        "97-100": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-patrol]{Stormvermin Patrol}"
+      }
+    },
+    "Under-Empire Tunnel Alarm Call — Max 5": {
+      "name": "Under-Empire Tunnel Alarm Call — Max 5",
+      "description": "",
+      "results": {
+        "1-3": "Nothing",
+        "4-5": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang (10)}",
+        "6-6": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang (5)}",
+        "7-7": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (20)}",
+        "8-8": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (10)}",
+        "9-9": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (5)}",
+        "10-10": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-patrol]{Stormvermin Patrol (10)}"
+      }
+    },
+    "Under-Empire Tunnel Get Help — Max 10": {
+      "name": "Under-Empire Tunnel Get Help — Max 10",
+      "description": "",
+      "results": {
+        "1-3": "Nothing",
+        "4-5": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (25)}",
+        "6-6": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (15)}",
+        "7-7": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (10)}",
+        "8-8": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-patrol]{Stormvermin Patrol (20)}",
+        "9-9": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-patrol]{Stormvermin Patrol (10)}",
+        "10-10": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stormvermin-bodyguard]{Stormvermin Bodyguard (20)}"
+      }
+    },
+    "Warp-Grinder Fumble": {
+      "name": "Warp-Grinder Fumble",
+      "description": "",
+      "results": {
+        "1-1": "<i>Cave-in!</i> If fighting underground the tunnel collapses, burying the Warp-grinder and its crew. They suffer [[d10]] damage and gain a number of @Condition[Entangled] conditions equal to the number rolled on the dice. Everyone else within 5 yd suffers [[d10-3]] damage from falling debris. The tunnel is blocked and impassable. If above ground, ignore this result.",
+        "2-6": "<i>Click… click…</i> Something has come loose inside the Warp-grinder, and it will not operate until it is repaired by passing a <b>Very Hard (–30) Trade (Engineering)</b> Test.",
+        "7-8": "<i>Overheat</i>. The condenser is running dangerously hot. The Warp-grinder cuts rock at twice the normal rate, or does +16 damage if used as a weapon. However, if used for a further two turns the Warp-grinder explodes as described below.",
+        "9-10": "<i>Explosion!</i> The Warp-grinder explodes with Damage +12 and Blast 5."
+      }
+    },
+    "Wandering Beast - Creature": {
+      "name": "Wandering Beast - Creature",
+      "description": "",
+      "results": {
+        "1-1": "@UUID[Compendium.wfrp4e-core.actors.VMceSpLje0J7lfP0]{Cave Squig}",
+        "2-2": "[[d10]] @UUID[Compendium.wfrp4e-core.actors.wdnXbjtKK7MtsZzc]{Snotlings}",
+        "3-5": "@UUID[Compendium.wfrp4e-core.actors.KtYgLHcSLpHmnGI2]{Bear}",
+        "6-7": "@UUID[Compendium.wfrp4e-core.actors.6B7LMdYtunAftsFN]{4 Ghouls}",
+        "8-8": "@UUID[Compendium.wfrp4e-core.actors.VPVnyae6VHeD9cEP]{Giant Spider (Size: Large)}",
+        "9-9": "[[d10]] @UUID[Compendium.wfrp4e-core.actors.P0GkA7DPaLbeOTkf]{Mutants}",
+        "10-10": "@UUID[Compendium.wfrp4e-core.actors.FmEDHnfAe2iIugpt]{Bog Octopus}"
+      }
+    },
+    "Undercity Hazards - Sewers": {
+      "name": "Undercity Hazards - Sewers",
+      "description": "",
+      "results": {
+        "1-4": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#confusing-junction]{Confusing Junction}",
+        "5-8": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#discharge-pipe]{Discharge Pipe}",
+        "9-12": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#discharge-pipe]{Discharge Pipe}",
+        "13-16": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#discharge-pipe]{Discharge Pipe}",
+        "17-20": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#slippery-surface]{Slippery Surface}",
+        "21-24": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#slippery-surface]{Slippery Surface}",
+        "25-28": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#slippery-surface]{Slippery Surface}",
+        "29-32": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#unseen-obstacle]{Unseen Obstacle}",
+        "33-36": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#unseen-obstacle]{Unseen Obstacle}",
+        "37-40": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#narrow-fissure]{Narrow Fissure}",
+        "41-44": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#low-ceiling]{Low Ceiling}",
+        "45-48": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#low-ceiling]{Low Ceiling}",
+        "49-52": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rockfall]{Rockfall}",
+        "53-56": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#blackdamp]{Blackdamp}",
+        "57-60": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#firedamp]{Firedamp}",
+        "61-64": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#firedamp]{Firedamp}",
+        "65-68": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#whitedamp]{Whitedamp}",
+        "69-72": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stinkdamp]{Stinkdamp}",
+        "73-76": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#giant-rat-nest]{Giant Rat Nest}",
+        "77-80": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#yellow-mould]{Yellow Mould}",
+        "81-84": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#lurking-spider]{Lurking Spider}",
+        "85-88": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rat-swarm]{Rat Swarm}",
+        "89-92": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#sewer-jack-patrol]{Sewer Jack Patrol}",
+        "93-96": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rainas-sewer-jacks]{Raina's Sewer Jacks}",
+        "97-100": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rainas-sewer-jacks]{Raina's Sewer Jacks}"
+      }
+    },
+    "Dangerous Artifact": {
+      "name": "Dangerous Artifact",
+      "description": "",
+      "results": {
+        "1-4": "<b>Alarum Bell</b>:  A buried bell gives off a deep and sonorous clang. This may summon <b>Skaven Reinforcements</b>.",
+        "5-6": "<b>Shuriken</b>: The Character is struck  on the leg and loses [[1d10]] Wounds modified by Armour Points and Toughness. Roll an additional [[/r 1d10]]: on a roll of 1–3 the shuriken is also coated with 1 dose of @UUID[Compendium.wfrp4e-core.items.qfd01sggD9xbCuJY]{Black Lotus}.",
+        "7-8": "<b>Trap</b>: See @UUID[Compendium.wfrp4e-horned-rat.items.NTK53nLy10bZrjgQ]{Man-trap}",
+        "9-10": "<b>Poisoned Wind Globe</b>: A globe of green glass that shatters releasing poisonous gas tinged with Warpstone. Count as a 7-yd cloud of <b>Stinkdamp</b>, but anyone caught in the cloud also suffers from @Corruption[minor]{minor exposure to Corruption}."
+      }
+    },
+    "Undercity Hazards - Upper Tunnels": {
+      "name": "Undercity Hazards - Upper Tunnels",
+      "description": "",
+      "results": {
+        "1-4": "Roll on @Table[undercity-hazards]{Sewers}",
+        "5-8": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#confusing-junction]{Confusing Junction}",
+        "9-12": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#slippery-surface]{Slippery Surface}",
+        "13-16": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#slippery-surface]{Slippery Surface}",
+        "17-20": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#unseen-obstacle]{Unseen Obstacle}",
+        "21-24": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#unseen-obstacle]{Unseen Obstacle}",
+        "25-28": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#narrow-fissure]{Narrow Fissure}",
+        "29-32": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#narrow-fissure]{Narrow Fissure (2)}",
+        "33-36": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#wide-cavern]{Wide Cavern}",
+        "37-40": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#wide-cavern]{Wide Cavern}",
+        "41-44": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#low-ceiling]{Low Ceiling}",
+        "45-48": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#low-ceiling]{Low Ceiling}",
+        "49-52": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rockfall]{Rockfall}",
+        "53-56": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#blackdamp]{Blackdamp}",
+        "57-60": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#stinkdamp]{Stinkdamp}",
+        "61-64": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#giant-rat-nest]{Giant Rat Nest}",
+        "65-68": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#yellow-mould]{Yellow Mould}",
+        "69-72": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#yellow-mould]{Yellow Mould}",
+        "73-76": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#lurking-spider]{Lurking Spider}",
+        "77-80": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#lurking-spider]{Lurking Spider}",
+        "81-84": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rat-swarm]{Rat Swarm}",
+        "85-88": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rat-swarm]{Rat Swarm}",
+        "89-92": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#dangerous-artefact]{Dangerous Artefact}",
+        "93-96": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#yellow-fang-agent]{Yellow Fang Agent}",
+        "97-100": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skaven-scout]{Skaven Scout}"
+      }
+    },
+    "Karak Skygg Encounters": {
+      "name": "Karak Skygg Encounters",
+      "description": "",
+      "results": {
+        "1-5": "<b>Worked to death</b>: An emaciated Skaven with piebald fur bursts from the shadows, looks around frantically and collapses. Moments later a @UUID[Actor.vqKiWF0OuVwTnARC]{Packmaster} follows, kicks the corpse and forces two more @UUID[Actor.E7pge5rgT241TLyD]{Skavenslave} to drag it to the Pit.",
+        "6-10": "<b>Rat swarm</b>: A wave of rats rush down the corridor, some with two heads or several extra eyes. They’ll sweep past the party — use the @UUID[Compendium.wfrp4e-horned-rat.journals.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#rat-swarm]{Rat Swarm} encounter on @UUID[Compendium.wfrp4e-horned-rat.journals.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx]{List of Hazards}.",
+        "11-16": "<b>Careful now!</b> Two masked Clan Skyre Skaven walk past carrying a sealed cask very carefully as if it might explode. If  surprised, they  will  drop  the  cask  and  it  will  explode, inflicting  +8 Damage  with  the  Blast  (3) quality.",
+        "17-30": "<b>Guards</b>: Six Clan Skryre @UUID[Actor.DcBGKJTI6xFzE4PK]{Stormvermin} going to or from the Barracks. They are carrying halberds and @UUID[Compendium.wfrp4e-horned-rat.items.YnFYheNBrpDmDtZ3]{poisoned wind globes} and wear goggles",
+        "31-45": "<b>Skavenslaves</b>: Five @UUID[Actor.E7pge5rgT241TLyD]{skavenslaves} driven by a @UUID[Actor.vqKiWF0OuVwTnARC]{Packmaster}. They are carrying heavy buckets of broken ore and struggle under the weight.",
+        "46-50": "<b>Ominous boom</b>: A loud noise comes from above, reverberating through the Hold. A cracked Dwarf carving falls from the wall and smashes on the ground.",
+        "51-65": "<b>Slaves</b>: A group of five wretched Humans and possibly a Dwarf or Halfling stumble along, carrying metal components. They are tied together by the neck. One @UUID[Actor.vqKiWF0OuVwTnARC]{Packmaster} pulls them along while the other whips them from behind, chittering with mirth.",
+        "66-75": "<b>Warlock Engineers</b>: A Clan Skryre @UUID[Actor.KAB3UZ20z9m8fUQ3]{Warlock Engineer}, light armour (1 AP) and hand weapon, plus a [[/r 1d100]{25%} chance of a @UUID[Compendium.wfrp4e-horned-rat.items.9umJu52U1cvrYn5z]{warplock pistol}. It hustles the Characters out of the way before cuffing a smaller Skaven around the head and squealing angrily in Queekish.",
+        "76-85": "<b>Health and safety incident</b>: A Skaven swaddled in heavy rags pushes a cart with several dead slaves piled on it, their mouths drool glowing green saliva and hideous fleshy growths sprout from their bodies.",
+        "86-90": "<b>Clan Mange slaves</b>: A pack of six @UUID[Actor.E7pge5rgT241TLyD]{Skavenslaves} with piebald fur stalk past, grumbling in Queekish and shooting murderous glances at the Clan Skryre @UUID[Actor.vqKiWF0OuVwTnARC]{Packmaster} who holds their chains.",
+        "91-95": "<b>Get out of the way!</b> A small crowd of 3 Skaven @UUID[Actor.CegfesYJax9LhoYz]{Clanrats} rush past, chittering nervously.",
+        "96-100": "<b>Cultists</b>: Four Yellow Fang cultists, unarmoured, with daggers. The cult’s emblem is painted on their clothing. They are carrying boxes of miscellaneous components that look like junk to anyone but a @UUID[Actor.KAB3UZ20z9m8fUQ3]{Warlock Engineer}. They look pleased to be working for the masters."
+      }
+    },
+    "Lower Tunnel Alarm Call — Max 1": {
+      "name": "Lower Tunnel Alarm Call — Max 1",
+      "description": "",
+      "results": {
+        "1-3": "Nothing",
+        "4-5": "Nothing",
+        "6-6": "Nothing",
+        "7-7": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang (20)}",
+        "8-8": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#skavenslave-gang]{Skavenslave Gang (10)}",
+        "9-9": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (20)}",
+        "10-10": "@UUID[JournalEntry.wmrC7XgaeNOAYiSt.JournalEntryPage.lKq5SXOPDj1nJbIx#clanrat-patrol]{Clanrat Patrol (10)}"
+      }
+    }
+  }
+}

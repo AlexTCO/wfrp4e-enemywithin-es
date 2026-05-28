@@ -1,0 +1,113 @@
+{
+  "label": "Scenes (The Horned Rat)",
+  "folders": {
+    "The Horned Rat": "The Horned Rat",
+    "Oberholzbek Mines": "Oberholzbek Mines",
+    "Karak Skygg": "Karak Skygg"
+  },
+  "entries": {
+    "Karak Skygg - Below Earth": {
+      "name": "Karak Skygg - Below Earth"
+    },
+    "Karak Skygg - Fourth Stratum": {
+      "name": "Karak Skygg - Fourth Stratum"
+    },
+    "Street": {
+      "name": "Street",
+      "drawings": {
+        "View from telescope": "View from telescope"
+      }
+    },
+    "Unterfraus": {
+      "name": "Unterfraus",
+      "drawings": {
+        "Miners' Cottages": "Miners' Cottages",
+        "Turnips & Cabbages": "Turnips & Cabbages",
+        "Farm": "Farm",
+        "Cattle Enclosure": "Cattle Enclosure",
+        "Skaven Scout": "Skaven Scout",
+        "Skaven Ambusher": "Skaven Ambusher",
+        "Warlock-Engineer Brakit and Demolition Crew": "Warlock-Engineer Brakit and Demolition Crew"
+      },
+      "notes": {
+        "The Temple to Ulric": "The Temple to Ulric",
+        "The Barn": "The Barn",
+        "The Pick and Shovel": "The Pick and Shovel",
+        "The Foundry": "The Foundry",
+        "The Stone": "The Stone"
+      }
+    },
+    "Karak Skygg - Third Stratum": {
+      "name": "Karak Skygg - Third Stratum"
+    },
+    "Oberholzbek Mines - Upper Levels": {
+      "name": "Oberholzbek Mines - Upper Levels",
+      "drawings": {
+        "AC": "AC",
+        "S": "S",
+        "N": "N",
+        "WORKFACE": "WORKFACE",
+        "MINOR WORKFACE": "MINOR WORKFACE"
+      }
+    },
+    "Oberholzbek Mines - Lower Levels": {
+      "name": "Oberholzbek Mines - Lower Levels",
+      "drawings": {
+        "WORKFACE": "WORKFACE",
+        "ABANDONED WORKFACE": "ABANDONED WORKFACE",
+        "S": "S",
+        "K": "K",
+        "A": "A",
+        "N": "N",
+        "AC": "AC"
+      }
+    },
+    "Karak Skygg - First Stratum": {
+      "name": "Karak Skygg - First Stratum"
+    },
+    "Middenland": {
+      "name": "Middenland"
+    },
+    "Wendenbahn Warehouse": {
+      "name": "Wendenbahn Warehouse",
+      "drawings": {
+        "trapdoor": "trapdoor",
+        "Bedroom 1": "Bedroom 1",
+        "Bedroom 2": "Bedroom 2",
+        "Bedroom 3": "Bedroom 3",
+        "Box Room": "Box Room",
+        "Linen Room": "Linen Room",
+        "Kitchen": "Kitchen",
+        "up": "up",
+        "to basement": "to basement",
+        "Living Room": "Living Room",
+        "Dining Room": "Dining Room",
+        "Hall": "Hall",
+        "Lounge": "Lounge",
+        "Trapdoor": "Trapdoor",
+        "Skylight": "Skylight"
+      }
+    },
+    "Shrine of the Holy Companion": {
+      "name": "Shrine of the Holy Companion",
+      "drawings": {
+        "Shrine": "Shrine",
+        "Bricked Up Entrance": "Bricked Up Entrance",
+        "Store Room": "Store Room",
+        "Concealed Entrance": "Concealed Entrance",
+        "Antechamber": "Antechamber",
+        "Pendrag": "Pendrag",
+        "Sigmar": "Sigmar"
+      }
+    },
+    "Oberholzbek Mines - Lower Tunnels": {
+      "name": "Oberholzbek Mines - Lower Tunnels"
+    },
+    "Warehouse": {
+      "name": "Warehouse"
+    },
+    "Karak Skygg - Second Stratum": {
+      "name": "Karak Skygg - Second Stratum"
+    }
+  }
+}
