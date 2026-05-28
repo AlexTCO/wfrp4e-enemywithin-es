@@ -1,10 +1,18 @@
 {
   "id": "wfrp4e-pbtt-es",
-  "title": "WFRP4e - El Poder Tras el Trono (Castellano)",
-  "description": "Traducción al castellano de Power Behind the Throne.",
+  "title": "WFRP4e - El Enemigo Interior (Castellano)",
+  "description": "Traducción al castellano de los módulos El Poder Tras el Trono, La Rata Cornuda y Las Ruinas del Imperio para Warhammer Fantasy Roleplay 4th Edition. Basada en la traducción de Txus5012.",
   "version": "1.0.0",
-  "authors": [{"name": "Tu nombre", "flags": {}}],
-  "esmodules": ["babele-register.js"],
+  "authors": [
+    {
+      "name": "AlexTCO",
+      "url": "https://github.com/AlexTCO",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "babele-register.js"
+  ],
   "languages": [
     {
       "lang": "es",
@@ -19,7 +27,21 @@
         "id": "babele",
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-        "compatibility": {"minimum": "2.9.1"}
+        "compatibility": {
+          "minimum": "2.9.1"
+        }
+      },
+      {
+        "id": "wfrp4e-pbtt",
+        "type": "module"
+      },
+      {
+        "id": "wfrp4e-horned-rat",
+        "type": "module"
+      },
+      {
+        "id": "wfrp4e-empire-ruins",
+        "type": "module"
       }
     ],
     "systems": [
@@ -34,5 +56,8 @@
   "compatibility": {
     "minimum": "13",
     "verified": "14"
-  }
+  },
+  "url": "https://github.com/AlexTCO/wfrp4e-enemywithin-es",
+  "manifest": "https://raw.githubusercontent.com/AlexTCO/wfrp4e-enemywithin-es/main/module.json",
+  "download": "https://github.com/AlexTCO/wfrp4e-enemywithin-es/archive/refs/heads/main.zip"
 }
