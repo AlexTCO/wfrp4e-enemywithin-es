@@ -150,10 +150,10 @@
       "tokenName": "Heinrich",
       "items": {
         "Bundle of Diplomatic Papers": {
-          "name": "Bundle of Diplomatic Papers"
+          "name": "Legajo de documentos diplomáticos"
         },
         "Ring of Spies throughout Middenheim": {
-          "name": "Ring of Spies throughout Middenheim"
+          "name": "Red de espías en todo Middenheim"
         },
         "Athletics": {
           "name": "Athletics"
@@ -198,7 +198,7 @@
           "name": "Row"
         },
         "Secret Signs (Middenheim Spy Network)": {
-          "name": "Secret Signs (Middenheim Spy Network)"
+          "name": "Lengua secreta (red de espías de Middenheim)"
         },
         "Stealth (Urban)": {
           "name": "Stealth (Urban)"
@@ -282,7 +282,7 @@
           "name": "Envoy"
         },
         "Courtly Dress (Fine but Sensible)": {
-          "name": "Courtly Dress (Fine but Sensible)"
+          "name": "Vestimenta cortesana de calidad pero sobria"
         }
       }
     },
@@ -306,7 +306,7 @@
           "name": "Lore (Local)"
         },
         "Trade (Vintner)": {
-          "name": "Trade (Vintner)"
+          "name": "Oficio (vinatera)"
         },
         "Attractive": {
           "name": "Attractive"
@@ -411,7 +411,7 @@
           "name": "Endurance"
         },
         "Entertain (Speeches)": {
-          "name": "Entertain (Speeches)"
+          "name": "Animar (discursos)"
         },
         "Entertain (Storytelling)": {
           "name": "Entertain (Storytelling)"
@@ -450,7 +450,7 @@
           "name": "Blather"
         },
         "Bless (Shallya)": {
-          "name": "Bless (Shallya)"
+          "name": "Bendecir (Shallya)"
         },
         "Bookish": {
           "name": "Bookish"
@@ -462,7 +462,7 @@
           "name": "Holy Visions"
         },
         "Invoke (Shallya)": {
-          "name": "Invoke (Shallya)"
+          "name": "Invocar (Shallya)"
         },
         "Read/Write": {
           "name": "Read/Write"
@@ -540,10 +540,10 @@
           "name": "Navigation"
         },
         "High Priestess": {
-          "name": "High Priestess"
+          "name": "Suma Sacerdotisa"
         },
         "Religious Symbol of Shallya": {
-          "name": "Religious Symbol of Shallya"
+          "name": "Símbolo religioso de Shallya"
         },
         "Robes": {
           "name": "Robes"
@@ -582,7 +582,7 @@
           "name": "Haggle"
         },
         "Lore (Middenheim)": {
-          "name": "Lore (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)"
         },
         "Melee (Basic)": {
           "name": "Melee (Basic)"
@@ -618,7 +618,7 @@
           "name": "Dagger"
         },
         "Club (In Cellar)": {
-          "name": "Club (In Cellar)"
+          "name": "Garrote (en el sótano)"
         },
         "Entertain": {
           "name": "Entertain"
@@ -678,7 +678,7 @@
       "tokenName": "Claus",
       "items": {
         "3d10 Silver Shilling": {
-          "name": "3d10 Silver Shilling"
+          "name": "3d10 Chelines de plata"
         },
         "Warhorse": {
           "name": "Warhorse"
@@ -702,7 +702,7 @@
           "name": "Dodge"
         },
         "Entertain (Speeches)": {
-          "name": "Entertain (Speeches)"
+          "name": "Animar (discursos)"
         },
         "Endurance": {
           "name": "Endurance"
@@ -747,10 +747,10 @@
           "name": "Trade (Farrier)"
         },
         "Bless (Ulric)": {
-          "name": "Bless (Ulric)"
+          "name": "Bendición (Ulric)"
         },
         "Etiquette (Cultists)": {
-          "name": "Etiquette (Cultists)"
+          "name": "Etiqueta (Cultistas)"
         },
         "Furious Assault": {
           "name": "Furious Assault"
@@ -762,7 +762,7 @@
           "name": "Holy Hatred"
         },
         "Invoke (Ulric)": {
-          "name": "Invoke (Ulric)"
+          "name": "Invocar (Ulric)"
         },
         "Read/Write": {
           "name": "Read/Write"
@@ -837,7 +837,7 @@
           "name": "Navigation"
         },
         "Axe": {
-          "name": "Axe"
+          "name": "Hacha"
         },
         "Plate Breastplate": {
           "name": "Plate Breastplate"
@@ -873,7 +873,7 @@
       "tokenName": "Dieter",
       "items": {
         "Ready access to a small arsenal of arms of which his signature weapon is a fine quality Zweihander": {
-          "name": "Ready access to a small arsenal of arms of which his signature weapon is a fine quality Zweihander"
+          "name": "acceso a un pequeño arsenal de armas de las cuales su principal es una zweihänder de alta calidad"
         },
         "Athletics": {
           "name": "Athletics"
@@ -915,7 +915,7 @@
           "name": "Leadership"
         },
         "Lore (Middenheim)": {
-          "name": "Lore (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)"
         },
         "Melee (Basic)": {
           "name": "Melee (Basic)"
@@ -951,7 +951,7 @@
           "name": "Doomed"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiquette (Nobles)"
+          "name": "Etiqueta (Nobles)"
         },
         "Feint": {
           "name": "Feint"
@@ -993,10 +993,10 @@
           "name": "Brass Penny"
         },
         "Fine Mail Coat": {
-          "name": "Fine Mail Coat"
+          "name": "Cota de malla de alta calidad"
         },
         "Fine Zweihander": {
-          "name": "Fine Zweihander"
+          "name": "Zweihänder de alta calidad"
         },
         "Hand Weapon": {
           "name": "Hand Weapon"
