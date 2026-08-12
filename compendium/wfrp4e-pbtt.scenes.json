@@ -1,41 +1,172 @@
 {
-  "label": "Escenas (La Sombra Tras el Trono)",
+  "label": "Escenas (El Poder Tras el Trono)",
+  "folders": {},
   "entries": {
-    "Middenheim - City Overview": {
-      "name": "Middenheim - Vista General de la Ciudad"
+    "Pritzstock": {
+      "name": "Pritzstock",
+      "drawings": {
+        "Aschaffenberg": "Aschaffenberg",
+        "Baldurich": "Baldurich",
+        "Bleurer*": "Bleurer*",
+        "Fleiss*": "Fleiss*",
+        "Guderain": "Guderain",
+        "Kallman*": "Kallman*",
+        "Klop*": "Klop*",
+        "Rueter": "Rueter",
+        "Rocheteau": "Rocheteau",
+        "Semmelweiss": "Semmelweiss",
+        "Surhardt": "Surhardt",
+        "Uderlast*": "Uderlast*",
+        "Well": "Pozo de la aldea",
+        "PRITZSTOCK": "PRITZSTOCK",
+        "* = one of Rocheteau's tenant farmers": "* = Uno de los agricultores arrendatarios de Rocheteau"
+      }
     },
-    "Middenheim - Temple District": {
-      "name": "Middenheim - Distrito del Templo"
+    "Middnheim Surrounds": {
+      "name": "Alrededores de Middnheim",
+      "drawings": {
+        "LEICHLINBERG": "LEICHLINBERG",
+        "PRITZSTOCK": "PRITZSTOCK",
+        "GRUBENTREICH": "GRUBENTREICH"
+      }
     },
-    "Middenheim - Altquartier": {
-      "name": "Middenheim - Altquartier"
+    "The Templar's Arms": {
+      "name": "Las Armas del Templario",
+      "drawings": {
+        "a": "a",
+        "b": "b",
+        "c": "c",
+        "d": "d",
+        "e": "e",
+        "f": "f",
+        "g": "g",
+        "h": "h",
+        "i": "i",
+        "l": "l",
+        "m": "m",
+        "n": "n",
+        "o": "o"
+      }
     },
-    "Middenheim - Neumarkt": {
-      "name": "Middenheim - Neumarkt"
+    "The Sewers": {
+      "name": "Las alcantarillas",
+      "drawings": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "11": "11",
+        "12": "12",
+        "-7 yds": "-7 yds"
+      }
     },
-    "Middenheim - Ostwald": {
-      "name": "Middenheim - Ostwald"
+    "Wasmeier's Town House": {
+      "name": "Palacete de Wasmeier",
+      "drawings": {
+        "a": "a",
+        "b": "b",
+        "c": "c",
+        "d": "d",
+        "e": "e",
+        "f": "f",
+        "g": "g",
+        "j": "j",
+        "h": "h",
+        "i": "i",
+        "k": "k",
+        "l": "l",
+        "m": "m",
+        "n": "n"
+      }
     },
-    "Middenheim - Südtor": {
-      "name": "Middenheim - Südtor"
+    "The Lair of the Gravelord": {
+      "name": "La guarida del señor de la tumba",
+      "drawings": {
+        "THE LAIR OF THE GRAVELORD": "LA GUARIDA DEL SEÑOR DE LA TUMBA",
+        "Entrance": "Entrada",
+        "Bend": "Curva",
+        "Stone": "Almacén",
+        "Bone Cave": "Cueva de los huesos",
+        "Curtain": "Cortina",
+        "Gräber’s Camp": "Campamento de Gräber"
+      }
     },
-    "Middenheim - Ulricsmund": {
-      "name": "Middenheim - Ulricsmund"
+    "Lair of the Pawns": {
+      "name": "Guarida de los Peones",
+      "drawings": {
+        "a": "a",
+        "c": "c",
+        "g": "g",
+        "h": "h",
+        "i": "i",
+        "f": "f",
+        "e": "e",
+        "d": "d",
+        "b": "b"
+      }
     },
-    "Middenheim - Westor": {
-      "name": "Middenheim - Westor"
+    "Web of Influence": {
+      "name": "Red de Influencia",
+      "notes": {}
     },
-    "Palace of Justice": {
-      "name": "Palacio de la Justicia"
+    "The House": {
+      "name": "La casa",
+      "drawings": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "11": "11",
+        "12": "12",
+        "13": "13"
+      }
     },
-    "Temple of Ulric": {
-      "name": "Templo de Ulric"
+    "The Palace": {
+      "name": "El palacio",
+      "drawings": {
+        "a": "a",
+        "b": "b",
+        "c": "c",
+        "d": "d",
+        "e": "e",
+        "f": "f",
+        "g": "g",
+        "h": "h",
+        "i": "i",
+        "j": "j",
+        "k": "k",
+        "l": "l",
+        "m": "m",
+        "n": "n",
+        "o": "o",
+        "p": "p"
+      }
     },
-    "The Carnival": {
-      "name": "El Carnaval"
+    "Altdorf to Middenheim": {
+      "name": "De Altdorf a Middenheim"
     },
-    "The Templars' Arms": {
-      "name": "Las Armas de los Templarios"
+    "Pritzstock Sightings": {
+      "name": "Avistamientos en Pritzstock",
+      "drawings": {
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "1a": "1a",
+        "1b": "1b",
+        "PRITZSTOCK": "PRITZSTOCK"
+      }
     }
   }
 }

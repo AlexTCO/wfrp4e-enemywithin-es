@@ -1,92 +1,171 @@
 {
-  "label": "Objetos (La Sombra Tras el Trono)",
-  "mapping": {
-    "description": "system.description.value"
+  "label": "Objetos (El Poder Tras el Trono)",
+  "folders": {
+    "Skills": "Habilidades",
+    "Prayers": "Plegarias",
+    "Trappings": "Objetos",
+    "Spells": "Hechizos",
+    "Traits": "Rasgos"
   },
   "entries": {
-    "Amulet of the Purple Hand": {
-      "name": "Amuleto de la Mano Púrpura",
-      "description": ""
+    "Cursed Caress": {
+      "name": "Caricia maldita"
     },
-    "Black Cowl": {
-      "name": "Capucha Negra",
-      "description": ""
+    "Cutting Wit": {
+      "name": "Ingenio cortante"
     },
-    "Blackmail Letter": {
-      "name": "Carta de Chantaje",
-      "description": ""
+    "Rathewer": {
+      "name": "Corta ratas"
     },
-    "Book of Secrets": {
-      "name": "Libro de Secretos",
-      "description": ""
+    "Brass Neck Tincture": {
+      "name": "Brass Neck Tincture"
     },
-    "Carnival Mask": {
-      "name": "Máscara de Carnaval",
-      "description": ""
+    "Befuddle": {
+      "name": "Atontar"
     },
-    "Chaos Star Pendant": {
-      "name": "Colgante de la Estrella del Caos",
-      "description": ""
+    "Breath of Inspiration": {
+      "name": "Aliento de inspiración"
     },
-    "Coded Correspondence": {
-      "name": "Correspondencia Cifrada",
-      "description": ""
+    "Flesh Puppet": {
+      "name": "Marioneta de carne"
     },
-    "Cult Robes": {
-      "name": "Ropajes del Culto",
-      "description": ""
+    "Blissful Throes": {
+      "name": "Agonía de placer"
     },
-    "Etelka's Staff": {
-      "name": "Báculo de Etelka",
-      "description": ""
+    "Controlled Corruption": {
+      "name": "Corrupción controlada"
     },
-    "Evidence of Corruption": {
-      "name": "Pruebas de Corrupción",
-      "description": ""
+    "Bonds of Slaanesh": {
+      "name": "Lazos de Slaanesh"
     },
-    "Graf's Signet Ring": {
-      "name": "Sello del Graf",
-      "description": ""
+    "Hoartfrost Thews": {
+      "name": "Fuerza de escarcha"
     },
-    "Jade Sceptre Fragment": {
-      "name": "Fragmento del Cetro de Jade",
-      "description": ""
+    "Howl of Battle": {
+      "name": "Aullido de batalla"
     },
-    "Membership List": {
-      "name": "Lista de Miembros",
-      "description": ""
+    "Delicious Excruciation": {
+      "name": "Delicioso suplicio"
     },
-    "Purple Hand Token": {
-      "name": "Ficha de la Mano Púrpura",
-      "description": ""
+    "Unnatural Musk": {
+      "name": "Rapidez antinatural"
     },
-    "Ritual Dagger": {
-      "name": "Daga Ritual",
-      "description": ""
+    "Blessing of Slaanesh": {
+      "name": "Bendición de Slaanesh"
     },
-    "Ritual Scroll": {
-      "name": "Pergamino Ritual",
-      "description": ""
+    "Careless Whispers": {
+      "name": "Susurros descuidados"
     },
-    "Secret Message": {
-      "name": "Mensaje Secreto",
-      "description": ""
+    "Man-trap": {
+      "name": "Trampa o Cepo Lobero"
     },
-    "Slaanesh Idol": {
-      "name": "Ídolo de Slaanesh",
-      "description": ""
+    "Entrancing Aura": {
+      "name": "Aura cautivadora"
     },
-    "Tzeentch Amulet": {
-      "name": "Amuleto de Tzeentch",
-      "description": ""
+    "Summon Daemonette": {
+      "name": "Invocar diablilla"
     },
-    "Wasmeier's Documents": {
-      "name": "Documentos de Wasmeier",
-      "description": ""
+    "Acquiescence": {
+      "name": "Aquiescencia"
     },
-    "Writ of Immunity": {
-      "name": "Salvoconducto de Inmunidad",
-      "description": ""
+    "Phantasmagoria": {
+      "name": "Fantasmagoría"
+    },
+    "Wolf's Bite": {
+      "name": "Mordedura de lobo"
+    },
+    "Extra Spell": {
+      "name": "Hechizo adicional"
+    },
+    "Estalian Mosca": {
+      "name": "Mosca Estaliana"
+    },
+    "Titillating Delusions": {
+      "name": "Delirios titilantes"
+    },
+    "Aura of Acquiescence": {
+      "name": "Aura de aquiescencia"
+    },
+    "Daemonic Aspect": {
+      "name": "Aspecto demoníaco"
+    },
+    "Summon Daemonette Pack": {
+      "name": "Invocar manada de diablillas"
+    },
+    "Dark Seduction": {
+      "name": "Seducción oscura"
+    },
+    "Siren Song": {
+      "name": "Canto de sirena"
+    },
+    "Mask of Desire": {
+      "name": "Máscara del deseo"
+    },
+    "Endure Excess": {
+      "name": "Soportar los excesos"
+    },
+    "Chaos Spawn": {
+      "name": "Engendro del Caos"
+    },
+    "Sense Vice": {
+      "name": "Percibir los vicios"
+    },
+    "Succubus’s Caress": {
+      "name": "Caricia de súcubo"
+    },
+    "Frostbite": {
+      "name": "Congelación"
+    },
+    "Lure": {
+      "name": "Tentar"
+    },
+    "Daemonette Claw": {
+      "name": "Garra de diablilla"
+    },
+    "Leer": {
+      "name": "Leer"
+    },
+    "Luxurious Torment": {
+      "name": "Tormento lujurioso"
+    },
+    "Lash of Slaanesh": {
+      "name": "Látigo de Slaanesh"
+    },
+    "Heart of the Wolf": {
+      "name": "Corazón de lobo"
+    },
+    "Gift of Slaanesh": {
+      "name": "Regalo de Slaanesh"
+    },
+    "Preen": {
+      "name": "Acicalarse"
+    },
+    "Pavane of Slaanesh": {
+      "name": "Pavana de Slaanesh"
+    },
+    "Soporific Mask": {
+      "name": "Almizcle soporífero"
+    },
+    "Crush the Weak": {
+      "name": "Aplastar a los débiles"
+    },
+    "Cacophonic Caress": {
+      "name": "Caricia cacofónica"
+    },
+    "Snitch": {
+      "name": "Snitch"
+    },
+    "From Pain, Pleasure": {
+      "name": "Del dolor viene el placer"
+    },
+    "Ice Storm": {
+      "name": "Tormenta de hielo"
+    },
+    "Fleshy Curse": {
+      "name": "Maldición carnosa"
+    },
+    "Hypnotism": {
+      "name": "Hipnotismo"
     }
   }
 }

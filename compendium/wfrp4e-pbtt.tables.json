@@ -1,6 +1,57 @@
 {
   "label": "Tablas (El poder tras el Trono)",
+  "folders": {},
   "entries": {
+    "Fleshy Curse": {
+      "name": "Maldición carnosa",
+      "description": "",
+      "results": {
+        "1-3": "Brotes de grasa, tendones y músculos surgen de la víctima, derramándose 2 yardas en una dirección al azar. Cualquier criatura en su camino debe tener éxito en un <b>Chequeo Desafiante (+0) de Agilidad</b> o quedar sepultada bajo aquella masa de carne, requiriendo un <b>Chequeo Complicado (-10) de Agilidad</b> para liberarse. Puede repetirse cada Asalto hasta que tenga éxito; después de un minuto, la víctima corre el riesgo de asfixiarse.",
+        "4-6": "Un tentáculo sale disparado [[1d10 * 2]] yardas en una dirección al azar. Cualquier criatura en su camino debe tener éxito en un <b>Chequeo Desafiante (+0) de Agilidad</b> o sufrir [[1d10 + 3]] de daño.",
+        "7-8": "No ocurre nada.",
+        "9-10": "La víctima y todos los brotes se mueven [[2d10]] yardas en una dirección aleatoria."
+      }
+    },
+    "Gift of Slaanesh": {
+      "name": "Regalos de Slaanesh",
+      "description": "",
+      "results": {
+        "8-10": "Tira dos veces",
+        "1-1": "Garra de diablilla",
+        "2-2": "Aspexto demoniaco",
+        "3-3": "Seducción oscura",
+        "4-4": "Aura cautivadora",
+        "5-5": "Canto de sirena",
+        "6-6": "Almizque soporífero",
+        "7-7": "Rapidez antinatural"
+      }
+    },
+    "Purple Hand Clothing": {
+      "name": "Ropa de La mano púrpura",
+      "description": "",
+      "results": {
+        "1-10": "Un distinguido sombrero púrpura",
+        "11-20": "Un amuleto con una piedra engastada del color y la forma de una ciruela",
+        "21-30": "Una camisa o blusa con ribetes violeta",
+        "31-40": "Unas calzas o faldas con costuras moradas",
+        "41-50": "Una gola, bufanda o pañuelo magenta",
+        "51-60": "Una codera violeta",
+        "61-70": "Un brazalete con un cometa de cola gemela púrpura",
+        "71-80": "Un pendiente con una piedra de color burdeos",
+        "81-90": "Un chaleco o blusa verdes con una flor de brezo",
+        "91-100": "Calcetines de color rojo intenso con bordados de color lavanda"
+      }
+    },
+    "Dark, Damp, and Deadly Locations": {
+      "name": "Lugares oscuros, húmedos y mortales",
+      "description": "",
+      "results": {
+        "1-4": "Un solitario @UUID[Actor.DfOuLQkGzWUZPTXI]{ en un recado rutinario para los skaven. Utiliza el perfil de Sectario del Colmillo Amarillo si hay pelea, pero recuerda que dar la alarma es la principal prioridad del sectario.",
+        "5-6": "Una patrulla de 2 a 4 @UUID[Actor.DfOuLQkGzWUZPTXI]{sectarios} armados con espadas. Utiliza el perfil estándar de Sectario del Colmillo Amarillo. A diferencia de un solo sectario, estos son más propensos a atacar, y sólo piensan en dar la alarma si la lucha se vuelve contra ellos.",
+        "7-8": "Un solo @UUID[Compendium.wfrp4e-core.actors.F1vAZZcmVKkRw8xn]{Guerrero de clan} haciendo sus necesidades. Aunque están decididos a mantener su presencia bajo la ciudad en secreto, los skaven son en su mayoría cobardes, y su primer instinto es huir.",
+        "9-10": "Una pequeña banda de 2 a 4 @UUID[Compendium.wfrp4e-core.actors.F1vAZZcmVKkRw8xn]{Guerreros de clan} liderada por una @UUID[Compendium.wfrp4e-core.actors.kl4qHg0mqWOApBqH]{Alimaña }, que regresa de una patrulla de reconocimiento en otro lugar de las alcantarillas. Quieren mantener en secreto la presencia de los skaven en las alcantarillas y atacan en serio, aunque huyen si se enfrentan a una oposición decidida."
+      }
+    },
     "Carnival Events": {
       "name": "Eventos del Carnaval",
       "description": "",
