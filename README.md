@@ -1,4 +1,4 @@
-# WFRP4e - La Sombra Tras el Trono (Castellano)
+# WFRP4e - El Poder Tras el Trono (Castellano)
 
 Traducción al castellano del módulo **Power Behind the Throne**, **The Horned Rat** y **Empire in ruins** para **Warhammer Fantasy Roleplay 4th Edition** en Foundry VTT.
 
