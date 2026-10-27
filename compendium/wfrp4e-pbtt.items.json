@@ -1,5 +1,5 @@
 {
-  "label": "Objetos (El Poder Tras el Trono)",
+  "label": "Objetos (El Poder tras el Trono)",
   "folders": {
     "Skills": "Habilidades",
     "Prayers": "Plegarias",
@@ -9,163 +9,609 @@
   },
   "entries": {
     "Cursed Caress": {
-      "name": "Caricia maldita"
+      "name": "Caricia maldita",
+      "description": "<p>Tocas a un sujeto, que, al instante, es invadido por un éxtasis tan abrumador que su cerebro sobrecargado gotea sangre por los ojos, oídos y boca. El objetivo debe tirar una vez en la tabla de @Table[crithead]{Heridas Críticas en la Cabeza}. Los resultados son los indicados, excepto que no hay huesos rotos. Las descripciones deben modificarse para reflejar el hecho de que no se ha producido ningún golpe físico.</p>",
+      "effects": [
+        {
+          "name": "Caricia maldita",
+          "scriptData": [
+            {
+              "label": "Caricia maldita"
+            }
+          ]
+        }
+      ]
     },
     "Cutting Wit": {
-      "name": "Ingenio cortante"
+      "name": "Ingenio cortante",
+      "description": "<p>Lanzas una larga y retorcida lengua que cuenta como un proyectil mágico con Daño +3 que ignora la armadura, emitiendo un pulso de pura agonía dondequiera que golpea.</p>",
+      "effects": [
+        {
+          "name": "Ingenio cortante",
+          "scriptData": [
+            {
+              "label": "Ingenio cortante"
+            }
+          ]
+        }
+      ]
     },
     "Rathewer": {
-      "name": "Corta ratas"
+      "name": "Corta ratas",
+      "effects": [
+        {
+          "name": "Corta ratas",
+          "scriptData": [
+            {
+              "label": "Corta ratas"
+            }
+          ]
+        }
+      ]
     },
     "Brass Neck Tincture": {
-      "name": "Tintura de cuello de latón"
+      "name": "Tintura de cuello de latón",
+      "gmdescription": "<p>Esta poción hace que el bebedor suene totalmente incoherente, como si estuviera borracho, pero al mismo tiempo es inmune al dolor. Estos efectos duran 2–12 horas. Durante este tiempo, Klaglich sufre 3 Estados de @Condition[Aturdido] y no puede realizar Chequeos de <strong>Aguante</strong> para eliminarlos hasta que los efectos de la poción desaparezcan. Durante ese tiempo, también obtiene los Rasgos @UUID[Compendium.wfrp4e-core.items.IAWyzDfC286a9MPz]{Inmunidad a la Psicología} y @Compendium[wfrp4e-core.items.wMwSRDmgiF2IdCJr]{Sin dolor}, por lo que se vuelve inmune a los interrogatorios y a la tortura.</p>"
     },
     "Befuddle": {
-      "name": "Atontar"
+      "name": "Atontar",
+      "description": "<p>Tu toque hace que un oponente tenga que tener éxito en un Chequeo de Voluntad o que sufra 1 Estado de @Condition[Aturdido].</p>\n<p><strong>Saber:</strong> Ninguno</p>\n<p>&nbsp;</p>",
+      "effects": [
+        {
+          "name": "Atontar",
+          "scriptData": [
+            {
+              "label": "Atontar"
+            }
+          ]
+        }
+      ]
     },
     "Breath of Inspiration": {
-      "name": "Aliento de inspiración"
+      "name": "Aliento de inspiración",
+      "description": "<p>Soplas una corriente de aire perfumado en la cara o el oído de una criatura viva adyacente, llenando su cabeza con gloriosas visiones de capacidad y destreza y, al mismo tiempo, le mancillas el alma con una interminable carga de vergüenza. El objetivo de este hechizo obtiene un bonificador a cualquier Chequeo igual a tu puntuación de Voluntad, tras lo cual el efecto termina.</p>",
+      "effects": [
+        {
+          "name": "Aliento de inspiración",
+          "scriptData": [
+            {
+              "label": "Aliento de inspiración"
+            }
+          ]
+        }
+      ]
     },
     "Flesh Puppet": {
-      "name": "Marioneta de carne"
+      "name": "Marioneta de carne",
+      "description": "<p>Tejes hilos de magia oscura, enmarañando los miembros de tu objetivo en tu red manipuladora de engaño. Al lanzar el hechizo con éxito, haz un Chequeo <strong>Prolongado Enfrentado de Frialdad</strong>, con 6 NE requeridos. Si ganas, tomas el control del objetivo mientras dure el hechizo. Controlas todos sus movimientos y acciones e incluso puedes hablar a través de su voz, aunque no puedes lanzar hechizos a través de la víctima, aunque ella sí que pueda. Mientras tiene efecto, la piel del objetivo se enrojece y sus ojos cambian progresivamente a un color púrpura intenso. Cuando el hechizo concluye, el objetivo se siente profanado, y es consciente de haber sido controlado. Si tiene éxito en un Chequeo <strong>Desafiante (+0) de Intuición</strong>, sabe intuitivamente quién le ha controlado (aunque demostrarlo puede ser complicado).</p>"
     },
     "Blissful Throes": {
-      "name": "Agonía de placer"
+      "name": "Agonía de placer",
+      "description": "<p>Un largo látigo de pura energía del Caos arremete contra el enemigo con un delicioso chasquido que, para envidia de su lanzador, deja a su víctima atormentada por el dolor. Se trata de un proyectil mágico con Daño +6. Si impacta en la cabeza, el lanzador puede infligir 1 Estado de @Condition[Enmarañado] al objetivo, si así lo desea. El lanzador puede mantener este Estado durante un máximo de tantos Asaltos como su Bonificador por Voluntad. El lanzador utiliza su Voluntad en lugar de su Fuerza para los Chequeos Enfrentados para eliminar dicho Estado.</p>",
+      "effects": [
+        {
+          "name": "Agonía de placer",
+          "scriptData": [
+            {
+              "label": "Agonía de placer"
+            }
+          ]
+        }
+      ]
     },
     "Controlled Corruption": {
-      "name": "Corrupción controlada"
+      "name": "Corrupción controlada",
+      "description": "<p>Los Chequeos de Aguante para evitar sufrir una mutación son <strong>Complicados (–10)</strong> en lugar de <strong>Desafiantes (+0)</strong>. Cuando sufres una mutación, tira dos veces y elige entre los dos resultados.</p>",
+      "tests": "Aguante para evitar sufrir una mutación",
+      "effects": [
+        {
+          "name": "Corrupción controlada",
+          "scriptData": [
+            {
+              "label": "Corrupción controlada"
+            }
+          ]
+        }
+      ]
     },
     "Bonds of Slaanesh": {
-      "name": "Lazos de Slaanesh"
+      "name": "Lazos de Slaanesh",
+      "description": "<p>El objetivo es envuelto por hilos brillantes de fuerza mágica, sufriendo 1 Estado de @Condition[Enmarañado] por cada NE en el Chequeo de Lanzamiento.</p>",
+      "effects": [
+        {
+          "name": "Lazos de Slaanesh",
+          "scriptData": [
+            {
+              "label": "Lazos de Slaanesh"
+            }
+          ]
+        }
+      ]
     },
     "Hoartfrost Thews": {
-      "name": "Fuerza de escarcha"
+      "name": "Fuerza de escarcha",
+      "description": "<p>Ulric enfría tu cuerpo y se forma escarcha en tu carne. Te vuelves inmune al frío de cualquier fuente.</p>"
     },
     "Howl of Battle": {
-      "name": "Aullido de batalla"
+      "name": "Aullido de batalla",
+      "description": "<p>El espíritu de Ulric te llena, desatando tu sed de sangre. Obtienes el Talento @UUID[Compendium.wfrp4e-core.items.oRx92ByVNEBN6YkK]{Carga bersérker}. Si ya lo tienes, lo obtienes de nuevo, ignorando el máximo normal si es necesario.</p>",
+      "effects": [
+        {
+          "name": "Aullido de batalla",
+          "scriptData": [
+            {
+              "label": "Aullido de batalla"
+            }
+          ]
+        }
+      ]
     },
     "Delicious Excruciation": {
-      "name": "Delicioso suplicio"
+      "name": "Delicioso suplicio",
+      "description": "<p>Un rayo de luz centelleante coruscante golpea a una criatura amiga dentro del alcance y la línea de visión, imbuyéndola con una abrumadora mezcla de dolor y placer que la deja eufórica. El objetivo pierde inmediatamente cualquier Estado de @Condition[Quebrantado] y no puede sufrir más Estados de @Condition[Quebrantado] mientras dure el hechizo.</p>",
+      "effects": [
+        {
+          "name": "Delicioso suplicio",
+          "scriptData": [
+            {
+              "label": "Delicioso suplicio"
+            },
+            {
+              "label": "Impedir Quebrantado"
+            }
+          ]
+        }
+      ]
     },
     "Unnatural Musk": {
-      "name": "Rapidez antinatural"
+      "name": "Rapidez antinatural",
+      "description": "<p>Te mueves con la gracia y la velocidad de Slaanesh, obteniendo +10 de Iniciativa y +10 de Agilidad por cada NE en el Chequeo de Lanzamiento.</p>",
+      "effects": [
+        {
+          "name": "Rapidez antinatural",
+          "scriptData": [
+            {
+              "label": "Rapidez antinatural"
+            }
+          ]
+        }
+      ]
     },
     "Blessing of Slaanesh": {
-      "name": "Bendición de Slaanesh"
+      "name": "Bendición de Slaanesh",
+      "description": "<p>Incrementa tu Inteligencia o tu Empatía en +10.</p><p><strong>Saber:</strong> Ninguno</p>",
+      "effects": [
+        {
+          "name": "Bendición de Slaanesh",
+          "scriptData": [
+            {
+              "label": "Elegir Atributo"
+            },
+            {
+              "label": "Bonificador"
+            }
+          ]
+        }
+      ]
     },
     "Careless Whispers": {
-      "name": "Susurros descuidados"
+      "name": "Susurros descuidados",
+      "description": "<p>Recurres a Slaanesh para que desvele los secretos del corazón de tu objetivo. Si tienes éxito en el lanzamiento, haz un Chequeo <strong>Prolongado Enfrentado de Frialdad</strong>, con 6 NE requeridos. El ganador puede elegir escuchar la Ambición actual del perdedor, con la seguridad de que es cierta. El ganador también debe superar un Chequeo de <strong>Frialdad</strong> o sufrir 1 punto de Corrupción.</p>"
     },
     "Man-trap": {
-      "name": "Trampa o Cepo Lobero"
+      "name": "Trampa o Cepo Lobero",
+      "description": "<p>Un cepo lobero consiste en dos mandíbulas semicirculares con pinchos que se levantan cuando la víctima pisa una placa de presión entre ellas; muerden la parte inferior de la pierna de la víctima causando graves lesiones y sólo pueden abrirse teniendo éxito en un Chequeo <strong>Complicado (–10) de Fuerza</strong>. Está encadenado a una estaca, que se clava en el suelo para que la víctima sea capturada además de herida.</p>\n<p>Cuando se coloque, el DJ debe anotar el resultado del Chequeo de <strong>Poner trampas</strong> y utilizarlo enfrentado a los Chequeos de Percepción de cualquier posible víctima.</p>\n<p>* El cepo no se empuña y sólo puede atacar a alguien que lo pise. No hay tirada para impactar, esto se resuelve usando el Chequeo de Poner trampas anterior.</p>\n<p>&dagger; Sólo impacta en la pierna: la misma probabilidad en cualquiera de ellas, a menos que las circunstancias dicten lo contrario.</p>\n<p>&Dagger; Si el cepo estaba encadenado, la víctima queda retenida hasta que se libere. Si no, un impacto causa 1 Estado de @Condition[Enmarañado] debido a su peso. Este Estado sólo puede eliminarse liberando a la víctima.</p>"
     },
     "Entrancing Aura": {
-      "name": "Aura cautivadora"
+      "name": "Aura cautivadora",
+      "description": "<p>El Príncipe Oscuro te dota de un brillo sobrenatural. Todos los que estén en combate cuerpo a cuerpo contigo deben hacer un Chequeo <strong>Desafiante (+0) de Voluntad</strong> cada Asalto, o pasarlo perdidos en la contemplación de tu belleza, incapaces de atacarte o defenderse.</p>",
+      "effects": [
+        {
+          "name": "Aura cautivadora",
+          "scriptData": [
+            {
+              "label": "Chequeo por Asalto"
+            }
+          ]
+        }
+      ]
     },
     "Summon Daemonette": {
-      "name": "Invocar diablilla"
+      "name": "Invocar diablilla",
+      "description": "<p>Invocas una @UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{diablilla}, que aparece en cualquier lugar desocupado dentro del alcance del hechizo y desaparece cuando termina. No está bajo tu control, pero puede ser persuadida para hacer lo que le pidas.</p>"
     },
     "Acquiescence": {
-      "name": "Aquiescencia"
+      "name": "Aquiescencia",
+      "description": "<p>Tu magia penetra en lo más profundo de tu objetivo, inundando su alma con una aguda percepción de sus sueños rotos. El Atributo de Iniciativa del objetivo baja a 10, si no era ya más bajo, conforme su mente se vuelve hacia el interior. En su turno, todo movimiento es aleatorio y lo determina el DJ, mientras el objetivo se lamenta de la vida, exclama que las cosas deberían haber sido distintas y alza las manos en el aire. Además, sólo puede realizar una Acción si tiene éxito en un Chequeo <strong>Desafiante (+0) de Frialdad</strong>. Si fracasa, está demasiado ocupado lamentando lo que podría haber sido para hacer nada más.</p>",
+      "effects": [
+        {
+          "name": "Aquiescencia",
+          "scriptData": [
+            {
+              "label": "Aquiescencia"
+            }
+          ]
+        }
+      ]
     },
     "Phantasmagoria": {
-      "name": "Fantasmagoría"
+      "name": "Fantasmagoría",
+      "description": "<p>En respuesta a tu invocación, visiones sobrenaturales de criaturas lujuriosas y temibles llenan el área de efecto, dándote a ti y a todos los aliados el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} mientras dure el hechizo.</p>",
+      "effects": [
+        {
+          "name": "Fantasmagoría",
+          "scriptData": [
+            {
+              "label": "Fantasmagoría"
+            }
+          ]
+        }
+      ]
     },
     "Wolf's Bite": {
-      "name": "Mordedura de lobo"
+      "name": "Mordedura de lobo",
+      "description": "<p>Tus duras palabras y tu rugido de oración te bendicen con el salvajismo de Ulric, añadiendo +20 a la tirada de gravedad de cualquier Herida crítica que inflijas.</p>",
+      "effects": [
+        {
+          "name": "Mordedura de lobo",
+          "scriptData": [
+            {
+              "label": "Mordedura de lobo"
+            }
+          ]
+        }
+      ]
     },
     "Extra Spell": {
-      "name": "Hechizo adicional"
+      "name": "Hechizo adicional",
+      "description": "<p>Tus profundos estudios en el Saber de Slaanesh te dan la capacidad de lanzar un hechizo que no está en tu lista. Cada Talento Hechizo adicional te da acceso a un solo hechizo, anotado entre paréntesis, por ejemplo <em>Hechizo adicional (Regalo de Slaanesh)</em>. Este hechizo debe proceder de @UUID[Compendium.wfrp4e-pbtt.journals.gX4TCKy0TPwS68ba.JournalEntryPage.MOIADJ2A0ZOzDGEp]{El Saber de Slaanesh}, por lo que tendrás que obtener dicho Saber antes de adquirir el Talento.</p>",
+      "effects": [
+        {
+          "name": "Hechizo adicional",
+          "scriptData": [
+            {
+              "label": "Hechizo adicional"
+            }
+          ]
+        }
+      ]
     },
     "Estalian Mosca": {
-      "name": "Mosca Estaliana"
+      "name": "Mosca Estaliana",
+      "gmdescription": "<p>La <em>Mosca</em> Estaliana es un líquido claro y aceitoso que suele consumirse en la comida o la bebida. Cada dosis aumenta la Resistencia y la Agilidad en +10 y disminuye la Inteligencia y la Voluntad en –10. Además, se eliminan todos los Estados de @Condition[Fatigado] y no se pueden sufrir más hasta que la dosis se pase. Los efectos duran un número de horas igual al Bonificador por Resistencia del que lo consuma.</p>",
+      "effects": [
+        {
+          "name": "Aplicar Mosca Estaliana",
+          "scriptData": [
+            {
+              "label": "@effect.name"
+            }
+          ]
+        },
+        {
+          "name": "Mosca Estaliana",
+          "scriptData": [
+            {
+              "label": "Eliminar Fatigado"
+            }
+          ]
+        }
+      ]
     },
     "Titillating Delusions": {
-      "name": "Delirios titilantes"
+      "name": "Delirios titilantes",
+      "description": "<p>Creas una ilusión del deseo más profundo de tu enemigo, y éste no puede resistirse a su encanto. Esto puede ser lanzado en cualquier lugar desocupado dentro del alcance y la línea de visión. Aparece una ilusión irresistible en ese lugar, y todos los enemigos que puedan ver la ilusión deben hacer un Chequeo <strong>Desafiante (+0) de Voluntad</strong> en cada Asalto o verse obligados a dirigirse hacia la misma lo más rápido posible durante dicho Asalto. Los que ya hayan alcanzado la ilusión deben hacer un Chequeo <strong>Desafiante (+0) de Voluntad</strong> cada Asalto, o pasarlo aferrándose a ella infructuosamente.</p>"
     },
     "Aura of Acquiescence": {
-      "name": "Aura de aquiescencia"
+      "name": "Aura de aquiescencia",
+      "description": "<p>Esta versión más poderosa del hechizo Aquiescencia afecta a múltiples objetivos, pero es idéntica a @UUID[Compendium.wfrp4e-pbtt.items.Item.MvoXzwfGUjHZi0Va]{Aquiescencia} en todos los demás aspectos.</p>",
+      "effects": [
+        {
+          "name": "Aura de aquiescencia",
+          "scriptData": [
+            {
+              "label": "Aquiescencia"
+            }
+          ]
+        }
+      ]
     },
     "Daemonic Aspect": {
-      "name": "Aspecto demoníaco"
+      "name": "Aspecto demoníaco",
+      "description": "<p>Tus rasgos se transforman en el bello pero espeluznante rostro de una diablilla, y obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.pTorrE0l3VybAbtn]{Miedo (2)}.</p>",
+      "effects": [
+        {
+          "name": "Añadir Miedo",
+          "scriptData": [
+            {
+              "label": "Añadir Miedo"
+            }
+          ]
+        }
+      ]
     },
     "Summon Daemonette Pack": {
-      "name": "Invocar manada de diablillas"
+      "name": "Invocar manada de diablillas",
+      "description": "<p>Invocas un número de @UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{diablillas} igual a tu Bonificador por Voluntad. Aparecen en cualquier lugar desocupado dentro del alcance del hechizo y desaparecen cuando termina.</p>"
     },
     "Dark Seduction": {
-      "name": "Seducción oscura"
+      "name": "Seducción oscura",
+      "description": "<p>Tu voluntad domina a cualquier enemigo trabado en combate cuerpo a cuerpo contigo, y puedes obligarlo a atacar a cualquier criatura que se encuentre a menos de tantas yardas como tu Bonificador por Voluntad. El hechizo se rompe si tu víctima se aleja de ti más que esa distancia.</p>"
     },
     "Siren Song": {
-      "name": "Canto de sirena"
+      "name": "Canto de sirena",
+      "description": "<p>Llamas a un enemigo a tantas yardas como tu Bonificador por Voluntad y en tu línea de visión. Este enemigo debe moverse hacia ti a su máxima velocidad o sufrir 1 Estado de @Condition[Quebrantado]. El efecto termina si te atacan, independientemente de la duración del hechizo.</p>"
     },
     "Mask of Desire": {
-      "name": "Máscara del deseo"
+      "name": "Máscara del deseo",
+      "description": "<p>Esparces motas rosas que descienden sobre la carne del objetivo, provocando excitación y un intenso placer. Se eliminan todos los Estados inmediatamente, y mientras dure el hechizo, cualquier herida visible queda enmascarada (aunque los Puntos de Herida perdidos no se curan). Además, el objetivo obtiene un bonificador +10 a todos los Chequeos de <strong>Empatía</strong>.</p>",
+      "effects": [
+        {
+          "name": "Máscara del deseo",
+          "scriptData": [
+            {
+              "label": "Bonificador a los Chequeos de Empatía"
+            },
+            {
+              "label": "Eliminar Estados"
+            }
+          ]
+        }
+      ]
     },
     "Endure Excess": {
-      "name": "Soportar los excesos"
+      "name": "Soportar los excesos",
+      "description": "<p>Dejas que la energía oscura impregne tu cuerpo, alimentando tus deseos y dejando de lado la fatiga. Puedes ignorar todos tus Estados de @Condition[Fatigado] mientras te dediques a una actividad que realmente disfrutes. Sin embargo, en cuanto dejes de hacerlo, estos Estados regresan y pierdes 1 Herida, ignorando tu Bonificador por Resistencia y cualquier armadura.</p>\n<p><strong>Saber:</strong> Ninguno</p>\n<p>&nbsp;</p>",
+      "effects": [
+        {
+          "name": "Soportar los excesos",
+          "scriptData": [
+            {
+              "label": "Soportar los excesos"
+            }
+          ]
+        }
+      ]
     },
     "Chaos Spawn": {
-      "name": "Engendro del Caos"
+      "name": "Engendro del Caos",
+      "description": "<p>Un rayo de corrupción verde brillante sale de tus dedos, golpeando a un objetivo visible dentro del alcance. Por cada NE en el Chequeo de Lanzamiento, el objetivo debe tirar una vez en las Tablas de Corrupción @Table[mutatephys]{Física} o @Table[mutatemental]{Mental}.</p>",
+      "effects": [
+        {
+          "name": "Engendro del Caos"
+        }
+      ]
     },
     "Sense Vice": {
-      "name": "Percibir los vicios"
+      "name": "Percibir los vicios",
+      "description": "<p>Fijas la mirada en otra persona y lees sus deseos. Haz un Chequeo <strong>Enfrentado de Intuición/Frialdad</strong>. Si tienes éxito, descubres una cosa que le gusta al objetivo. A veces se trata de un vicio oculto, pero este hechizo tiende simplemente a informar sobre un tipo de comida, bebida o actividad que disfruta el objetivo. Esta es una información útil para los sectarios de Slaanesh, que a menudo explotan dicha información con gran efecto.</p>\n<p><strong>Saber:</strong> Ninguno</p>\n<p>&nbsp;</p>",
+      "effects": [
+        {
+          "name": "Percibir los vicios",
+          "scriptData": [
+            {
+              "label": "Percibir los vicios"
+            }
+          ]
+        }
+      ]
     },
     "Succubus’s Caress": {
-      "name": "Caricia de súcubo"
+      "name": "Caricia de súcubo",
+      "description": "<p>Tu espíritu se extiende hacia el Aethyr, acariciando el espíritu de tu objetivo. Cada hora que dure el hechizo, tu objetivo debe superar un Chequeo <strong>Normal (+20) de Frialdad</strong> o ser vencido por el placer. La primera vez que fracase, sufrirá 1 Estado de @Condition[Fatigado]. A partir de entonces, cada fracaso le hace sufrir 1 Estado de @Condition[Cegado] y otro de @Condition[Ensordecido], ya que sus sentidos se adormecen, intoxicados por la estimulación aethyírica. Cuando el número total de Estados de Cegado y Ensordecido es igual o mayor que su Bonificador por Iniciativa, se ve abrumado y sufre el Estado de @Condition[Inconsciente]. Cuando el hechizo termina, se eliminan todos los Estados que no sean el de @Condition[Fatigado].</p>",
+      "effects": [
+        {
+          "name": "Caricia de súcubo",
+          "scriptData": [
+            {
+              "label": "Tirar Chequeo"
+            },
+            {
+              "label": "Eliminar efectos"
+            }
+          ]
+        }
+      ]
     },
     "Frostbite": {
-      "name": "Congelación"
+      "name": "Congelación",
+      "description": "<p>La fría furia de Ulric congela el cuerpo y la sangre de tu enemigo. Un oponente dentro del alcance pierde [[/r 1d10]] Heridas, ignorando la Armadura y el Bonificador por Resistencia. Además, el objetivo debe superar un Chequeo <strong>Desafiante (+0) de Aguante</strong> o no podrá realizar ninguna acción en el siguiente turno, salvo acciones defensivas como el uso de <strong>Esquivar</strong> o <strong>Cuerpo a cuerpo</strong> para evitar un ataque.</p>",
+      "effects": [
+        {
+          "name": "Congelación",
+          "scriptData": [
+            {
+              "label": "Congelación"
+            },
+            {
+              "label": "Eliminar"
+            }
+          ]
+        }
+      ]
     },
     "Lure": {
-      "name": "Tentar"
+      "name": "Tentar",
+      "description": "<p>Tocas un objeto y recurres a tu poder, impregnando al objeto con la esencia del deseo. Cualquiera que normalmente disfrute de objetos de este tipo encontrará el objeto imbuido extremadamente deseable.</p><p>A menudo, esto se aplica a una jarra de cerveza o a un filete jugoso, pero no mejora la calidad o el valor del objeto, sino que se vuelve más atractivo en ese momento. A menudo, los sectarios utilizan este sencillo hechizo para atraer a otros a los excesos.</p><p><strong>Saber:</strong> Ninguno</p>"
     },
     "Daemonette Claw": {
-      "name": "Garra de diablilla"
+      "name": "Garra de diablilla",
+      "description": "<p>Tu brazo dominante se convierte en la larga y cruel garra de una diablilla. No puedes sostener nada en esa mano, pero tienes un Arma <em>mágica</em> +9 que no puede ser desarmada. La garra utiliza la Habilidad Cuerpo a cuerpo (Pelea).</p>",
+      "roll": "Cuerpo a cuerpo (Pelea)"
     },
     "Leer": {
-      "name": "Mirada lasciva"
+      "name": "Mirada lasciva",
+      "description": "<p>Miras a un objetivo de forma profundamente incómoda. Puedes hacer un Disparo apuntado contra el objetivo sin sufrir el penalizador habitual de –20. Este hechizo termina una vez que hayas atacado al objetivo o si lo pierdes de vista.</p><p><strong>Saber:</strong> Ninguno</p>"
     },
     "Luxurious Torment": {
-      "name": "Tormento lujurioso"
+      "name": "Tormento lujurioso",
+      "description": "<p>Los objetivos son engullidos por una ola de histeria extática, arañándose a sí mismos y agitando las armas o las manos desnudas a quien sea que esté cerca. Entran en un estado de @UUID[Compendium.wfrp4e-core.items.yRhhOlt18COq4e1q]{Furia} mientras dure el hechizo, cada uno atacando a la criatura, amigo o enemigo más cercano.</p>",
+      "effects": [
+        {
+          "name": "Tormento lujurioso",
+          "scriptData": [
+            {
+              "label": "Tormento lujurioso"
+            }
+          ]
+        }
+      ]
     },
     "Lash of Slaanesh": {
-      "name": "Látigo de Slaanesh"
+      "name": "Látigo de Slaanesh",
+      "description": "<p>Un latigazo tembloroso se desenrolla de tu mano y golpea a un objetivo, causando un impacto de Daño +5 y requiriendo que la víctima haga un Chequeo <strong>Desafiante (+0) de Voluntad</strong> (con la dificultad aumentada un paso por cada NE en la tirada de lanzamiento) o sufra 1 Estado de @Condition[Aturdido] por el insoportable (algunos incluso dirían que delicioso) dolor del latigazo.</p>",
+      "effects": [
+        {
+          "name": "Látigo de Slaanesh",
+          "scriptData": [
+            {
+              "label": "Látigo de Slaanesh"
+            }
+          ]
+        }
+      ]
     },
     "Heart of the Wolf": {
-      "name": "Corazón de lobo"
+      "name": "Corazón de lobo",
+      "description": "<p>Tus aliados se ven inspirados con el espíritu marcial de Ulric. Cualquier aliado dentro del alcance pierde automáticamente todos los Estados de @Condition[Quebrantado]. Durante la duración del Milagro, son inmunes al Miedo, al Terror y a los efectos de Habilidades y Talentos como Intimidar y @Compendium[wfrp4e-core.items.mqo51ORnxijcqNNu]{Aterrador}.</p>",
+      "effects": [
+        {
+          "name": "Corazón de lobo",
+          "scriptData": [
+            {
+              "label": "Corazón de lobo"
+            }
+          ]
+        }
+      ]
     },
     "Gift of Slaanesh": {
-      "name": "Regalo de Slaanesh"
+      "name": "Regalo de Slaanesh",
+      "description": "<p>Invocas al Príncipe Oscuro para que te ayude contra tus enemigos y recibes uno de los siguientes regalos. Tira 1d10 y consulta la tabla @Table[gift-of-slaanesh]. Todos los regalos desaparecen cuando termina el hechizo.</p>",
+      "effects": [
+        {
+          "name": "Regalo de Slaanesh",
+          "scriptData": [
+            {
+              "label": "Regalo de Slaanesh"
+            }
+          ]
+        }
+      ]
     },
     "Preen": {
-      "name": "Acicalarse"
+      "name": "Acicalarse",
+      "description": "<p>Tu pelo, cuerpo y ropa se limpian al instante y se ponen presentables. Sin embargo, los que prestan atención notan pequeños detalles que están ligeramente fuera de lugar, no necesariamente mágicos, simplemente desagradables. El pelo puede estar demasiado graso, las manos pegajosas, o tu olor algo dulzón. Estos efectos permanecen hasta que te vuelves a lavar correctamente.</p><p><strong>Saber:</strong> Ninguno</p>"
     },
     "Pavane of Slaanesh": {
-      "name": "Pavana de Slaanesh"
+      "name": "Pavana de Slaanesh",
+      "description": "<p>Una música impía, pulsante y sensual, impregna el aire, abrumando los sentidos de todas las criaturas vivas dentro del alcance. Cualquiera que se encuentre dentro del área de efecto debe superar un Chequeo <strong>Desafiante (+0) de Frialdad</strong>, o ser incapaz de hacer otra cosa que no sea bailar lascivamente. Si son atacados, sufren el Estado de @Condition[Sorprendido] durante el primer Asalto del combate, pero el hechizo no tiene ningún otro efecto sobre ellos.</p>",
+      "effects": [
+        {
+          "name": "Pavana de Slaanesh",
+          "scriptData": [
+            {
+              "label": "Pavana de Slaanesh"
+            },
+            {
+              "label": "Comprobación por Asalto"
+            }
+          ]
+        }
+      ]
     },
     "Soporific Mask": {
-      "name": "Almizcle soporífero"
+      "name": "Almizcle soporífero",
+      "description": "<p>Tu piel desprende un perfume fascinante que afecta a todos los que están a 1 yarda de ti, haciendo que balanceen sus cabezas y sus ojos pierdan la concentración. Obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto}.</p>",
+      "effects": [
+        {
+          "name": "Almizcle soporífero",
+          "scriptData": [
+            {
+              "label": "Almizcle soporífero"
+            }
+          ]
+        }
+      ]
     },
     "Crush the Weak": {
-      "name": "Aplastar a los débiles"
+      "name": "Aplastar a los débiles",
+      "description": "<p>El desprecio de Ulric por los débiles y los cobardes te invade. Una vez por Asalto, puedes repetir un ataque fallido.</p>"
     },
     "Cacophonic Caress": {
-      "name": "Caricia cacofónica"
+      "name": "Caricia cacofónica",
+      "description": "<p>Echas la cabeza hacia atrás y emites un grito ululante lleno de promesas obscenas, atormentando los oídos y las mentes de aquellos que lo escuchan en igual medida. Todos los enemigos dentro del alcance sufren un impacto de Daño +3 por NE, que ignora la armadura.</p>",
+      "effects": [
+        {
+          "name": "Caricia cacofónica",
+          "scriptData": [
+            {
+              "label": "Caricia cacofónica"
+            }
+          ]
+        },
+        {
+          "name": "Caricia cacofónica",
+          "scriptData": [
+            {
+              "label": "Caricia cacofónica"
+            }
+          ]
+        }
+      ]
     },
     "Snitch": {
-      "name": "Chivato"
+      "name": "Chivato",
+      "description": "<p><em>Chivato es un hechizo arcano utilizado por hechiceros y otros practicantes de la magia para proteger lugares vulnerables y objetos personales.</em></p>\n<p>Tejes sutiles redes de poder mágico, atándolas a un único objeto. Esta red se extiende tantas yardas como tu Bonificador por Voluntad desde el objeto. Cada vez que una criatura viva de tamaño Pequeño o mayor entra al área de efecto del hechizo, te das cuenta de su presencia. Este efecto funciona siempre que estés a menos de una milla del objeto y persiste incluso mientras duermes, aunque debes fallar un Chequeo <strong>Difícil (–20) de Aguante</strong> para despertarte. El objeto sobre el que se lanza este hechizo puede moverse, llevando consigo el área de efecto. Este hechizo es sutil y difícil de detectar: aquellos con Sentido mágico deben superar un Chequeo <strong>Difícil (–20) de Intuición</strong> para descubrirlo. Puedes lanzar este hechizo sobre varios objetos si lo deseas, pero si una criatura entra en el área de efecto, no puedes saber qué Chivato se ha activado.</p>"
     },
     "From Pain, Pleasure": {
-      "name": "Del dolor viene el placer"
+      "name": "Del dolor viene el placer",
+      "description": "<p>Confundes los sentidos del objetivo, transformando el dolor en placer. El objetivo obtiene el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.wMwSRDmgiF2IdCJr]{Sin dolor} mientras dura el hechizo. Cuando sufre lesiones, gime extasiado de placer. Si sufre una Herida crítica, debe tener éxito en un Chequeo <strong>Normal (+20) de Frialdad</strong> o dejar caer sus armas, quedándose indefenso mientras sus enemigos le lanzan un aluvión de golpes encima, perdido en el extático desgarro de su propia carne.</p>",
+      "effects": [
+        {
+          "name": "Del dolor viene el placer",
+          "scriptData": [
+            {
+              "label": "Del dolor viene el placer"
+            }
+          ]
+        }
+      ]
     },
     "Ice Storm": {
-      "name": "Tormenta de hielo"
+      "name": "Tormenta de hielo",
+      "description": "<p>Ulric envía una feroz tormenta de fragmentos de hielo para castigar a tus enemigos. Cualquiera que sea afectado recibe un impacto de Daño +5 y debe tener éxito en un Chequeo <strong>Desafiante (+0) de Voluntad</strong> o sufrir 1 Estado de @Condition[Aturdido].</p>",
+      "effects": [
+        {
+          "name": "Tormenta de hielo",
+          "scriptData": [
+            {
+              "label": "Tormenta de hielo"
+            }
+          ]
+        }
+      ]
     },
     "Fleshy Curse": {
-      "name": "Maldición carnosa"
+      "name": "Maldición carnosa",
+      "description": "<p>Haces que a una sola criatura dentro del alcance y línea de visión le crezcan brotes horribles e incontrolables. El objetivo puede resistir este hechizo cuando se lanza por primera vez, y al comienzo de cada Asalto posterior, teniendo éxito en un Chequeo <strong>Difícil (–20) de Frialdad</strong>. Cada Asalto después de lanzar el hechizo, tira 1d10 y consulta la tabla @UUID[RollTable.FYf4jjhtOOSoM9Re]{Efectos de la Maldición carnosa} para determinar los efectos de ese Asalto.</p><p>Mientras esté afectada por este hechizo, la víctima se retuerce de agonía, no puede realizar ninguna acción y se considera indefensa. Incluso una vez termina el hechizo, los efectos de la Maldición carnosa permanecen y son permanentes sin una acción drástica como la amputación o la aplicación de magia aún más peligrosa (o gastar un Punto de Destino). Los sectarios suelen intentar reclutar a las víctimas de esta maldición que ya no son capaces de adaptarse a la sociedad del Imperio.</p>",
+      "effects": [
+        {
+          "name": "Maldición carnosa",
+          "scriptData": [
+            {
+              "label": "Maldición carnosa"
+            },
+            {
+              "label": "Resistir"
+            }
+          ]
+        }
+      ]
     },
     "Hypnotism": {
-      "name": "Hipnotismo"
+      "name": "Hipnotismo",
+      "description": "<p>@Embed[Compendium.wfrp4e-pbtt.journals.PkTZGuhuMoy1xLWa.JournalEntryPage.A9mqDyify4cM6L4U caption=false]{Hipnotismo}</p>"
     }
   }
 }

@@ -1,5 +1,5 @@
  {
-  "label": "Actors (Pwer behind the throne)",
+  "label": "Actores (El Poder tras el Trono)",
   "mapping": {
     "notes": "system.details.biography.value",
     "gmnotes": "system.details.gmnotes.value"
@@ -61,7 +61,8 @@
           "name": "Regatear"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
@@ -208,7 +209,8 @@
           "name": "Remar"
         },
         "Secret Signs (Middenheim Spy Network)": {
-          "name": "Lengua secreta (Red de espías de Middenheim)"
+          "name": "Lengua secreta (Red de espías de Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.X2FppoPGuEwJKssM caption=false]{Lengua secreta}"
         },
         "Stealth (Urban)": {
           "name": "Movimiento silencioso (Urbano)"
@@ -217,7 +219,9 @@
           "name": "Movimiento silencioso (Rural)"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Night Vision": {
           "name": "Visión nocturna"
@@ -292,7 +296,8 @@
           "name": "Emisario"
         },
         "Courtly Dress (Fine but Sensible)": {
-          "name": "Vestimenta cortesana (de calidad pero sobria)"
+          "name": "Vestimenta cortesana (de calidad pero sobria)",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         }
       }
     },
@@ -319,7 +324,8 @@
           "name": "Sabiduría académica (Local)"
         },
         "Trade (Vintner)": {
-          "name": "Oficio (Vinatero)"
+          "name": "Oficio (Vinatero)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.jmFSm7UvmHEq52iu caption=false]{Oficio}"
         },
         "Attractive": {
           "name": "Atractivo"
@@ -466,7 +472,8 @@
           "name": "Parloteo"
         },
         "Bless (Shallya)": {
-          "name": "Bendición (Shallya)"
+          "name": "Bendición (Shallya)",
+          "description": "<p>Uno de los dioses vela por ti, y ello te permite potenciar las más sencillas plegarias. Ahora puedes desplegar las Bendiciones de tu dios, según se indica en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales, sólo puedes adquirir el Talento Bendición (Saber divino) una vez.</p>"
         },
         "Bookish": {
           "name": "Intelectual"
@@ -478,7 +485,8 @@
           "name": "Visiones sagradas"
         },
         "Invoke (Shallya)": {
-          "name": "Invocar (Shallya)"
+          "name": "Invocar (Shallya)",
+          "description": "<p>Has sido bendecido por uno de los dioses y puedes potenciar uno de los Milagros de tu Culto.</p>\n<p>Además, puedes comprar milagros adicionales al coste de 100 PX por milagro que conoces actualmente. Así, si ya conoces 3 milagros, el siguiente te cuesta 300 PX. Las reglas completas para aprender nuevos milagros están en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales no podrías aprender más que un Talento de Invocar (Saber divino). Además, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.mdPGZsn2396dEpOf]{Magia menor} ni @UUID[Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW]{Magia arcana} cuando tienes el Talento Invocar. Puedes borrar de tu memoria este Talento por 100 PX, pero si lo haces perderás todos los demás, y por si fuera poco te ganarás la extrema desaprobación de tu dios, los efectos de lo cual serán determinados por tu DJ.</p>"
         },
         "Read/Write": {
           "name": "Leer y escribir"
@@ -556,7 +564,8 @@
           "name": "Orientación"
         },
         "High Priestess": {
-          "name": "Suma Sacerdotisa"
+          "name": "Suma Sacerdotisa",
+          "description": "<p>@UUID[Compendium.wfrp4e-core.journals.wczCPcuHT4VQDLpL.JournalEntryPage.h1l9jvaIxsb92wtM]{Sacerdote}</p>"
         },
         "Religious Symbol of Shallya": {
           "name": "Símbolo religioso de Shallya"
@@ -565,7 +574,9 @@
           "name": "Ropajes"
         },
         "Hatred (Followers of Nurgle)": {
-          "name": "Odio (Seguidores de Nurgle)"
+          "name": "Odio (Seguidores de Nurgle)",
+          "description": "<p>Te consume el odio contra algo del Viejo Mundo, tal y como se describe en @UUID[Compendium.wfrp4e-core.journals.JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.5w5YLPNd6AaU4f85]{Psicología}. Cada vez que adquieres este Talento desarrollas un nuevo odio hacia un nuevo grupo. Ejemplos de lo que podrías elegir incluyen: hombres bestia, pieles verdes, monstruos, forajidos, sigmaritas, muertos vivientes o brujos.</p>",
+          "tests": "Voluntad (resistir Seguidores de Nurgle)"
         }
       }
     },
@@ -601,7 +612,8 @@
           "name": "Regatear"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
@@ -768,10 +780,13 @@
           "name": "Oficio (Herrador)"
         },
         "Bless (Ulric)": {
-          "name": "Bendición (Ulric)"
+          "name": "Bendición (Ulric)",
+          "description": "<p>Uno de los dioses vela por ti, y ello te permite potenciar las más sencillas plegarias. Ahora puedes desplegar las Bendiciones de tu dios, según se indica en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales, sólo puedes adquirir el Talento Bendición (Saber divino) una vez.</p>"
         },
         "Etiquette (Cultists)": {
-          "name": "Etiqueta (Sectarios)"
+          "name": "Etiqueta (Sectarios)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Sectarios)"
         },
         "Furious Assault": {
           "name": "Asalto furioso"
@@ -783,7 +798,8 @@
           "name": "Odio sagrado"
         },
         "Invoke (Ulric)": {
-          "name": "Invocar (Ulric)"
+          "name": "Invocar (Ulric)",
+          "description": "<p>Has sido bendecido por uno de los dioses y puedes potenciar uno de los Milagros de tu Culto.</p>\n<p>Además, puedes comprar milagros adicionales al coste de 100 PX por milagro que conoces actualmente. Así, si ya conoces 3 milagros, el siguiente te cuesta 300 PX. Las reglas completas para aprender nuevos milagros están en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales no podrías aprender más que un Talento de Invocar (Saber divino). Además, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.mdPGZsn2396dEpOf]{Magia menor} ni @UUID[Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW]{Magia arcana} cuando tienes el Talento Invocar. Puedes borrar de tu memoria este Talento por 100 PX, pero si lo haces perderás todos los demás, y por si fuera poco te ganarás la extrema desaprobación de tu dios, los efectos de lo cual serán determinados por tu DJ.</p>"
         },
         "Read/Write": {
           "name": "Leer y escribir"
@@ -939,7 +955,8 @@
           "name": "Mando"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
@@ -975,7 +992,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Feint": {
           "name": "Fintador"
@@ -1191,7 +1210,9 @@
           "name": "Condenado"
         },
         "Etiquette (Guilder, Nobles, Scholars)": {
-          "name": "Etiqueta (Gremio, Nobles, Eruditos)"
+          "name": "Etiqueta (Gremio, Nobles, Eruditos)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Gremio, Nobles, Eruditos)"
         },
         "Read/Write": {
           "name": "Leer y escribir"
@@ -1350,13 +1371,15 @@
           "name": "Mando"
         },
         "Language (Thief)": {
-          "name": "Hablar idioma (Ladrón)"
+          "name": "Hablar idioma (Ladrón)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.xo5U0kL08xCPe6kl caption=false]{Hablar idioma}"
         },
         "Language (Tilean)": {
           "name": "Hablar idioma (Tileano)"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Lore (Heraldry)": {
           "name": "Sabiduría académica (Heráldica)"
@@ -1404,7 +1427,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Fast Hands": {
           "name": "Manos rápidas"
@@ -1473,7 +1498,8 @@
           "name": "Joyas"
         },
         "Fine quality (if gaudy) Courtly Garb": {
-          "name": "Ropa de corte de buena calidad (aunque llamativa)"
+          "name": "Ropa de corte de buena calidad (aunque llamativa)",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         },
         "Highly Polished Silver Coin on a Chain": {
           "name": "Moneda de plata muy pulida en una cadena"
@@ -1563,7 +1589,9 @@
           "name": "Condenado"
         },
         "Etiquette (Guilders, Nobles)": {
-          "name": "Etiqueta (Gremio, Nobles)"
+          "name": "Etiqueta (Gremio, Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Gremio, Nobles)"
         },
         "Gregarious": {
           "name": "Gregario"
@@ -1623,7 +1651,8 @@
           "name": "Asesor"
         },
         "Fine Quality Court Clothing": {
-          "name": "Ropa de corte de calidad fina"
+          "name": "Ropa de corte de calidad fina",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         },
         "Jewellry": {
           "name": "Joyas"
@@ -1651,7 +1680,8 @@
           "name": "Tamaño"
         },
         "Weapon (Club)": {
-          "name": "Arma (Garrote)"
+          "name": "Arma (Garrote)",
+          "description": "<p>La criatura lleva un arma cuerpo a cuerpo, o bien utiliza dientes, zarpas o cosas similares en combate.\n El arma causa tanto daño como la cifra entre paréntesis, que ya incluye el Bonificador por Fuerza de la criatura. Típicamente será 4 + Bonificador por Fuerza (lo que representa un Arma de mano).</p>"
         },
         "Gold Crown": {
           "name": "Corona de Oro"
@@ -1714,7 +1744,8 @@
           "name": "Sabiduría académica (Heráldica)"
         },
         "Lore (Slaanesh)": {
-          "name": "Sabiduría académica (Slaanesh)"
+          "name": "Sabiduría académica (Slaanesh)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
@@ -1759,7 +1790,9 @@
           "name": "Desfalcar"
         },
         "Etiquette (Criminals, Guilders, Nobles)": {
-          "name": "Etiqueta (Delincuentes, Gremio, Nobles)"
+          "name": "Etiqueta (Delincuentes, Gremio, Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Delincuentes, Gremio, Nobles)"
         },
         "Gregarious": {
           "name": "Gregario"
@@ -1840,7 +1873,8 @@
           "name": "Orientación"
         },
         "d10 Candles": {
-          "name": "d10 velas"
+          "name": "d10 velas",
+          "description": "<p>Proporciona iluminación hasta 10 yardas cuando se enciende.</p>"
         },
         "Moonflower": {
           "name": "Flor de luna"
@@ -1861,7 +1895,8 @@
           "name": "Espada ropera"
         },
         "1d10 Ranald's Delight": {
-          "name": "1d10 dosis de Delicia de Ranald"
+          "name": "1d10 dosis de Delicia de Ranald",
+          "description": "<p>Este estimulante altamente adictivo es un compuesto sintético hecho a base de azufre, mercurio y otros elementos. Inhalar el polvo proporciona un bonificador +1 al Movimiento, y un + 10 a Habilidad de armas, Fuerza, Resistencia y Agilidad. Esto dura 3 horas, después de las cuales el usuario sufre un penalizador de -2 al Movimiento y un -20 a Habilidad de armas, Fuerza, Resistencia y Agilidad. <strong>Duración</strong>: 1 día.</p>"
         }
       }
     },
@@ -1975,7 +2010,8 @@
           "name": "Artesano"
         },
         "Cleaver": {
-          "name": "Machete"
+          "name": "Cuchillo de carnicero",
+          "description": "<p>Arma de mano, pero afilada como una navaja, por lo que inflige BF+5 de daño.</p>"
         },
         "Lock Picks": {
           "name": "Ganzúas"
@@ -2098,7 +2134,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Noble Blood": {
           "name": "Sangre noble"
@@ -2278,7 +2316,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Gregarious": {
           "name": "Gregario"
@@ -2338,7 +2378,8 @@
           "name": "Emisario"
         },
         "Fine Quality Court Clothing": {
-          "name": "Ropa de corte de calidad fina"
+          "name": "Ropa de corte de calidad fina",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         },
         "Jewellry": {
           "name": "Joyas"
@@ -2447,7 +2488,8 @@
           "name": "Afinidad con el Aethyr"
         },
         "Arcane Magic (Aqshy)": {
-          "name": "Magia arcana (Fuego)"
+          "name": "Magia arcana (Fuego)",
+          "description": "<p>Puedes, o bien estudiar uno de los ocho Saberes arcanos de la Magia (Bestias, Cielos, Fuego, Luz, Metal, Muerte, Sombra y Vida) o practicar un Saber menos conocido como Adivinación o Nigromancia. Ahora puedes memorizar hechizos de tu Saber elegido al siguiente coste en PX.</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Nº de hechizos actualmente conocidos</p>\n</td>\n<td>\n<p>Coste en PX de un nuevo hechizo</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 1&nbsp;</p>\n</td>\n<td>\n<p>100 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 2</p>\n</td>\n<td>\n<p>200 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 3</p>\n</td>\n<td>\n<p>300 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 4</p>\n</td>\n<td>\n<p>400 PX</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>...y así sucesivamente.</p>\n<p>Por lo tanto, si tu Bonificador por Inteligencia es 4, el primer hechizo y los siguientes 4 te costarán 100 PX, los segundos 4 te costarán 200 PX, etc. Las reglas completas para aprender nuevos hechizos se proporcionan en @UUID[Compendium.wfrp4e-core.journals.JournalEntry.YBVrpUHEjohB1H4f]{Magia}. En circunstanciLo normales, no puedes aprender más de un talento de Magia arcana (Saber). Además, cuando tienes el Talento Magia arcana, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.QyjWtSdnVMT04l5Y]{Bendecir} ni @UUID[Compendium.wfrp4e-core.items.Item.voV0C2ar1bKpcpnH]{Invocar}. Puedes borrar de la memoria este Talento por 100 PX, pero si lo haces perderás de inmediato todos tus hechizos.</p>"
         },
         "Doomed": {
           "name": "Condenado"
@@ -2621,7 +2663,8 @@
           "name": "Parloteo"
         },
         "Bless (Verena)": {
-          "name": "Bendición (Verena)"
+          "name": "Bendición (Verena)",
+          "description": "<p>Uno de los dioses vela por ti, y ello te permite potenciar las más sencillas plegarias. Ahora puedes desplegar las Bendiciones de tu dios, según se indica en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales, sólo puedes adquirir el Talento Bendición (Saber divino) una vez.</p>"
         },
         "Bookish": {
           "name": "Intelectual"
@@ -2630,13 +2673,16 @@
           "name": "Condenado"
         },
         "Etiquette (Scholars)": {
-          "name": "Etiqueta (Eruditos)"
+          "name": "Etiqueta (Eruditos)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Eruditos)"
         },
         "Holy Visions": {
           "name": "Visiones sagradas"
         },
         "Invoke (Verena)": {
-          "name": "Invocar (Verena)"
+          "name": "Invocar (Verena)",
+          "description": "<p>Has sido bendecido por uno de los dioses y puedes potenciar uno de los Milagros de tu Culto.</p>\n<p>Además, puedes comprar milagros adicionales al coste de 100 PX por milagro que conoces actualmente. Así, si ya conoces 3 milagros, el siguiente te cuesta 300 PX. Las reglas completas para aprender nuevos milagros están en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales no podrías aprender más que un Talento de Invocar (Saber divino). Además, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.mdPGZsn2396dEpOf]{Magia menor} ni @UUID[Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW]{Magia arcana} cuando tienes el Talento Invocar. Puedes borrar de tu memoria este Talento por 100 PX, pero si lo haces perderás todos los demás, y por si fuera poco te ganarás la extrema desaprobación de tu dios, los efectos de lo cual serán determinados por tu DJ.</p>"
         },
         "Read/Write": {
           "name": "Leer y escribir"
@@ -2711,7 +2757,8 @@
           "name": "Ropajes"
         },
         "High Priestess": {
-          "name": "Suma Sacerdotisa"
+          "name": "Suma Sacerdotisa",
+          "description": "<p>@UUID[Compendium.wfrp4e-core.journals.wczCPcuHT4VQDLpL.JournalEntryPage.h1l9jvaIxsb92wtM]{Sacerdote}</p>"
         }
       }
     },
@@ -2747,13 +2794,16 @@
           "name": "Hablar idioma (Khazalid)"
         },
         "Lore (Trolls)": {
-          "name": "Sabiduría académica (Troles)"
+          "name": "Sabiduría académica (Troles)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
         },
         "Fearless (Everything)": {
-          "name": "Intrépido (Todo)"
+          "name": "Intrépido (Todo)",
+          "description": "<p>Eres, o bien lo suficientemente valiente o lo suficientemente insensato como para que el miedo a ciertos enemigos se haya convertido en un recuerdo lejano. Mediante un único Chequeo <strong>Normal (+20%)</strong> de <strong>Frialdad</strong>, puedes ignorar cualquier efecto de Intimidar, Miedo o Terror por parte del enemigo especificado cuando te encuentras con él. Los enemigos típicos incluyen hombres bestia, pieles verdes, forajidos, vampiros, vigilantes y brujas.</p>",
+          "tests": "Frialdad para oponerse al Intimidar, Miedo y Terror de tu Enemigo"
         },
         "Frenzy": {
           "name": "Frenesí"
@@ -2984,7 +3034,8 @@
           "name": "Animar (Cantar)"
         },
         "Language": {
-          "name": "Hablar idioma"
+          "name": "Hablar idioma",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.xo5U0kL08xCPe6kl caption=false]{Hablar idioma}"
         },
         "Prejudice": {
           "name": "Prejuicios"
@@ -3002,7 +3053,8 @@
           "name": "Daga"
         },
         "Silver and pearl necklace": {
-          "name": "Collar de plata y perlas"
+          "name": "Collar de plata y perlas",
+          "description": "<p>Los precios varían según la calidad de la artesanía, el tipo de metal y el valor de las gemas. Por regla general, los anillos comunes sin piedras preciosas cuestas 10 monedas de su tipo de metal (o sea, oro, plata o cobre) mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
         },
         "Vial of musky perfume": {
           "name": "Frasco de perfume almizclado"
@@ -3182,7 +3234,8 @@
           "name": "Cuerpo a cuerpo (Básica)"
         },
         "Lore (Skaven)": {
-          "name": "Sabiduría académica (Skaven)"
+          "name": "Sabiduría académica (Skaven)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Perception": {
           "name": "Percepción"
@@ -3257,7 +3310,8 @@
           "name": "Lengua secreta (Ladrón)"
         },
         "Trade (Mason)": {
-          "name": "Oficio (Albañil)"
+          "name": "Oficio (Albañil)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.jmFSm7UvmHEq52iu caption=false]{Oficio}"
         },
         "Criminal": {
           "name": "Delincuente"
@@ -3378,7 +3432,8 @@
       "species": "Demonio",
       "items": {
         "Channelling (Tzeentch)": {
-          "name": "Canalización (Tzeentch)"
+          "name": "Canalización (Tzeentch)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.tXu8Hrd4desq1Rja caption=false]{Canalización}"
         },
         "Champion": {
           "name": "Campeón"
@@ -3420,7 +3475,8 @@
           "name": "Sabiduría académica (Caos)"
         },
         "Channelling (Metal)": {
-          "name": "Canalización (Chamon)"
+          "name": "Canalización (Chamon)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.tXu8Hrd4desq1Rja caption=false]{Canalización}"
         },
         "Weapon": {
           "name": "Arma"
@@ -3459,7 +3515,8 @@
           "name": "Cuerpo a cuerpo (Básica)"
         },
         "Lore (Skaven)": {
-          "name": "Sabiduría académica (Skaven)"
+          "name": "Sabiduría académica (Skaven)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Perception": {
           "name": "Percepción"
@@ -3621,13 +3678,16 @@
           "name": "Daga"
         },
         "Gold Neck-Chain": {
-          "name": "Cadena de oro para el cuello"
+          "name": "Cadena de oro para el cuello",
+          "description": "<p>Los precios varían según la calidad de la artesanía, el tipo de metal y el valor de las gemas. Por regla general, los anillos comunes sin piedras preciosas cuestas 10 monedas de su tipo de metal (o sea, oro, plata o cobre) mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
         },
         "Gold Signet Ring": {
-          "name": "Anillo con sello de oro"
+          "name": "Anillo con sello de oro",
+          "description": "<p>&nbsp;</p>\n<p>Los anillos de oro con sellos grabados los lucen los nobles y los funcionarios de los gremios, quienes los utilizan para imprimir signos heráldicos o marcas en lacre.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
         },
         "Money Box (In Room)": {
-          "name": "Hucha (en la habitación)"
+          "name": "Hucha (en la habitación)",
+          "description": "<p>Requiere una mano para llevarlo.</p>"
         },
         "Entertain": {
           "name": "Animar"
@@ -3844,7 +3904,8 @@
           "name": "Criar animales"
         },
         "Animal Training (Hawk)": {
-          "name": "Adiestrar animal (Halcón)"
+          "name": "Adiestrar animal (Halcón)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.vbOc3JVfG2nfK1P0 caption=false]{Adiestrar animal}"
         },
         "Athletics": {
           "name": "Atletismo"
@@ -3979,7 +4040,8 @@
           "name": "Arco"
         },
         "Black Lotus (Hidden in the hayloft)": {
-          "name": "Loto Negro (escondido en el pajar)"
+          "name": "Loto Negro (escondido en el pajar)",
+          "description": "<p>Esta mortífera planta crece en las junglas del sur y se utiliza como veneno para recubrir cuchillos. Las víctimas que sufren por lo menos 1 Herida de una cuchilla recubierta con esta savia sufren de inmediato 2 Estados de @Condition[Envenenado], que se pueden resistir mediante un Chequeo <strong>Complicado (–10)</strong> de <strong>Aguante</strong>.</p>"
         },
         "Man-trap": {
           "name": "Cepo lobero"
@@ -3997,7 +4059,8 @@
           "name": "4d10 Penique de Bronce"
         },
         "Vice (Food)": {
-          "name": "Vicio (Comida)"
+          "name": "Vicio (Comida)",
+          "description": "<p>Te atormenta la necesidad constante de entregarte a tu Vicio, y tus pensamientos siempre se desvían hacia él. Debes entregarte a tu Vicio de forma insana: entregarse a la comida no significa comer, sino ser un glotón y comer todo lo que puedas hasta quedar hinchado y enfermo. Cada vez que te enfrentes al Objetivo de tu Vicio, debes intentar un @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.5w5YLPNd6AaU4f85#psychology-test]{Chequeo de Psicología}. Si fallas, debes entregarte de inmediato a tu Vicio, abandonando cualquier otra acción u obligación. Te entregas a él hasta quedar sin sentido, sufriendo 1 Estado de @Condition[Fatigado]. Al final de cada Asalto posterior, puedes intentar otro Chequeo de Psicología para poner fin a este estado. Sufres un –20 a todos los Chequeos de Empatía hacia cualquier Personaje que haya presenciado tu glotonería, ya que tu comportamiento le repugna. Por cada día completo que pases sin entregarte a tu Vicio, sufres un –20 acumulativo a todos los Chequeos de Psicología hasta que lo hagas.</p>"
         },
         "Entertain": {
           "name": "Animar"
@@ -4090,7 +4153,9 @@
           "name": "Visión nocturna"
         },
         "Resistance (Ingested Poisons)": {
-          "name": "Resistencia (Venenos ingeridos)"
+          "name": "Resistencia (Venenos ingeridos)",
+          "description": "<p>Tu recia constitución te permite sobrevivir con más facilidad a una amenaza específica. Puedes tener éxito automáticamente en el primer Chequeo para resistir la amenaza específica, como por ejemplo Magia, Veneno, Enfermedad o Mutación en cada sesión de juego. Si el NE es importante, utiliza tu Bonificador por Resistencia como NE para el Chequeo.</p>",
+          "tests": "Todos los utilizados para resistirse a los Venenos ingeridos"
         },
         "Etiquette (Soldiers)": {
           "name": "Etiqueta (Soldados)"
@@ -4102,7 +4167,8 @@
           "name": "Hablar idioma (Lengua de Batalla)"
         },
         "Melee (Two Handed)": {
-          "name": "Cuerpo a cuerpo (A dos manos)"
+          "name": "Cuerpo a cuerpo (A dos manos)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.mk4p8y3RetTuMe2f caption=false]{Cuerpo a cuerpo}"
         },
         "Melee (Brawling)": {
           "name": "Cuerpo a cuerpo (Pelea)"
@@ -4133,6 +4199,11 @@
         },
         "Mail Coat": {
           "name": "Cota de malla"
+        },
+        "sLPcSXWg7YjjeCoW": {
+          "name": "Vicio (Comida)",
+          "description": "<p>Frialdad para dejar pasar una oportunidad de comer</p>",
+          "tests": "Voluntad (resistir Objetivo)"
         }
       }
     },
@@ -4291,7 +4362,8 @@
           "name": "Intimidar"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
@@ -4375,7 +4447,8 @@
           "name": "Garrote"
         },
         "Gold Ring Set with Opal": {
-          "name": "Anillo de oro con ópalo"
+          "name": "Anillo de oro con ópalo",
+          "description": "<p>&nbsp;</p>\n<p>Los anillos de oro con sellos grabados los lucen los nobles y los funcionarios de los gremios, quienes los utilizan para imprimir signos heráldicos o marcas en lacre.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
         },
         "Pouch": {
           "name": "Bolsa"
@@ -4429,7 +4502,8 @@
           "name": "Infectado"
         },
         "Flaming Dangerous": {
-          "name": "Peligrosamente ardiente"
+          "name": "Peligro en llamas",
+          "description": "<p>Los mordiscos de un cráneo que infligen al menos 1 Herida también infligen 1 Estado de @Condition[Ardiendo].</p>"
         }
       }
     },
@@ -4441,7 +4515,8 @@
       "gmnotes": "<p>Wuder Lechart parece ser poco más que un desafortunado aldeano perpetuamente borracho. Comenzó a actuar de forma extraña hace unos siete años, y ahora es casi incomprensible para sus compañeros de la aldea. Se apiadan de él y le dan de comer lo que pueden, pero la mayoría hace lo posible por ignorarlo. Hablará con cualquiera que le dé comida, y sigue lealmente a cualquiera que le dé un penique de bronce o más.</p><p>El discurso de Wuder es casi incomprensible: arrastra las palabras y se lame constantemente un diente de atrás. Suele estar borracho y a menudo delira. Lo más importante es que ¡habla una mezcla de reiklandés y Lengua Oscura! Los PJs que conozcan la Lengua Oscura la reconocerán con un <strong>Chequeo de Percepción</strong>; un éxito por parte de otros PJs simplemente revelará que Wuder está hablando una mezcla de reiklandés y algo más.</p><p>Los problemas de Wuder comenzaron cuando un dentista ambulante llegó a @UUID[JournalEntry.aNYMrBowuSB7g7wd.JournalEntryPage.C05XMKlAGcic9fXj]{Pritzstock} prometiendo la más rápida e indolora odontología imaginable. Molestado por una muela dolorosa y muy cariada, Wuder pidió una simple extracción, pero quedó encantado cuando el extraño se ofreció a <em>«llenar el hueco con un maravilloso accesorio»</em>. Wuder entendió que se trataba de un empaste. El empaste resultó ser un trozo de piedra bruja y Wuder no ha vuelto a ser el mismo desde entonces.</p>",
       "items": {
         "Immunity*": {
-          "name": "Inmunidad*"
+          "name": "Inmunidad*",
+          "description": "<p>La criatura es inmune a determinado tipo de Daño, como por ejemplo veneno, magia o electricidad. Todo el Daño de ese tipo, incluyendo el procedente de una Herida crítica, se ignora.</p>\n<p>&nbsp;</p>\n<p><em>*Estos se desvanecen en 24 horas si Wuder se deshace de toda la piedra bruja que tenga encima.</em></p>"
         },
         "Warpstone filling": {
           "name": "Empaste de piedra bruja"
@@ -4459,7 +4534,8 @@
           "name": "Penique de Bronce"
         },
         "Tough*": {
-          "name": "Recio*"
+          "name": "Recio*",
+          "description": "<p>La criatura resiste mucho más daño de lo normal y es poco probable que se eche para atrás. Obtiene un +10 a la Resistencia y a la Voluntad.</p>\n<p>&nbsp;</p>\n<p><em>*Estos se desvanecen en 24 horas si Wuder se deshace de toda la piedra bruja que tenga encima.</em></p>"
         },
         "Totally Unhinged": {
           "name": "Totalmente desequilibrado"
@@ -4540,7 +4616,8 @@
           "name": "Orientación"
         },
         "Village Fool": {
-          "name": "Tonto de la aldea"
+          "name": "Tonto de la aldea",
+          "description": "<p>@UUID[Compendium.wfrp4e-core.journals.wczCPcuHT4VQDLpL.JournalEntryPage.EYkvtokq0FXlFaPa]{Aldeano}</p>"
         }
       }
     },
@@ -4847,7 +4924,8 @@
           "name": "Medallón de plata con cadena"
         },
         "Money Box (Hidden in room)": {
-          "name": "Hucha (escondida en la habitación)"
+          "name": "Hucha (escondida en la habitación)",
+          "description": "<p>Requiere una mano para llevarlo.</p>"
         }
       }
     },
@@ -4985,7 +5063,9 @@
           "name": "Proyectil infalible"
         },
         "Strider (Woodlands)": {
-          "name": "Zancadas (Bosque)"
+          "name": "Zancadas (Bosque)",
+          "description": "<p>Estás versado en atravesar terreno difícil. Ignoras todos los penalizadores al movimiento al atravesar o recorrer un terreno específico. Las especialidades típicas incluyen: costero, desiertos, marismas, rocoso, tundra o bosques.</p>",
+          "tests": "Chequeos de Atletismo para atravesar bosques"
         },
         "Strike to Stun": {
           "name": "Golpe conmocionador"
@@ -5003,7 +5083,8 @@
           "name": "Penique de Bronce"
         },
         "Animal Training (Hawk)": {
-          "name": "Adiestrar animal (Halcón)"
+          "name": "Adiestrar animal (Halcón)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.vbOc3JVfG2nfK1P0 caption=false]{Adiestrar animal}"
         },
         "Animal Training (Dog)": {
           "name": "Adiestrar animal (Perro)"
@@ -5021,7 +5102,8 @@
           "name": "Botas resistentes"
         },
         "Thick, Warm Cloak": {
-          "name": "Capa gruesa y cálida"
+          "name": "Capa gruesa y cálida",
+          "description": "<p>Protege de los elementos a quien la lleva.</p>"
         },
         "Hunting Knife": {
           "name": "Cuchillo de caza"
@@ -5054,7 +5136,8 @@
           "name": "Intimidar"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Brawling)": {
           "name": "Cuerpo a cuerpo (Pelea)"
@@ -5201,7 +5284,8 @@
           "name": "Sabiduría académica (Heráldica)"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Fencing)": {
           "name": "Cuerpo a cuerpo (De Esgrima)"
@@ -5222,7 +5306,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Noble Blood": {
           "name": "Sangre noble"
@@ -5294,13 +5380,15 @@
           "name": "Orientación"
         },
         "Fine Courtly Garb": {
-          "name": "Ropa de corte de alta calidad"
+          "name": "Ropa de corte de alta calidad",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         },
         "Jewellry": {
           "name": "Joyas"
         },
         "Magical Necklace": {
-          "name": "Collar mágico"
+          "name": "Collar mágico",
+          "description": "<p>Lleva un collar mágico de oro que representa el escudo de Todbringer. Le da el equivalente a 3 PA en todas las ubicaciones y el Rasgo Resistencia a la magia 3 (este collar valdría al menos 25 co para aquellos que no se dieran cuenta de sus propiedades, y al menos 250 co para aquellos que lo hicieran).</p>"
         },
         "Magic Resistance": {
           "name": "Resistencia a la magia"
@@ -5531,10 +5619,14 @@
           "name": "Entrenado"
         },
         "Etiquette (Nobles, Soldiers)": {
-          "name": "Etiqueta (Nobles, Soldados)"
+          "name": "Etiqueta (Nobles, Soldados)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles, Soldados)"
         },
         "Inspiring": {
-          "name": "Inspirador"
+          "name": "Inspirador",
+          "description": "<p>Tus palabras de aliento y tus súplicas pueden cambiar el curso de una batalla. Consulta la tabla siguiente para ver a cuánta gente puedes ahora influenciar con tu Habilidad de Mando en tiempo de guerra.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talentos adquiridos</p>\n</td>\n<td>\n<p>Número de soldados influenciados</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Lo normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Lo normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Todos los que puedan oír tu inspiradora voz</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+          "tests": "Mando durante la guerra"
         },
         "Read/Write": {
           "name": "Leer y escribir"
@@ -5573,7 +5665,8 @@
           "name": "Líder de guerra"
         },
         "Ceremonial Uniform": {
-          "name": "Uniforme ceremonial"
+          "name": "Uniforme ceremonial",
+          "description": "<p>Consiste en una antigua armadura de placas, con una capa de piel de lobo gris por encima, una espada de gala con pomo dorado y un escudo con el emblema de la ciudad.</p>"
         },
         "Officer": {
           "name": "Oficial"
@@ -5669,7 +5762,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Gregarious": {
           "name": "Gregario"
@@ -5720,7 +5815,8 @@
           "name": "Orientación"
         },
         "Fine Quality Court Clothing": {
-          "name": "Ropa de corte de calidad fina"
+          "name": "Ropa de corte de calidad fina",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         },
         "Jewellry": {
           "name": "Joyas"
@@ -6084,7 +6180,8 @@
           "name": "Parloteo"
         },
         "Bless (Ulric)": {
-          "name": "Bendición (Ulric)"
+          "name": "Bendición (Ulric)",
+          "description": "<p>Uno de los dioses vela por ti, y ello te permite potenciar las más sencillas plegarias. Ahora puedes desplegar las Bendiciones de tu dios, según se indica en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales, sólo puedes adquirir el Talento Bendición (Saber divino) una vez.</p>"
         },
         "Bookish": {
           "name": "Intelectual"
@@ -6096,13 +6193,18 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles, Soldiers)": {
-          "name": "Etiqueta (Nobles, Soldados)"
+          "name": "Etiqueta (Nobles, Soldados)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles, Soldados)"
         },
         "Inspiring": {
-          "name": "Inspirador"
+          "name": "Inspirador",
+          "description": "<p>Tus palabras de aliento y tus súplicas pueden cambiar el curso de una batalla. Consulta la tabla siguiente para ver a cuánta gente puedes ahora influenciar con tu Habilidad de Mando en tiempo de guerra.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talentos adquiridos</p>\n</td>\n<td>\n<p>Número de soldados influenciados</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Lo normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Lo normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Todos los que puedan oír tu inspiradora voz</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+          "tests": "Mando durante la guerra"
         },
         "Invoke (Ulric)": {
-          "name": "Invocar (Ulric)"
+          "name": "Invocar (Ulric)",
+          "description": "<p>Has sido bendecido por uno de los dioses y puedes potenciar uno de los Milagros de tu Culto.</p>\n<p>Además, puedes comprar milagros adicionales al coste de 100 PX por milagro que conoces actualmente. Así, si ya conoces 3 milagros, el siguiente te cuesta 300 PX. Las reglas completas para aprender nuevos milagros están en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales no podrías aprender más que un Talento de Invocar (Saber divino). Además, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.mdPGZsn2396dEpOf]{Magia menor} ni @UUID[Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW]{Magia arcana} cuando tienes el Talento Invocar. Puedes borrar de tu memoria este Talento por 100 PX, pero si lo haces perderás todos los demás, y por si fuera poco te ganarás la extrema desaprobación de tu dios, los efectos de lo cual serán determinados por tu DJ.</p>"
         },
         "Read/Write": {
           "name": "Leer y escribir"
@@ -6138,10 +6240,12 @@
           "name": "Protección"
         },
         "Hammer-axe of Skoll": {
-          "name": "Hacha-martillo de Skoll"
+          "name": "Hacha-martillo de Skoll",
+          "description": "<p>Lleva el hacha-martillo de Skoll, un arma legendaria a dos manos que, según se dice, ha sido llevada por un Ar-Ulric desde los tiempos de Sigmar. El arma es mágica. Además, cuando es empuñada con intención por un seguidor Bendito de Ulric, debe hacer un Chequeo <strong>Desafiante (+0) de Rezar</strong>. Por cada +NE que consiga, podrá elegir una de las siguientes cualidades: Dañina, Impactante, Empalar o Penetrante.</p>"
         },
         "The Wolfplate": {
-          "name": "La Coraza del Lobo"
+          "name": "La Coraza del Lobo",
+          "description": "<p>El Ar-Ulric también tiene una armadura mágica, la Coraza del Lobo. Cuando la lleva puesta concede 4 PA a todas las ubicaciones de impacto y otorga los siguientes rasgos: @UUID[Compendium.wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Inmunidad (fuego)}, @UUID[Compendium.wfrp4e-core.items.yrkI7ATjqLPDTFmZ]{Resistencia a la magia (2)}, @UUID[Compendium.wfrp4e-core.items.Bvd2aZ0gQUXHfCTh]{Protección (2)}.</p>"
         },
         "Lector": {
           "name": "Lector"
@@ -6285,10 +6389,14 @@
           "name": "Entrenado"
         },
         "Etiquette (Nobles, Soldiers)": {
-          "name": "Etiqueta (Nobles, Soldados)"
+          "name": "Etiqueta (Nobles, Soldados)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles, Soldados)"
         },
         "Inspiring": {
-          "name": "Inspirador"
+          "name": "Inspirador",
+          "description": "<p>Tus palabras de aliento y tus súplicas pueden cambiar el curso de una batalla. Consulta la tabla siguiente para ver a cuánta gente puedes ahora influenciar con tu Habilidad de Mando en tiempo de guerra.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talentos adquiridos</p>\n</td>\n<td>\n<p>Número de soldados influenciados</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Lo normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Lo normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Todos los que puedan oír tu inspiradora voz</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+          "tests": "Mando durante la guerra"
         },
         "Noble Blood": {
           "name": "Sangre noble"
@@ -6344,7 +6452,8 @@
           "name": "Piedra bruja suficiente para duplicar el NE de tres Chequeos de Lanzamiento/Canalización"
         },
         "Skretth's Magic Ring": {
-          "name": "Anillo mágico de Skretth"
+          "name": "Anillo mágico de Skretth",
+          "description": "<p>En algún momento de su carrera, Skretth recogió un anillo mágico que lanza el hechizo de nigromancia @UUID[Compendium.wfrp4e-core.items.7BJDTRG65hwt1fUK]{Reanimar} con +6 NE. Tiene suficiente poder mágico para lanzar el hechizo dos veces: si no tiene otra opción, Skretth utiliza el anillo para reanimar los cadáveres del área 12, convirtiéndolos en @UUID[Compendium.wfrp4e-core.actors.T79RqnDOAQLn3I1s]{Zombis}.</p>"
         },
         "Channelling": {
           "name": "Canalización"
@@ -6392,7 +6501,8 @@
           "name": "Túnicas grises"
         },
         "Mandrake Snuff": {
-          "name": "Rapé de mandrágora"
+          "name": "Rapé de mandrágora",
+          "description": "<p>Este agente delirante (muy adictivo) crece bajo los patíbulos, y se mastica para mantener calmada una mente inquieta. Sus usuarios deben superar un Chequeo de Voluntad cada Asalto para llevar a cabo una Acción o bien un Movimiento (elige uno de los dos); además, el Movimiento se reduce a la mitad. Sin embargo, los Chequeos de Frialdad obtienen un Bonificador +20. <strong>Duración</strong>: activa mientras se mastica y otros [[/r 1d10*10]] minutos adicionales.</p>"
         },
         "Book, Magic": {
           "name": "Libro de magia"
@@ -6728,10 +6838,12 @@
           "name": "Oficio (Manitas)"
         },
         "Gold Neck-Chain": {
-          "name": "Cadena de oro para el cuello"
+          "name": "Cadena de oro para el cuello",
+          "description": "<p>Los precios varían según la calidad de la artesanía, el tipo de metal y el valor de las gemas. Por regla general, los anillos comunes sin piedras preciosas cuestas 10 monedas de su tipo de metal (o sea, oro, plata o cobre) mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
         },
         "Gold Wedding Ring": {
-          "name": "Anillo de bodas de oro"
+          "name": "Anillo de bodas de oro",
+          "description": "<p>&nbsp;</p>\n<p>Los anillos de oro con sellos grabados los lucen los nobles y los funcionarios de los gremios, quienes los utilizan para imprimir signos heráldicos o marcas en lacre.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
         },
         "Pouch": {
           "name": "Bolsa"
@@ -6815,7 +6927,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Instinctive Diction": {
           "name": "Dicción instintiva"
@@ -7031,7 +7145,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles, Servants)": {
-          "name": "Etiqueta (Nobles, Sirvientes)"
+          "name": "Etiqueta (Nobles, Sirvientes)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles, Sirvientes)"
         },
         "Noble Blood": {
           "name": "Sangre noble"
@@ -7058,7 +7174,8 @@
           "name": "Penique de Bronce"
         },
         "Fine (but dated) Courtly Garb": {
-          "name": "Ropa de la corte de buena calidad (pero anticuada)"
+          "name": "Ropa de la corte de buena calidad (pero anticuada)",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         },
         "Mahogany Walking Stick": {
           "name": "Bastón de caoba"
@@ -7067,7 +7184,8 @@
           "name": "Joyas"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Polearm)": {
           "name": "Cuerpo a cuerpo (Arma de Asta)"
@@ -7147,7 +7265,8 @@
           "name": "Esquivar"
         },
         "Entertain (Act)": {
-          "name": "Animar (Actuar)"
+          "name": "Animar (Actuar)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.hrCbYa4b2iKPgBui caption=false]{Animar}"
         },
         "Gamble": {
           "name": "Jugar"
@@ -7165,7 +7284,8 @@
           "name": "Mando"
         },
         "Lore (Hochland)": {
-          "name": "Sabiduría académica (Hochland)"
+          "name": "Sabiduría académica (Hochland)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
@@ -7201,7 +7321,9 @@
           "name": "Condenado"
         },
         "Etiquette (Criminals, Nobles)": {
-          "name": "Etiqueta (Delincuentes, Nobles)"
+          "name": "Etiqueta (Delincuentes, Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Delincuentes, Nobles)"
         },
         "Flee!": {
           "name": "¡A correr!"
@@ -7252,7 +7374,8 @@
           "name": "Lengua secreta (Vagabundo)"
         },
         "Secret Signs (Wasmeier's Code)": {
-          "name": "Lengua secreta (Código de Wasmeier)"
+          "name": "Lengua secreta (Código de Wasmeier)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.X2FppoPGuEwJKssM caption=false]{Lengua secreta}"
         },
         "Hypnotism": {
           "name": "Hipnosis"
@@ -7303,7 +7426,8 @@
           "name": "Cota de malla con mangas"
         },
         "Broad-brimmed hat": {
-          "name": "Sombrero de ala ancha"
+          "name": "Sombrero de ala ancha",
+          "description": "<p>Los sombreros de calidad son símbolos de estatus en los pueblos y ciudades del Imperio. Cuanto más llamativo el sombrero, mejor.</p>"
         },
         "Dagger": {
           "name": "Daga"
@@ -7318,7 +7442,8 @@
           "name": "Material de disfraz"
         },
         "Opal": {
-          "name": "Ópalo"
+          "name": "Ópalo",
+          "description": "<p>Los precios varían según la calidad de la artesanía, el tipo de metal y el valor de las gemas. Por regla general, los anillos comunes sin piedras preciosas cuestas 10 monedas de su tipo de metal (o sea, oro, plata o cobre) mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
         }
       }
     },
@@ -7351,7 +7476,8 @@
           "name": "Frialdad"
         },
         "Entertain (Act)": {
-          "name": "Animar (Actuar)"
+          "name": "Animar (Actuar)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.hrCbYa4b2iKPgBui caption=false]{Animar}"
         },
         "Gamble": {
           "name": "Jugar"
@@ -7366,7 +7492,8 @@
           "name": "Intuición"
         },
         "Language (Brettonian)": {
-          "name": "Hablar idioma (Bretoniano)"
+          "name": "Hablar idioma (Bretoniano)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.xo5U0kL08xCPe6kl caption=false]{Hablar idioma}"
         },
         "Language (Estalian)": {
           "name": "Hablar idioma (Estaliano)"
@@ -7393,7 +7520,8 @@
           "name": "Percepción"
         },
         "Secret Signs (Middenheim Spy Ring)": {
-          "name": "Lengua secreta (Círculo de espías de Middenheim)"
+          "name": "Lengua secreta (Círculo de espías de Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.X2FppoPGuEwJKssM caption=false]{Lengua secreta}"
         },
         "Sleight of Hand": {
           "name": "Prestidigitación"
@@ -7417,7 +7545,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Flee!": {
           "name": "¡A correr!"
@@ -7522,7 +7652,8 @@
           "name": "Cota de malla con mangas"
         },
         "Throat Slitter": {
-          "name": "Cortagargantas"
+          "name": "Cortagargantas",
+          "description": "<p>Una daga impregnada de magia por un Hechicero de Oro que le debía un favor a @UUID[Actor.bUILl7b6hxsVqIqu]{Nastassia}. Cortagargantas es una hoja muy afilada que refleja poca luz incluso a plena luz del día. Su daño aumenta a +3, tiene la cualidad <em>Rápida</em> e ignora los PA de cualquier armadura con el defecto <em>Puntos débiles</em>.</p>"
         }
       }
     },
@@ -7552,7 +7683,9 @@
           "name": "Entrenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Noble Blood": {
           "name": "Sangre noble"
@@ -7663,13 +7796,16 @@
           "name": "Sabiduría académica (Local)"
         },
         "Trade (Vintner)": {
-          "name": "Oficio (Vinatero)"
+          "name": "Oficio (Vinatero)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.jmFSm7UvmHEq52iu caption=false]{Oficio}"
         },
         "Animal Affinity": {
           "name": "Afinidad animal"
         },
         "Craftsman (Vintner)": {
-          "name": "Artesano (Vinatero)"
+          "name": "Artesano (Vinatero)",
+          "description": "<p>Tienes un auténtico talento creativo. Suma la Habilidad de Oficio asociada a cualquier Carrera en la que entras. Si dicha Habilidad de Oficio ya está en tu Carrera, en lugar de ello puedes comprarla a razón de 5 PX menos por Avance.</p>",
+          "tests": "Oficio (Vinatero)"
         },
         "Dealmaker": {
           "name": "Negociador"
@@ -7912,7 +8048,9 @@
           "name": "Condenado"
         },
         "Etiquette (Guilders, Nobles, Soldiers)": {
-          "name": "Etiqueta (Gremio, Nobles, Soldados)"
+          "name": "Etiqueta (Gremio, Nobles, Soldados)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Gremio, Nobles, Soldados)"
         },
         "Feint": {
           "name": "Fintador"
@@ -7924,7 +8062,9 @@
           "name": "Recio"
         },
         "Inspiring": {
-          "name": "Inspirador"
+          "name": "Inspirador",
+          "description": "<p>Tus palabras de aliento y tus súplicas pueden cambiar el curso de una batalla. Consulta la tabla siguiente para ver a cuánta gente puedes ahora influenciar con tu Habilidad de Mando en tiempo de guerra.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talentos adquiridos</p>\n</td>\n<td>\n<p>Número de soldados influenciados</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Lo normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Lo normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Todos los que puedan oír tu inspiradora voz</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+          "tests": "Mando durante la guerra"
         },
         "Iron Will": {
           "name": "Voluntad de hierro"
@@ -8020,7 +8160,8 @@
           "name": "Grebas de placas (de la mejor calidad)"
         },
         "Royal Garb (Best Quality)": {
-          "name": "Vestimenta real (de la mejor calidad)"
+          "name": "Vestimenta real (de la mejor calidad)",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         },
         "Noble Lord": {
           "name": "Señor noble"
@@ -8160,7 +8301,8 @@
           "name": "Mando"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
@@ -8175,7 +8317,8 @@
           "name": "Afinidad con el Aethyr"
         },
         "Arcane Magic (Ulgu)": {
-          "name": "Magia arcana (Sombras)"
+          "name": "Magia arcana (Sombras)",
+          "description": "<p>Puedes, o bien estudiar uno de los ocho Saberes arcanos de la Magia (Bestias, Cielos, Fuego, Luz, Metal, Muerte, Sombra y Vida) o practicar un Saber menos conocido como Adivinación o Nigromancia. Ahora puedes memorizar hechizos de tu Saber elegido al siguiente coste en PX.</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Nº de hechizos actualmente conocidos</p>\n</td>\n<td>\n<p>Coste en PX de un nuevo hechizo</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 1&nbsp;</p>\n</td>\n<td>\n<p>100 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 2</p>\n</td>\n<td>\n<p>200 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 3</p>\n</td>\n<td>\n<p>300 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 4</p>\n</td>\n<td>\n<p>400 PX</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>...y así sucesivamente.</p>\n<p>Por lo tanto, si tu Bonificador por Inteligencia es 4, el primer hechizo y los siguientes 4 te costarán 100 PX, los segundos 4 te costarán 200 PX, etc. Las reglas completas para aprender nuevos hechizos se proporcionan en @UUID[Compendium.wfrp4e-core.journals.JournalEntry.YBVrpUHEjohB1H4f]{Magia}. En circunstanciLo normales, no puedes aprender más de un talento de Magia arcana (Saber). Además, cuando tienes el Talento Magia arcana, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.QyjWtSdnVMT04l5Y]{Bendecir} ni @UUID[Compendium.wfrp4e-core.items.Item.voV0C2ar1bKpcpnH]{Invocar}. Puedes borrar de la memoria este Talento por 100 PX, pero si lo haces perderás de inmediato todos tus hechizos.</p>"
         },
         "Doomed": {
           "name": "Condenado"
@@ -8271,7 +8414,8 @@
           "name": "Aprendiz de hechicero"
         },
         "Pouch of Ranald's Delight": {
-          "name": "Bolsa con Delicia de Ranald"
+          "name": "Bolsa con Delicia de Ranald",
+          "description": "<p>Este estimulante altamente adictivo es un compuesto sintético hecho a base de azufre, mercurio y otros elementos. Inhalar el polvo proporciona un bonificador +1 al Movimiento, y un + 10 a Habilidad de armas, Fuerza, Resistencia y Agilidad. Esto dura 3 horas, después de las cuales el usuario sufre un penalizador de -2 al Movimiento y un -20 a Habilidad de armas, Fuerza, Resistencia y Agilidad. <strong>Duración</strong>: 1 día.</p>"
         },
         "Dart": {
           "name": "Dardo"
@@ -8355,7 +8499,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles, Servants)": {
-          "name": "Etiqueta (Nobles, Sirvientes)"
+          "name": "Etiqueta (Nobles, Sirvientes)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles, Sirvientes)"
         },
         "Menacing": {
           "name": "Amenazador"
@@ -8439,7 +8585,8 @@
           "name": "Ropa de moda"
         },
         "Silver-topped Cane": {
-          "name": "Bastón con punta de plata"
+          "name": "Bastón con punta de plata",
+          "description": "<p>Los bastones de madera pulida provistos de conteras de metal son un símbolo de estatus entre los ciudadanos más adinerados.</p>"
         },
         "Governor": {
           "name": "Gobernador"
@@ -8730,7 +8877,9 @@
           "name": "Condenado"
         },
         "Etiquette (Guilders, Nobles, Scholars)": {
-          "name": "Etiqueta (Gremio, Nobles, Eruditos)"
+          "name": "Etiqueta (Gremio, Nobles, Eruditos)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Gremio, Nobles, Eruditos)"
         },
         "Read/Write": {
           "name": "Leer y escribir"
@@ -8802,7 +8951,8 @@
           "name": "Orientación"
         },
         "1d10 Ranald's Delight": {
-          "name": "1d10 dosis de Delicia de Ranald"
+          "name": "1d10 dosis de Delicia de Ranald",
+          "description": "<p>Este estimulante altamente adictivo es un compuesto sintético hecho a base de azufre, mercurio y otros elementos. Inhalar el polvo proporciona un bonificador +1 al Movimiento, y un + 10 a Habilidad de armas, Fuerza, Resistencia y Agilidad. Esto dura 3 horas, después de las cuales el usuario sufre un penalizador de -2 al Movimiento y un -20 a Habilidad de armas, Fuerza, Resistencia y Agilidad. <strong>Duración</strong>: 1 día.</p>"
         }
       }
     },
@@ -9150,7 +9300,9 @@
           "name": "Entrenado"
         },
         "Etiquette (Criminals, Nobles, Soldiers)": {
-          "name": "Etiqueta (Delincuentes, Nobles, Soldados)"
+          "name": "Etiqueta (Delincuentes, Nobles, Soldados)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Delincuentes, Nobles, Soldados)"
         },
         "Robust": {
           "name": "Robusto"
@@ -9183,7 +9335,8 @@
           "name": "Capitán de la guardia"
         },
         "Ceremonial Uniform": {
-          "name": "Uniforme ceremonial"
+          "name": "Uniforme ceremonial",
+          "description": "<p>Consiste en una túnica azul oscuro bajo una coraza de plata grabada, botas negras hasta la rodilla pulidas como un espejo, un casco abierto de plata con un nielado exquisito, rematado por un penacho azul intenso, y una espada ceremonial en una vaina bellamente enjoyada.</p>"
         }
       }
     },
@@ -9298,7 +9451,8 @@
           "name": "Intuición"
         },
         "Lore (Middenheim)": {
-          "name": "Sabiduría académica (Middenheim)"
+          "name": "Sabiduría académica (Middenheim)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc caption=false]{Sabiduría académica}"
         },
         "Melee (Basic)": {
           "name": "Cuerpo a cuerpo (Básica)"
@@ -9322,7 +9476,9 @@
           "name": "Desfalcar"
         },
         "Etiquette (Criminals, Guilders)": {
-          "name": "Etiqueta (Delincuentes, Gremio)"
+          "name": "Etiqueta (Delincuentes, Gremio)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Delincuentes, Gremio)"
         },
         "Gregarious": {
           "name": "Gregario"
@@ -9490,7 +9646,8 @@
           "name": "Puño americano"
         },
         "Gold Ring": {
-          "name": "Anillo de oro"
+          "name": "Anillo de oro",
+          "description": "<p>&nbsp;</p>\n<p>Los anillos de oro con sellos grabados los lucen los nobles y los funcionarios de los gremios, quienes los utilizan para imprimir signos heráldicos o marcas en lacre.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
         },
         "Soldier": {
           "name": "Soldado"
@@ -9556,7 +9713,8 @@
       "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.seoqMOoXusLrB77M]{Hoja de resumen}</p><p>Karl-Heinz tiene alrededor de cuarenta años, es alto, de complexión media, con pelo castaño ondulado de longitud media y ojos marrones. Sin que lo sepan los demás Señores de la Ley (o, de hecho, cualquier otra persona en la Corte), es el jefe del Círculo Interior de la Secta de @UUID[Compendium.wfrp4e-eis.journals.IZVgB7zmTm4rK2yJ]{la Mano Púrpura}. Es inteligente, cruel y despiadado, pero pocos que lo conozcan lo pensarían. En el curso de sus deberes profesionales, tiene cuidado de parecer profesional, razonable y discretamente humanitario. Es el único Señor de la Ley que ha expresado públicamente sus dudas sobre los impuestos.</p>",
       "items": {
         "Opal Brooch": {
-          "name": "Broche de ópalo"
+          "name": "Broche de ópalo",
+          "description": "<p>Otorga a Wasmeier el poder de @UUID[Compendium.wfrp4e-core.items.EO05HX7jql0g605A]{Vuelo}</p>"
         },
         "Bribery": {
           "name": "Sobornar"
@@ -9658,7 +9816,9 @@
           "name": "Condenado"
         },
         "Etiquette (Guilder, Nobles, Scholars)": {
-          "name": "Etiqueta (Gremio, Nobles, Eruditos)"
+          "name": "Etiqueta (Gremio, Nobles, Eruditos)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Gremio, Nobles, Eruditos)"
         },
         "Gregarious": {
           "name": "Gregario"
@@ -9712,10 +9872,12 @@
           "name": "Canalización (Dhar)"
         },
         "Secret Signs (Wasmeier's Cipher)": {
-          "name": "Lengua secreta (Cifrado de Wasmeier)"
+          "name": "Lengua secreta (Cifrado de Wasmeier)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.X2FppoPGuEwJKssM caption=false]{Lengua secreta}"
         },
         "Secret Signs (Purple Hand)": {
-          "name": "Lengua secreta (Mano Púrpura)"
+          "name": "Lengua secreta (Mano Púrpura)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.X2FppoPGuEwJKssM caption=false]{Lengua secreta}"
         },
         "Dagger": {
           "name": "Daga"
@@ -9789,7 +9951,8 @@
       "gmnotes": "<p>Skretth tiene un pelaje gris pálido y, gracias a su consumo de drogas, sus ojos brillan salvajemente incluso para un vidente gris. Viste con ropas sucias y tiene medio diente delantero izquierdo roto. Para @UUID[JournalEntry.FgeoIDH3AwddLLFH.JournalEntryPage.2rGrpvPYmr4kWXCb]{más detalles} sobre los videntes grises y la tradición mágica de la Rata Cornuda, consulta el <strong>Compendio de la Rata Cornuda</strong>.</p>",
       "items": {
         "Skretth's Magic Ring": {
-          "name": "Anillo mágico de Skretth"
+          "name": "Anillo mágico de Skretth",
+          "description": "<p>En algún momento de su carrera, Skretth recogió un anillo mágico que lanza el hechizo de nigromancia @UUID[Compendium.wfrp4e-core.items.7BJDTRG65hwt1fUK]{Reanimar} con +6 NE. Tiene suficiente poder mágico para lanzar el hechizo dos veces: si no tiene otra opción, Skretth utiliza el anillo para reanimar los cadáveres del área 12, convirtiéndolos en @UUID[Compendium.wfrp4e-core.actors.T79RqnDOAQLn3I1s]{Zombis}.</p>"
         },
         "Channelling": {
           "name": "Canalización"
@@ -9825,7 +9988,8 @@
           "name": "Túnicas grises"
         },
         "Mandrake Snuff": {
-          "name": "Rapé de mandrágora"
+          "name": "Rapé de mandrágora",
+          "description": "<p>Este agente delirante (muy adictivo) crece bajo los patíbulos, y se mastica para mantener calmada una mente inquieta. Sus usuarios deben superar un Chequeo de Voluntad cada Asalto para llevar a cabo una Acción o bien un Movimiento (elige uno de los dos); además, el Movimiento se reduce a la mitad. Sin embargo, los Chequeos de Frialdad obtienen un Bonificador +20. <strong>Duración</strong>: activa mientras se mastica y otros [[/r 1d10*10]] minutos adicionales.</p>"
         },
         "Book, Magic": {
           "name": "Libro de magia"
@@ -9984,7 +10148,9 @@
           "name": "Parloteo"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Hardy": {
           "name": "Recio"
@@ -10235,7 +10401,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Gregarious": {
           "name": "Gregario"
@@ -10295,7 +10463,8 @@
           "name": "Orientación"
         },
         "Fine Courtly Garb": {
-          "name": "Ropa de corte de alta calidad"
+          "name": "Ropa de corte de alta calidad",
+          "description": "<p>La ropa de los nobles luce adornos del tipo puños y cuellos de encaje, tela de calidad excesiva y zapatos puntiagudos. Los sirvientes también visten atuendos cortesanos en los banquetes y las ceremonias, aunque sus sobrevestas y sus corsés son menos ostentosos que los de los nobles y por lo tanto se pueden adquirir a mitad de precio.</p>"
         },
         "Jewellry": {
           "name": "Joyas"
@@ -10367,7 +10536,9 @@
           "name": "Condenado"
         },
         "Etiquette (Criminals, Noble)": {
-          "name": "Etiqueta (Delincuentes, Nobles)"
+          "name": "Etiqueta (Delincuentes, Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Delincuentes, Nobles)"
         },
         "Luck": {
           "name": "Suerte"
@@ -10391,10 +10562,12 @@
           "name": "Penique de Bronce"
         },
         "Ostentatious Gold Necklace": {
-          "name": "Ostentoso collar de oro"
+          "name": "Ostentoso collar de oro",
+          "description": "<p>Los precios varían según la calidad de la artesanía, el tipo de metal y el valor de las gemas. Por regla general, los anillos comunes sin piedras preciosas cuestas 10 monedas de su tipo de metal (o sea, oro, plata o cobre) mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
         },
         "Gold Ring": {
-          "name": "Anillo de oro"
+          "name": "Anillo de oro",
+          "description": "<p>&nbsp;</p>\n<p>Los anillos de oro con sellos grabados los lucen los nobles y los funcionarios de los gremios, quienes los utilizan para imprimir signos heráldicos o marcas en lacre.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
         },
         "Mandrake Root": {
           "name": "Raíz de mandrágora"
@@ -10475,7 +10648,8 @@
           "name": "Ingredientes para hechizos"
         },
         "Channelling (Necromancy)": {
-          "name": "Canalización (Nigromancia)"
+          "name": "Canalización (Nigromancia)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.tXu8Hrd4desq1Rja caption=false]{Canalización}"
         },
         "Cool": {
           "name": "Frialdad"
@@ -10505,7 +10679,8 @@
           "name": "Afinidad con el Aethyr"
         },
         "Arcane Magic (Death, Necromancy)": {
-          "name": "Magia arcana (Muerte, Nigromancia)"
+          "name": "Magia arcana (Muerte, Nigromancia)",
+          "description": "<p>Puedes, o bien estudiar uno de los ocho Saberes arcanos de la Magia (Bestias, Cielos, Fuego, Luz, Metal, Muerte, Sombra y Vida) o practicar un Saber menos conocido como Adivinación o Nigromancia. Ahora puedes memorizar hechizos de tu Saber elegido al siguiente coste en PX.</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Nº de hechizos actualmente conocidos</p>\n</td>\n<td>\n<p>Coste en PX de un nuevo hechizo</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 1&nbsp;</p>\n</td>\n<td>\n<p>100 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 2</p>\n</td>\n<td>\n<p>200 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 3</p>\n</td>\n<td>\n<p>300 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 4</p>\n</td>\n<td>\n<p>400 PX</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>...y así sucesivamente.</p>\n<p>Por lo tanto, si tu Bonificador por Inteligencia es 4, el primer hechizo y los siguientes 4 te costarán 100 PX, los segundos 4 te costarán 200 PX, etc. Las reglas completas para aprender nuevos hechizos se proporcionan en @UUID[Compendium.wfrp4e-core.journals.JournalEntry.YBVrpUHEjohB1H4f]{Magia}. En circunstanciLo normales, no puedes aprender más de un talento de Magia arcana (Saber). Además, cuando tienes el Talento Magia arcana, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.QyjWtSdnVMT04l5Y]{Bendecir} ni @UUID[Compendium.wfrp4e-core.items.Item.voV0C2ar1bKpcpnH]{Invocar}. Puedes borrar de la memoria este Talento por 100 PX, pero si lo haces perderás de inmediato todos tus hechizos.</p>"
         },
         "Beneath Notice": {
           "name": "Sin importancia"
@@ -10514,7 +10689,9 @@
           "name": "Intelectual"
         },
         "Fearless (mortals)": {
-          "name": "Intrépido (Mortales)"
+          "name": "Intrépido (Mortales)",
+          "description": "<p>Eres, o bien lo suficientemente valiente o lo suficientemente insensato como para que el miedo a ciertos enemigos se haya convertido en un recuerdo lejano. Mediante un único Chequeo <strong>Normal (+20%)</strong> de <strong>Frialdad</strong>, puedes ignorar cualquier efecto de Intimidar, Miedo o Terror por parte del enemigo especificado cuando te encuentras con él. Los enemigos típicos incluyen hombres bestia, pieles verdes, forajidos, vampiros, vigilantes y brujas.</p>",
+          "tests": "Frialdad para oponerse al Intimidar, Miedo y Terror de tu Enemigo"
         },
         "Instinctive Diction": {
           "name": "Dicción instintiva"
@@ -10535,7 +10712,9 @@
           "name": "Leer y escribir"
         },
         "Savant (Necromancy)": {
-          "name": "Sabio (Nigromancia)"
+          "name": "Sabio (Nigromancia)",
+          "description": "<p>Eres excepcionalmente docto, y tienes un grado significativo de conocimiento especializado en un único campo de estudio. Automáticamente conoces tantos fragmentos de información correcta como tu nivel de Sabio (Saber) acerca de un tema relevante sin tener que chequear tu Habilidad de Sabiduría académica. Un Chequeo, como siempre, proporcionará más información de la forma habitual, según determine el DJ.</p>",
+          "tests": "Sabiduría académica (Saber elegido)"
         },
         "Sixth Sense": {
           "name": "Sexto sentido"
@@ -10562,7 +10741,8 @@
           "name": "Decidido"
         },
         "Perform (Bombastic Speeches)": {
-          "name": "Actuar (Discursos grandilocuentes)"
+          "name": "Actuar (Discursos grandilocuentes)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.6MQIGorN3WgXWfJB caption=false]{Actuar}"
         },
         "Dagger": {
           "name": "Daga"
@@ -10709,7 +10889,8 @@
           "name": "Supervivencia"
         },
         "Trade (Vintner)": {
-          "name": "Oficio (Vinatero)"
+          "name": "Oficio (Vinatero)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.jmFSm7UvmHEq52iu caption=false]{Oficio}"
         },
         "Strong Back": {
           "name": "Buenas espaldas"
@@ -10886,7 +11067,8 @@
           "name": "Afinidad con el Aethyr"
         },
         "Arcane Magic (Lore of Metal)": {
-          "name": "Magia arcana (Saber del Metal)"
+          "name": "Magia arcana (Saber del Metal)",
+          "description": "<p>Puedes, o bien estudiar uno de los ocho Saberes arcanos de la Magia (Bestias, Cielos, Fuego, Luz, Metal, Muerte, Sombra y Vida) o practicar un Saber menos conocido como Adivinación o Nigromancia. Ahora puedes memorizar hechizos de tu Saber elegido al siguiente coste en PX.</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Nº de hechizos actualmente conocidos</p>\n</td>\n<td>\n<p>Coste en PX de un nuevo hechizo</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 1&nbsp;</p>\n</td>\n<td>\n<p>100 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 2</p>\n</td>\n<td>\n<p>200 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 3</p>\n</td>\n<td>\n<p>300 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hasta tu Bonificador por Inteligencia × 4</p>\n</td>\n<td>\n<p>400 PX</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>...y así sucesivamente.</p>\n<p>Por lo tanto, si tu Bonificador por Inteligencia es 4, el primer hechizo y los siguientes 4 te costarán 100 PX, los segundos 4 te costarán 200 PX, etc. Las reglas completas para aprender nuevos hechizos se proporcionan en @UUID[Compendium.wfrp4e-core.journals.JournalEntry.YBVrpUHEjohB1H4f]{Magia}. En circunstanciLo normales, no puedes aprender más de un talento de Magia arcana (Saber). Además, cuando tienes el Talento Magia arcana, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.QyjWtSdnVMT04l5Y]{Bendecir} ni @UUID[Compendium.wfrp4e-core.items.Item.voV0C2ar1bKpcpnH]{Invocar}. Puedes borrar de la memoria este Talento por 100 PX, pero si lo haces perderás de inmediato todos tus hechizos.</p>"
         },
         "Bookish": {
           "name": "Intelectual"
@@ -10895,7 +11077,9 @@
           "name": "Condenado"
         },
         "Etiquette (Nobles)": {
-          "name": "Etiqueta (Nobles)"
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Nobles)"
         },
         "Instinctive Diction": {
           "name": "Dicción instintiva"
@@ -11234,7 +11418,8 @@
           "name": "Percepción"
         },
         "Perform ( Juggle)": {
-          "name": "Actuar (Malabarismo)"
+          "name": "Actuar (Malabarismo)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.6MQIGorN3WgXWfJB caption=false]{Actuar}"
         },
         "Sleight of Hand": {
           "name": "Prestidigitación"
@@ -11354,7 +11539,8 @@
           "name": "2d10 Chelín de plata"
         },
         "Fang of the Winter Wolf": {
-          "name": "Colmillo del lobo invernal"
+          "name": "Colmillo del lobo invernal",
+          "description": "<p>Es un diente sacado de uno de los lobos más grandes del bosque de Drakwald y bendecido por el propio Ar-Ulric. Este talismán de Ulric puede utilizarse para añadir +4 NE a cualquier Chequeo de Rezar para pedir un Milagro, incluso después de que se haya tirado. Este efecto ocurre sólo una vez, después de lo cual el Ar-Ulric debe bendecirlo de nuevo mediante un largo ritual.</p>\n<p>Como alternativa, el colmillo se puede aplastar entre los dientes con un Chequeo <strong>Complicado (–10) de Aguante</strong>. De ser así, una manada de [[/r 1d10+3]] @UUID[Compendium.wfrp4e-core.actors.lSvYEInG8sZ03vqd]{Lobos} surge de una repentina ráfaga de nieve y ataca a cualquier enemigo de Ulric en las inmediaciones. Esta acción destruye el colmillo.</p>"
         },
         "Athletics": {
           "name": "Atletismo"
@@ -11399,16 +11585,22 @@
           "name": "Rezar"
         },
         "Bless (Ulric)": {
-          "name": "Bendición (Ulric)"
+          "name": "Bendición (Ulric)",
+          "description": "<p>Uno de los dioses vela por ti, y ello te permite potenciar las más sencillas plegarias. Ahora puedes desplegar las Bendiciones de tu dios, según se indica en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales, sólo puedes adquirir el Talento Bendición (Saber divino) una vez.</p>"
         },
         "Etiquette (Cultists of Ulric)": {
-          "name": "Etiqueta (Culto de Ulric)"
+          "name": "Etiqueta (Culto de Ulric)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>",
+          "tests": "Carisma y Cotilleo (Culto de Ulric)"
         },
         "Inspiring": {
-          "name": "Inspirador"
+          "name": "Inspirador",
+          "description": "<p>Tus palabras de aliento y tus súplicas pueden cambiar el curso de una batalla. Consulta la tabla siguiente para ver a cuánta gente puedes ahora influenciar con tu Habilidad de Mando en tiempo de guerra.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talentos adquiridos</p>\n</td>\n<td>\n<p>Número de soldados influenciados</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Lo normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Lo normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Lo normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Todos los que puedan oír tu inspiradora voz</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+          "tests": "Mando durante la guerra"
         },
         "Invoke (Ulric)": {
-          "name": "Invocar (Ulric)"
+          "name": "Invocar (Ulric)",
+          "description": "<p>Has sido bendecido por uno de los dioses y puedes potenciar uno de los Milagros de tu Culto.</p>\n<p>Además, puedes comprar milagros adicionales al coste de 100 PX por milagro que conoces actualmente. Así, si ya conoces 3 milagros, el siguiente te cuesta 300 PX. Las reglas completas para aprender nuevos milagros están en @UUID[JournalEntry.NcH9OhleJFfaUdon]{Religión y creencias}. En circunstancias normales no podrías aprender más que un Talento de Invocar (Saber divino). Además, no puedes aprender los Talentos @UUID[Compendium.wfrp4e-core.items.Item.mdPGZsn2396dEpOf]{Magia menor} ni @UUID[Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW]{Magia arcana} cuando tienes el Talento Invocar. Puedes borrar de tu memoria este Talento por 100 PX, pero si lo haces perderás todos los demás, y por si fuera poco te ganarás la extrema desaprobación de tu dios, los efectos de lo cual serán determinados por tu DJ.</p>"
         },
         "Read/Write": {
           "name": "Leer y escribir"
@@ -11660,10 +11852,12 @@
           "name": "Bolsa"
         },
         "Box": {
-          "name": "Caja"
+          "name": "Caja",
+          "description": "<p>Requiere una mano para llevarlo.</p>"
         },
         "Bag": {
-          "name": "Bolsa"
+          "name": "Bolsa",
+          "description": "<p>Requiere una mano para llevarlo.</p>"
         },
         "Pedlar": {
           "name": "Vendedor ambulante"
@@ -11711,7 +11905,8 @@
           "name": "Arma"
         },
         "Formless Horror": {
-          "name": "Horror informe"
+          "name": "Horror informe",
+          "description": "<p>Este Rasgo es exclusivo del Cambiante: ningún otro ser lo posee, salvo quizá el propio Tzeentch. Una vez por Asalto, el Cambiante puede transformarse instantáneamente en una copia exacta de otra criatura: una criatura típica de su especie, como se presenta en el Bestiario de <strong>WJdR</strong>, o un individuo que el Cambiante haya estudiado durante un número de horas igual al Bonificador por Inteligencia de la criatura.</p>\n<p>Al adoptar una forma, el Cambiante obtiene al instante todos los Rasgos estándar de esa criatura. Además, puede utilizar cualquiera de las puntuaciones de Atributos de la criatura objetivo en lugar de las suyas. Cuando se hace pasar por un individuo, tiene pleno acceso a todas las Habilidades del individuo, pero no a sus recuerdos.</p>"
         }
       }
     },
@@ -11849,16 +12044,21 @@
           "name": "Mando"
         },
         "Trade (Vintner)": {
-          "name": "Oficio (Vinatero)"
+          "name": "Oficio (Vinatero)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.jmFSm7UvmHEq52iu caption=false]{Oficio}"
         },
         "Craftsman (Vintner)": {
-          "name": "Artesano (Vinatero)"
+          "name": "Artesano (Vinatero)",
+          "description": "<p>Tienes un auténtico talento creativo. Suma la Habilidad de Oficio asociada a cualquier Carrera en la que entras. Si dicha Habilidad de Oficio ya está en tu Carrera, en lugar de ello puedes comprarla a razón de 5 PX menos por Avance.</p>",
+          "tests": "Oficio (Vinatero)"
         },
         "Dealmaker": {
           "name": "Negociador"
         },
         "Master Tradesman (Vintner)": {
-          "name": "Artesano maestro (Vinatero)"
+          "name": "Artesano maestro (Vinatero)",
+          "description": "<p>Eres excepcionalmente hábil en tu Oficio. Reduces en tantos puntos como tu nivel de Artesano maestro el NE requerido de cualquier Chequeo Prolongado utilizando tu Habilidad de Oficio.</p>",
+          "tests": "Cualquier Chequeo Prolongado de Oficio apropiado"
         },
         "Public Speaker": {
           "name": "Orador"
@@ -11984,7 +12184,9 @@
           "name": "Movimiento silencioso (Urbano)"
         },
         "Acute Sense (Vision)": {
-          "name": "Sentidos desarrollados (Vista)"
+          "name": "Sentidos desarrollados (Vista)",
+          "description": "<p>Uno de tus cinco sentidos principales está muy desarrollado, lo que te permite ver lo que otros no ven. Podrás llevar a cabo Chequeos de Percepción para detectar detalles normalmente imperceptibles con el sentido asociado, tal y como indique el DJ. Esto podría incluir: divisar a un águila más allá del alcance visual de todos los demás, oler un veneno casi inodoro, oír la respiración de un ratón inmóvil en el interior de una pared, reconocer una letra desgastada en un grabado o detectar que dos cervezas de una misma cervecería proceden de barriles diferentes.</p>",
+          "tests": "Percepción (Vista)"
         },
         "Alley Cat": {
           "name": "Gato callejero"
@@ -12152,7 +12354,8 @@
           "name": "Aguante"
         },
         "Entertain (Taunt)": {
-          "name": "Animar (Burla)"
+          "name": "Animar (Burla)",
+          "description": "<p>@Embed[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.hrCbYa4b2iKPgBui caption=false]{Animar}"
         },
         "Gossip": {
           "name": "Cotilleo"
