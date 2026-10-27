@@ -23,6 +23,9 @@
     "Kurt Gruber": {
       "name": "Kurt Gruber",
       "tokenName": "Kurt",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Kurt también es un tipo afable que se considera divertido y optimista: piensa que todo va a salir bien, al final. Puede resultar un poco cansino después de oírle contar sus mejores chistes, que le gusta repetir, pero tiene muchos buenos (se burla de @UUID[Actor.LBnd0qLlBx83Z1pD]{Tiasmara} con chistes de halflings).</p>",
       "items": {
         "Charm": {
           "name": "Carisma"
@@ -152,6 +155,9 @@
     "Heinrich Todbringer": {
       "name": "Heinrich Todbringer",
       "tokenName": "Heinrich",
+      "species": "Humano",
+      "status": "Oro 2",
+      "gmnotes": "<p>Heinrich es un hombre gigantesco, de 6’ 11” de estatura, con complexión poderosa, cabello castaño oscuro y ojos azul grisáceo. También resulta tan intimidante en lo intelectual como en lo físico. Es un hombre seguro de sí mismo, pero ahora está agobiado de preocupación por su padre y su hermano, y por el futuro de Middenheim. Sin embargo, su nacimiento ilegítimo le limita la capacidad de actuar sin que lo acusen de usurpación, y sirve a la ciudad mediante misiones diplomáticas. En la actualidad se encuentra fuera, pero tiene agentes en Middenheim que le informan.</p><p>Cuando espera problemas, o quiere causar impresión, Heinrich lleva una armadura completa y el mandoble mágico @UUID[Compendium.wfrp4e-pbtt.items.3FBWESdqXT0f3lh1]{Corta ratas}, que tiene la Cualidad de Impacto cuando se utiliza contra los skaven. Se dice que adquirió esta arma durante una prolongada misión diplomática en la corte de la ciudad-estado tileana de Miragliano. Fue durante su estancia ahí cuando Heinrich oyó hablar por primera vez del increíble talento de @UUID[Actor.2gjtu5TLTG8YCJmh]{Luigi Pavarotti}, al que invitó a ocupar el puesto de físico de la corte para atender a @UUID[Actor.dfVVZJ41NVDpWkNy]{Stefan}.</p><p> </p><blockquote class=\"sidebar\"><h3 style=\"text-align: center;\"><em>EL HIJO PRÓDIGO</em></h3><p><em>El Barón Heinrich es una figura impresionante y, en muchos aspectos, parece el sucesor ideal para el problemático Graf y su enfermo heredero @UUID[Actor.dfVVZJ41NVDpWkNy]{Stefan}. Sin embargo, la ley es clara: si se nombra heredero a Heinrich, ello tendría graves repercusiones políticas para los Todbringer, lo que allanaría el camino de otros pretendientes.</em></p><p><em>En este momento Heinrich, en compañía de @UUID[Compendium.wfrp4e-empire-ruins.actors.LzkGSosXU59kwBIV]{Vieiran Thugenheim}, se encuentra en Ostland en una misión diplomática algo delicada. Hace poco que Middenheim ha recibido un @UUID[Compendium.wfrp4e-empire-ruins.actors.NWkiPjoS1NuxELak]{dirigible enano}, un regalo que los enanos han llegado a lamentar dados los recientes problemas fiscales, y esto ha permitido a Heinrich ampliar el alcance de la diplomacia de su padre. Aunque el Barón Heinrich sería un aliado útil, no tiene un papel importante en esta aventura. </em></p></blockquote>",
       "items": {
         "Bundle of Diplomatic Papers": {
           "name": "Legajo de documentos diplomáticos"
@@ -293,6 +299,9 @@
     "Isolde Gudhoffen": {
       "name": "Isolde Gudhoffen",
       "tokenName": "Isolde",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<h4>La trepa</h4>\n<p>Isolde es una hermosa mujer de pelo castaño, ojos verdes y un sentido de la gracia sin esfuerzo. Es consciente del efecto que su presencia tiene en algunos, pero afecta un aire de inocencia. A menudo muestra un pequeño broche de oro que fue un regalo de Parzival, pero espera a ver si la suerte del hombre mejora antes de comprometerse con él de manera más seria.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -401,6 +410,9 @@
     "Isolde Begegnen": {
       "name": "Isolde Begegnen",
       "tokenName": "Isolde",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.orDqA8A9sQXPHycl.JournalEntryPage.VPMDCprVP2x4zSxz]{Hoja de resumen}</p><p>Isolde es la Sacerdotisa mayor de Shallya en Middenheim; tiene unos cuarenta años y es menuda. Tiene el pelo largo y ondulado de color marrón oscuro, atado para dejarle la cara despejada, y ojos marrones.</p><p>Tiene un rostro abierto y expresivo, con ojos grandes y quizás algunas arrugas más de las que cabría esperar en alguien de su edad. Viste una sencilla túnica blanca con ribetes azules. Cuando camina, transmite una sensación de calma, nunca apresurada pero siempre decidida en su camino. Es sorprendentemente fuerte y resistente, aunque eso no es inmediatamente obvio por su apariencia.</p><p>Isolde es humilde, tranquila y seria. Aparentemente no tiene sentido del humor y está totalmente comprometida con la mejora de la suerte de los que viven en desventaja. Se muestra cariñosa con las personas a las que cuida, especialmente con los niños del orfanato. Cuando está con ellos, les canta y atiende ella misma, en lugar de delegarlo en sus subordinados.</p><p>Puede ser un poco individualista, fijada en el templo y sus obras en la ciudad. En realidad, su piedad es una forma de orgullo espiritual. Se complace en la pureza de mártir de su misericordia por los demás. Incluso algunos de sus sumisos sacerdotes la encuentran un poco demasiado «santurrona» y comentan que intenta ser más perfecta que su diosa.</p><p>Isolde Begegnen es la idealista Suma Sacerdotisa de Shallya en Middenheim y sus tierras interiores. Es una apasionada protectora de los pobres y los vulnerables y una figura popular entre las clases bajas de la ciudad. Es habitual ver a la Gran Matriarca en el @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.IGQslkul8aGAIMpz]{Templo de Shallya}, en el orfanato adjunto y en los barrios bajos, donde trabaja incansablemente para ayudar a los enfermos e indigentes.</p><p>Begegnen es discreta y no le gusta la política, pero está furiosa por el impuesto a los templos. El templo de Shallya no es rico y canaliza todo el oro que recibe en buenas obras. El impuesto ha sido un duro golpe y, en lo que respecta a los sacerdotes, les quita dinero y comida a los huérfanos, los pobres y los enfermos.</p><p>Los PJs pueden querer visitar el templo para investigar la respuesta de los shallyanos al impuesto o (quizás más típico para muchos grupos) porque necesitan curación. Escuchan las quejas de los sacerdotes e iniciados a medida que llegan, y si sugieren que están trabajando activamente para derogar los impuestos, pueden obtener una audiencia con la Gran Matriarca. Ella puede ser un contacto útil, sobre todo porque tiene una relación especial con @UUID[Actor.PrkWVIr7Go4u1QWp]{Katarina Todbringer}.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -560,6 +572,9 @@
     "Konrad Alpiger": {
       "name": "Konrad Alpiger",
       "tokenName": "Konrad",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Es un humano de unos cuarenta años, de complexión fuerte, con cabello corto y negro, barba recortada y ojos grises penetrantes. Tiene un carácter tranquilo y adusto. Le gusta su trabajo, que consiste en atender las entregas y hacer la carpintería y un poco de todo. No es muy de beber, ya que no le gusta mucho la bebida. Sólo trabaja en la cantina si hay muchos parroquianos. Su mujer murió hace dos años, y esto sin duda ha contribuido a que se encierre en sí mismo.</p>",
       "items": {
         "Charm": {
           "name": "Carisma"
@@ -680,6 +695,8 @@
     "Claus Liebnitz": {
       "name": "Claus Liebnitz",
       "tokenName": "Claus",
+      "species": "Humano",
+      "gmnotes": "<p>Liebnitz es un hombre grande, algo regordete, pero también musculoso. Ha servido con @UUID[Actor.sn0zk1QV53XMipVw]{Valgeir} en la Guardia Teutógena y tiene fama de ser un guerrero feroz, pero también un político inteligente que pretende ascender gracias a la combinación del sacerdocio y la milicia. Cuando no está cumpliendo con sus deberes en el templo, entrena duro para conseguir su mayor ambición: entrar en la @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.dBIV62DP69lOoUAV#the-brotherhood-of-the-axe]{Hermandad del Hacha}, una organización de élite formada por los mejores guerreros de la @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.dBIV62DP69lOoUAV#the-teutogen-guard]{Guardia Teutógena}.</p>",
       "items": {
         "3d10 Silver Shilling": {
           "name": "3d10 Chelín de plata"
@@ -875,6 +892,9 @@
     "Dieter Schmiedehammer": {
       "name": "Dieter Schmiedehammer",
       "tokenName": "Dieter",
+      "species": "Humano",
+      "status": "Oro 3",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.bE97ed2o2cGLUing]{Hoja de resumen}</p><p>Dieter Schmiedehammer es el campeón del @UUID[Actor.czIY275tUC4VGDWp]{Graf Boris}. Los nobles de Middenheim solían tener campeones para evitarles la indignidad del juicio por combate. Pero hoy en día un campeón es un mero símbolo de estatus que se espera que los nobles mantengan, por lo que la posición es en gran medida un cargo honorífico. Dieter, el actual campeón, es un hombre abierto y amable de unos 30 años, alto y musculoso. Tiene el pelo castaño, los ojos de un verde azulado y la nariz rota. Dieter es espabilado para ser un guerrero, y tiene buena disposición hacia todos los aspirantes dignos. Es caballeroso, tiene buenos modales y es sorprendentemente cortés (excepto cuando está ligeramente borracho, y nunca se emborracha más que ligeramente). Es escrupulosamente honesto y nunca actúa de manera hipócrita. Raro en el Viejo Mundo, Dieter es un ser humano verdaderamente decente.</p><blockquote class=\"sidebar\"><h3 style=\"text-align: center;\"><em>UN CAMPEÓN LUCHADOR</em></h3><p><em>Dieter es un consumado duelista y el DJ debería tomarse su tiempo para familiarizarse con los efectos de sus muchos Talentos, especialmente si alguien del grupo decide desafiarlo por el puesto de @UUID[JournalEntry.qnddoqf7stZdPo0E.JournalEntryPage.KpqRowmWBtz2W6GI#challenges-to-the-graf-s-champion-(wellentag-backertag,-11-a.m.–]{Campeón del Graf}.</em></p></blockquote>",
       "items": {
         "Ready access to a small arsenal of arms of which his signature weapon is a fine quality Zweihander": {
           "name": "Acceso a un pequeño arsenal de armas, de las cuales su principal es una zweihänder de alta calidad"
@@ -1061,6 +1081,9 @@
     "Thunder": {
       "name": "Trueno",
       "tokenName": "Trueno",
+      "species": "Caballo",
+      "notes": "<section id=\"secret-ZkEaVGwbo7OoTeAK\" class=\"secret\"><p>Estos feroces caballos de guerra tratan de patear a cualquiera que se acerque, a excepción de @UUID[Actor.GPmecH5STMzLNLc8]{Falco} y @UUID[Actor.lYEKyCpaihHON6Gz]{Wasmeier}.</p></section>",
+      "description": "<section id=\"secret-ZkEaVGwbo7OoTeAK\" class=\"secret\"><p>Estos feroces caballos de guerra tratan de patear a cualquiera que se acerque, a excepción de @UUID[Actor.GPmecH5STMzLNLc8]{Falco} y @UUID[Actor.lYEKyCpaihHON6Gz]{Wasmeier}.</p></section>",
       "items": {
         "Bestial": {
           "name": "Bestial"
@@ -1094,6 +1117,9 @@
     "Reiner Ehrlich": {
       "name": "Reiner Ehrlich",
       "tokenName": "Reiner",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.seoqMOoXusLrB77M]{Hoja de resumen}</p><p>Reiner es un hombre de unos cuarenta años, de complexión delgada y estatura media. El poco pelo que le queda es castaño y sus ojos son de color avellana. Tranquilo y discreto, Reiner hace todo lo posible para que no se redacten leyes que puedan producir un inevitable deterioro de las condiciones de los pobres o desfavorecidos. Es propenso a sufrir graves depresiones. Le encantan los animales y tiene muchos en su casa.</p>",
       "items": {
         "Bribery": {
           "name": "Sobornar"
@@ -1256,6 +1282,9 @@
     "Luigi Pavarotti": {
       "name": "Luigi Pavarotti",
       "tokenName": "Luigi",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.pmOhvHfLonYbwHN9]{Hoja de resumen}</p><p>Luigi Pavarotti está contratado para cuidar al inválido barón @UUID[Actor.dfVVZJ41NVDpWkNy]{Stefan Todbringer}. Recién llegado a Middenheim, vive en el @UUID[Scene.sM08FHbv8ah59TM0]{Palacio interior}, cerca de las habitaciones de Stefan, pero también disfruta de la vida nocturna de la ciudad. Se le puede encontrar en algún mercado (especialmente uno que venda comida y bebida), en una zona bulliciosa, o cantando en alguna taberna. Luigi es un personaje extravagante, alto y de complexión pesada, pero con una buena cantidad de músculos debajo de la grasa. Su rostro está enmarcado por una melena salvaje de pelo negro rizado y una barba descuidada. Grita más que habla, gesticula salvajemente y parece medio enloquecido. Luigi tiene una enorme energía, grandes apetitos y hace todo en exceso, pero básicamente es un individuo de buen corazón. Se viste con atuendos escandalosos, y come y bebe prodigiosamente. Coquetea con cualquier PJ amistoso que encuentra, ya sea sutilmente o no demasiado, según la estimación que tenga de la persona en cuestión. Es originario de Miragliano, en las Ciudades Estado de Tilea y, a menudo, se pone a cantar fragmentos de ópera miragliana. Luigi no es ni la mitad de descontrolado de lo que parece y simplemente aparenta pasar por alto cosas que realmente ha visto. Sólo se muestra serio cuando es absolutamente necesario.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -1457,6 +1486,9 @@
     "Kirsten Jung": {
       "name": "Kirsten Jung",
       "tokenName": "Kirsten",
+      "species": "Humano",
+      "status": "Plata 4",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.ClmMNlSphPvcNVTy]{Hoja de resumen}</p><p>Kirsten es una importante emisaria con antecedentes mercantiles. Kirsten tiene unos veinticinco años, es de estatura y complexión media, con pelo rubio ceniza y ojos azul oscuro. Es una mujer sabia e ingeniosa, reservada, intuitiva y con buen juicio de las personas. Recientemente, se ha comprometido con el Campeón del Graf, @UUID[Actor.1UPIDtrSuQv4zUVg]{Dieter Schmiedehammer}. Fuera de las funciones de la Corte, prefiere ropa sencilla y de buen gusto clásico.</p>",
       "items": {
         "Animal Care": {
           "name": "Criar animales"
@@ -1601,6 +1633,7 @@
     "Minotaur Pit Fighter": {
       "name": "Minotauro guerrero de foso",
       "tokenName": "Minotauro",
+      "species": "Minotauro",
       "items": {
         "Belligerent": {
           "name": "Beligerante"
@@ -1637,6 +1670,9 @@
     "Gotthard Wallenstein": {
       "name": "Gotthard Wallenstein",
       "tokenName": "Gotthard",
+      "species": "Humano",
+      "status": "Plata 5",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.fiU6y4WpUEaScjWD]{Hoja de resumen}</p><p>Gotthard Wallenstein preside tanto la @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.rCpAPw22cl9dsEnl]{Komission de Comercio, Oficios e Impuestos} como el Consejo de Administración del @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.xBB5HI6Ojii4cW2s]{Gremio de Mercaderes}. Es un logro notable para alguien que es relativamente nuevo en Middenheim. Su verdadera identidad es Gotthard von Wittgenstein, el único miembro superviviente de una familia corrupta de la nobleza de Reikland, y muy involucrado con la @UUID[JournalEntry.gX4TCKy0TPwS68ba]{secta de Slaanesh, el Cetro de Jade}. Consiguió adquirir sus importantes cargos públicos gracias al patrocinio de la magus de la secta, la difunta esposa del Graf, Anika-Elise Nikse. Gotthard es un maestro del disfraz. En sus funciones oficiales, viste ropas ricas y se tiñe el pelo y la barba de rojo. En Middenheim, lleva el pelo negro grisáceo salpicado de plata y la barba recortada de color marrón oscuro, y viste de forma bastante desaliñada con colores azules y grises. Sus ojos son marrones. Como von Wittgenstein, es rubio y de ojos azules, bien afeitado y parece tener unos veinte años. Si se le aborda, casi siempre dirá que es otra persona y sugerirá que se trata de una equivocación. Gotthard es lascivo, avaricioso, adulador con los que cree que puede beneficiarse, pero grosero con todos los demás. También es astuto, ya que se ha mantenido un paso por delante de los espías de Middenheim.</p>",
       "items": {
         "Ginger Fig": {
           "name": "Higo de jengibre"
@@ -1832,6 +1868,9 @@
     "Swelt Tunger": {
       "name": "Swelt Tunger",
       "tokenName": "Swelt",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>A pesar de su sobrepeso, Swelt conserva la mayoría de sus habilidades de ladrón, excepto la de meterse en lugares estrechos. Si su perro mascota, @UUID[Actor.K2hVEs8D1LajfuMg]{Gruñidor}, sufre algún daño, se enfadará muchísimo. Swelt nunca lleva armadura y prefiere su cuchillo de carnicero como arma.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -1946,6 +1985,9 @@
     "Lightning": {
       "name": "Relámpago",
       "tokenName": "Relámpago",
+      "species": "Caballo",
+      "notes": "<section id=\"secret-XWWyN24iIbLQ8kLn\" class=\"secret\"><p>Estos feroces caballos de guerra tratan de patear a cualquiera que se acerque, a excepción de @UUID[Actor.GPmecH5STMzLNLc8]{Falco} y @UUID[Actor.lYEKyCpaihHON6Gz]{Wasmeier}.</p></section>",
+      "description": "<section id=\"secret-XWWyN24iIbLQ8kLn\" class=\"secret\"><p>Estos feroces caballos de guerra tratan de patear a cualquiera que se acerque, a excepción de @UUID[Actor.GPmecH5STMzLNLc8]{Falco} y @UUID[Actor.lYEKyCpaihHON6Gz]{Wasmeier}.</p></section>",
       "items": {
         "Bestial": {
           "name": "Bestial"
@@ -1979,6 +2021,9 @@
     "Siegfried Prunkvoll": {
       "name": "Siegfried Prunkvoll",
       "tokenName": "Siegfried",
+      "species": "Humano",
+      "status": "Oro 2",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.QXZIVlkzph8oTqRo]{Hoja de resumen}</p><p>Siegfried Prunkvoll es el actual Caballero Eterno, guardián ceremonial de Middenheim. Va a todas partes con su armadura completa mágica, y fuera de los círculos de la corte poca gente sabe qué aspecto tiene. Mide 6 pies, es de complexión media, con el pelo castaño, un gran bigote y ojos gris oscuro. Asiste a todas las ceremonias de la Corte y del Estado que requiere su cargo, pero rara vez se le ve en otras ocasiones. Siegfried es pomposo, pretencioso, y la persona más aburrida imaginable. También es un machista atroz e increíblemente condescendiente (aunque galante) con cualquier mujer que encuentra. Tiene un gran amor por la heráldica, las justas, y la historia militar, y en realidad sabe mucho de estos temas. Está encantado de dar charlas a cualquiera sobre su escudo de armas: lo lleva grabado en todas sus posesiones (incluso, se dice, en la ropa interior). Pobre del ingenuo que le dé conversación sobre una de sus obsesiones. </p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -2162,6 +2207,9 @@
     "Natasha Sinnlich": {
       "name": "Natasha Sinnlich",
       "tokenName": "Natasha",
+      "species": "Humano",
+      "status": "Plata 4",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.ClmMNlSphPvcNVTy]{Hoja de resumen}</p><p>Natasha es una cortesana consumada y ambiciosa. Mide casi 6’, tiene el pelo rubio platino y los ojos azules como el hielo. Es una belleza glacial, que prefiere el negro, el azul profundo y el plateado en su ropa, lo que realza su melena rubia platino. Muy formal y correcta en su comportamiento, Natasha es una mujer amoral que adora el poder, y para ella el dinero es importante sólo como fuente de control. Desearía tener más influencia en la Corte, y rara vez sale del palacio. </p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -2303,6 +2351,10 @@
     "Erina Eberhauer": {
       "name": "Erina Eberhauer",
       "tokenName": "Erina",
+      "species": "Humano",
+      "motivation": "Excelencia",
+      "notes": "<h3>PERSONALIDAD Y APARIENCIA</h3><p><em> «Soy seguidora de Ulric hasta la médula, pero mi estancia en la capital me ha convencido de que nuestra disputa con nuestros vecinos del sur nos pone a todos en peligro. Nos peleamos entre nosotros por trivialidades mientras el mundo amenaza con derrumbarse a nuestro alrededor».</em></p><p>Erina es una joven vivaz y ambiciosa que está dispuesta a dejar su huella como hechicera. Es de estatura media y de complexión atlética, con el aspecto familiar de pelo castaño y una pizca de pecas. Seria y estudiosa, Erina es una consumada piromante, ya que domina los fundamentos del Saber del Fuego desde muy joven. Aunque no es una persona colérica por naturaleza, el uso del Aqshy hace que Erina se vuelva cada vez más impaciente y competitiva.</p><h3>TRASFONDO</h3><p>Los Eberhauer son una especie de familia mágica y Erina tiene varios tíos, tías y primos que han pasado por uno u otro colegio de magia. Gracias a sus contactos y a su claro talento, fue aprendiz en el Colegio Brillante de Altdorf. La familia tiene una pequeña finca en Hochland y se consideran norteños y ulricanos. Erina fue aprendiz en los colegios de Altdorf, mientras que su hermana mayor, Janna, se formó en el @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.m0gDOo9sztuTymsb]{Gran Gremio de Hechiceros de Middenheim}, llegando a ocupar el puesto de Ayudante del Gran Hechicero. Mientras que Erina aprecia a su hermana, le preocupa estar siempre a la sombra de Janna.</p><h3>SECRETOS</h3><p>Comienza con [[/r 3d10]] chelines de plata adicionales por cada secreto elegido.</p><ul><li><p>Erina está desesperada por probarse a sí misma y se ve empujada a una vida de aventuras. Busca enfrentarse a las amenazas de una manera que las cabezas más frías consideran temeraria.</p></li><li><p>Erina puede considerar a @UUID[Actor.ZVVaOEUN9ArYrYnM]{Janna} como su mayor competidora, pero la quiere y no duda en defenderla de cualquier crítica o ataque.</p></li><li><p>Erina se ve a sí misma como una dama del mundo, familiarizada con el Culto de Ulric y sus raíces norteñas, pero con muchos amigos y mentores en Altdorf. Se ve a sí misma como una influencia moderadora entre el fanatismo sigmarita y el fanatismo ulricano.</p></li><li><p>Erina, habiendo visto con sus propios ojos pruebas de la actividad de los skaven, está consternada de que la gente sea tan estúpida como para ignorar esta amenaza. Obtiene el Rasgo psicológico @UUID[Compendium.wfrp4e-core.items.klCJX0mNpXYH5AIx]{Prejuicio (negacionistas de los skaven)}.</p></li></ul>",
+      "description": "<h3>PERSONALIDAD Y APARIENCIA</h3><p><em> «Soy seguidora de Ulric hasta la médula, pero mi estancia en la capital me ha convencido de que nuestra disputa con nuestros vecinos del sur nos pone a todos en peligro. Nos peleamos entre nosotros por trivialidades mientras el mundo amenaza con derrumbarse a nuestro alrededor».</em></p><p>Erina es una joven vivaz y ambiciosa que está dispuesta a dejar su huella como hechicera. Es de estatura media y de complexión atlética, con el aspecto familiar de pelo castaño y una pizca de pecas. Seria y estudiosa, Erina es una consumada piromante, ya que domina los fundamentos del Saber del Fuego desde muy joven. Aunque no es una persona colérica por naturaleza, el uso del Aqshy hace que Erina se vuelva cada vez más impaciente y competitiva.</p><h3>TRASFONDO</h3><p>Los Eberhauer son una especie de familia mágica y Erina tiene varios tíos, tías y primos que han pasado por uno u otro colegio de magia. Gracias a sus contactos y a su claro talento, fue aprendiz en el Colegio Brillante de Altdorf. La familia tiene una pequeña finca en Hochland y se consideran norteños y ulricanos. Erina fue aprendiz en los colegios de Altdorf, mientras que su hermana mayor, Janna, se formó en el @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.m0gDOo9sztuTymsb]{Gran Gremio de Hechiceros de Middenheim}, llegando a ocupar el puesto de Ayudante del Gran Hechicero. Mientras que Erina aprecia a su hermana, le preocupa estar siempre a la sombra de Janna.</p><h3>SECRETOS</h3><p>Comienza con [[/r 3d10]] chelines de plata adicionales por cada secreto elegido.</p><ul><li><p>Erina está desesperada por probarse a sí misma y se ve empujada a una vida de aventuras. Busca enfrentarse a las amenazas de una manera que las cabezas más frías consideran temeraria.</p></li><li><p>Erina puede considerar a @UUID[Actor.ZVVaOEUN9ArYrYnM]{Janna} como su mayor competidora, pero la quiere y no duda en defenderla de cualquier crítica o ataque.</p></li><li><p>Erina se ve a sí misma como una dama del mundo, familiarizada con el Culto de Ulric y sus raíces norteñas, pero con muchos amigos y mentores en Altdorf. Se ve a sí misma como una influencia moderadora entre el fanatismo sigmarita y el fanatismo ulricano.</p></li><li><p>Erina, habiendo visto con sus propios ojos pruebas de la actividad de los skaven, está consternada de que la gente sea tan estúpida como para ignorar esta amenaza. Obtiene el Rasgo psicológico @UUID[Compendium.wfrp4e-core.items.klCJX0mNpXYH5AIx]{Prejuicio (negacionistas de los skaven)}.</p></li></ul>",
       "items": {
         "5d10 Silver Shilling": {
           "name": "5d10 Chelín de plata"
@@ -2501,6 +2553,9 @@
     "Edel Mueller": {
       "name": "Edel Mueller",
       "tokenName": "Edel",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.orDqA8A9sQXPHycl.JournalEntryPage.TojiQMGUEjhgQhfK]{Hoja de resumen}</p><p>Edel Mueller es la líder del Culto de Verena en Middenheim, atendiendo a aquellos ciudadanos que adoran a la Diosa de la sabiduría. Trabaja desde el templo, pero a menudo está fuera tratando asuntos religiosos con las autoridades legales, educativas y mágicas de la ciudad.</p><p>Como clériga importante con una conexión con el @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.kWRpev3g5D6QqxYA]{Gremio de Juristas}, el grupo puede estar interesado en conocerla para saber su papel en la introducción de los impuestos. Está conectada con los @UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.seoqMOoXusLrB77M]{Señores de la Ley}, ya que se espera que presenten sus respetos a Verena en su calidad de Diosa de la Justicia. </p><p>Edel es uno de los PNJs más cínicos de las altas esferas de Middenheim. Tiene una visión pesimista del gobierno de la ciudad y siempre supone las peores intenciones de los demás. Se opone firmemente a los impuestos, pero da pocos pasos positivos hacia su derogación, ya que cree que los poderosos harán lo que quieran con pocas consecuencias. Sin embargo, Edel prestará apoyo al grupo si trabajan contra los impuestos, aunque sospeche que fracasarán. Está bien conectada y puede proporcionar contacto con varios PNJs clave.</p><p>En lugar de esperar a que el grupo muestre interés en el tema de los impuestos, puedes usar el Culto de Verena como un potencial «gancho» para involucrar a los PJs en la aventura. Un iniciado de Verena puede abordar a cualquier Académico, Abogado o PJ vagamente intelectual en la calle y ponerle en la mano un panfleto impreso. Explica seriamente que los impuestos son doblemente injustos para el @UUID[Compendium.wfrp4e-core.journals.NcH9OhleJFfaUdon.JournalEntryPage.9bWE0Ayt5XGQf50r]{Culto de Verena}, ya que afectan al templo y a los hechiceros que suelen congregarse allí. Si pueden ayudar a la causa, potencialmente pueden tener libre acceso a la extensa biblioteca del culto. Cualquier expresión de interés obtiene una audiencia con Mueller, una conferencia sarcástica sobre la inutilidad, y su apoyo tácito.</p><p>Edel, la sacerdotisa de Verena más veterana en Middenheim, tiene unos cuarenta años, es más alta que la media y de complexión delgada. Tiene una larga melena negra que suele llevar en dos largas trenzas. Sus ojos son de color marrón oscuro.</p><p>Edel Mueller fue educada en la fe vereniana y nunca dudó de que se convertiría en sacerdotisa. Tanto ella como su hermana dejaron Middenheim para asistir a la @UUID[Compendium.wfrp4e-altdorf.journals.EmhvOkkzAir6pzCB.JournalEntryPage.OiAVm63T9JEFsVfR]{Universidad de Altdorf} antes de volver a ocupar puestos en la ciudad y en @UUID[Compendium.wfrp4e-salzenmund.journals.b2odPrxVAmUf46Sz]{Salzenmund}, donde su hermana es ahora la Suma Sacerdotisa. Las dos están muy unidas, pero con cierta rivalidad de fondo.</p><p>Mueller siempre parece un poco amargada o decepcionada con el mundo que la rodea. Puede esbozar una sonrisa irónica o una ocurrencia sarcástica, pero el carisma no es su fuerte, y la gente tiende a suponer que prefiere estar escondida en su estudio leyendo... lo que es totalmente cierto. Pero no está amargada y hay destellos de humor y simpatía cuando alguien comparte sus intereses o preocupaciones.</p><p>A lo largo de los años, la inteligencia de Mueller le ha dado una desconfianza del poder y un fatalismo que puede ir en contra de su fe. Durante muchos años fue una Portadora de la Balanza, la escuela de pensamiento dentro del culto que prioriza la justicia sobre el aprendizaje. Pero a medida que se fue volviendo más hastiada, su posición se acercó más a los Guardianes del saber, que creen que la salvación viene del conocimiento. Este cambio de personalidad se ha manifestado como una compulsión por coleccionar libros, particularmente tomos raros. Sus aposentos en el templo están repletos de cientos de folios, pergaminos y códices, en montones que amenazan con derrumbarse. Guarda sus libros más raros o prohibidos en una antecámara cerrada.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -2663,6 +2718,9 @@
     "Glugnur": {
       "name": "Glugnur",
       "tokenName": "Glugnur",
+      "species": "Enano",
+      "status": "Bronce 2",
+      "gmnotes": "<p>Más alto que la media y con una complexión musculosa, incluso para un enano, Glugnur está muy nervioso. Acaba de tomar una dosis de @UUID[Compendium.wfrp4e-core.items.jTFOrokjEHbi12rT]{Delicia de Ranald}, un poderoso estimulante obtenido en @UUID[JournalEntry.yXOEsyeWgRgbeVmc.JournalEntryPage.mP9asHcDgqgPdXUY]{El Hoyo}. A Glugnur le quedan tres dosis.</p>",
       "items": {
         "Consume Alcohol": {
           "name": "Consumir alcohol"
@@ -2810,6 +2868,9 @@
     "Doppelgänger": {
       "name": "Doppelgänger",
       "tokenName": "Doppelgänger",
+      "species": "Doppelgänger",
+      "notes": "<section id=\"secret-yO8gGm0KC2CSrI2U\" class=\"secret\"><p>Entre las muchas extrañas criaturas engendradas por las Incursiones del Caos, los doppelgängers son quizás las más extrañas. Estas criaturas solitarias tienen la capacidad de cambiar su forma a la de cualquier criatura humanoide de entre 4 y 8 pies de altura, incluyendo la ropa y accesorios. Para ello, sólo necesitan observar a su víctima elegida durante 1 Asalto; la transformación en sí misma no tarda más que un Asalto en completarse. Una vez que han adoptado la identidad de un PJ, estas repugnantes criaturas acostumbran a asesinar y a comerse a sus víctimas, y luego ocupar su lugar. El doppelgänger puede reproducir el habla y los gestos de su víctima con un 90% de precisión. No puede replicar aptitudes especiales, mágicas o específicas de la especie, como la Resistencia a la magia de los enanos.</p>\n<p>Los doppelgängers parecen ser incapaces de reproducirse por sí mismos. Por lo tanto, deben ser creados puramente por las fuerzas del Caos. Son muy raros, y, a menos que sean atrapados en el proceso de transformación de su apariencia, son casi imposibles de identificar por otros medios que no sean mágicos. </p>\n<p><strong>Forma física</strong>: la forma «natural» de un doppelgänger es realmente espantosa. Son criaturas bípedas, humanoides, con una altura media de 6 pies. Parecen no tener piel, por lo que sus músculos, arterias y algunos órganos internos son claramente visibles.</p></section>",
+      "description": "<section id=\"secret-yO8gGm0KC2CSrI2U\" class=\"secret\"><p>Entre las muchas extrañas criaturas engendradas por las Incursiones del Caos, los doppelgängers son quizás las más extrañas. Estas criaturas solitarias tienen la capacidad de cambiar su forma a la de cualquier criatura humanoide de entre 4 y 8 pies de altura, incluyendo la ropa y accesorios. Para ello, sólo necesitan observar a su víctima elegida durante 1 Asalto; la transformación en sí misma no tarda más que un Asalto en completarse. Una vez que han adoptado la identidad de un PJ, estas repugnantes criaturas acostumbran a asesinar y a comerse a sus víctimas, y luego ocupar su lugar. El doppelgänger puede reproducir el habla y los gestos de su víctima con un 90% de precisión. No puede replicar aptitudes especiales, mágicas o específicas de la especie, como la Resistencia a la magia de los enanos.</p>\n<p>Los doppelgängers parecen ser incapaces de reproducirse por sí mismos. Por lo tanto, deben ser creados puramente por las fuerzas del Caos. Son muy raros, y, a menos que sean atrapados en el proceso de transformación de su apariencia, son casi imposibles de identificar por otros medios que no sean mágicos. </p>\n<p><strong>Forma física</strong>: la forma «natural» de un doppelgänger es realmente espantosa. Son criaturas bípedas, humanoides, con una altura media de 6 pies. Parecen no tener piel, por lo que sus músculos, arterias y algunos órganos internos son claramente visibles.</p></section>",
       "items": {
         "Immunity to Psychology": {
           "name": "Inmunidad a la Psicología"
@@ -2834,6 +2895,9 @@
     "Marie-Astrid Platini": {
       "name": "Marie-Astrid Platini",
       "tokenName": "Marie-Astrid",
+      "species": "Humano",
+      "status": "Bronce 1",
+      "gmnotes": "<p>De pelo negro, complexión delgada y tez oscura, Marie-Astrid procede de la región de Bordeleaux, en Bretonia, y habla reiklandés con fuerte acento. Por algún motivo está enamorada de Bruno, pero eso no le impide coquetear con cualquier cliente guapo que pase por allí.</p>",
       "items": {
         "Gold Bracelet": {
           "name": "Pulsera de oro"
@@ -2954,6 +3018,9 @@
     "Lurk": {
       "name": "Lurk",
       "tokenName": "Lurk",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Alto y corpulento, Lurk fue reclutado por @UUID[Actor.lYEKyCpaihHON6Gz]{Wasmeier} en un ring de lucha hace varios años. A pesar de tener el intelecto de un niño, Lurk es un guerrero formidable. Está orgulloso de ser el guardaespaldas de un hombre tan importante, pero le decepciona que nunca se le permita vigilar a su amo en público. Aun así, está decidido a mantener a salvo el tesoro de Wasmeier, asegurándose de que todo arda si la casa es atacada.</p>",
       "items": {
         "In-fighter": {
           "name": "Combate cercano"
@@ -3092,6 +3159,9 @@
     "Yellow Fang Cultist (Enhanced)": {
       "name": "Sectario del Colmillo Amarillo (mejorado)",
       "tokenName": "Sectario",
+      "species": "Humano",
+      "notes": "<section id=\"secret-yU5rWgdSqbXvDk1C\" class=\"secret\"><p>El siguiente perfil representa a los guardias y sectarios del Colmillo Amarillo. El <strong>Compendio de la Rata Cornuda</strong> contiene @UUID[Compendium.wfrp4e-horned-rat.journals.VQnLCPCECyNBqnOL]{más información} sobre la secta del Colmillo Amarillo y las reglas para crear sectarios con más detalle. </p></section>",
+      "description": "<section id=\"secret-yU5rWgdSqbXvDk1C\" class=\"secret\"><p>El siguiente perfil representa a los guardias y sectarios del Colmillo Amarillo. El <strong>Compendio de la Rata Cornuda</strong> contiene @UUID[Compendium.wfrp4e-horned-rat.journals.VQnLCPCECyNBqnOL]{más información} sobre la secta del Colmillo Amarillo y las reglas para crear sectarios con más detalle. </p></section>",
       "items": {
         "1d10 shillings in mixed coins": {
           "name": "1d10 chelines en monedas diversas"
@@ -3152,6 +3222,9 @@
     "Alfric ‘Half-Nose’ Anvilbreaker": {
       "name": "Alfric «Media-nariz» Rompeyunques",
       "tokenName": "Alfric",
+      "species": "Enano",
+      "status": "Plata 2",
+      "gmnotes": "<p>@UUID[JournalEntry.orDqA8A9sQXPHycl.JournalEntryPage.nZLbOlKSuIssufXY]{Hoja de resumen}</p><blockquote><p>Se oyó un sonido procedente de uno de los reservados del fondo extremo de la sala. Nadie miró hacia allí, así que supe que era lo que buscaba y me deslicé hacia ella. El gran bulto de Alfric se apretujaba allí, con uno de sus secuaces y un humano gordo con una túnica opulenta sentado enfrente. La mesa estaba cubierta de jarras vacías del lado de los enanos, y monedas de oro. Alfric levantó la vista. Su barba era más gris de lo que recordaba y las cicatrices alrededor de su arruinada nariz eran de un rojo encendido: una señal segura de que había estado bebiendo mucho. Pero sería imprudente por mi parte suponer que estaba borracho, o desatento.</p><p>«Buenas noches, hermano», dijo. «Siéntate. ¿Cómo puedo ser de utilidad para el Templo de Morr esta noche?»</p><p style=\"text-align: right\"><em>— Hammers of Ulric, por Dan Abnett y James Wallis</em></p></blockquote><blockquote class=\"sidebar\"><p><em>Alfric, otro personaje de la novela Hammers of Ulric, es un chantajista y agente de información, pero sus servicios no están exentos de costes o riesgos.</em></p></blockquote><h3>El Poder tras el Trono</h3><p>Las intrigas y operaciones del submundo criminal de Middenheim son de poco interés para su población enana. Honorables tradicionalistas en su mayoría, no tienen interés en manchar su reputación involucrándose en algún tipo de actividad criminal. Pocos enanos caerían tan bajo como para trabajar para bandas organizadas de criminales humanos, y ser descubiertos en tal situación supondría tal vergüenza que muchos buscarían una muerte honorable como Matadores.</p><p>Sin embargo, Alfric es una de las pocas excepciones. Este enano canoso que parece más viejo de lo que es (y no es un jovenzuelo en absoluto) ha ofrecido sus servicios a los @UUID[Compendium.wfrp4e-middenheim.journals.Liw9HcyJnHbLZevz]{Reyes de los Bajos} de Middenheim durante más tiempo que una generación humana. Por lo general, la comunidad enana de Middenheim rechaza a Alfric, considerándole una desgracia para su familia y su clan. Sin embargo, un pequeño grupo de enanos menos honorables lo buscan y le proporcionan información, y el hecho de que conserve este tenue vínculo con la comunidad enana lo convierte en un activo valioso como perista y comerciante de información sensible. </p><p>Alfric perdió gran parte de la nariz. Nadie sabe cómo y el episodio debe haber ocurrido en su juventud, ya que luce este aspecto desde que alguien en Middenheim puede recordar. Es un miembro de la familia Rompeyunques, y finge un grado de sentimiento hacia sus parientes de sangre (sólo para que la gente se confíe un poco, en realidad es demasiado cínico para que eso le interese). Tiene una barba negra salpicada de vetas grises y sus ojos oscuros brillan como piedras mojadas. No es una compañía agradable, y da mucha importancia a su identidad de persona amargada e insultante, que no pertenece a ninguna parte.</p><h3>Middenheim: La Ciudad del Lobo Blanco</h3><p>Como sugiere su nombre, Alfric perdió gran parte de la nariz. Nadie sabe con certeza cómo llegó a quedar tan desfigurado, y Alfric no lo cuenta. Uno de los principales chantajistas e informantes de la ciudad, Alfric cultiva con cuidado el favor de los @UUID[Compendium.wfrp4e-middenheim.journals.Liw9HcyJnHbLZevz]{Reyes de los Bajos} locales, proporcionando información gratuita a los agentes tanto de @UUID[Compendium.wfrp4e-middenheim.journals.Liw9HcyJnHbLZevz.JournalEntryPage.hKL3Ash15v1YuorN]{Bleyden, el más bajo de los Reyes} como de @UUID[Compendium.wfrp4e-middenheim.journals.Liw9HcyJnHbLZevz.JournalEntryPage.hPDxL1zqTubGKiVH]{Edam Gouda}.</p><p>Si considera que los PJs que le visitan tienen historias interesantes, opera con un trato de toma y daca. De lo contrario, vende información por entre uno y diez chelines, dependiendo de lo jugosa que la considere. Puede transmitir cualquier cosa que se sepa en la comunidad criminal.</p><p>Alfric tiene tratos con otro agente de información conocido sólo como Josef, y se asegura de que ninguno de los dos monopolice el mercado. Alfric comercia con rumores sobre los bajos fondos de Middenheim, mientras que Josef se especializa en cotilleos de la alta sociedad. Alfric puede corroborar una historia que Josef haya vendido, pero sólo si a Josef ya se le ha pagado por ella. Josef no tiene domicilio fijo, pero Alfric sabe cómo encontrarlo, por un precio.</p>",
       "items": {
         "Sharp Ears": {
           "name": "Orejas agudas"
@@ -3302,6 +3375,7 @@
     "Lesser Daemon Of Tzeentch": {
       "name": "Demonio menor de Tzeentch",
       "tokenName": "Demonio",
+      "species": "Demonio",
       "items": {
         "Channelling (Tzeentch)": {
           "name": "Canalización (Tzeentch)"
@@ -3362,6 +3436,9 @@
     "Yellow Fang Cultist": {
       "name": "Sectario del Colmillo Amarillo",
       "tokenName": "Sectario",
+      "species": "Humano",
+      "notes": "<section id=\"secret-yU5rWgdSqbXvDk1C\" class=\"secret\"><p>El siguiente perfil representa a los guardias y sectarios del Colmillo Amarillo. El <strong>Compendio de la Rata Cornuda</strong> contiene @UUID[Compendium.wfrp4e-horned-rat.journals.VQnLCPCECyNBqnOL]{más información} sobre la secta del Colmillo Amarillo y las reglas para crear sectarios con más detalle. </p></section>",
+      "description": "<section id=\"secret-yU5rWgdSqbXvDk1C\" class=\"secret\"><p>El siguiente perfil representa a los guardias y sectarios del Colmillo Amarillo. El <strong>Compendio de la Rata Cornuda</strong> contiene @UUID[Compendium.wfrp4e-horned-rat.journals.VQnLCPCECyNBqnOL]{más información} sobre la secta del Colmillo Amarillo y las reglas para crear sectarios con más detalle. </p></section>",
       "items": {
         "1d10 shillings in mixed coins": {
           "name": "1d10 chelines en monedas diversas"
@@ -3476,6 +3553,9 @@
     "Renata Hoeflehner": {
       "name": "Renata Hoeflehner",
       "tokenName": "Renata",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Renata tiene veintitantos años, es de complexión menuda, cabello rubio ceniza y ojos azul verdosos. Es eficiente e inteligente, y aunque le gusta intercambiar alegremente chanzas con la gente en la cantina, no se anda con tonterías. En esencia, es simpática pero prudente y siente debilidad por @UUID[Actor.sXAWtX6OhNOpMuQc]{Uli}. Le gustan las luces brillantes, y considerará un caballero a cualquier PJ agradable que se ofrezca a llevarla a un lugar elegante por la noche, ¡pero más le vale que se comporte como tal!</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -3599,6 +3679,9 @@
     "Flying Death Skull": {
       "name": "Cráneo de la muerte",
       "tokenName": "Cráneo de la muerte",
+      "species": "???",
+      "notes": "<section id=\"secret-1KVgx6lxH4ZFoFPb\" class=\"secret\"><p>Los cráneos varían en apariencia: algunos son bestiales, otros están simplemente distorsionados, y unos pocos parecen totalmente humanos. No tienen inteligencia innata, pero pueden utilizarse para cumplir las órdenes de un hechicero que los controle. </p></section>",
+      "description": "<section id=\"secret-1KVgx6lxH4ZFoFPb\" class=\"secret\"><p>Los cráneos varían en apariencia: algunos son bestiales, otros están simplemente distorsionados, y unos pocos parecen totalmente humanos. No tienen inteligencia innata, pero pueden utilizarse para cumplir las órdenes de un hechicero que los controle. </p></section>",
       "items": {
         "Construct": {
           "name": "Constructo"
@@ -3641,6 +3724,10 @@
     "Purple Hand Cultist": {
       "name": "Sectario de la Mano Púrpura",
       "tokenName": "Sectario de la Mano Púrpura",
+      "species": "Varias",
+      "status": "7",
+      "notes": "<section id=\"secret-9xJJPogP8m0GciDH\" class=\"secret\"><p>Todos los adoradores llevan alguna prenda de color morado y un tatuaje de una mano púrpura escondida bajo la ropa (ver @UUID[JournalEntry.HxC5snuKA2z7PACe.JournalEntryPage.CfKue0hUolJnklbH#the-height-of-fashion]{El último grito de la moda} para sugerencias). Cuatro (los de delante del grupo) llevan ballestas cargadas y garrotes o hachas colgando del cinturón; de los otros tres, dos llevan hachas y uno un garrote y una red de espino preparada para el magister errante. Ninguno lleva armadura.</p></section>",
+      "description": "<section id=\"secret-9xJJPogP8m0GciDH\" class=\"secret\"><p>Todos los adoradores llevan alguna prenda de color morado y un tatuaje de una mano púrpura escondida bajo la ropa (ver @UUID[JournalEntry.HxC5snuKA2z7PACe.JournalEntryPage.CfKue0hUolJnklbH#the-height-of-fashion]{El último grito de la moda} para sugerencias). Cuatro (los de delante del grupo) llevan ballestas cargadas y garrotes o hachas colgando del cinturón; de los otros tres, dos llevan hachas y uno un garrote y una red de espino preparada para el magister errante. Ninguno lleva armadura.</p></section>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -3749,6 +3836,9 @@
     "Hawk": {
       "name": "Falco",
       "tokenName": "Falco",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>De estatura media y complexión delgada, Falco volvió a casa para descubrir que su familia estaba en bancarrota y sin hogar debido a la corrupción en los gremios de la ciudad. Para vengarse, se unió a la @UUID[Compendium.wfrp4e-eis.journals.IZVgB7zmTm4rK2yJ]{Secta de la Mano Púrpura}; es consciente de que su maestro planea derrocar la ciudad... pero no sabe cómo ni cuándo. Utiliza su halcón mascota para atacar a los hechiceros y a los enemigos con armas a distancia.</p>",
       "items": {
         "Animal Care": {
           "name": "Criar animales"
@@ -3899,6 +3989,9 @@
     "Golthog": {
       "name": "Golthog",
       "tokenName": "Golthog",
+      "species": "Ogro",
+      "notes": "<h3>PERSONALIDAD Y APARIENCIA</h3><p><em> «¿Por qué tiemblas, delgaducho? Todavía no me he metido contigo».</em></p><p>Golthog mide unos 8 pies de altura, sobresaliendo por encima de casi todo el mundo. Tiene el pelo corto y oscuro, engrasado en forma de espigas que vuelven a su forma cuando se quita el casco. Golthog está acostumbrado a los no ogros, y ha desarrollado un buen sentido de lo que les ofende. Tiene cuidado con lo que come, o con quién, y ya no se sorprende de la gran cantidad de carne que se desperdicia. Es reservado, pero no antipático, ya que sabe que tiene que tener cuidado de no asustar a nadie y hacer que saquen las antorchas y las horquetas. </p><h3>TRASFONDO</h3><p>Golthog bajó de las Montañas de los Lamentos con el resto de su tribu hace muchos años con la esperanza de encontrar abundante comida en las tierras bajas. Aunque individualmente muy peligrosa, su tribu se redujo por los repetidos conflictos con los humanos y con otros que se molestaron en que la gente de Golthog comiera lo que quisiera. Al final sólo quedó Golthog. En una noche solitaria, acurrucado en una cueva de osos, consumiendo a su antiguo ocupante, el ogro decidió aprender las costumbres de los habitantes de las tierras bajas antes de que una turba de milicianos locales acabara con él.</p><p>Desde entonces, Golthog ha aprendido y viajado mucho por el Imperio. Sabe qué trabajos le convienen, y a qué gente debe evitar sin importar cuánta carne u oro le ofrezcan. Actualmente se encuentra en Middenheim buscando empleo en la famosa compañía mercenaria Tropa Relámpago de Baumann, ya que ha adivinado, correctamente, que tendrán tanto un uso para un ogro como los medios para mantenerlo pagado y bien alimentado.</p><h3>SECRETOS</h3><p>Comienza con [[/r 1d10]] chelines de plata adicionales por cada secreto elegido.</p><ul><li><p>Golthog se enteró de la existencia de la Tropa Relámpago de Baumann tras un desafortunado incidente en el que mató y se comió a uno de sus sargentos. Aunque Golthog está contento de dejar el pasado atrás, los mercenarios no lo recibirán con gusto.</p></li><li><p>Golthog y sus compañeros abandonaron las montañas en desgracia. Una enfermedad debilitante afectó a los rinobueyes de las tribus, y la profanación accidental de Golthog de un monumento a la Gran Fauce fue señalada como la fuente de esta plaga. </p></li><li><p>Golthog desertó recientemente de los Devoradores de Arglak, una compañía de mercenarios formada solo por ogros que opera en Middenland. Golthog se vio obligado a abandonar el grupo después de comerse al cocinero halfling favorito de Arglak.</p></li><li><p>Antes de abandonar las montañas, Golthog aprendió brevemente los caminos de la Gran Fauce bajo la dirección de Skrag el Matador. Añade Sabiduría académica (la Gran Fauce) a la lista de habilidades de Golthog. El ogro aún se siente perturbado por los sueños del dios de la gula, y a veces despierta en mitad de la noche, con un hambre voraz e insaciable.</p></li><li><p>Golthog cree firmemente que uno es lo que come. Y a Golthog le gustaría ser un hechicero.</p></li></ul>",
+      "description": "<h3>PERSONALIDAD Y APARIENCIA</h3><p><em> «¿Por qué tiemblas, delgaducho? Todavía no me he metido contigo».</em></p><p>Golthog mide unos 8 pies de altura, sobresaliendo por encima de casi todo el mundo. Tiene el pelo corto y oscuro, engrasado en forma de espigas que vuelven a su forma cuando se quita el casco. Golthog está acostumbrado a los no ogros, y ha desarrollado un buen sentido de lo que les ofende. Tiene cuidado con lo que come, o con quién, y ya no se sorprende de la gran cantidad de carne que se desperdicia. Es reservado, pero no antipático, ya que sabe que tiene que tener cuidado de no asustar a nadie y hacer que saquen las antorchas y las horquetas. </p><h3>TRASFONDO</h3><p>Golthog bajó de las Montañas de los Lamentos con el resto de su tribu hace muchos años con la esperanza de encontrar abundante comida en las tierras bajas. Aunque individualmente muy peligrosa, su tribu se redujo por los repetidos conflictos con los humanos y con otros que se molestaron en que la gente de Golthog comiera lo que quisiera. Al final sólo quedó Golthog. En una noche solitaria, acurrucado en una cueva de osos, consumiendo a su antiguo ocupante, el ogro decidió aprender las costumbres de los habitantes de las tierras bajas antes de que una turba de milicianos locales acabara con él.</p><p>Desde entonces, Golthog ha aprendido y viajado mucho por el Imperio. Sabe qué trabajos le convienen, y a qué gente debe evitar sin importar cuánta carne u oro le ofrezcan. Actualmente se encuentra en Middenheim buscando empleo en la famosa compañía mercenaria Tropa Relámpago de Baumann, ya que ha adivinado, correctamente, que tendrán tanto un uso para un ogro como los medios para mantenerlo pagado y bien alimentado.</p><h3>SECRETOS</h3><p>Comienza con [[/r 1d10]] chelines de plata adicionales por cada secreto elegido.</p><ul><li><p>Golthog se enteró de la existencia de la Tropa Relámpago de Baumann tras un desafortunado incidente en el que mató y se comió a uno de sus sargentos. Aunque Golthog está contento de dejar el pasado atrás, los mercenarios no lo recibirán con gusto.</p></li><li><p>Golthog y sus compañeros abandonaron las montañas en desgracia. Una enfermedad debilitante afectó a los rinobueyes de las tribus, y la profanación accidental de Golthog de un monumento a la Gran Fauce fue señalada como la fuente de esta plaga. </p></li><li><p>Golthog desertó recientemente de los Devoradores de Arglak, una compañía de mercenarios formada solo por ogros que opera en Middenland. Golthog se vio obligado a abandonar el grupo después de comerse al cocinero halfling favorito de Arglak.</p></li><li><p>Antes de abandonar las montañas, Golthog aprendió brevemente los caminos de la Gran Fauce bajo la dirección de Skrag el Matador. Añade Sabiduría académica (la Gran Fauce) a la lista de habilidades de Golthog. El ogro aún se siente perturbado por los sueños del dios de la gula, y a veces despierta en mitad de la noche, con un hambre voraz e insaciable.</p></li><li><p>Golthog cree firmemente que uno es lo que come. Y a Golthog le gustaría ser un hechicero.</p></li></ul>",
       "items": {
         "4d10 Brass Pennies": {
           "name": "4d10 Penique de Bronce"
@@ -4046,6 +4139,9 @@
     "Typical Villager": {
       "name": "Aldeano típico",
       "tokenName": "Aldeano",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>Muchos de los aldeanos tienen la habilidad Oficio (vinatero). Esto cubre el conocimiento del cultivo de la vid y otros aspectos de la elaboración del vino.</p>",
       "items": {
         "Prejudice": {
           "name": "Prejuicios"
@@ -4169,6 +4265,9 @@
     "Antonia Fiegling": {
       "name": "Antonia Fiegling",
       "tokenName": "Antonia",
+      "species": "Humano",
+      "status": "Bronce 5",
+      "gmnotes": "<p>@UUID[JournalEntry.qnddoqf7stZdPo0E.JournalEntryPage.4spyIKuKY8cYgH3Y#the-thugs]{Los matones}</p><p>Más alta que la media de los habitantes de Middenheim por unas buenas 3 pulgadas y con el pelo castaño corto, Antonia es una mujer maligna y estudiadamente cruel.</p>",
       "items": {
         "Bribery": {
           "name": "Sobornar"
@@ -4289,6 +4388,9 @@
     "Flying Deathier Skulls": {
       "name": "Cráneos de la muerte aumentados",
       "tokenName": "Cráneo de la muerte",
+      "species": "???",
+      "notes": "<section id=\"secret-QwFJd1sNN7uoYqPK\" class=\"secret\"><p>Los cráneos varían en apariencia: algunos son bestiales, otros están simplemente distorsionados, y unos pocos parecen totalmente humanos. No tienen inteligencia innata, pero pueden utilizarse para cumplir las órdenes de un hechicero que los controle. </p></section>",
+      "description": "<section id=\"secret-QwFJd1sNN7uoYqPK\" class=\"secret\"><p>Los cráneos varían en apariencia: algunos son bestiales, otros están simplemente distorsionados, y unos pocos parecen totalmente humanos. No tienen inteligencia innata, pero pueden utilizarse para cumplir las órdenes de un hechicero que los controle. </p></section>",
       "items": {
         "Construct": {
           "name": "Constructo"
@@ -4334,6 +4436,9 @@
     "Wuder Lechart": {
       "name": "Wuder Lechart",
       "tokenName": "Wuder",
+      "species": "Humano",
+      "status": "Bronce 0",
+      "gmnotes": "<p>Wuder Lechart parece ser poco más que un desafortunado aldeano perpetuamente borracho. Comenzó a actuar de forma extraña hace unos siete años, y ahora es casi incomprensible para sus compañeros de la aldea. Se apiadan de él y le dan de comer lo que pueden, pero la mayoría hace lo posible por ignorarlo. Hablará con cualquiera que le dé comida, y sigue lealmente a cualquiera que le dé un penique de bronce o más.</p><p>El discurso de Wuder es casi incomprensible: arrastra las palabras y se lame constantemente un diente de atrás. Suele estar borracho y a menudo delira. Lo más importante es que ¡habla una mezcla de reiklandés y Lengua Oscura! Los PJs que conozcan la Lengua Oscura la reconocerán con un <strong>Chequeo de Percepción</strong>; un éxito por parte de otros PJs simplemente revelará que Wuder está hablando una mezcla de reiklandés y algo más.</p><p>Los problemas de Wuder comenzaron cuando un dentista ambulante llegó a @UUID[JournalEntry.aNYMrBowuSB7g7wd.JournalEntryPage.C05XMKlAGcic9fXj]{Pritzstock} prometiendo la más rápida e indolora odontología imaginable. Molestado por una muela dolorosa y muy cariada, Wuder pidió una simple extracción, pero quedó encantado cuando el extraño se ofreció a <em>«llenar el hueco con un maravilloso accesorio»</em>. Wuder entendió que se trataba de un empaste. El empaste resultó ser un trozo de piedra bruja y Wuder no ha vuelto a ser el mismo desde entonces.</p>",
       "items": {
         "Immunity*": {
           "name": "Inmunidad*"
@@ -4442,6 +4547,7 @@
     "Growler": {
       "name": "Gruñidor",
       "tokenName": "Gruñidor",
+      "species": "Perro",
       "items": {
         "Bestial": {
           "name": "Bestial"
@@ -4481,6 +4587,9 @@
     "Thognar": {
       "name": "Thognar",
       "tokenName": "Thognar",
+      "species": "Enano",
+      "status": "Plata 2",
+      "gmnotes": "<p>@UUID[JournalEntry.orDqA8A9sQXPHycl.JournalEntryPage.69ReXmS6jb1cJrf3]{Hoja de resumen}</p><p>El Oficinista Thognar trabaja en la @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.h1NmGWYdOpGvgrbg]{Komission para los Intereses de los Elfos, Enanos y Halflings}. Puede ser de interés para el grupo, ya que es uno de los pocos individuos en Middenheim que se opone activamente a la introducción de los impuestos, recogiendo firmas para su petición. También es vehemente en su opinión de que el juglar de la corte, @UUID[Actor.nzNgV71abEH1iNFo]{Rallane Lafarel}, es el culpable de la introducción de los impuestos. Puede ser introducido en la campaña ya sea para espolear a los PJs a actuar señalando la injusticia de los impuestos, o para confundirlos, acusando al intachable Rallane.</p><p>Thognar mide cerca de 4 pies y medio de altura y tiene una complexión media para un enano. Tiene una espesa mata de pelo castaño claro con una barba algo más oscura y larga. Sus grandes ojos son de color azul pálido y miran con demasiada intensidad a su interlocutor.</p><p>Thognar es bastante huraño y desagradable incluso para los estándares enanos. Es meditabundo y concentrado cuando está tranquilo, y ruidoso y acalorado cuando se excita. Es fácil para él encontrar defectos en la gente, aunque se toma su trabajo muy en serio y modera sus actitudes hacia los que buscan su ayuda, y con los miembros de la sociedad de Middenheim que pueden ser útiles.</p><p>Detrás de su fachada, Thognar se siente triste y solo. Siente que a su edad debería haber conseguido algo más que ayudar a un coordinador de la Komission en Middenheim, y cree que empieza a ser un poco tarde para formar una familia. Se enorgullece de su trabajo, pero no destaca en él. Aunque es laborioso, esa diligencia es necesaria para compensar su lentitud e inexactitud.</p>",
       "items": {
         "Petition": {
           "name": "Petición"
@@ -4613,6 +4722,9 @@
     "Tiasmara Flarett": {
       "name": "Tiasmara Flarett",
       "tokenName": "Tiasmara",
+      "species": "Halfling",
+      "status": "Plata 2",
+      "gmnotes": "<p>Tiasmara parece tener más de treinta años en términos humanos, pero ha cumplido más de ochenta. Es bajita y delgada (¡para una halfling!), con un fino pelo castaño rojizo y ojos marrones claros. Tiasmara es alegre, bulliciosa y animada y está dedicada a su arte culinario (y orgullosa de él, con razón). Le gusta salir a escondidas de la cocina de vez en cuando para charlar con los clientes, y contarles historias sobre deliciosas tartas de 60 pies de largo y demás. Trabaja para Uli desde que éste se hizo cargo del mesón, hace ocho años. Lo considera un hombre bueno y generoso. Si el grupo incluye un halfling, Tiasmara intentará llevarlo a la cocina para hablar de recetas, mientras que cualquier personaje halfling atractivo o encantador obtendrá más comida y atenciones.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -4742,6 +4854,9 @@
     "Allavandrel Fanmaris": {
       "name": "Allavandrel Fanmaris",
       "tokenName": "Allavandrel",
+      "species": "Elfo silvano",
+      "status": "Plata 3",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.Q7m3oEMlXQWLrges]{Hoja de resumen}</p><p>El Montero mayor se encarga de que los hombres y las monturas estén listos para cuando el Graf sale de caza. Allavandrel tiene ciento un años, pero parece tener unos treinta en términos humanos. Es alto, con una complexión delgada que oculta su considerable fuerza física. Tiene unos llamativos ojos verde esmeralda, y su pelo castaño dorado cae en suaves ondas hasta los hombros. Es un cazador y arquero muy hábil, que suele vestirse con ropas de caza de color verde y marrón, incluso en la Corte. Es amable y abierto, con un ingenio que puede ser agudo si alguien le cae mal. Aficionado a las cosas buenas de la vida, Allavandrel se entrega ocasionalmente a grandes festejos, a menudo en compañía de @UUID[Actor.nzNgV71abEH1iNFo]{Rallane Lafarel}, el juglar del Graf, y de @UUID[Actor.1UPIDtrSuQv4zUVg]{Dieter Schmiedehammer}, el Campeón del Graf. Durante la semana del Carnaval roza el desenfreno, pero no se excede, ya que está decidido a conservar su título de campeón de tiro con arco. Allavandrel es un compañero informado, ingenioso y divertido para cualquier PJ al que coja aprecio, pero seguirle el ritmo es costoso y agotador.</p><p>Allavandrel posee tanto un @UUID[Compendium.wfrp4e-core.items.2mE771fGEEB38OqG]{arco élfico} como una reserva de 24 @UUID[Compendium.wfrp4e-core.items.NQ4OVp1ZfinJ7lQH]{flechas élficas}, pero considera que usar ambos no es deportivo salvo en circunstancias excepcionales.</p>",
       "items": {
         "but considers both unsporting to use outside of exceptional circumstances.": {
           "name": "pero considera que usar ambos no es deportivo salvo en circunstancias excepcionales."
@@ -4922,6 +5037,9 @@
     "Bruno Hansgorp": {
       "name": "Bruno Hansgorp",
       "tokenName": "Bruno",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[JournalEntry.qnddoqf7stZdPo0E.JournalEntryPage.4spyIKuKY8cYgH3Y#the-thugs]{Los matones}</p><p>Bruno es lo suficientemente alto como para parecer imponente a la mayoría, con el pelo castaño ondulado, un bigote desaliñado, ojos color avellana, y una dispersión de pecas en la cara y los antebrazos. Un hombre estúpido y grosero que ha optado por el crimen como fuente de dinero fácil.</p>",
       "items": {
         "Consume Alcohol": {
           "name": "Consumir alcohol"
@@ -5042,6 +5160,9 @@
     "Katarina Todbringer": {
       "name": "Katarina Todbringer",
       "tokenName": "Katarina",
+      "species": "Humano",
+      "status": "Oro 3",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.73HtmtcbmOWRFFe0]{Hoja de resumen}</p><p>A la hija del @UUID[Actor.czIY275tUC4VGDWp]{Graf} se la llama «la Princesa», aunque no tiene ningún derecho oficial al título. Tiene diecinueve años y es menuda, con el pelo rubio pajizo y los ojos azul claro. Tiene un pequeño hoyuelo en la barbilla y manos y pies delicados. Katarina es una persona dulce y amable con un refinado sentido de la estética y unos modales encantadores, pero es ingenua y no está muy bien informada sobre muchos asuntos de la política. Le encanta la música, la escultura, los jardines, las flores y otras cosas bonitas, pero encuentra los asuntos de Estado insoportablemente tediosos. Sin embargo, tiene un gran sentido de la equidad y la justicia, y no le falta valor. Está muy interesada en las buenas obras y es una destacada patrocinadora, a través de sus @UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.ClmMNlSphPvcNVTy]{Damas de Honor}, del orfanato del @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.IGQslkul8aGAIMpz]{Templo de Shallya}. Tiene un exquisito sentido de la vestimenta. El poco maquillaje y las joyas que lleva son de una calidad deslumbrante. Katarina prefiere los perfumes florales, a los que añade un astringente para eliminar cualquier cualidad empalagosa.</p>",
       "items": {
         "Katarina is escorted by a detachment of 20 Knights Panther whenever she appears in public.": {
           "name": "Katarina va escoltada por un destacamento de 20 Caballeros Pantera siempre que aparece en público."
@@ -5192,6 +5313,9 @@
     "Gaston": {
       "name": "Gastón",
       "tokenName": "Gastón",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>Con más de 6’5’’ de altura, Gastón es originario de Bretonia y su reiklandés con acento le da una cierta clase. Viste con un gusto impecable y se comporta con perfectos modales. Es compulsivamente ordenado y totalmente sádico, exprimiendo hasta el último gramo de dolor de sus víctimas antes de que mueran.</p>",
       "items": {
         "Instruments of torture": {
           "name": "Instrumentos de tortura"
@@ -5321,6 +5445,9 @@
     "Johann Schwermutt": {
       "name": "Johann Schwermutt",
       "tokenName": "Johann",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.ECtQRvrnApRgX7TA]{Los Mariscales Centrales}</p><p>El general Johann Schwermutt es el Comandante de la Guarnición de Middenheim. Schwermutt tiene más o menos la misma edad que @UUID[Actor.jBamTcOi8iz3mYxe]{Schutzmann}, pero es de complexión más ligera, con pelo castaño claro y ojos color avellana. Schwermutt es simpático, expresivo e intuitivo, aficionado a los debates y siempre dispuesto a dar a la gente el beneficio de la duda. Sus tropas lo conocen como un comandante muy humano y cercano. </p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -5459,6 +5586,9 @@
     "Petra Liebkosen": {
       "name": "Petra Liebkosen",
       "tokenName": "Petra",
+      "species": "Humano",
+      "status": "Plata 4",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.ClmMNlSphPvcNVTy]{Hoja de resumen}</p><p>Petra es una persona muy activa, a la que se ve a menudo por Middenheim. Tiene alrededor de veinticinco años y es de estatura y complexión medias. Tiene el pelo castaño oscuro y rizado hasta los hombros, y ojos marrones. Tiene un bonito hoyuelo en la barbilla y un lunar en la mejilla izquierda. Prefiere la ropa más elaborada que @UUID[Actor.431EWVoIAsdZFHPU]{Kirsten}, y siempre va vestida de forma extravagante, pero con estilo. Es muy activa en la alta sociedad, y sabe que el amor y la belleza son mucho menos duraderos que el oro y los diamantes. Materialista, hedonista y extrovertida, a Petra le encantan los cotilleos, pero tiene cuidado con lo que dice y a quién se lo dice. </p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -5603,6 +5733,9 @@
     "Joachim Hoflich": {
       "name": "Joachim Hoflich",
       "tokenName": "Joachim",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.seoqMOoXusLrB77M]{Hoja de resumen}</p><p>Joachim tenía poco más de cincuenta años, era de complexión y estatura medias, con pelo negro muy corto y ojos verde grisáceo. Tranquilo y formal, tenía una apariencia digna, pero poseía un irónico sentido del humor que sorprendía a algunos incautos. Era un observador agudo, decidido e implacable. </p><p>Por estas razones, @UUID[Actor.lYEKyCpaihHON6Gz]{Karl-Heinz Wasmeier} decidió que era un lastre demasiado grande para seguir vivo durante la culminación de los planes de la Mano Púrpura. Así que fue asesinado y sustituido por el doppelgänger, que imita los gestos y hábitos de Joachim muy hábilmente.</p>",
       "items": {
         "Immunity to Psychology": {
           "name": "Inmunidad a la Psicología"
@@ -5708,6 +5841,9 @@
     "Karl Matthaus": {
       "name": "Karl Matthaus",
       "tokenName": "Karl",
+      "species": "Humano",
+      "status": "Bronce 1",
+      "gmnotes": "<p>@UUID[JournalEntry.qnddoqf7stZdPo0E.JournalEntryPage.4spyIKuKY8cYgH3Y#the-street-brats]{Los golfillos}</p><p>Karl es un huérfano, de complexión tirando a delgada, con pelo corto y castaño rojizo y ojos color avellana claro. Él y su pandilla viven en un tugurio en ruinas. Karl es un adolescente callejero, cínico y maduro para su edad. Es un auténtico superviviente, digno de confianza y capaz de guardar un secreto… si se le paga lo suficiente.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -5831,6 +5967,7 @@
     "Sinistral": {
       "name": "Siniestro",
       "tokenName": "Siniestro",
+      "species": "Halcón",
       "items": {
         "Bestial": {
           "name": "Bestial"
@@ -5864,6 +6001,9 @@
     "Ar-Ulric Jarrick Valgeir": {
       "name": "Ar-Ulric Jarrick Valgeir",
       "tokenName": "Ar-Ulric",
+      "species": "Humano",
+      "status": "Oro 2",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.MCLpXxnnUTLMFe6v]{Hoja de resumen}</p><p>El Ar-Ulric es el jefe supremo del culto a Ulric en Middenheim y en todo el Imperio. Es un hombre alto y con buena constitución, más larguirucho que musculoso, con pelo castaño rojizo y ojos castaños claros, cuya nariz fuerte y pómulos altos le dan un perfil llamativo. Como corresponde al líder del culto de Ulric, el Ar-Ulric es físicamente fuerte, y parece una década más joven que sus cuarenta y ocho años. Se dice que sigue entrenando dos horas al día con una gran variedad de armas, además de hacer frente a las tareas propias de sus diversos cargos. Viste una túnica de seda gris plateada hasta el suelo y una capa con capucha de piel de lobo blanca. Según los dictados del @UUID[Compendium.wfrp4e-core.journals.NcH9OhleJFfaUdon.JournalEntryPage.jza73azXzLy0oVCy]{culto}, mató al lobo con sus propias manos cuando aún era un Iniciado. Un colgante de plata con forma de cabeza de lobo cuelga de una cadena alrededor de su cuello, y lleva un bastón con contera de plata rematado con iconos de Ulric y Middenheim. El Ar-Ulric es un hombre decente, actualmente sometido a una gran tensión. Su ansiedad es evidente para casi cualquiera que tenga éxito en un <strong>Chequeo Normal (+20) de Percepción</strong>: es vago y distraído, tartamudea ocasionalmente y tiende a evitar el contacto visual en las conversaciones.</p>",
       "items": {
         "Bribery": {
           "name": "Sobornar"
@@ -6047,6 +6187,9 @@
     "Maximillian von Genscher": {
       "name": "Maximillian von Genscher",
       "tokenName": "von Genscher",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.ECtQRvrnApRgX7TA]{Los Mariscales Centrales}</p><p>El mariscal Maximillian von Genscher coordina las defensas de la ciudad y tiene el mando supremo de las expediciones organizadas por el ejército. Maximillian es el más joven de los tres (tiene cuarenta y tres años), pero ha ascendido a una posición superior debido a su alcurnia. Es una figura imponente, de 6 pies y 4 pulgadas de alto y casi la mitad de ancho. Su personalidad es igualmente grande; su valor y magnanimidad son legendarios y la fuerza de su personalidad es casi tangible. Sopesa sus palabras con cuidado y es un interrogador astuto. Tiene el pelo negro como el azabache y una cuidada barba, ojos marrón oscuro y una larga y pálida cicatriz que le recorre la mejilla izquierda y le atraviesa la ceja. </p>",
       "items": {
         "Animal Care": {
           "name": "Criar animales"
@@ -6194,6 +6337,8 @@
     "Skretth (Enhanced)": {
       "name": "Skretth (mejorado)",
       "tokenName": "Skretth",
+      "species": "Skaven",
+      "gmnotes": "<p>Skretth tiene un pelaje gris pálido y, gracias a su consumo de drogas, sus ojos brillan salvajemente incluso para un vidente gris. Viste con ropas sucias y tiene medio diente delantero izquierdo roto. Para @UUID[JournalEntry.FgeoIDH3AwddLLFH.JournalEntryPage.2rGrpvPYmr4kWXCb]{más detalles} sobre los videntes grises y la tradición mágica de la Rata Cornuda, consulta el <strong>Compendio de la Rata Cornuda</strong>.</p>",
       "items": {
         "Enough Warpstone to double the SL of three Casting/Channelling Tests": {
           "name": "Piedra bruja suficiente para duplicar el NE de tres Chequeos de Lanzamiento/Canalización"
@@ -6347,6 +6492,9 @@
     "Kurt Schulz": {
       "name": "Kurt Schulz",
       "tokenName": "Kurt",
+      "species": "Muerto viviente",
+      "notes": "<section id=\"secret-Bg2rPG0YmwE4bN2D\" class=\"secret\"><p>@UUID[Actor.r4AUsjsfOL9HW8lO]{Gräber} ha reanimado a un zombi para que ayude a vigilar la cueva. En vida era Kurt Schulz, un guerrero endurecido que recientemente había declarado su lealtad al Caos. Hoy, es un zombi más, aunque uno muy duro.</p></section>",
+      "description": "<section id=\"secret-Bg2rPG0YmwE4bN2D\" class=\"secret\"><p>@UUID[Actor.r4AUsjsfOL9HW8lO]{Gräber} ha reanimado a un zombi para que ayude a vigilar la cueva. En vida era Kurt Schulz, un guerrero endurecido que recientemente había declarado su lealtad al Caos. Hoy, es un zombi más, aunque uno muy duro.</p></section>",
       "items": {
         "Construct": {
           "name": "Constructo"
@@ -6470,6 +6618,9 @@
     "Hildi Holschtweig": {
       "name": "Hildi Holschtweig",
       "tokenName": "Hildi",
+      "species": "Humano",
+      "status": "Bronce 4",
+      "gmnotes": "<p>@UUID[JournalEntry.qnddoqf7stZdPo0E.JournalEntryPage.4spyIKuKY8cYgH3Y#the-victims]{Las víctimas}</p><p>De unos 55 años, con el pelo oscuro y canoso (recogido en un moño) y ojos marrones, Hildi es tranquila y de voz suave. Como @UUID[Actor.swyabCA6Zxh16jw1]{su marido}, Hildi también es una persona amable y generosa.</p>",
       "items": {
         "Charm": {
           "name": "Carisma"
@@ -6596,6 +6747,9 @@
     "Janna Eberhauer": {
       "name": "Janna Eberhauer",
       "tokenName": "Janna",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.BczIUXqbPEOGbY9V]{Hoja de resumen}</p><p>Janna Eberhauer es una Maestra hechicera de la @UUID[Compendium.wfrp4e-wom.journals.j72t0e5BVIgeOMB4.JournalEntryPage.nyw6LoS8swhWRRTw]{Orden Celestial}. Janna sólo tiene treinta y tantos años, pero ya es una hechicera consumada. Es alta y escultural, con una masa de pelo castaño que le llega a los hombros, ojos color avellana salpicados de ámbar, y pecas en las mejillas y en el puente de la nariz. Cuando no va vestida con las túnicas de su orden, se viste con practicidad y estilo clásico, y su aspecto es muy diferente a lo que se espera de una hechicera. Inteligente y simpática, Janna tiene el gran don de hacer que la gente se sienta cómoda. Esto es muy útil para obtener información que, de otro modo, no revelarían. No se muestra demasiado dispuesta a expresar sus propias opiniones y procura ser ambivalente en sus puntos de vista. </p>",
       "items": {
         "GM’s discretion. Like Helseher, she has some magical items of her own and can requisition others from the Guild.": {
           "name": "A discreción del DJ: igual que Helseher, tiene algunos objetos mágicos propios y puede requisar otros del Gremio."
@@ -6824,6 +6978,9 @@
     "Hildegarde Zimperlich": {
       "name": "Hildegarde Zimperlich",
       "tokenName": "Hildegarde",
+      "species": "Humano",
+      "status": "Plata 5",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.tEt6xdbRdVES4vLO]{Hoja de resumen}</p><p>A Hildegarde la contrataron para ser la carabina personal de la @UUID[Actor.PrkWVIr7Go4u1QWp]{«Princesa»}. Ha servido a tres generaciones de Todbringer; fue nodriza del propio @UUID[Actor.czIY275tUC4VGDWp]{Graf Boris} y fue la niñera principal de los barones @UUID[Actor.dfVVZJ41NVDpWkNy]{Stefan} y @UUID[Actor.0Z49f8xUPns5OkTA]{Heinrich} cuando eran jóvenes. Es una mujer delgada y frágil de 78 años, cuya fuerza de carácter compensa con creces el desgaste físico de los años. Con el tiempo, se muestra abierta ante los hombres con buenos modales, encanto y cualidades de liderazgo, pero siempre desconfía de las malas intenciones masculinas hacia su protegida. Se rumorea que la repentina salida de un embajador tileano hace unos años se debió a los azotes que recibió de la lengua y el bastón de caoba de Hildegarde cuando lo encontró a solas con Katarina en una pérgola con rosas. Es una entusiasta y hábil jugadora de cartas, en particular, es muy fan de la @UUID[Compendium.wfrp4e-rnhd.journals.OnhGK8IE9SCGAlRT.JournalEntryPage.vSnJs2wpgPfHzSaZ]{Emperatriz Roja}, siempre que las apuestas sean amistosas, y puede caer en la tentación de beber demasiado vino mientras juega: puede que tenga que hacer un <strong>Chequeo Desafiante (+0) de Voluntad</strong> para evitar alguna indiscreción en la conversación. Le gustan las bellas artes y la ópera, y se viste con ropa buena, pero anticuada.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -6962,6 +7119,8 @@
     "Brunhilde Klaglich": {
       "name": "Brunhilde Klaglich",
       "tokenName": "Brunhilde",
+      "species": "Humano",
+      "gmnotes": "<p>@UUID[JournalEntry.orDqA8A9sQXPHycl.JournalEntryPage.6uIwjhXBIJYEMFLo]{Hoja de resumen}</p><p>Brunhilde, principal agente de Wasmeier en Middenheim y maestra del disfraz, es una mala pieza. Creció en Bergsburgo, hija de un encuadernador que se arruinó cuando las autoridades descubrieron que comerciaba con copias de <em>Tenebris Geheimnis</em>, un libro sagrado de Khaine. Su padre protestó que no era un hereje y no se había dado cuenta de lo que vendía, pero los cazadores de brujas le quemaron igualmente. Brunhilde creció resentida con cualquiera que tuviera autoridad sobre ella. </p><p>Se convirtió en una entusiasta seguidora de @UUID[Compendium.wfrp4e-core.journals.NcH9OhleJFfaUdon.JournalEntryPage.vrUN2NZ9t9d37J6V]{Ranald}, venerándolo en su papel de embaucador que engaña a los poderosos. Al poco tiempo esto no fue suficiente. Aprendió el arte del engaño del sacerdote ranaldita Otto Stehlenhuhn, pero luego volvió su odio a la autoridad contra el propio culto. Brunhilde informó al @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.xBB5HI6Ojii4cW2s]{Gremio de Mercaderes} de los delitos de Stehlenhuhn y se deleitó con el caos que ello causó al culto. Klaglich dio la espalda a Ranald y a Bergsburgo, y se dirigió a Middenheim. Desde entonces ha trabajado para cualquier individuo sin escrúpulos que pueda permitirse sus servicios.</p><p>Si el grupo interactúa con Klaglich cuando no está disfrazada, presenta un barniz de cálida sociabilidad. En el fondo, es una persona precavida y cautelosa, siempre buscando una ventaja o una oportunidad de traicionar o engañar. Tiende a responder a las preguntas con indagaciones propias en lugar de revelar nada sobre sí misma.</p><p>Brunhilde es muy observadora, de movimientos rápidos, pensamiento ágil, ingeniosa y sarcástica. De estatura media, con un llamativo pelo rubio, casi todos los demás aspectos de su apariencia están sujetos a cambios de vestuario, maquillaje y un gran talento para la imitación. Es cruel y sádica, y no le importa nada ni nadie. Es una maestra del disfraz.</p><p>@UUID[Actor.lYEKyCpaihHON6Gz]{Wasmeier} es el instigador del complot para socavar Middenheim, pero Klaglich es la mujer que lo hizo posible mediante la coacción, el secuestro y el engaño. Puede que sea un peón del Señor de la Ley, pero es ingeniosa, astuta y una digna adversaria por derecho propio.</p><p>Klaglich ha utilizado varios alias y una pequeña banda de agentes de Wasmeier para chantajear y comprometer a varios poderosos habitantes de Middenheim. Cuando los PJs investigan la conspiración detrás de los nuevos impuestos, Klaglich los descubre y trabaja para frustrar sus esfuerzos.</p><p>Descubrir la identidad de Klaglich y seguirle la pista hasta su guarida es parte de la conclusión de <strong>El Poder tras el Trono</strong>, pero puede tener un papel más importante en el resto de la aventura si el DJ lo prefiere. Este perfil proporciona detalles para enriquecer su representación y una serie de opciones para ampliar su papel en el escenario.</p>",
       "items": {
         "Access to coins to a value of 22 GCs, 11/-": {
           "name": "Acceso a monedas por valor de 22 co, 11 cp"
@@ -7166,6 +7325,9 @@
     "Nastassia Hess": {
       "name": "Nastassia Hess",
       "tokenName": "Nastassia",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.orDqA8A9sQXPHycl.JournalEntryPage.tVgLxokEM7BZE3v4]{Hoja de resumen}</p><p>Nastassia es una espía al servicio del @UUID[Actor.0Z49f8xUPns5OkTA]{barón Heinrich Todbringer}. Opera en su nombre en Middenheim, por todo el Imperio, y más allá, dirigiendo una pequeña red de agentes para reunir información y actuar para proteger los intereses de los Todbringer y Middenheim.</p><p>@UUID[JournalEntry.yXOEsyeWgRgbeVmc.JournalEntryPage.fCLtWB0QJdcUg1w7]{Nastassia, la espía} sugiere que Nastassia puede dar información al grupo si están estancados o pasándolo mal para descubrir las maquinaciones de la Mano Púrpura. Este perfil la hace más un personaje por derecho propio, que dirige una investigación paralela a la del grupo. Heinrich está fuera de la ciudad, así que ella está trabajando de forma independiente para desbaratar una trama que todavía no entiende.</p><p>Se la podría utilizar para enganchar a los PJs en toda la investigación en Middenheim. En ese caso, puede contactar con el grupo subrepticiamente en @UUID[JournalEntry.OYXb3CKZ79qBHCHK.JournalEntryPage.SGpfZKBFbzFQNeAz#the-templars-arms]{Las Armas del Templario} (o dondequiera que se alojen) dejando una nota en una litera sugiriendo que presten mucha atención a las personas detrás de los nuevos impuestos.</p><p>Aunque Nastassia ha hecho algunos progresos en el descubrimiento de los secretos de los PNJs, aún no ha descubierto la mano oculta de @UUID[Actor.lYEKyCpaihHON6Gz]{Wasmeier} y su complot para sustituir al Graf. Sabe que alguien está operando tras un disfraz para manipular a varios miembros importantes de la corte. Nastassia ha relacionado dos alias como la misma mujer: «Frau Kenner», y su conexión con el Canciller, y «Elise Kaltblutig», como alguien que se reunió con el Ar-Ulric y que lo dejó conmocionado. Nastassia estaba en Altdorf mientras Klaglich ponía en marcha sus planes; ahora considera a la agente de Wasmeier como su archienemiga. El grupo puede ayudar a acelerar su confrontación con Klaglich si ella los empuja en la dirección correcta.</p><p>Nastassia es extremadamente perspicaz y capaz de hacer juicios rápidos y precisos sobre el comportamiento de los que la rodean. Es una excelente conversadora, que inspira a los demás a abrirse y compartir sus secretos sin revelar nada sobre sí misma. Nastassia tiene una brillante memoria fotográfica y recuerda muy bien rostros y lugares.</p><p>Si Nastassia tiene un defecto, es su orgullo profesional. Destaca en su profesión de espía, y los éxitos de @UUID[Actor.b5sXx8PO9Jj8og2w]{Brunhilde Klaglich} le han inspirado la frustración de haber sido burlada por alguien bajo sus narices. Nastassia es también bastante independiente por naturaleza. Se ha vuelto autosuficiente y no confía en los demás, por lo que sus relaciones personales tienden a ser de corta duración o basadas en la deshonestidad. Detrás de toda su genialidad y profesionalidad es una persona bastante solitaria.</p>",
       "items": {
         "Carrier pigeons (in private house)": {
           "name": "Palomas mensajeras (en casa particular)"
@@ -7367,6 +7529,9 @@
     "Parzival Tristan Aschaffenberg": {
       "name": "Parzival Tristan Aschaffenberg",
       "tokenName": "Parzival",
+      "species": "Humano",
+      "status": "Plata 5*",
+      "gmnotes": "<p>Parzival Aschaffenberg es un hombre de mediana edad de aspecto distinguido: 6’ 2 de alto, con ojos azules y la mayoría de sus dientes. En todo momento muestra los síntomas clásicos del noble de nacimiento: es rico, vanidoso, arrogante y tediosamente machista.</p><p>Parzival era un partidario incondicional de los Jungfreud y se vio obligado a huir de Ubersreik cuando fueron expulsados del poder. Como cliente de @UUID[Actor.v0envq9fHrdoIzUg]{Rocheteau}, se le prometió un escondite «apropiado para un jefe de una fuerza militar respetable» en la aldea. Ha pasado casi un año en @UUID[JournalEntry.aNYMrBowuSB7g7wd.JournalEntryPage.C05XMKlAGcic9fXj]{Pritzstock}, hirviendo en silencio por la indignidad, pero ha pasado algún tiempo entrenando a la pequeña milicia en ejercicios de armamento y estrategia defensiva. Ha pasado mucho más tiempo cortejando a @UUID[Actor.0eQzvUSeBpJGqrhw]{Isolde Gudhoffen}.</p><p>Parzival ve los ataques de los cráneos como un regalo de los dioses, una oportunidad para que un noble de Reikland le muestre a algunos habitantes de Middenland cómo hacer las cosas. Desafortunadamente, los cráneos no han jugado limpio y él ni siquiera ha visto uno. Tiene hambre de distracción, y recibe con entusiasmo cualquier plan para ir a cazar cráneos. Sin embargo, no carece de sentido común, y cooperará con cualquier plan que parezca que va a dar resultados, siempre que tenga un papel destacado. A pesar de su molesta personalidad, los PJs harían bien en tenerlo de su lado.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -7478,6 +7643,9 @@
     "Elisabet Rocheteau": {
       "name": "Elisabet Rocheteau",
       "tokenName": "Elisabet",
+      "species": "Humano",
+      "status": "Bronce 4",
+      "gmnotes": "<p>Elisabet es una campesina tranquila que habla poco cuando su marido está cerca. Sus padres, ya fallecidos, la convencieron para que se casara con @UUID[Actor.v0envq9fHrdoIzUg]{Rocheteau} y durante un tiempo el matrimonio funcionó. Sin embargo, en los últimos años, su marido se ha vuelto cada vez más dominante. No es de extrañar que ella sea infeliz por ello.</p>",
       "items": {
         "Animal Care": {
           "name": "Criar animales"
@@ -7592,6 +7760,9 @@
     "Boris Todbringer": {
       "name": "Boris Todbringer",
       "tokenName": "Graf Boris",
+      "species": "Humano",
+      "status": "Oro 7",
+      "gmnotes": "<p>Con 6’ 1” de altura, el Graf fue en su día una figura imponente. Últimamente parece menos joven; con el cabello castaño ralo y un impresionante bigote descuidado, ahora el Graf Boris es más bien una figura triste. No puede mantener la concentración durante mucho tiempo, se pasa la mayor parte del tiempo en la cama y, si tiene que aparecer en el salón del trono de palacio, se envuelve en mantas. Trata esto como un @Condition[Malaise]{Malestar} especialmente fuerte, que ha afligido al Graf con 3 Estados de @Condition[Fatigued]{Fatigado}, lo que supone un –30 en todos los Chequeos.</p>",
       "items": {
         "The Middenland Runefang (Peak Leveller)": {
           "name": "Colmillo Rúnico de Middenland (Muerdepiernas)"
@@ -7859,6 +8030,8 @@
     "Stefan Todbringer": {
       "name": "Stefan Todbringer",
       "tokenName": "Stefan",
+      "species": "Humano",
+      "gmnotes": "<p>Stefan no heredó la imponente figura de su padre. De complexión media y con el cabello y ojos castaños, Stefan ha sufrido desde su nacimiento una discapacidad apenas comprendida y que no se ha tratado como debería. Su estado ha desconcertado a un ir y venir constante de físicos a lo largo de los años. La mayor parte del tiempo, Stefan se sienta y mira de manera fija al frente sin establecer contacto visual, apenas parpadeando. Su comportamiento silencioso e inmóvil se ve salpicado de episodios maníacos que implican una hiperactividad frenética, tanto que en la actualidad lleva la mano izquierda entablillada y vendada con fuerza como resultado de una lesión autoinfligida. Sin embargo, su estado ha mejorado recientemente, tras el nombramiento de @UUID[Actor.2gjtu5TLTG8YCJmh]{Luigi Pavarotti} como físico personal de Stefan.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -7955,6 +8128,9 @@
     "Anton Hundisch": {
       "name": "Anton Hundisch",
       "tokenName": "Anton",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>Anton es un adolescente de complexión delgada. Tiene el pelo largo, negro y grasiento y sus grandes ojos marrones están permanentemente inyectados en sangre debido a una infección. Anton ha entrado en una espiral descendente desde que fue expulsado de la Orden Gris. Cuando no está del todo consciente debido a sus excesos con todo tipo de bebidas, se sienta a mecerse en una silla. Cuando se avecina un combate, el puro miedo hará que se esfuerce al máximo… para salir vivo de esa. En las mejores circunstancias, es cobarde, patético y miserable. Brunhilde lo encontró un día debajo de una mesa y pensó que podría ser útil. Ahora ya no está tan segura.</p>",
       "items": {
         "Bottle of Pritstock Riesling": {
           "name": "Botella de Pritstock Riesling"
@@ -8126,6 +8302,9 @@
     "Hausmeister Breugal": {
       "name": "Hausmeister Breugal",
       "tokenName": "Hausmeister",
+      "species": "Humano",
+      "status": "Oro 3",
+      "gmnotes": "<p>@UUID[JournalEntry.orDqA8A9sQXPHycl.JournalEntryPage.s6CpuRK1iVA0ogjE]{Hoja de resumen}</p><blockquote><p>Un hombre alto y demacrado, con una regia chaqueta negra de cuello alto y una gola de encaje, salió a recibirlos a todos, paseándose con un bastón con pomo de plata. Llevaba una peluca blanca, con anillos y cintas de última moda, y la piel aristocráticamente espolvoreada de blanco.</p><p>«Soy Breugal, chambelán del Graf», dijo con voz estrangulada y altiva.</p><p style=\"text-align: right\"><em>— Hammers of Ulric, por Dan Abnett y James Wallis</em></p></blockquote><blockquote class=\"sidebar\"><p><em>Breugal, el chambelán del Graf Boris, apareció en la novela de Games Workshop Hammers of Ulric, que se publicó en 2000, más de 20 años después de <strong>El Poder tras el Trono</strong>. Como poderosa figura en la corte de Middenheim, es un gran añadido a los PNJs principales.</em></p></blockquote><p>El chambelán del Graf es conocido sólo como Breugal. Es un hombre alto, escuálido y con un aire aristocrático. Es habitual verle dentro del recinto del palacio, con su bastón de plata en la mano y vestido a la moda. Breugal es un administrador de la casa fríamente eficiente, responsable de dirigir el @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.SbaXkT2ZupAWRthT]{Middenpalaz}. Aquellos que no cumplen con sus exigentes estándares no duran mucho en su empleo. Su cargo es su vida y nunca ha sido conocido por fraternizar con nadie.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -8273,6 +8452,9 @@
     "Hultz Fleischer": {
       "name": "Hultz Fleischer",
       "tokenName": "Hultz",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>Hultz tiene treinta y tantos años, es alto y de complexión media. Tiene un aspecto malsano, con mechones negros lacios, ojos verdes pálidos y verrugas en sus manos y dedos. Fleischer es un delincuente local, un hombre malvado que parece medio loco. Eso es solo fachada; es cruel y astuto, y puede que se rinda… si cree que puede escaparse luego.</p>",
       "items": {
         "Bribery": {
           "name": "Sobornar"
@@ -8411,6 +8593,9 @@
     "Kurt Schulz - Champion": {
       "name": "Kurt Schulz - Campeón",
       "tokenName": "Kurt",
+      "species": "Muerto viviente",
+      "notes": "<p>@UUID[Actor.YTjyvukWNRORQcg6]{Kurt Schulz}</p>",
+      "description": "<p>@UUID[Actor.YTjyvukWNRORQcg6]{Kurt Schulz}</p>",
       "items": {
         "Construct": {
           "name": "Constructo"
@@ -8471,6 +8656,9 @@
     "Josef Sparsam": {
       "name": "Josef Sparsam",
       "tokenName": "Josef",
+      "species": "Humano",
+      "status": "Oro 3",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.ejUHBZDLJKVxnYvg]{Hoja de resumen}</p><p>Josef Sparsam es el Canciller de Middenheim. Es uno de los asesores más cercanos del Graf. Está a cargo de la Tesorería de Middenheim y de todos los funcionarios fiscales. Es de mediana edad, alto y de complexión delgada. Sus ojos son de color marrón claro, casi ámbar, y su cabello es gris, retrocediendo desde las sienes en pronunciadas entradas. Sparsam es un hombre reticente y taciturno que camina con una ligera cojera. Viste discretamente con túnicas de color azul oscuro o marrón oscuro. Se limita a llevar una discreta cabeza de lobo como único distintivo de su cargo. Es introvertido y ansioso, educado pero carente de humor o alegría. Teme los eventos sociales a los que a veces debe asistir, pero es honesto, honorable y leal a sus pocos amigos. Tiene fama de ser un coleccionista entusiasta de arte, cerámica y monedas antiguas. Este es su único interés fuera de su trabajo. Sparsam tiene una desafortunada adicción a la @UUID[Compendium.wfrp4e-core.items.jTFOrokjEHbi12rT]{Delicia de Ranald}, que debe tomar de 2 a 5 veces al día. Esto le hace ser ruidoso, molesto, y a veces vulgar. Tener éxito en un <strong>Chequeo Desafiante </strong>de <strong>Inteligencia</strong>, <strong>Sabiduría académica (medicina)</strong> u <strong>Oficio (boticario o envenenador)</strong> sugiere que está bajo la influencia de alguna droga.</p>",
       "items": {
         "Seal of his Office": {
           "name": "Sello de su cargo"
@@ -8621,6 +8809,9 @@
     "Purple Hand Cult Magus": {
       "name": "Magus de la secta de la Mano Púrpura",
       "tokenName": "Magus",
+      "species": "Humano",
+      "notes": "<section id=\"secret-ATyKdzicOmPIUasP\" class=\"secret\"><p>Una figura encapuchada y ominosa de color púrpura que se halla detrás de los PJs, la magus de la secta rara vez se aventura a salir de la base de la Mano Púrpura. La capucha, que es inevitable que le caiga durante el combate, oculta una mutación que le ha convertido el cabello en un puñado de dedos con uñas púrpuras que le desaparecen por la espalda.</p></section>",
+      "description": "<section id=\"secret-ATyKdzicOmPIUasP\" class=\"secret\"><p>Una figura encapuchada y ominosa de color púrpura que se halla detrás de los PJs, la magus de la secta rara vez se aventura a salir de la base de la Mano Púrpura. La capucha, que es inevitable que le caiga durante el combate, oculta una mutación que le ha convertido el cabello en un puñado de dedos con uñas púrpuras que le desaparecen por la espalda.</p></section>",
       "items": {
         "Channelling (Dhar)": {
           "name": "Canalización (Dhar)"
@@ -8765,6 +8956,9 @@
     "Fritz Dreckig": {
       "name": "Fritz Dreckig",
       "tokenName": "Fritz",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Fritz mide más de 6 pies y cuatro pulgadas, es un hombre alto y con una complexión fuerte, con pelo negro graso y corto, ojos oscuros y una fea cicatriz en el lado izquierdo de la cara. Fritz es bruto y tosco con casi todo el mundo, pero detesta especialmente a los elfos. Masca tabaco y a menudo lo escupe a los clientes que le desagradan. Suma +20 a su HP para este ataque, en el que tiene mucha práctica: con una tirada de 05 o menos, le da justo en la cara al objetivo, causándole ceguera durante 1 Asalto.</p>",
       "items": {
         "2d10 Silver Shilling": {
           "name": "2d10 Chelín de plata"
@@ -8888,6 +9082,9 @@
     "Ulrich Schutzmann": {
       "name": "Ulrich Schutzmann",
       "tokenName": "Ulrich",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.ECtQRvrnApRgX7TA]{Los Mariscales Centrales}</p><p>Ulrich es el comandante de la Guardia de Middenheim. Es un hombre imponente de unos cincuenta años, alto y de constitución fuerte, con el pelo muy corto de color gris acero y los ojos azul oscuro. Se comporta con gran solemnidad en los desfiles y las ceremonias, y en general se le considera como un soldado dedicado e intachable. Es severo y sin concesiones, de disciplina estricta, pero un buen estratega y un táctico sagaz. Es uno de los pocos seguidores abiertos de Sigmar que han obtenido un alto cargo en la ciudad de Ulric.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -8993,6 +9190,7 @@
     "Snikkit": {
       "name": "Snikkit",
       "tokenName": "Snikkit",
+      "species": "Skaven",
       "items": {
         "Dodge": {
           "name": "Esquivar"
@@ -9059,6 +9257,9 @@
     "Sascha Rothbert": {
       "name": "Sascha Rothbert",
       "tokenName": "Sascha",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>@UUID[JournalEntry.orDqA8A9sQXPHycl.JournalEntryPage.einhvv3Ue42cUGwA]{Hoja de resumen}</p><p>No hay muchos problemas que Sascha Rothbert no pueda resolver, aunque no puede prometer que nadie salga herido por el camino. Por eso, el Rey de los Bajos (como se autodenominan los cerebros criminales de Middenheim) conocido sólo como @UUID[Compendium.wfrp4e-middenheim.journals.Liw9HcyJnHbLZevz.JournalEntryPage.xiXbVzAggcmfXxd1]{«El Hombre»} lo mantiene como un agente preciado. El trabajo de Rothbert es conocer a la gente, desde el más humilde mendigo de @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.oM7yW5hFcjG2qi3i]{Ostwald} hasta la alta sociedad de palacio. Si quieres conocer a alguien, hay peores maneras de hacerlo que ponerse en contacto con Sascha.</p><p>A pesar de su posición en la fraternidad criminal de Middenheim, Rothbert está asustado. Hace dos meses, estaba por casualidad en un tejado mirando a través de cierta ventana. Dentro vio un círculo de personas con túnicas púrpuras cantando en una extraña e inquietante lengua. Este es el tipo de información que no quería saber. Y la cosa empeoró cuando uno de los sectarios se volvió y miró hacia él. Ahora corre asustado y vigila cada esquina en busca de amenazas.</p><p>A «El Hombre» no le gustan los nuevos impuestos; son malos para los negocios y están causando el tipo de desorden no deseado en la ciudad. Le ha encargado a Sascha que solucione ese problema, pero Sascha está tratando de pasar desapercibido y necesita ayuda. Lo ideal sería encontrar algunas personas de fuera que puedan moverse por la sociedad de Middenheim y llegar a saber lo que está pasando. Cuando el grupo llega a la ciudad, tarda apenas unas horas en saber de ellos, por lo que puede ser utilizado para engancharlos a la aventura... especialmente si hay PJs pícaros entre ellos. Alternativamente, si están buscando a alguien de los bajos fondos con conexiones, Rothbert emerge de las sombras. El agente de información conocido como Josef también puede poner a los PJs en contacto con Rothbert.</p>",
       "items": {
         "Bribery": {
           "name": "Sobornar"
@@ -9206,6 +9407,9 @@
     "Dagmar Mitschuldige": {
       "name": "Dagmar Mitschuldige",
       "tokenName": "Dagmar",
+      "species": "Humano",
+      "status": "Plata 3",
+      "gmnotes": "<p>Alta a todas luces, de complexión fuerte, pelo castaño claro, ojos color avellana, y con pecas en el puente de la nariz, el dorso de las manos y los antebrazos; su rasgo más notable es la falta de sus dientes frontales, que perdió en una pelea hace años. Dagmar es una mercenaria a sueldo, una mujer adusta y cínica, pero bastante leal… si le pagan bien. Ha estado escondida en la guarida del grupo, y está aburrida y nerviosa. Sin embargo, recientemente se ha hecho amiga de Reya Ehrlich, la sobrina del @UUID[Actor.2T8CXsP45Z3Kptvi]{Señor de la Ley}.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -9347,6 +9551,9 @@
     "Karl-Heinz Wasmeier": {
       "name": "Karl-Heinz Wasmeier",
       "tokenName": "Karl-Heinz",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.seoqMOoXusLrB77M]{Hoja de resumen}</p><p>Karl-Heinz tiene alrededor de cuarenta años, es alto, de complexión media, con pelo castaño ondulado de longitud media y ojos marrones. Sin que lo sepan los demás Señores de la Ley (o, de hecho, cualquier otra persona en la Corte), es el jefe del Círculo Interior de la Secta de @UUID[Compendium.wfrp4e-eis.journals.IZVgB7zmTm4rK2yJ]{la Mano Púrpura}. Es inteligente, cruel y despiadado, pero pocos que lo conozcan lo pensarían. En el curso de sus deberes profesionales, tiene cuidado de parecer profesional, razonable y discretamente humanitario. Es el único Señor de la Ley que ha expresado públicamente sus dudas sobre los impuestos.</p>",
       "items": {
         "Opal Brooch": {
           "name": "Broche de ópalo"
@@ -9578,6 +9785,8 @@
     "Skretth": {
       "name": "Skretth",
       "tokenName": "Skretth",
+      "species": "Skaven",
+      "gmnotes": "<p>Skretth tiene un pelaje gris pálido y, gracias a su consumo de drogas, sus ojos brillan salvajemente incluso para un vidente gris. Viste con ropas sucias y tiene medio diente delantero izquierdo roto. Para @UUID[JournalEntry.FgeoIDH3AwddLLFH.JournalEntryPage.2rGrpvPYmr4kWXCb]{más detalles} sobre los videntes grises y la tradición mágica de la Rata Cornuda, consulta el <strong>Compendio de la Rata Cornuda</strong>.</p>",
       "items": {
         "Skretth's Magic Ring": {
           "name": "Anillo mágico de Skretth"
@@ -9710,6 +9919,9 @@
     "Rallane Lafarel": {
       "name": "Rallane Lafarel",
       "tokenName": "Rallane",
+      "species": "Elfo",
+      "status": "Plata 3",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.GThVMXIn0JVNqyGx]{Hoja de resumen}</p><p>Rallane Lafarel es el juglar residente de la corte de Middenheim. Su función principal es entretener a los miembros de la Corte y a sus invitados, cantando, tocando instrumentos y recitando. Es un elfo de noventa y seis años y aparenta unos treinta en términos humanos. Tiene una complexión típica de los elfos, bastante alto y delgado. Su pelo es rubio ceniza plateado y sus ojos son de un verde pálido como las hojas nuevas. Viste con sedas y terciopelos extravagantes, pero de buen gusto, algunos con adornos de piel. Es muy exigente con su aspecto y con el de los demás. Rallane es un elfo amistoso, y trata su trabajo en el palacio con evidente entusiasmo. Siempre tiene a punto una frase acertada o un dicho cortés, tiene un agudo sentido del humor y es casi compulsivamente simpático. Es un romántico incurable y nada le gusta más que una discreta aventura con una mujer hermosa; sabe que es encantador y disfruta de cada minuto de coqueteo cortés.</p>",
       "items": {
         ": Fine quality court clothing": {
           "name": "Ropa de corte de calidad fina"
@@ -9875,6 +10087,8 @@
     "Snikkit’s Skaven Warrior": {
       "name": "Guerrero skaven de Snikkit",
       "tokenName": "Guerrero skaven",
+      "species": "Skaven",
+      "status": "6",
       "items": {
         "Dodge": {
           "name": "Esquivar"
@@ -9929,6 +10143,9 @@
     "Emmanuelle Schlagen": {
       "name": "Emmanuelle Schlagen",
       "tokenName": "Emmanuelle",
+      "species": "Humano",
+      "status": "Plata 4",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.38WzzrTTBf72J0ki]{Hoja de resumen}</p><p>Emmanuelle es una dama de la Corte y una de las favoritas del @UUID[Actor.czIY275tUC4VGDWp]{Graf}. Tiene un poco menos de treinta años, es de estatura superior a la media, delgada pero no esbelta. Su cabello rubio ceniza tiene un rizo natural, y le cae en cascada hasta la mitad de la espalda. Su mentón estrecho y sus pómulos altos le dan a su rostro un aspecto ligeramente felino, que se ve realzado por sus grandes ojos almendrados de color verde grisáceo. Antigua actriz, Emmanuelle consiguió su posición actual gracias a la influencia de @UUID[Actor.jBamTcOi8iz3mYxe]{Ulrich Schutzmann}, a quien eligió como amante precisamente por su capacidad para conseguirle el puesto. Es brillante, intuitiva y muy manipuladora.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -10094,6 +10311,9 @@
     "Bruno Kohl": {
       "name": "Bruno Kohl",
       "tokenName": "Bruno",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>Alto, pretencioso y muy propenso a las malas decisiones, Bruno es un habitual de El Hoyo. Es de complexión delgada, con mechas azules cuidadosamente añadidas a su pelo castaño. Sus ojos verdes siempre están inyectados en sangre. Bruno está siempre tenso y no sabe estarse quieto; sus tics nerviosos son más evidentes cuando está sentado. Su aspecto es extraño: tiene la cara pintada de blanco de una forma macabra, mechas en el pelo y su ropa es de todos los colores del arcoíris. Bruno es el sobrino de @UUID[Actor.ZyMHHLG9tNTDIw8S]{Hildegarde Zimperlich}, la carabina de la @UUID[Actor.PrkWVIr7Go4u1QWp]{«Princesa»}. Utiliza esta información sólo si se siente amenazado, proclamando: <em>«Tócame y lo lamentarás. Tengo parientes en las altas esferas».</em></p>",
       "items": {
         "Bribery": {
           "name": "Sobornar"
@@ -10247,6 +10467,9 @@
     "Hans Gräber": {
       "name": "Hans Gräber",
       "tokenName": "Hans",
+      "species": "Humano",
+      "status": "Nigromante",
+      "gmnotes": "<p>Gräber es pequeño y delgado, con el pelo negro liso en un corte desordenado en forma de cuenco, ojos azules pálidos y nariz ancha. Pasa mucho tiempo perfeccionando su «rostro de la muerte», que consiste esencialmente en capuchas, túnicas y otros accesorios cuidadosamente elegidos. Tiene una voz grave que se convierte en un chillido cuando se deja llevar. Sin sus ropas o si es arrastrado fuera de su oscura cueva, Gräber parece mucho menos imponente y más joven que su verdadera edad, veinticuatro años, lo que le molesta enormemente. Violentamente sensible a los desaires, tanto reales como imaginarios, ha convertido su propensión casi sobrehumana a aprender y su imaginación desbordada en un medio de venganza contra todos los que lo han despreciado, todos los que lo harán... de hecho, contra todos.</p>\n<p>Su personaje de «Señor de la Tumba» es un intento de emular a su héroe Heinrich Kemmler, el Señor de los Muertos, y sus ataques cuidadosamente planificados y teatrales pretenden sembrar el miedo y ganarse respeto mientras se venga de todos los que se cruzan con él. Aunque es vanidoso y bastante ridículo, está lejos de ser tonto, y aunque odie admitirlo, sobre todo para sí mismo, la dificultad de los demás para tomarle en serio es una de sus armas más poderosas.</p>",
       "items": {
         "Spell Ingredients": {
           "name": "Ingredientes para hechizos"
@@ -10418,6 +10641,9 @@
     "Headless Skeleton Champion": {
       "name": "Campeón esqueleto sin cabeza",
       "tokenName": "Esqueleto sin cabeza",
+      "species": "Muerto viviente",
+      "notes": "<section id=\"secret-7h0Y30Mjcw0p0yHP\" class=\"secret\"><p>Si está contra las cuerdas, @UUID[Actor.r4AUsjsfOL9HW8lO]{Gräber} intenta reanimar todos los huesos de la cueva como Esqueletos. Como sabrás, sus cráneos tienen otro propósito.</p><p>Hay entre 6 y 10 esqueletos sin cabeza en la cueva. Si lo deseas, algunos o todos ellos pueden ser campeones esqueleto sin cabeza, que presentan un mejor desafío para los grupos competentes en el combate.</p></section>",
+      "description": "<section id=\"secret-7h0Y30Mjcw0p0yHP\" class=\"secret\"><p>Si está contra las cuerdas, @UUID[Actor.r4AUsjsfOL9HW8lO]{Gräber} intenta reanimar todos los huesos de la cueva como Esqueletos. Como sabrás, sus cráneos tienen otro propósito.</p><p>Hay entre 6 y 10 esqueletos sin cabeza en la cueva. Si lo deseas, algunos o todos ellos pueden ser campeones esqueleto sin cabeza, que presentan un mejor desafío para los grupos competentes en el combate.</p></section>",
       "items": {
         "Headless": {
           "name": "Sin cabeza"
@@ -10463,6 +10689,9 @@
     "Militia": {
       "name": "Milicia",
       "tokenName": "Milicia",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>La milicia está formada por Josef Bleuler, de 22 años, Manfred Fleiss, de 16 años, Hans-Friedrich Kallman, de 30 años y Gunter Semmelweiss, de 24 años.</p>",
       "items": {
         "Endurance": {
           "name": "Aguante"
@@ -10577,6 +10806,9 @@
     "Albrecht Helseher": {
       "name": "Albrecht Helseher",
       "tokenName": "Albrecht",
+      "species": "Humano",
+      "status": "Oro 2",
+      "gmnotes": "<p>@UUID[JournalEntry.PkTZGuhuMoy1xLWa.JournalEntryPage.BczIUXqbPEOGbY9V]{Hoja de resumen}</p><p>Helseher es un Señor de los hechiceros de la Orden de Oro. Es un hombre alto de sesenta y pocos años, enjuto y ascético, con una larga melena de pelo negro brillante, sin una pizca de gris a pesar de su edad, y ojos penetrantes de un azul sorprendentemente vivo. Sus ojos, y sus dedos largos y delicados pero fuertes, son sus rasgos más característicos. Causa una impresión duradera en cualquier persona que conoce. Cuando no lleva el equipo ceremonial de su orden, Helseher viste sin vanidad, y prefiere las prendas holgadas de color negro o gris, que le permiten la máxima libertad de movimiento. Le preocupan más sus abstracciones e investigaciones que la «vida real», y rara vez sale de sus aposentos o de sus oficinas en el Gremio. Por lo tanto, la población en general tiene pocas oportunidades para verlo, y se le considera como una figura misteriosa a la que hay que temer más que amar.</p>",
       "items": {
         "GM’s discretion. Helseher has his own magic items and can requisition Guild property, so he may have almost any item within reason.": {
           "name": "A discreción del DJ: Helseher tiene sus propios objetos mágicos y puede requisar propiedades del Gremio, por lo que puede tener casi cualquier objeto dentro de lo razonable."
@@ -10826,6 +11058,9 @@
     "Tigrati ‘Head’ Parvisch": {
       "name": "Tigrati «Cabeza» Parvisch",
       "tokenName": "Tigrati",
+      "species": "Humano",
+      "status": "Bronce 2",
+      "gmnotes": "<p>Tigrati «Cabeza» Parvisch mide 5’10 y lleva una capa de sudor y suciedad apestosa sobre un asqueroso chaleco blanco y unos igualmente repugnantes pantalones negros. Siempre lleva el anillo de llaves de las celdas en su cinturón, lo que dificulta hacerse con ellas. Afortunadamente, es profundamente bobo y fácil de engañar. </p>",
       "items": {
         "Climb": {
           "name": "Escalar"
@@ -10931,6 +11166,9 @@
     "Uli Breitner": {
       "name": "Uli Breitner",
       "tokenName": "Uli",
+      "species": "Humano",
+      "status": "Plata 5",
+      "gmnotes": "<p>Uli es un hombre amable y sociable que disfruta con su trabajo. Está orgulloso de su @UUID[JournalEntry.OYXb3CKZ79qBHCHK.JournalEntryPage.SGpfZKBFbzFQNeAz#the-templars-arms]{mesón} y quiere a su personal. Uli llegó a Middenheim hace unos años después de servir en una de las compañías de mercenarios que operaban en el norte del Imperio. Si se le trata bien y se le invita a una o dos bebidas, a ser posible una buena cerveza, Uli puede ser amable y cooperativo. Sabe mucho de los aspectos más sórdidos de la vida en Middenheim, ya que se pasó algún tiempo haciendo de chalán entre llegar a Middenheim y comprar el mesón.</p>",
       "items": {
         "The Templar’s Arms Inn": {
           "name": "Mesón Las Armas del Templario"
@@ -11105,6 +11343,9 @@
     "Emil Valgeir": {
       "name": "Emil Valgeir",
       "tokenName": "Emil",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Un feroz y devoto seguidor de Ulric, Valgeir es actualmente el Gran Maestre del Capítulo de la @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.dBIV62DP69lOoUAV#knights-of-the-white-wolf]{Orden del Lobo Blanco} de Middenheim. Guerrero y sacerdote, ha luchado junto a la @UUID[Compendium.wfrp4e-middenheim.journals.PuIrlGBOjxuWpK3P.JournalEntryPage.dBIV62DP69lOoUAV#the-teutogen-guard]{Guardia Teutógena} contra los hombres bestia del Drakwald y en las campañas del Imperio contra otros enemigos, lo que le ha valido la admiración, aunque a regañadientes, del Mariscal del Reik @UUID[Compendium.wfrp4e-altdorf.actors.YA2Wi0B3FBO4qMGS]{Kurt Helborg}. Es un hombre de pocas palabras, con una mirada que pocos pueden soportar y una presencia física impresionante. Tiene fama de seguir a ultranza los valores ulricanos, pero los que lo conocen dicen que, en compañía de otros ulricanos, es un camarada entusiasta, tan rápido en las bromas como en la lucha y con una risa que puede oírse a tres valles de distancia.</p>",
       "items": {
         "Grey Wolf Pelt": {
           "name": "Piel de lobo gris"
@@ -11282,6 +11523,9 @@
     "Gustav Holschtweig": {
       "name": "Gustav Holschtweig",
       "tokenName": "Gustav",
+      "species": "Humano",
+      "status": "Bronce 4",
+      "gmnotes": "<p>@UUID[JournalEntry.qnddoqf7stZdPo0E.JournalEntryPage.4spyIKuKY8cYgH3Y#the-victims]{Las víctimas}</p><p>Calvo, con algunos mechones de pelo gris, perilla canosa y ojos azules pálidos, Gustav es amable y honesto y, por tanto, también bastante pobre. Gustav suele cobrar precios más bajos a la gente evidentemente pobre, y da algunas monedas a los golfillos de la calle. Ha viajado a Middenheim especialmente para el Carnaval.</p>",
       "items": {
         "20 assorted pots and pans": {
           "name": "20 ollas y sartenes variadas"
@@ -11429,6 +11673,9 @@
     "Changeling Of Tzeentch": {
       "name": "Cambiante de Tzeentch",
       "tokenName": "Cambiante",
+      "species": "???",
+      "notes": "<p>@UUID[JournalEntry.UkgMpIvYS5PjmAyX]{El Cambiante}</p>",
+      "description": "<p>@UUID[JournalEntry.UkgMpIvYS5PjmAyX]{El Cambiante}</p>",
       "items": {
         "Distracting": {
           "name": "Molesto"
@@ -11471,6 +11718,9 @@
     "Selena": {
       "name": "Selena",
       "tokenName": "Selena",
+      "species": "Humano",
+      "status": "Bronce 1",
+      "gmnotes": "<p>Bajita, de complexión media, con el pelo rubio mal teñido y ojos marrón oscuro, Selena es materialista, ingenua y se ríe mucho, a veces por costumbre nerviosa.</p>",
       "items": {
         "Gold Bracelet": {
           "name": "Pulsera de oro"
@@ -11579,6 +11829,9 @@
     "Henri-Phillippe Rocheteau": {
       "name": "Henri-Phillippe Rocheteau",
       "tokenName": "Henri-Phillippe",
+      "species": "Humano",
+      "status": "Plata 5",
+      "gmnotes": "<p>Siendo originalmente un mercader de vino de Bretonia, Henri-Phillippe visitó la zona por negocios y reconoció el excelente potencial del suelo y el clima para el cultivo de la uva bretoniana Quenellois Noir. Con dinero prestado, Henri-Phillippe compró una importante cantidad de tierra y se instaló en la zona hace catorce años. El nuevo viñedo no tardó en establecerse y, habiendo devuelto el préstamo inicial, Henri-Phillippe ha disfrutado de crecientes beneficios desde entonces.</p>\n<p>Se casó con @UUID[Actor.cFiWNzAwDs4EXMUD]{Elisabet}, una chica de la zona, dos años después de llegar, atraído por su sonrisa cautivadora y su naturaleza inocente. Sin embargo, como la edad y los negocios superaron la juventud y el romance, él ha llegado a tratarla más como una sirvienta que como una esposa. </p>\n<p>Henri-Phillippe es un hombre de cuarenta y dos años, grande y corpulento, con tez aceitunada y pelo negro hasta los hombros. Una década de buena vida le ha hecho tener un poco de sobrepeso, pero todavía goza de una salud robusta.</p>",
       "items": {
         "Animal Care": {
           "name": "Criar animales"
@@ -11702,6 +11955,9 @@
     "Peter Tavelli": {
       "name": "Peter Tavelli",
       "tokenName": "Peter",
+      "species": "Humano",
+      "status": "Bronce 4",
+      "gmnotes": "<p>Tavelli es un hombre alto y anguloso con una nariz ganchuda, ojos pequeños y brillantes y pelo negro. Lleva un sombrero negro de ala ancha que cubre la mayor parte de la cara, y un pañuelo azul oscuro a modo de máscara. Su capa azul oscuro se sujeta con un broche idéntico al que hay en la cocina de Klauss.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
@@ -11834,6 +12090,9 @@
     "Headless Skeleton": {
       "name": "Esqueleto sin cabeza",
       "tokenName": "Esqueleto sin cabeza",
+      "species": "Muerto viviente",
+      "notes": "<section id=\"secret-Uq5e4oX0Ma6cN3Dr\" class=\"secret\"><p>Si está contra las cuerdas, @UUID[Actor.r4AUsjsfOL9HW8lO]{Gräber} intenta reanimar todos los huesos de la cueva como Esqueletos. Como sabrás, sus cráneos tienen otro propósito.</p><p>Hay entre 6 y 10 esqueletos sin cabeza en la cueva. Si lo deseas, algunos o todos ellos pueden ser @UUID[Actor.rDpDwQSwFeUw0ajW]{campeones esqueleto sin cabeza}, que presentan un mejor desafío para los grupos competentes en el combate.</p></section>",
+      "description": "<section id=\"secret-Uq5e4oX0Ma6cN3Dr\" class=\"secret\"><p>Si está contra las cuerdas, @UUID[Actor.r4AUsjsfOL9HW8lO]{Gräber} intenta reanimar todos los huesos de la cueva como Esqueletos. Como sabrás, sus cráneos tienen otro propósito.</p><p>Hay entre 6 y 10 esqueletos sin cabeza en la cueva. Si lo deseas, algunos o todos ellos pueden ser @UUID[Actor.rDpDwQSwFeUw0ajW]{campeones esqueleto sin cabeza}, que presentan un mejor desafío para los grupos competentes en el combate.</p></section>",
       "items": {
         "Headless": {
           "name": "Sin cabeza"
@@ -11876,6 +12135,9 @@
     "Otto Geschwur": {
       "name": "Otto Geschwur",
       "tokenName": "Otto",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>En su madurez, Otto fue contratado tanto por su intimidante tamaño como por su habilidad detrás de la barra. Es sólo un par de centímetros más bajo que Fritz, muy musculoso, con pelo y ojos marrones. Otto es impaciente, grosero y muy lascivo, con un temperamento temible. Se cree un donjuán.</p>",
       "items": {
         "Athletics": {
           "name": "Atletismo"
