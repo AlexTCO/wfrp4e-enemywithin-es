@@ -1,9 +1,13 @@
  {
   "label": "Actors (Pwer behind the throne)",
+  "mapping": {
+    "notes": "system.details.biography.value",
+    "gmnotes": "system.details.gmnotes.value"
+  },
   "folders": {
     "Adventure": "Aventura",
     "Chapter 1: The Road to Middenheim": "Capítulo 1: El Camino a Middenheim",
-    "Flying Death Skulls": "Los craneos de la muerte",
+    "Flying Death Skulls": "Los cráneos de la muerte",
     "The Ritual": "El Ritual",
     "Chapter 2: Middenheim": "Capítulo 2: Middenheim",
     "Some Very Important People": "Personas Muy Importantes",
@@ -13,8 +17,8 @@
     "Chapter 6: The Powers That Be": "Capítulo 6: Los poderes fácticos",
     "Chapter 7: The Traitor Unmasked": "Capítulo 7: El Traidor Desenmascarado",
     "Appendix": "Apéndice",
-    "Companion": "Companion"
-},
+    "Companion": "Compendio"
+  },
   "entries": {
     "Kurt Gruber": {
       "name": "Kurt Gruber",
