@@ -6244,8 +6244,8 @@
           "description": "<p>Lleva el hacha-martillo de Skoll, un arma legendaria a dos manos que, según se dice, ha sido llevada por un Ar-Ulric desde los tiempos de Sigmar. El arma es mágica. Además, cuando es empuñada con intención por un seguidor Bendito de Ulric, debe hacer un Chequeo <strong>Desafiante (+0) de Rezar</strong>. Por cada +NE que consiga, podrá elegir una de las siguientes cualidades: Dañina, Impactante, Empalar o Penetrante.</p>"
         },
         "The Wolfplate": {
-          "name": "La Coraza del Lobo",
-          "description": "<p>El Ar-Ulric también tiene una armadura mágica, la Coraza del Lobo. Cuando la lleva puesta concede 4 PA a todas las ubicaciones de impacto y otorga los siguientes rasgos: @UUID[Compendium.wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Inmunidad (fuego)}, @UUID[Compendium.wfrp4e-core.items.yrkI7ATjqLPDTFmZ]{Resistencia a la magia (2)}, @UUID[Compendium.wfrp4e-core.items.Bvd2aZ0gQUXHfCTh]{Protección (2)}.</p>"
+          "name": "Armadura de lobo",
+          "description": "<p>El Ar-Ulric también tiene una armadura mágica, la Armadura de lobo. Cuando la lleva puesta concede 4 PA a todas las ubicaciones de impacto y otorga los siguientes rasgos: @UUID[Compendium.wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Inmunidad (fuego)}, @UUID[Compendium.wfrp4e-core.items.yrkI7ATjqLPDTFmZ]{Resistencia a la magia (2)}, @UUID[Compendium.wfrp4e-core.items.Bvd2aZ0gQUXHfCTh]{Protección (2)}.</p>"
         },
         "Lector": {
           "name": "Lector"
