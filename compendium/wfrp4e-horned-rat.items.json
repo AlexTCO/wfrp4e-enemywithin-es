@@ -1,339 +1,1251 @@
 {
-  "label": "Items (The Horned Rat)",
+  "label": "Objetos (La Rata Cornuda)",
   "folders": {
-    "Lore of Plague": "Lore of Plague",
-    "Diseases": "Diseases",
-    "Petty": "Petty",
-    "Spells": "Spells",
-    "Talents": "Talents",
-    "Lore of Stealth": "Lore of Stealth",
-    "Careers": "Careers",
-    "Lore of Ruin": "Lore of Ruin",
-    "Trappings": "Trappings",
-    "Weapons": "Weapons",
-    "Ammunition": "Ammunition"
+    "Lore of Plague": "Saber de la Plaga",
+    "Diseases": "Enfermedades",
+    "Petty": "Magia menor",
+    "Spells": "Hechizos",
+    "Talents": "Talentos",
+    "Lore of Stealth": "Saber del Sigilo",
+    "Careers": "Carreras",
+    "Lore of Ruin": "Saber de la Ruina",
+    "Trappings": "Objetos",
+    "Weapons": "Armas",
+    "Ammunition": "Munición"
   },
   "entries": {
     "Warp-grinder": {
-      "name": "Warp-grinder"
+      "name": "Tuneladora de disformidad",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p><p>La tuneladora de disformidad es un dispositivo experimental skaven para la excavación rápida, que puede cortar las formaciones rocosas más duras en cuestión de segundos. Funciona con piedra bruja, por lo que es potencialmente muy inestable. La tuneladora de disformidad es una @Corruption[Mayor]{Influencia corruptora mayor}.</p><p>Proyecta un arco parpadeante de magia negra de color verde negruzco que destruye todo lo que toca. Consiste en un bastón con punta de piedra bruja conectado a un condensador de piedra bruja revestido de latón por una maraña de mangueras y cables.</p><p>Requiere una tripulación de dos individuos: uno para llevar el condensador y otro para manejar el bastón. La tuneladora de disformidad puede cortar un túnel de 5 pies de diámetro a través de la mayoría de los tipos de roca a una tasa de Movimiento de 2. Aunque no fue diseñada como arma, a corta distancia puede ser mortal. De una tripulación de dos skaven, el que maneja el bastón puede atacar con la tuneladora y el skaven del condensador usa un arma de mano. La Impedimenta se reparte entre la tripulación.</p>",
+      "effects": [
+        {
+          "name": "Tuneladora de disformidad",
+          "scriptData": [
+            {
+              "label": "Tuneladora de disformidad",
+              "script": "[Script.xcy5GOUSZ0meIejZ]"
+            }
+          ]
+        }
+      ],
+      "special": "@Corruption[Mayor]{Influencia corruptora mayor}"
     },
     "Skitterleap (Plague)": {
-      "name": "Skitterleap (Plague)"
+      "name": "Salto fugaz (Plaga)",
+      "description": "<p>Con un sonido de aire repentino y una bocanada de humo con olor a azufre, te teletransportas a ti mismo o a un aliado que puedas tocar a cualquier lugar a tantas yardas como tu Voluntad. Si el objetivo no está dispuesto, resuelve el intento de toque con las reglas para lanzar un hechizo de toque en combate (ver @UUID[Compendium.wfrp4e-core.journals.YBVrpUHEjohB1H4f.JournalEntryPage.BU7yhLmMdEyvbfkR]{Reglas de magia}), y la víctima puede hacer un <strong>Chequeo Complicado (&ndash;10) de Frialdad</strong> para desplazar su destino tantas yardas como +NE. El objetivo debe ser de tamaño Normal o menor. Debes poder ver el destino, y ese lugar debe estar libre de objetos y criaturas o el hechizo falla.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>"
     },
     "Rat Thrall": {
-      "name": "Rat Thrall"
+      "name": "Esclavitud de la Rata",
+      "description": "<p>Invocas a una rata marrón normal y corriente. Durante las siguientes [[/br 1d10]] horas, puedes comunicarte con ella como si compartierais un lenguaje común, y debe obedecer todas tus órdenes, aunque le causen la muerte. Las ratas esclavizadas pueden buscar objetos pequeños, roer cuerdas y realizar otras tareas sencillas que una rata normal podría hacer, pero estas peticiones están limitadas por la inteligencia animal de la rata.</p>\n<p><strong>Saber:</strong> Ninguno</p>\n<p>&nbsp;</p>"
     },
     "Snare-Net": {
-      "name": "Snare-Net"
+      "name": "Red de lazo",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Eshin y aliados</p>\n<p>Las redes de lazo son redes fuertes pero ligeras cubiertas de ganchos, utilizadas por los acechantes nocturnos para capturar prisioneros vivos o para enredar y frenar a los oponentes.</p>\n<p>Una red de lazo provoca el doble de Estados de @Condition[Enmarañado].</p>",
+      "effects": [
+        {
+          "name": "Red de lazo"
+        }
+      ]
     },
     "Pavise": {
-      "name": "Pavise"
+      "name": "Pavés",
+      "description": "<p>Este gran escudo está diseñado para proteger del fuego enemigo a las tripulaciones de los @UUID[Compendium.wfrp4e-horned-rat.items.lP0b4ATxULZBpIvD]{jezzails brujos} y otras armas de poca dotación. Tiene una Impedimenta de 4 y, en lugar de actuar como un escudo normal, hace que todos los ataques a distancia que tengan como objetivo a la tripulación sean <strong>Difíciles (&ndash;20)</strong>.</p>",
+      "effects": [
+        {
+          "name": "Pavés",
+          "scriptData": [
+            {
+              "label": "Los ataques a distancia son Difíciles",
+              "script": "[Script.2p9IK6Y5Z4NQD6FY]",
+              "hideScript": "[Script.LLqAT9wEUGMLfDhU]",
+              "activateScript": "[Script.fFGuTi0HLjwneMcJ]"
+            }
+          ]
+        }
+      ]
     },
     "Death Globe": {
-      "name": "Death Globe"
+      "name": "Globo mortal",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p><p>Se trata de una esfera de viento envenenado de una variedad aún más potente, capaz de liberar grandes volúmenes de gas mortal. Es idéntico a una @UUID[Compendium.wfrp4e-horned-rat.items.YnFYheNBrpDmDtZ3]{esfera de viento envenenado}, excepto que su nube es el doble de grande, los objetivos deben superar un <strong>Chequeo Difícil (–20) de Resistencia</strong> para aguantar sus efectos, y los que fracasan pierden [[/r 1d10 # Wounds]] Heridas, modificadas por el Bonificador por Resistencia, pero no por la armadura.</p>",
+      "effects": [
+        {
+          "name": "Globo mortal",
+          "scriptData": [
+            {
+              "label": "Globo mortal",
+              "script": "[Script.vS2D9QUslR7ZtXXm]"
+            },
+            {
+              "label": "Fin del asalto",
+              "script": "[Script.vS2D9QUslR7ZtXXm]"
+            }
+          ]
+        },
+        {
+          "name": "Globo mortal - Fallo",
+          "scriptData": [
+            {
+              "label": "Globo mortal - Fallo",
+              "script": "if ((args.test.weapon.id == this.item.id || args.test.weapon.ammo?.id == this.item.id) && args.test.isFumble)\n{\n    args.test.result.other.push(\"@Table[poisoned-wind-globe]\")\n}"
+            }
+          ]
+        }
+      ]
     },
     "Warp Star Infusion": {
-      "name": "Warp Star Infusion"
+      "name": "Estrella de piedra bruja infusionada",
+      "description": "<p>Encantas un número de estrellas arrojadizas igual a tu Bonificador por Voluntad, imbuyéndolas con la asquerosa esencia de la disformidad. Un objetivo herido por una de estas estrellas debe superar un <strong>Chequeo Difícil (&ndash;20) de Resistencia</strong> o sufrir heridas adicionales iguales a tu Bonificador por Voluntad, ignorando la armadura y el Bonificador por Resistencia.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>",
+      "effects": [
+        {
+          "name": "Estrella de piedra bruja infusionada",
+          "scriptData": [
+            {
+              "label": "Estrella de piedra bruja infusionada",
+              "script": "[Script.ga6bQzPuoIiQQrKg]"
+            }
+          ]
+        }
+      ]
     },
     "Favour of the Horned Rat": {
-      "name": "Favour of the Horned Rat"
+      "name": "Favor de la Rata Cornuda",
+      "description": "<p>Obtienes un Punto de Fortuna adicional mientras dure el hechizo. Solo puedes beneficiarte de este hechizo una vez por cada período de 13 horas. Intentar usar este hechizo de nuevo antes de que pasen las 13 horas completas atrae la desaprobación de la Rata Cornuda, cuyos efectos quedan a criterio del DJ.</p><p>\n\n <b>Saber:</b> Ninguno<p>",
+      "effects": [
+        {
+          "name": "Favor de la Rata Cornuda",
+          "scriptData": [
+            {
+              "label": "Favor de la Rata Cornuda",
+              "script": "[Script.UgQW0UMPOZ0jwfVJ]"
+            }
+          ]
+        }
+      ]
     },
     "Warp-Power Accumuluator": {
-      "name": "Warp-Power Accumuluator"
+      "name": "Acumulador de energía bruja",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p>\n<p>Un @UUID[Actor.KAB3UZ20z9m8fUQ3]{ingeniero brujo} equipado con un acumulador de energía bruja sobrealimentado aumenta la cantidad de energía bruja canalizada en cualquier hechizo de Rayo de disformidad que lance. Al calcular los Niveles de Éxito del hechizo, puedes invertir los dados utilizados para el Chequeo de lanzamiento si este resultado es mejor.</p>\n<p>Sin embargo, si sufres una disfunción mágica al lanzar Rayo de disformidad mientras utilizas un acumulador de energía bruja, el dispositivo comienza a sobrecargarse, además de los efectos habituales de la disfunción. A menos que el ingeniero brujo pueda apagar el acumulador en el siguiente turno, lo que requiere un <strong>Chequeo Muy difícil (–30) de Destreza </strong>para alcanzar el mal colocado interruptor de emergencia, explota causando [[/r 3d10 #Damage]] de Daño, reducido por el Bonificador por Resistencia y la armadura, a todos los que estén en un radio de 3 yardas, y cuenta como una @Corruption[Moderada]{Exposición moderada a la Corrupción} para todos los que estén en un radio de 5 yardas.</p>",
+      "effects": [
+        {
+          "name": "Acumulador de energía bruja",
+          "scriptData": [
+            {
+              "label": "Acumulador de energía bruja",
+              "script": "[Script.fPKYkBllp7Et62lX]"
+            },
+            {
+              "label": "Sobrecarga",
+              "script": "[Script.ROXCqAFSTLouJniL]"
+            }
+          ]
+        }
+      ]
     },
     "Beast-Prod": {
-      "name": "Beast-Prod"
+      "name": "Picana para bestias",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Moulder y aliados</p><p>Esta picana con púas se utiliza principalmente para arrear a las @UUID[Compendium.wfrp4e-core.actors.VfJgGmCTWqb0IDSW]{ratas ogro} y otras creaciones del @UUID[JournalEntry.oXly0RXc3Z3vnVrH.JournalEntryPage.qvft4GKy7q56yHgN]{clan Moulder}, pero en caso de necesidad un @UUID[Actor.vqKiWF0OuVwTnARC]{señor de las bestias} utilizará su energía mágica contra un enemigo. Requiere dos manos y hace el mismo daño que una alabarda, pero ignora toda la armadura.</p>",
+      "effects": [
+        {
+          "name": "Picana para bestias",
+          "scriptData": [
+            {
+              "label": "Picana para bestias",
+              "script": "[Script.KyswmGj1uG3QS3ng]"
+            }
+          ]
+        }
+      ]
     },
     "Death Frenzy (Ruin)": {
-      "name": "Death Frenzy (Ruin)"
+      "name": "Locura asesina (Ruina)",
+      "description": "<p>Invades a un skaven con un hambre voraz horrible, haciendo que la espuma salpique de su boca y sus ojos giren locamente en su cabeza. Tu objetivo queda sujeto a @UUID[Compendium.wfrp4e-core.items.yRhhOlt18COq4e1q]{Frenesí} mientras dure el hechizo. Los objetivos que no estén dispuestos pueden intentar resistir estos efectos con un <strong>Chequeo Desafiante (+0) de Frialdad</strong>. Los que tienen éxito sufren 1 Herida mientras roen sus propias extremidades para distraerse de la llamada a la violencia del hechizo.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Locura asesina",
+          "scriptData": [
+            {
+              "label": "Locura asesina",
+              "script": "[Script.c31hjp7k0hlpdGBC]"
+            }
+          ]
+        }
+      ]
     },
     "Poisoned Wind Mortar": {
-      "name": "Poisoned Wind Mortar"
+      "name": "Mortero de esferas de viento envenenado",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p>\n<p>El mortero de esferas de viento envenenado permite a un equipo de armas disparar una @UUID[Compendium.wfrp4e-horned-rat.items.YnFYheNBrpDmDtZ3]{esfera de viento envenenado} más pesada a un alcance mayor del que podría alcanzar un lanzador de esferas en solitario. Dañar al enemigo sin arriesgar el propio pellejo es siempre una idea atractiva para los skaven. Esta arma requiere una tripulación de dos: un bombardero entrenado para dispararla apoyado por un cargador.</p>",
+      "special": "alcance mín. 20"
     },
     "Old Guard": {
-      "name": "Old Guard"
+      "name": "Vieja guardia",
+      "description": "<p>@UUID[Compendium.wfrp4e-horned-rat.journals.bmuHnv7PgHJ54BML.JournalEntryPage.DHz1ZX3hPihLzJOf]{Rompehierros}</p>"
     },
     "Ghostly Flame": {
-      "name": "Ghostly Flame"
+      "name": "Llama fantasmal",
+      "description": "<p>Conjuras de la nada una pequeña mancha de fuego verde resplandeciente, que gotea un fluido viscoso mientras arde. En los turnos siguientes, puedes terminar este hechizo usando tu acción para lanzar el fuego a un oponente. Usa A distancia (Arrojadizo) y trata el proyectil como si tuviera un Daño igual a tu Bonificador por Fuerza más tu Bonificador por Voluntad. De lo contrario, este hechizo menor genera una luz equivalente a la de una antorcha y dura una hora antes de apagarse. </p><p>\n\n <b>Saber:</b> Ninguno<p>",
+      "effects": [
+        {
+          "name": "Llama fantasmal",
+          "scriptData": [
+            {
+              "label": "Llama fantasmal",
+              "script": "[Script.Y7McxsHFeGhwQx0J]"
+            }
+          ]
+        }
+      ]
     },
     "Veil of Flies": {
-      "name": "Veil of Flies"
+      "name": "Velo de moscas",
+      "description": "<p>Con una maldición y agitando los brazos, invocas una nube de mosquitos y moscas que pican. Se arremolinan a tu alrededor, llenando el aire en todas direcciones hasta una distancia igual a tu Bonificador por Voluntad en yardas. El enjambre se mueve contigo mientras el hechizo esté activo. Las criaturas que estén dentro del enjambre, salvo tú, sufren un penalizador –20 a todos los Chequeos debido a la distracción. Además, la nube dificulta que los enemigos te vean, imponiendo un penalizador –20 adicional a todos los ataques a distancia contra ti.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Velo de moscas",
+          "scriptData": [
+            {
+              "label": "Penalizador a todos los Chequeos",
+              "script": "[Script.0iTLDgFHO9Rgc010]",
+              "hideScript": "[Script.qjli5evn8UA9uTeZ]",
+              "activateScript": "[Script.AZGXrZOQ4EzjxRL9]"
+            },
+            {
+              "label": "Penalizador a los ataques a distancia",
+              "script": "[Script.0iTLDgFHO9Rgc010]",
+              "hideScript": "[Script.4gkz3LR7CK1b8ulK]",
+              "activateScript": "[Script.nSXzktHyNjGUXjaw]"
+            }
+          ]
+        }
+      ]
     },
     "Warplock Pistol": {
-      "name": "Warplock Pistol"
+      "name": "Pistola bruja",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p><p>La pistola bruja dispara perdigones de piedra bruja, con mayor alcance que una pistola de pólvora negra. Si un ataque con la pistola bruja resulta en una Pifia, tira [[/br 1d10 #Fumble]]. Con un resultado de 1, la pistola explota en la mano de su portador, destruyéndose en una Explosión 1 que causa el mismo Daño que un disparo con éxito. Con un resultado de 2 a 10, tira en la tabla @Table[oops]{«¡Huy!»}.</p>",
+      "effects": [
+        {
+          "name": "Pistola bruja",
+          "scriptData": [
+            {
+              "label": "Pistola bruja",
+              "script": "[Script.zzk2uRSFjFHB5kjw]"
+            }
+          ]
+        }
+      ]
     },
     "Flensing Ruin": {
-      "name": "Flensing Ruin"
+      "name": "Ruina desolladora",
+      "description": "<p>Unas cintas verdes de energía bruja desgarran la carne de los huesos del objetivo. Es un <em>proyectil mágico</em> con un Daño de +4 que ignora tanto la armadura como el Bonificador por Resistencia.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Ruina desolladora",
+          "scriptData": [
+            {
+              "label": "Ruina desolladora",
+              "script": "[Script.xnHobI9HojObLHMp]"
+            }
+          ]
+        }
+      ]
     },
     "Musk of Terror (Ruin)": {
-      "name": "Musk of Terror (Ruin)"
+      "name": "Almizcle espantoso (Ruina)",
+      "description": "<p>Invocas una gran nube de almizcle asfixiante. Cualquier criatura dentro de la nube queda expuesta a un efecto de @Terror[1]{Terror (1)}, o de @Terror[2]{Terror (2)} para los skaven, mientras el almizcle mortal llena su mente de pensamientos de miedo. Las víctimas perciben al lanzador como la fuente de ese Terror.</p><p><strong>Saber:</strong></p><p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p><p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p></p>",
+      "effects": [
+        {
+          "name": "Almizcle espantoso",
+          "scriptData": [
+            {
+              "label": "Almizcle espantoso",
+              "script": "[Script.ZTE8LdRblyG4yYoE]"
+            }
+          ]
+        }
+      ]
     },
     "Death Frenzy (Stealth)": {
-      "name": "Death Frenzy (Stealth)"
+      "name": "Locura asesina (Sigilo)",
+      "description": "<p>Invades a un skaven con un hambre voraz horrible, haciendo que la espuma salpique de su boca y sus ojos giren locamente en su cabeza. Tu objetivo queda sujeto a @UUID[Compendium.wfrp4e-core.items.yRhhOlt18COq4e1q]{Frenesí} mientras dure el hechizo. Los objetivos que no estén dispuestos pueden intentar resistir estos efectos con un <strong>Chequeo Desafiante (+0) de Frialdad</strong>. Los que tienen éxito sufren 1 Herida mientras roen sus propias extremidades para distraerse de la llamada a la violencia del hechizo.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>",
+      "effects": [
+        {
+          "name": "Locura asesina",
+          "scriptData": [
+            {
+              "label": "Locura asesina",
+              "script": "[Script.c31hjp7k0hlpdGBC]"
+            }
+          ]
+        }
+      ]
     },
     "Armour of Darkness": {
-      "name": "Armour of Darkness"
+      "name": "Armadura de la oscuridad",
+      "description": "<p>Solidificas las sombras alrededor de tu cuerpo. Además de dificultar que te vean en condiciones de poca luz, esta armadura de sombras también te protege del daño. Ganas 1 PA adicional en cada localización y un bonificador +20 a cualquier Chequeo de Sigilo que realices con poca luz. </p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>",
+      "effects": [
+        {
+          "name": "Armadura de la oscuridad",
+          "scriptData": [
+            {
+              "label": "PA",
+              "script": "[Script.1ZrzpfVwPJHdwp23]"
+            },
+            {
+              "label": "Bonificador a Sigilo con poca luz",
+              "script": "[Script.u6CYMSZADrfXd48Q]",
+              "hideScript": "[Script.RprZWlnopSqZt7KZ]"
+            }
+          ]
+        }
+      ]
     },
     "Howling Warpgale": {
-      "name": "Howling Warpgale"
+      "name": "Huracán disforme",
+      "description": "<p>Haces un gesto crispado hacia los cielos y un feroz vendaval empieza a arremolinarse a tu alrededor, llenando un radio igual a tu Voluntad en yardas. Los enemigos no pueden volar en los vientos huracanados, y los ataques a distancia hacia dentro o hacia fuera del área afectada sufren un penalizador –10. Tus aliados no se ven afectados por ninguno de los dos efectos, ya que desvías los vientos antinaturales a su alrededor.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Huracán disforme",
+          "scriptData": [
+            {
+              "label": "Huracán disforme",
+              "script": "[Script.5LdJCKfQem1AQK24]",
+              "hideScript": "[Script.XXnzUdsIYQ9Wjyu0]",
+              "activateScript": "[Script.nSXzktHyNjGUXjaw]"
+            },
+            {
+              "label": "Huracán disforme",
+              "script": "[Script.5LdJCKfQem1AQK24]",
+              "hideScript": "[Script.6XWJWOUQPgKMsFul]",
+              "activateScript": "[Script.nSXzktHyNjGUXjaw]"
+            }
+          ]
+        }
+      ]
     },
     "Vermintide (Plague)": {
-      "name": "Vermintide (Plague)"
+      "name": "Marea de alimañas (Plaga)",
+      "description": "<p>Invocas una manada de ratas que aparece a tu lado y se mueve según tus indicaciones, atacando a cualquier criatura (excepto a ti) que encuentre. No necesitas gastar tu acción para dirigir la manada &mdash; responde con presteza a cualquier orden chillada. Sin embargo, una vez transcurridos tantos asaltos como tu Bonificador por Voluntad, pierdes el control de ella. A partir de entonces, se mueve al azar, atacando a cualquier criatura que encuentre.</p>\n<p>Si la manada se encuentra con una criatura, las ratas recorren sus extremidades inferiores mordiendo y arañando furiosamente, infligiendo [[/r 1d10 #Wounds]] Heridas a cada pierna no protésica que tenga. Este Daño se reduce por el Bonificador por Resistencia, pero no por la armadura (las ratas se meten por dentro de la ropa y la armadura con una habilidad alarmante). Las ratas trepan por cualquier objeto de menos de 1 yarda de altura para alcanzar a sus víctimas.</p>\n<p>La manada puede ser destruida por cualquier ataque con área de efecto, pero es inmune a los ataques normales &mdash; un golpe de espada o un pisotón matará a una o dos ratas, pero surgirán más para ocupar su lugar. Mientras no esté bajo el control directo del lanzador, no atacará a las víctimas que empuñen una antorcha u otra llama desnuda de buen tamaño si hay otro objetivo disponible, y evitará por completo a los objetivos que sufran un Estado de @Condition[Ardiendo].</p>\n<p>Cuando el hechizo termina, las ratas se dispersan.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>"
     },
     "Vermintide": {
-      "name": "Vermintide"
+      "name": "Marea de alimañas",
+      "description": "<p>Invocas una manada de ratas que aparece a tu lado y se mueve según tus indicaciones, atacando a cualquier criatura (excepto a ti) que encuentre. No necesitas gastar tu acción para dirigir la manada &mdash; responde con presteza a cualquier orden chillada. Sin embargo, una vez transcurridos tantos asaltos como tu Bonificador por Voluntad, pierdes el control de ella. A partir de entonces, se mueve al azar, atacando a cualquier criatura que encuentre.</p>\n<p>Si la manada se encuentra con una criatura, las ratas recorren sus extremidades inferiores mordiendo y arañando furiosamente, infligiendo [[/r 1d10 #Wounds]] Heridas a cada pierna no protésica que tenga. Este Daño se reduce por el Bonificador por Resistencia, pero no por la armadura (las ratas se meten por dentro de la ropa y la armadura con una habilidad alarmante). Las ratas trepan por cualquier objeto de menos de 1 yarda de altura para alcanzar a sus víctimas.</p>\n<p>La manada puede ser destruida por cualquier ataque con área de efecto, pero es inmune a los ataques normales &mdash; un golpe de espada o un pisotón matará a una o dos ratas, pero surgirán más para ocupar su lugar. Mientras no esté bajo el control directo del lanzador, no atacará a las víctimas que empuñen una antorcha u otra llama desnuda de buen tamaño si hay otro objetivo disponible, y evitará por completo a los objetivos que sufran un Estado de @Condition[Ardiendo].</p>\n<p>Cuando el hechizo termina, las ratas se dispersan.</p>"
     },
     "Musk of Terror (Plague)": {
-      "name": "Musk of Terror (Plague)"
+      "name": "Almizcle espantoso (Plaga)",
+      "description": "<p>Invocas una gran nube de almizcle asfixiante. Cualquier criatura dentro de la nube queda expuesta a un efecto de @Terror[1]{Terror (1)}, o de @Terror[2]{Terror (2)} para los skaven, mientras el almizcle mortal llena su mente de pensamientos de miedo. Las víctimas perciben al lanzador como la fuente de ese Terror.</p><p><strong>Saber:</strong></p><p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p></p>",
+      "effects": [
+        {
+          "name": "Almizcle espantoso",
+          "scriptData": [
+            {
+              "label": "Almizcle espantoso",
+              "script": "[Script.ZTE8LdRblyG4yYoE]"
+            }
+          ]
+        }
+      ]
     },
     "Warpstone Tokens": {
-      "name": "Warpstone Tokens"
+      "name": "Piezas de piedra bruja",
+      "description": "<p>Los skaven utilizan la piedra bruja como combustible y como moneda. Para la mayoría de los que no son skaven, se trata simplemente de monedas extrañas contaminadas de piedra bruja, y se tratan como cualquier otro tipo de piedra bruja a efectos de lanzamiento de hechizos, corrupción, etc. Sin embargo, los hechiceros skaven tienen un metabolismo sintonizado con el terrible poder de la piedra bruja y se ven afectados de forma diferente (ver @UUID[JournalEntry.yGkrRqB7Cf0aiuCA]{Magia skaven}).</p>"
     },
     "Skavenbrew": {
-      "name": "Skavenbrew"
+      "name": "Brebaje skaven",
+      "description": "<p>Este brebaje está hecho de piedra bruja y de la sangre de muchas criaturas. Los skaven lo beben para volverse más feroces en la batalla, pero sus efectos son imprevisibles. Tras consumir una dosis, consulta la @Table[skavenbrew]{tabla del brebaje skaven}.</p><p>Los efectos del brebaje skaven persisten durante [[/br 2d10 #Duration]] – Bonificador por Resistencia asaltos, hasta un mínimo de 1 asalto. Los no skaven que lo consumen se ven afectados de forma normal, pero una vez que el efecto termina deben hacer inmediatamente un <strong>Chequeo Desafiante (+0) de Aguante</strong>. Si fracasan, sufren un Estado de @Condition[Envenenado] y otro de @Condition[Sangrando]. Con un fracaso asombroso (–6 NE o peor) también sufren un Estado de @Condition[Ardiendo].</p>",
+      "effects": [
+        {
+          "name": "Rabioso - Aumento de Daño"
+        },
+        {
+          "name": "Rabioso - Pérdida de Heridas"
+        },
+        {
+          "name": "Aplicar brebaje skaven",
+          "scriptData": [
+            {
+              "label": "@effect.name",
+              "script": "[Script.zi8Z3NlwVj3IfgAW]"
+            }
+          ]
+        },
+        {
+          "name": "Brebaje skaven",
+          "scriptData": [
+            {
+              "label": "Brebaje skaven",
+              "script": "[Script.iAo3wxMLA64rsKjj]"
+            }
+          ]
+        }
+      ]
     },
     "Bless with Filth": {
-      "name": "Bless with Filth"
+      "name": "Bendecido con roña",
+      "description": "<p>Una repugnante niebla envuelve un arma cuerpo a cuerpo que toques, o hasta tres piezas de munición para armas a distancia o arrojadizas. Los objetos envueltos empiezan a gotear inmediatamente un fluido tóxico. Mientras el hechizo está activo, todos los golpes dañinos con el arma causan un Estado de @Condition[Envenenado], además del daño normal.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Bendecido con roña",
+          "filter": "return args.type == \"weapon\"",
+          "scriptData": [
+            {
+              "label": "Bendecido con roña",
+              "script": "[Script.jfk5VDKMTIf4ee0v]"
+            }
+          ]
+        }
+      ]
     },
     "Nurgle's Rot": {
-      "name": "Nurgle's Rot"
+      "name": "Podredumbre de Nurgle",
+      "description": "<p>El Padre de la Plaga solo ha prestado su nombre a una enfermedad, y es la joya de la corona de todas sus fétidas obras. La podredumbre de Nurgle es una dolencia terrible y contagiosa que destroza el cuerpo, la mente e incluso el alma de quienes la sufren. Suele contraerse en encuentros con poderosos siervos de Nurgle, aunque en ocasiones se ha propagado como un reguero de pólvora por una aldea, un pueblo o una región entera antes de desaparecer. Aunque quienes la sufren solo pueden maldecir el nombre del Señor de la Plaga, la propia enfermedad encarna el ideario de los seguidores de Nurgle: soportar un sufrimiento terrible y salir fortalecido de él. </p><table style=\"width: 100%; height: 85px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 66.4153%; height: 17px; text-align: center;\"><strong>Fuente de infección</strong></td><td style=\"width: 32.8621%; height: 17px; text-align: center;\"><strong>Dificultad</strong></td></tr><tr style=\"height: 17px;\"><td style=\"width: 66.4153%; height: 17px;\">Mortal enfermo con al menos dos síntomas</td><td style=\"width: 32.8621%; height: 17px;\">Fácil (+40)</td></tr><tr style=\"height: 17px;\"><td style=\"width: 66.4153%; height: 17px;\">Nurglete, charco de bilis demoníaca</td><td style=\"width: 32.8621%; height: 17px;\">Normal (+20)</td></tr><tr style=\"height: 17px;\"><td style=\"width: 66.4153%; height: 17px;\">Portador de plaga, Rey de la Peste</td><td style=\"width: 32.8621%; height: 17px;\">Desafiante (+0)</td></tr><tr style=\"height: 17px;\"><td style=\"width: 66.4153%; height: 17px;\">Gran Inmundicia</td><td style=\"width: 32.8621%; height: 17px;\"><p>Complicado (–10)</p></td></tr></tbody></table><p><strong>Síntomas</strong>: la podredumbre de Nurgle se manifiesta de forma diferente en cada persona que la sufre. Tras la incubación, el enfermo aparece ictérico, con la piel manchada y los ojos amarillos. Esto no tiene efectos negativos, más allá de señalarlo como enfermo de algún modo. Una semana después, y al final de cada semana a partir de entonces, la víctima hace un <strong>Chequeo Desafiante (+0) de Aguante</strong>. Si fracasa, desarrolla un nuevo síntoma, como se indica a continuación. Cuando se dan dos opciones, el DJ puede elegir la que prefiera.</p><blockquote class=\"foundry-note\"><p>Añade manualmente los síntomas elegidos mediante el desplegable de <strong>Efectos del sistema</strong> en la pestaña Efectos de un Actor</p></blockquote><p><strong>Primer fracaso</strong>: @Symptom[Toses y estornudos] o @Symptom[Fiebre].</p><p><strong>Segundo fracaso</strong>: @Symptom[Plaga] o @Symptom[Malestar].</p><p><strong>Tercer fracaso</strong>: @Symptom[Diarrea] o @Symptom[Náuseas].</p><p><strong>Cuarto fracaso</strong>: @Symptom[Bubas] o @Symptom[Gangrena].</p><p><strong>Quinto fracaso</strong>: @Symptom[Convulsiones] o @Symptom[Herido].</p><p><strong>Sexto fracaso</strong>: @Symptom[Decaimiento].</p><p><strong>Séptimo fracaso</strong>: muerte. Nace un nuevo portador de plaga.</p><p>Una víctima potencial de la podredumbre de Nurgle puede gastar un Punto de Destino para evitar contraerla. Sin embargo, una vez infectado, es imposible librarse de ella. Los Puntos de Destino gastados después de la infección solo retrasan un mes la aparición de nuevos síntomas. Si una víctima de la podredumbre de Nurgle muere por la enfermedad, se crea un nuevo portador de plaga en el Reino del Caos, que surge de una pústula de inmundicia en un árbol del Jardín de Nurgle. Si el DJ lo prefiere, el portador de plaga puede brotar del cuerpo de la víctima, si esa opción resulta más dramática. </p>",
+      "duration": "Hasta la muerte",
+      "contraction": "Haz un Chequeo de Aguante tras entrar en contacto con un individuo infectado o un siervo de Nurgle. La Dificultad del Chequeo depende de la fuente de infección (ver la descripción): debes hacer un Chequeo al final de cada día en que estés expuesto a la enfermedad.",
+      "incubation": "1d10 - 5"
     },
     "Warp Scroll": {
-      "name": "Warp Scroll"
+      "name": "Pergamino de disformidad",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Pestilens y aliados</p><p>Los sacerdotes de la plaga que van a la guerra suelen llevar consigo copias de pasajes clave del gran Liber Bubonicus, escritos con tinta infundida con piedra bruja sobre las pieles curtidas de enemigos derrotados. Cada pergamino contiene un hechizo del @UUID[JournalEntry.yGkrRqB7Cf0aiuCA.JournalEntryPage.Mn2r16uO3nJRhOzy#the-lore-of-plague]{Saber de la Plaga}, que puede lanzarse una vez leyendo el pergamino en voz alta. No es necesario ningún Chequeo de lanzamiento, y no hay posibilidad de disfunción mágica ni de crítico.</p>"
     },
     "Doomrocket": {
-      "name": "Doomrocket"
+      "name": "Cohete de la muerte",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p>\n<p>Se dice que este lanzacohetes de mano está basado en diseños robados en Ind y vendidos a los ingenieros brujos por el @UUID[JournalEntry.oXly0RXc3Z3vnVrH.JournalEntryPage.nMGc3gSeO4HsP3sU]{clan Eshin}. Son bastante poco fiables incluso para los estándares del clan Skryre, pero inconfundiblemente aterradores.</p>\n<p>Si un ataque con el cohete de la muerte resulta en una Pifia, tira en la tabla @Table[doomrocket-fumble] y aplica el resultado.</p>",
+      "effects": [
+        {
+          "name": "Cohete de la muerte",
+          "scriptData": [
+            {
+              "label": "Cohete de la muerte",
+              "script": "[Script.2mFNelLOAQ6iJsZl]"
+            }
+          ]
+        }
+      ]
     },
     "Wrack": {
-      "name": "Wrack"
+      "name": "Arruinar",
+      "description": "<p>Haces que una chispa de energía bruja salga de tus dedos extendidos, golpeando a un solo objetivo con una sacudida de dolor abrasador. El objetivo debe superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o sufrir un Estado de @Condition[Aturdido].</p><p>\n\n <b>Saber:</b> Ninguno<p>",
+      "effects": [
+        {
+          "name": "Arruinar",
+          "scriptData": [
+            {
+              "label": "Arruinar",
+              "script": "[Script.syBgPp7rOymCZejX]"
+            }
+          ]
+        }
+      ]
     },
     "Swiftscamper": {
-      "name": "Swiftscamper"
+      "name": "Caminante veloz",
+      "description": "<p>Aumentas tu Atributo de Movimiento en una cantidad igual a tu Bonificador por Voluntad. Por cada +2 NE, puedes aumentar tu Movimiento en un punto adicional.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>",
+      "effects": [
+        {
+          "name": "Caminante veloz",
+          "scriptData": [
+            {
+              "label": "Caminante veloz",
+              "script": "[Script.r6hi5vMdLhTaaPfb]"
+            }
+          ]
+        }
+      ],
+      "overcast": "Bonificador de Movimiento"
     },
     "Putrefy": {
-      "name": "Putrefy"
+      "name": "Descomponerse",
+      "description": "<p>Con una floritura y una maldición, haces que toda la comida dentro del área de efecto se pudra y se descomponga, haciéndola totalmente incomestible. Cualquier criatura que coma la comida infectada queda automáticamente expuesta a la @UUID[Compendium.wfrp4e-core.items.txeLd7R13qxSvmsr]{Diarrea galopante}. Este hechizo se ha utilizado con gran efecto para provocar hambrunas en las poblaciones de la superficie.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>"
     },
     "Infernal Bomb": {
-      "name": "Infernal Bomb"
+      "name": "Bomba infernal",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Eshin y aliados</p>\n<p>Estos dispositivos recubiertos de hierro utilizan engranajes para retrasar una explosión de energía infernal. Se trata de un explosivo con Explosión 5 y Daño +12, que puede configurarse para detonar hasta 10 asaltos después de dejarlo caer o lanzarlo. Se suelen utilizar para abrir nuevas puertas en los edificios o para cubrir una retirada precipitada.</p>",
+      "special": "La detonación puede retrasarse hasta 10 asaltos: ver la descripción del arma."
     },
     "Traceless Demise": {
-      "name": "Traceless Demise"
+      "name": "Muerte sin rastro",
+      "description": "<p>El cuerpo de cualquier criatura que muera bajo los efectos de este hechizo se disuelve al instante en un limo negro y apestoso. Ese limo es brevemente muy ácido, y la mayoría del equipo también queda apenas reconocible. Los hechiceros Eshin suelen lanzar Muerte sin rastro sobre los asesinos antes de que emprendan una misión, asegurándose de que no queden cadáveres skaven.</p><p>Los miembros arrancados de un cuerpo antes de la muerte no se disuelven, aunque la víctima muera finalmente bajo los efectos de este hechizo. La decapitación suele destruir el cuerpo, pero deja la cabeza intacta.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>"
     },
     "Rat Claws": {
-      "name": "Rat Claws"
+      "name": "Garras de rata",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Eshin y aliados</p>\n<p>Atadas a la pata con una correa de cuero, las garras de rata constan de tres a cinco garras de acero que se extienden hacia fuera. Las garras mejoran los ataques sin armas y son herramientas útiles para trepar, proporcionando un bonificador +10 a todos los Chequeos de Escalar.</p>",
+      "effects": [
+        {
+          "name": "Garras de rata",
+          "scriptData": [
+            {
+              "label": "Bonificador a los Chequeos de Escalar",
+              "script": "[Script.xPDMpOvC1ZBVxrNg]",
+              "hideScript": "[Script.HiMBS6GeOwEydWYN]",
+              "activateScript": "[Script.HrYchgkdZBiu1yPF]"
+            }
+          ]
+        }
+      ]
     },
     "Warpstone Star": {
-      "name": "Warpstone Star"
+      "name": "Estrella de piedra bruja",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Eshin y aliados</p><p>Arma favorita del @UUID[JournalEntry.oXly0RXc3Z3vnVrH.JournalEntryPage.nMGc3gSeO4HsP3sU]{clan Eshin}, esta estrella arrojadiza está recubierta de una pasta de piedra bruja que aumenta considerablemente su daño. Algunas estrellas de piedra bruja son @UUID[JournalEntry.26U30SwguwHqxwjU.JournalEntryPage.PrNdIdqhEdwz6eC3#skaven-blades]{armas supurantes}</p>"
     },
     "Death Frenzy": {
-      "name": "Death Frenzy"
+      "name": "Locura asesina",
+      "description": "<p>Invades a un skaven con un hambre voraz horrible, haciendo que la espuma salpique de su boca y sus ojos giren locamente en su cabeza. Tu objetivo queda sujeto a @UUID[Compendium.wfrp4e-core.items.yRhhOlt18COq4e1q]{Frenesí} mientras dure el hechizo. Los objetivos que no estén dispuestos pueden intentar resistir estos efectos con un <strong>Chequeo Desafiante (+0) de Frialdad</strong>. Los que tienen éxito sufren 1 Herida mientras roen sus propias extremidades para distraerse de la llamada a la violencia del hechizo.</p>",
+      "effects": [
+        {
+          "name": "Locura asesina",
+          "scriptData": [
+            {
+              "label": "Añadir Frenesí",
+              "script": "[Script.c31hjp7k0hlpdGBC]"
+            }
+          ]
+        }
+      ]
     },
     "Man-trap": {
-      "name": "Man-trap"
+      "name": "Trampa o Cepo Lobero",
+      "description": "<p>Un cepo lobero consiste en dos mandíbulas semicirculares con pinchos que se levantan cuando la víctima pisa una placa de presión entre ellas; muerden la parte inferior de la pierna de la víctima causando graves lesiones y solo pueden abrirse superando un <strong>Chequeo Complicado (&ndash;10) de Fuerza</strong>. Está encadenado a una estaca, que se clava en el suelo cerca, para que la víctima quede capturada además de herida.</p>\n<p>Cuando se coloque, el DJ debe anotar el resultado del Chequeo de <strong>Poner trampas</strong> y utilizarlo enfrentado a los Chequeos de Percepción de cualquier posible víctima.</p>\n<p>* El cepo no se empuña y solo puede atacar a alguien que lo pise. No hay tirada para impactar &mdash; esto se resuelve con el Chequeo de Poner trampas anterior.</p>\n<p>&dagger; Solo impacta en las piernas: la misma probabilidad en cualquiera de ellas, a menos que las circunstancias dicten lo contrario.</p>\n<p>&Dagger; Si el cepo estaba encadenado, la víctima queda retenida hasta que la liberen. Si no, un impacto causa un Estado de @Condition[Enmarañado] debido a su peso. Este Estado solo puede eliminarse liberando a la víctima del cepo.</p>"
     },
     "Curse of the Horned Rat (Plague)": {
-      "name": "Curse of the Horned Rat (Plague)"
+      "name": "Maldición de la Rata Cornuda (Plaga)",
+      "description": "<p>Con una sacudida enfermiza, el tejido de la realidad se desgarra por el poder retorcido de la Gran Cornuda. La criatura objetivo, y cualquier otra en un número de yardas igual a tu Bonificador por Voluntad, deben superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o ser transformadas en skaven de un tamaño apropiado a la víctima original, supuestamente bajo tu mando. La mayoría se convierten en @UUID[Compendium.wfrp4e-core.actors.F1vAZZcmVKkRw8xn]{guerreros de clan} o @UUID[Compendium.wfrp4e-core.actors.kl4qHg0mqWOApBqH]{alimañas}, pero los ogros suelen convertirse en @UUID[Compendium.wfrp4e-core.actors.VfJgGmCTWqb0IDSW]{ratas ogro}. Son tan leales como cualquier skaven, con vagos recuerdos de túneles, traición y la oscuridad del Imperio Subterráneo que sustituyen a los de su antigua vida. Su naturaleza es como la de cualquier skaven, y es improbable que sigan órdenes que les causen la muerte, a menos que desobedecerlas parezca igual de mortal.</p>\n<p>La fisonomía de la mayoría de los humanoides nunca fue pensada para convertirse en skaven, que, a pesar de ser conocidos coloquialmente como hombres rata, son mucho más ratas que hombres. En la mayoría de los casos las víctimas del hechizo vuelven a su verdadera forma cuando este termina, aunque todas llevan alguna marca de lo que se les hizo. Suele ser una mancha de pelo, una cola deforme o unos dientes amarillentos y puntiagudos. La víctima puede gastar un Punto de Destino para resistir los efectos de este hechizo o, si ya los sufre, para volver a su forma original.</p>\n<blockquote class=\"sidebar\">\n<h3 style=\"text-align: center;\"><em>¿Es divertido ser una rata?</em></h3>\n<p><em>¡Puede serlo! Ten en cuenta que este es el tipo de hechizo que podría poner fin a la carrera de un Personaje, que se escabulle con sus aliados skaven solo para despertar en el Imperio Subterráneo, esclavizado por las mismas criaturas que por un momento creyó sus parientes. Sin embargo, también podría ser una forma excelente de comenzar una aventura interesante, con los Personajes sumergiéndose en las profundidades para buscar a un skaven que una vez fue &mdash; y podría volver a ser &mdash; uno de sus compañeros.</em></p>\n<p><em>En cualquier caso, un DJ astuto prestará mucha atención a los Puntos de Destino de sus Personajes antes de desatar este horror en particular sobre ellos.</em></p>\n</blockquote><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>"
     },
     "Blade of Corruption": {
-      "name": "Blade of Corruption"
+      "name": "Espada de la corrupción",
+      "description": "<p>La Espada de la corrupción ha sido durante mucho tiempo un artefacto atesorado desde los días en que el clan Pestilens merodeaba por las tierras de Lustria. Se trata de un arma vil, con un filo largo y ondulado que gotea un fluido verde asqueroso por la punta. Los skaven susurran que el arma fue forjada en los primeros días de la historia skaven, y que fue templada con sangre de slann.</p>\n<p>La Espada de la corrupción cuenta como un arma de mano. Cualquier criatura herida por ella debe hacer inmediatamente un <strong>Chequeo Complicado (&ndash;10) de Resistencia</strong> o sufrir 3 de Daño adicional y un Estado de @Condition[Envenenado], mientras el veneno del arma corre por sus venas.</p>\n<p>Si la usa un no skaven, la Espada de la corrupción envenena lentamente a su portador. La víctima debe superar un <strong>Chequeo Complicado (&ndash;10) de Resistencia</strong> cada vez que la utilice en combate. Cada fracaso drena permanentemente al portador [[/r 1d10]] puntos de Resistencia. Un Personaje reducido a 0 de Resistencia se disuelve en una masa pegajosa de baba pestilente.</p>",
+      "effects": [
+        {
+          "name": "Espada de la corrupción",
+          "scriptData": [
+            {
+              "label": "Espada de la corrupción",
+              "script": "[Script.vJQRBxDfPwHens0a]"
+            },
+            {
+              "label": "No skaven",
+              "script": "[Script.KmngDrPD72xn22kZ]"
+            }
+          ]
+        }
+      ]
     },
     "Vector": {
-      "name": "Vector"
+      "name": "Vector",
+      "description": "<p>El objetivo debe superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o sufrir un penalizador &ndash;20 a todos los Chequeos para resistir enfermedades durante 24 horas. Los objetivos con @UUID[Compendium.wfrp4e-core.items.vMYEkrWj0ip6ZOdv]{Resistencia (Enfermedad)} pueden usar dicho Talento para resistir este hechizo.</p>\n<p><strong>Saber:</strong> Ninguno</p>\n<p>&nbsp;</p>",
+      "effects": [
+        {
+          "name": "Vector",
+          "avoidTestSkill": "Endurance",
+          "scriptData": [
+            {
+              "label": "Penalizador para resistir enfermedades",
+              "script": "[Script.0iTLDgFHO9Rgc010]",
+              "hideScript": "[Script.1E47r2ba6IGe8uFK]"
+            }
+          ]
+        }
+      ]
     },
     "Warp Shield": {
-      "name": "Warp Shield"
+      "name": "Escudo brujo",
+      "description": "<p>Invocas una llamarada de energía bruja, dándole forma a tu alrededor como un escudo protector. Mientras dura el hechizo, todas las localizaciones obtienen +5 PA. Además, cualquier criatura que te toque (incluso si te ataca con éxito con sus propias manos o con un arma de mano de metal) sufre un impacto con un Daño igual a 5 + tu Bonificador por Voluntad. Este impacto golpea la extremidad que se haya utilizado para atacarte e ignora los PA de la armadura metálica.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Escudo brujo",
+          "scriptData": [
+            {
+              "label": "Escudo brujo",
+              "script": "[Script.LHUUXfZVLBhWqRvb]"
+            },
+            {
+              "label": "Daño del escudo brujo",
+              "script": "[Script.ugL5IBB6R2yWyMWd]"
+            }
+          ]
+        }
+      ]
     },
     "Stickypaws": {
-      "name": "Stickypaws"
+      "name": "Patas pegajosas",
+      "description": "<p>Obtienes el Rasgo @UUID[Compendium.wfrp4e-core.items.KII1gWnxIZ8HzmU5]{Trepamuros} mientras dure el hechizo. Los objetos que lleves encima siguen afectados por la gravedad y caen al suelo si se te escapan.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>",
+      "effects": [
+        {
+          "name": "Patas pegajosas",
+          "scriptData": [
+            {
+              "label": "Patas pegajosas",
+              "script": "[Script.vM2BPwYhHQaBAt2C]"
+            }
+          ]
+        }
+      ]
     },
     "Warpmusket": {
-      "name": "Warpmusket"
+      "name": "Mosquete brujo",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p><p>Más cortos que el temido @UUID[Compendium.wfrp4e-horned-rat.items.lP0b4ATxULZBpIvD]{jezzail brujo}, los mosquetes brujos son más fáciles de usar, pero menos efectivos. Se pueden cargar con @UUID[Compendium.wfrp4e-horned-rat.items.w7gss205dMp5iJlu]{balas de piedra bruja} normales o con @UUID[Compendium.wfrp4e-horned-rat.items.ZuU6IKm2rSJgAV0m]{postas de piedra bruja}.</p><p>Si un ataque con un mosquete brujo resulta en una Pifia, tira [[/br 1d10 #Fumble]]. Con un resultado de 1, el arma explota en la mano de su portador, destruyéndose en una Explosión 1 que causa el mismo Daño que un disparo con éxito. Con un resultado de 2 a 10, tira en la tabla @Table[oops]{«¡Huy!»}.</p>",
+      "effects": [
+        {
+          "name": "Mosquete brujo",
+          "scriptData": [
+            {
+              "label": "Mosquete brujo",
+              "script": "[Script.EmmG49pMOPHRwDzR]"
+            }
+          ]
+        }
+      ]
     },
     "Warp-Blade (Halberd)": {
-      "name": "Warp-Blade (Halberd)"
+      "name": "Cuchilla de disformidad (Alabarda)",
+      "description": "<p>Las cuchillas de disformidad son exclusivas del clan Skryre. Suelen estar sujetas a astas, creando armas similares a las alabardas, o se implantan directamente en los brazos de los ingenieros brujos. Una maraña de cables alimenta las cuchillas, que zumban con energía bruja apenas contenida. En combate cuerpo a cuerpo, las cuchillas de disformidad se tratan como alabardas (en el caso de las montadas en astas) o como @UUID[Compendium.wfrp4e-core.items.CXg7XOFJwu4LZ9LM]{armas de mano} (cuando se implantan en los brazos de un ingeniero brujo), ambas con un bonificador +1 al Daño y la Cualidad ¡ZAS!</p>"
     },
     "Vermintide (Stealth)": {
-      "name": "Vermintide (Stealth)"
+      "name": "Marea de alimañas (Sigilo)",
+      "description": "<p>Invocas una manada de ratas que aparece a tu lado y se mueve según tus indicaciones, atacando a cualquier criatura (excepto a ti) que encuentre. No necesitas gastar tu acción para dirigir la manada &mdash; responde con presteza a cualquier orden chillada. Sin embargo, una vez transcurridos tantos asaltos como tu Bonificador por Voluntad, pierdes el control de ella. A partir de entonces, se mueve al azar, atacando a cualquier criatura que encuentre.</p>\n<p>Si la manada se encuentra con una criatura, las ratas recorren sus extremidades inferiores mordiendo y arañando furiosamente, infligiendo [[/r 1d10 #Wounds]] Heridas a cada pierna no protésica que tenga. Este Daño se reduce por el Bonificador por Resistencia, pero no por la armadura (las ratas se meten por dentro de la ropa y la armadura con una habilidad alarmante). Las ratas trepan por cualquier objeto de menos de 1 yarda de altura para alcanzar a sus víctimas.</p>\n<p>La manada puede ser destruida por cualquier ataque con área de efecto, pero es inmune a los ataques normales &mdash; un golpe de espada o un pisotón matará a una o dos ratas, pero surgirán más para ocupar su lugar. Mientras no esté bajo el control directo del lanzador, no atacará a las víctimas que empuñen una antorcha u otra llama desnuda de buen tamaño si hay otro objetivo disponible, y evitará por completo a los objetivos que sufran un Estado de @Condition[Ardiendo].</p>\n<p>Cuando el hechizo termina, las ratas se dispersan.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>"
     },
     "Crackling Doom": {
-      "name": "Crackling Doom"
+      "name": "Perdición crepitante",
+      "description": "<p>Envías un único arco crepitante de energía verde hacia el objetivo. Perdición crepitante es un <em>proyectil mágico</em> con un Daño de +4. Además, cualquiera que sea dañado por este hechizo debe superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o sufrir un Estado de @Condition[Aturdido] por cada NE del Chequeo de lanzamiento.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Perdición crepitante",
+          "scriptData": [
+            {
+              "label": "Perdición crepitante",
+              "script": "[Script.2VNnVrtktdGUqXEV]"
+            }
+          ]
+        }
+      ]
     },
     "Tunnel Fighter": {
-      "name": "Tunnel Fighter"
+      "name": "Combatiente de túnel",
+      "description": "<p>@UUID[Compendium.wfrp4e-horned-rat.journals.bmuHnv7PgHJ54BML.JournalEntryPage.DHz1ZX3hPihLzJOf]{Rompehierros}</p>"
     },
     "Vermintide (Ruin)": {
-      "name": "Vermintide (Ruin)"
+      "name": "Marea de alimañas (Ruina)",
+      "description": "<p>Invocas una manada de ratas que aparece a tu lado y se mueve según tus indicaciones, atacando a cualquier criatura (excepto a ti) que encuentre. No necesitas gastar tu acción para dirigir la manada &mdash; responde con presteza a cualquier orden chillada. Sin embargo, una vez transcurridos tantos asaltos como tu Bonificador por Voluntad, pierdes el control de ella. A partir de entonces, se mueve al azar, atacando a cualquier criatura que encuentre.</p>\n<p>Si la manada se encuentra con una criatura, las ratas recorren sus extremidades inferiores mordiendo y arañando furiosamente, infligiendo [[/r 1d10 #Wounds]] Heridas a cada pierna no protésica que tenga. Este Daño se reduce por el Bonificador por Resistencia, pero no por la armadura (las ratas se meten por dentro de la ropa y la armadura con una habilidad alarmante). Las ratas trepan por cualquier objeto de menos de 1 yarda de altura para alcanzar a sus víctimas.</p>\n<p>La manada puede ser destruida por cualquier ataque con área de efecto, pero es inmune a los ataques normales &mdash; un golpe de espada o un pisotón matará a una o dos ratas, pero surgirán más para ocupar su lugar. Mientras no esté bajo el control directo del lanzador, no atacará a las víctimas que empuñen una antorcha u otra llama desnuda de buen tamaño si hay otro objetivo disponible, y evitará por completo a los objetivos que sufran un Estado de @Condition[Ardiendo].</p>\n<p>Cuando el hechizo termina, las ratas se dispersan.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>"
     },
     "Liber Bubonicus": {
-      "name": "Liber Bubonicus"
+      "name": "Liber Bubonicus",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Pestilens y aliados</p><p>También conocido como el Libro de las Calamidades, el <em>Liber Bubonicus</em> contiene la sabiduría recopilada del clan Pestilens: una crónica de cada corrupción y plaga desde la aparición del clan. Cada enfermedad creada y cada asqueroso experimento quedan anotados y registrados, tanto su composición como su efecto sobre los vivos.</p><p>Cada una de las órdenes de monjes de plaga mantiene su propio ejemplar, actualizado a diario por un sacerdote de la plaga. Un skaven que pierda un ejemplar de este tomo sagrado queda maldito por la Rata Cornuda, y debe tirar en la tabla de @Table[wrath]{Ira de los Dioses} cada día hasta que el libro sea recuperado y los que lo robaron hayan sido castigados en un espeluznante sacrificio ritual.</p><p>Leyendo un ejemplar del <em>Liber Bubonicus</em>, un sacerdote de la plaga o un señor de la plaga puede lanzar cualquier hechizo del @UUID[JournalEntry.yGkrRqB7Cf0aiuCA.JournalEntryPage.Mn2r16uO3nJRhOzy#the-lore-of-plague]{Saber de la Plaga} como si fuera un @UUID[Compendium.wfrp4e-horned-rat.items.HM1PLaF1y7ZfOPU5]{pergamino de disformidad}, sin Chequeo de lanzamiento y sin posibilidad de disfunción mágica ni de crítico. Cada hechizo puede lanzarse una vez al día.</p>"
     },
     "Von Haffenhof's Sword": {
-      "name": "Von Haffenhof's Sword"
+      "name": "Espada de Von Haffenhof",
+      "description": "<p>@UUID[JournalEntry.bmuHnv7PgHJ54BML.JournalEntryPage.iu6sP6Mpwc3MOCSN]{Gromril}</p>\n<p>Un raro regalo a un soldado humano que salvó de un trol a una caravana llena de niños enanos, la espada de Von Haffenhof se forjó con gromril y fue creada específicamente para el desconcertado ostlandés. A pesar de no entender lo significativo que era su homenaje, el nombre de Von Haffenhof sigue siendo relatado por aquellos enanos cuyos antepasados formaban parte de la caravana. La hoja es Irrompible, cuenta como un arma de mano y lleva una Runa de corte, que le confiere +5 de daño en lugar del habitual +4 y le permite ignorar todos los PA de las armaduras que no estén hechas de gromril.</p>\n<p>Durante el resto de su vida, Von Haffenhof se refirió a la hoja como<em> &lsquo;mi segunda y mejor espada&rsquo;</em>, y solo la desenvainaba en las circunstancias más extremas. Después de su muerte fue devuelta a los enanos de Karak Skygg, que la guardaron en previsión de que llegara otro humano digno de ella. Siguieron decepcionados hasta que la fortaleza fue abandonada y la espada quedó prácticamente olvidada.</p>",
+      "effects": [
+        {
+          "name": "Espada de Von Haffenhof",
+          "scriptData": [
+            {
+              "label": "Espada de Von Haffenhof",
+              "script": "[Script.KyswmGj1uG3QS3ng]"
+            }
+          ]
+        }
+      ]
     },
     "Tail Fighting": {
-      "name": "Tail Fighting"
+      "name": "Combate con la cola",
+      "description": "<p>Tienes cola y eres experto en utilizarla para manipular objetos con precisión. Puedes usarla para cualquier tarea que normalmente requeriría una mano. Además, en tu turno puedes realizar un ataque adicional con un arma de cola adecuadamente diseñada.</p>",
+      "tests": "Cualquier Chequeo de Cuerpo a cuerpo que implique un arma de cola"
     },
     "Warp Storm": {
-      "name": "Warp Storm"
+      "name": "Tormenta de disformidad",
+      "description": "<p>Invocas una tormenta de rayos de disformidad que cubre un radio igual a tu Bonificador por Voluntad en yardas. En cada asalto mientras dure el hechizo, todas las criaturas dentro de la tormenta sufren un impacto de Daño +10 en el punto más alto de su cuerpo (normalmente la cabeza) que ignora los PA de la armadura metálica.</p><p>Si el lanzador lo desea, puede usar su acción para mover la tormenta a cualquier lugar a tantas yardas como su Voluntad.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Tormenta de disformidad",
+          "scriptData": [
+            {
+              "label": "Tormenta de disformidad",
+              "script": "[Script.V1D2Uo3WDKYQePU3]"
+            }
+          ]
+        }
+      ]
     },
     "Altitude Sickness": {
-      "name": "Altitude Sickness"
+      "name": "Mal de altura",
+      "description": "<p>Al final de la duración inicial, si el Personaje insiste en hacer esfuerzos, debe superar otro <strong>Chequeo Complicado (–10) de Aguante</strong> o sufrir otros 2 días de empeoramiento de los síntomas. Añade otro Estado de @Condition[Fatigado] al @Symptom[Malestar], y las @Symptom[Náuseas] se vuelven tan graves que, además de sufrir un Estado de @Condition[Aturdido] al fallar una tirada que implique movimiento físico, el Personaje también pierde 1 Herida al llenarse sus pulmones de líquido.</p>\n<p>El tratamiento es bastante sencillo. La mayoría de los Personajes se aclimatan al aire si pasan la duración de la enfermedad descansando, y volver a altitudes más bajas igualmente la cura. Recuerda que el viaje de los Personajes a través de las montañas va tanto hacia abajo como hacia arriba, por lo que hay que darles la oportunidad de recuperarse.</p>",
+      "effects": [
+        {
+          "name": "Malestar",
+          "scriptData": [
+            {
+              "label": "@effect.name",
+              "script": "let fatigued = this.actor.hasCondition(\"fatigued\")\n                            if (!fatigued)\n                            {\n                                this.actor.addCondition(\"fatigued\")\n                                ui.notifications.notify(\"Fatigued added to \" + this.actor.name + \" which cannot be removed until the Malaise symptom is gone.\")\n                            }"
+            }
+          ]
+        },
+        {
+          "name": "Náuseas",
+          "scriptData": [
+            {
+              "label": "@effect.name",
+              "script": "if (args.test.failed)\n                            {\n                                let applicableCharacteristics = [\"ws\", \"bs\", \"s\", \"fel\", \"ag\", \"t\", \"dex\"];\n                                if (applicableCharacteristics.includes(args.test.characteristicKey))\n                                {\n                                    this.actor.addCondition(\"stunned\");\n                                }\n                            }"
+            }
+          ]
+        }
+      ],
+      "duration": "2",
+      "contraction": "Si un Personaje fracasa en un <b>Chequeo Normal (+20) de Aguante</b> después de un día en el que consideres que ha subido lo suficiente. Si los Personajes se esfuerzan por viajar lo más rápido posible, la dificultad del Chequeo pasa a ser <b>Desafiante (+0)</b>.",
+      "incubation": "1d10",
+      "symptoms": "Malestar, Náuseas"
     },
     "Smoke Bomb": {
-      "name": "Smoke Bomb"
+      "name": "Bomba de humo",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Eshin y aliados</p>\n<p>Cuando se lanza o se deja caer, una bomba de humo crea una densa nube de humo en un radio de 2 yardas, que dura [[/br 1d10 # Rounds]] asaltos (la duración se reduce a la mitad si hay viento fuerte). La nube oscurece por completo todo lo que se encuentra en su área, impidiendo los ataques con armas a distancia, los proyectiles mágicos y otros efectos que dependen de la vista.</p>"
     },
     "Things-Catcher": {
-      "name": "Things-Catcher"
+      "name": "Capturador",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Moulder y aliados</p><p>Esta arma de asta a dos manos tiene una gran cabeza en forma de horquilla con púas en su interior. Diseñadas para ser clavadas alrededor de los torsos y las extremidades de los enemigos, estas armas pueden inmovilizar a criaturas de casi cualquier tamaño. El @UUID[JournalEntry.oXly0RXc3Z3vnVrH.JournalEntryPage.qvft4GKy7q56yHgN]{clan Moulder} es el único que utiliza regularmente los capturadores, aunque a veces los emplean las partidas de guerra enviadas a buscar prisioneros.</p>"
     },
     "Warp Energy Condenser": {
-      "name": "Warp Energy Condenser"
+      "name": "Condensador de energía bruja",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p><p>El condensador de energía bruja mejora las @UUID[Compendium.wfrp4e-horned-rat.items.wlfcelDmY2pgIymx]{cuchillas de disformidad}. Cuando se usa junto con una cuchilla de disformidad, el arma inflige +1 de Daño adicional.</p>",
+      "effects": [
+        {
+          "name": "Condensador de energía bruja",
+          "filter": "return args.type == \"weapon\"",
+          "scriptData": [
+            {
+              "label": "Condensador de energía bruja",
+              "script": "[Script.JjiPprLSlSmmB5Ga]"
+            }
+          ]
+        }
+      ]
     },
     "Poisoned Wind Globe": {
-      "name": "Poisoned Wind Globe"
+      "name": "Esfera de viento envenenado",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p><p>Una innovación del @UUID[JournalEntry.oXly0RXc3Z3vnVrH.JournalEntryPage.SJRe53QCz0UDC1Dn]{clan Skryre}, estas pequeñas esferas de cristal huecas contienen un gas nocivo. Cuando se lanza, la esfera se rompe, dispersando el veneno. Si la esfera no alcanza su objetivo, consulta la siguiente tabla: @Table[poisoned-wind-globe]{Esfera de viento envenenado}</p><p>Cuando la esfera se rompe, libera una nube de gas venenoso de 3 yardas de diámetro y 3 yardas de altura. La nube persiste durante [[/br 1d10–1 # Rounds]] asaltos (una tirada de 1 indica que hay una corriente de aire o una brisa lo bastante fuerte como para dispersarla al instante). Cada Personaje dentro de la nube debe hacer un <strong>Chequeo Desafiante (+0) de Resistencia</strong>, modificado por @UUID[Compendium.wfrp4e-core.items.vMYEkrWj0ip6ZOdv]{Resistencia (Veneno)} y Talentos o Rasgos similares, o sufrir un impacto de Daño +4 que ignora la armadura y la Resistencia. El objetivo debe repetir el Chequeo en cada asalto que permanezca en la nube. </p><p>Las esferas de viento envenenado se despliegan a veces como trampas, utilizando un simple cable como desencadenante. Si un Personaje no detecta el cable — <strong>Chequeo Desafiante (+0) de Percepción</strong> — la trampa se activa y la esfera se rompe a sus pies. Trátalo como cualquier otro ataque con esta arma, centrado en el Personaje que la desencadena.</p>",
+      "effects": [
+        {
+          "name": "Esfera de viento envenenado",
+          "scriptData": [
+            {
+              "label": "Esfera de viento envenenado",
+              "script": "[Script.hwOZxgt7e65iWvYz]"
+            },
+            {
+              "label": "Fin del asalto",
+              "script": "[Script.hwOZxgt7e65iWvYz]"
+            }
+          ]
+        },
+        {
+          "name": "Esfera de viento envenenado - Fallo",
+          "scriptData": [
+            {
+              "label": "Esfera de viento envenenado - Fallo",
+              "script": "[Script.iuYuf05BNuZ5fllI]"
+            }
+          ]
+        }
+      ]
     },
     "Wither": {
-      "name": "Wither"
+      "name": "Marchitar",
+      "description": "<p>Mientras cantas pasajes del Liber Bubonicus, apuntas con una zarpa sarnosa al objetivo, que debe superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o perder 1 punto de Resistencia por cada NE de tu Chequeo de lanzamiento. Las criaturas cuya Resistencia se reduce a 0 mueren. Los Personajes pueden gastar un Punto de Destino para quedar reducidos a 1 de Resistencia y 0 Heridas en su lugar. Los Personajes que pierden suficiente Resistencia para que su Bonificador por Resistencia baje deben reducir su total de Heridas en consecuencia.</p>\n<p>Las víctimas que sobreviven recuperan 1 punto de Resistencia por día de descanso completo. Si se las trata con cualquier forma de curación capaz de eliminar una Herida crítica, la víctima recupera otros [[/r 1d10 #Recovered Toughness]] puntos de Resistencia perdidos.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Marchitar",
+          "scriptData": [
+            {
+              "label": "Marchitar",
+              "script": "[Script.f062aa2BNClx08D6]"
+            }
+          ]
+        }
+      ]
     },
     "Skitterleap": {
-      "name": "Skitterleap"
+      "name": "Salto fugaz",
+      "description": "<p>Con un sonido de aire repentino y una bocanada de humo con olor a azufre, te teletransportas a ti mismo o a un aliado que puedas tocar a cualquier lugar a tantas yardas como tu Voluntad. Si el objetivo no está dispuesto, resuelve el intento de toque con las reglas para lanzar un hechizo de toque en combate (ver @UUID[Compendium.wfrp4e-core.journals.YBVrpUHEjohB1H4f.JournalEntryPage.BU7yhLmMdEyvbfkR]{Reglas de magia}), y la víctima puede hacer un <strong>Chequeo Complicado (&ndash;10) de Frialdad</strong> para desplazar su destino tantas yardas como +NE. El objetivo debe ser de tamaño Normal o menor. Debes poder ver el destino, y ese lugar debe estar libre de objetos y criaturas o el hechizo falla.</p>"
     },
     "Weeping Wound": {
-      "name": "Weeping Wound"
+      "name": "Herida goteante",
+      "description": "<p>Mientras el hechizo está en efecto, cada Herida sufrida por el objetivo cuenta como una @UUID[Compendium.wfrp4e-core.items.1hQuVFZt9QnnbWzg]{Infección menor}. Todos los Chequeos de Aguante para evitar las <em>Heridas supurantes </em>sufren un penalizador &ndash;10 por cada NE de tu Chequeo de lanzamiento. Además, si el objetivo fuese a sufrir un Estado de @Condition[Sangrando], sufre dos en su lugar.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Herida goteante",
+          "scriptData": [
+            {
+              "label": "Herida goteante",
+              "script": "[Script.LQEWSN5KnHHATPsf]"
+            }
+          ]
+        }
+      ]
     },
     "Warpstone Buckshot": {
-      "name": "Warpstone Buckshot"
+      "name": "Posta de piedra bruja"
     },
     "Skitterleap (Ruin)": {
-      "name": "Skitterleap (Ruin)"
+      "name": "Salto fugaz (Ruina)",
+      "description": "<p>Con un sonido de aire repentino y una bocanada de humo con olor a azufre, te teletransportas a ti mismo o a un aliado que puedas tocar a cualquier lugar a tantas yardas como tu Voluntad. Si el objetivo no está dispuesto, resuelve el intento de toque con las reglas para lanzar un hechizo de toque en combate (ver @UUID[Compendium.wfrp4e-core.journals.YBVrpUHEjohB1H4f.JournalEntryPage.BU7yhLmMdEyvbfkR]{Reglas de magia}), y la víctima puede hacer un <strong>Chequeo Complicado (&ndash;10) de Frialdad</strong> para desplazar su destino tantas yardas como +NE. El objetivo debe ser de tamaño Normal o menor. Debes poder ver el destino, y ese lugar debe estar libre de objetos y criaturas o el hechizo falla.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>"
     },
     "Pestilent Breath": {
-      "name": "Pestilent Breath"
+      "name": "Aliento pestilente",
+      "description": "<p>Exhalas una nube pestilente y venenosa en una línea de 2 yardas de ancho hasta el alcance del hechizo. Cualquiera que esté al alcance de los humos nocivos debe superar un <strong>Chequeo Complicado (&ndash;10) de Aguante</strong> o sufrir un impacto con un Daño igual a tu Bonificador por Voluntad, que ignora la armadura y el Bonificador por Resistencia.</p>\n<p>Por cada +2 NE adicionales, puedes ampliar la anchura de la línea en 1 yarda.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Aliento pestilente",
+          "scriptData": [
+            {
+              "label": "Aliento pestilente",
+              "script": "[Script.tolkNN5P7oOC8GKZ]"
+            }
+          ]
+        }
+      ],
+      "overcast": "Anchura de la línea"
     },
     "Curse of the Horned Rat (Ruin)": {
-      "name": "Curse of the Horned Rat (Ruin)"
+      "name": "Maldición de la Rata Cornuda (Ruina)",
+      "description": "<p>Con una sacudida enfermiza, el tejido de la realidad se desgarra por el poder retorcido de la Gran Cornuda. La criatura objetivo, y cualquier otra en un número de yardas igual a tu Bonificador por Voluntad, deben superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o ser transformadas en skaven de un tamaño apropiado a la víctima original, supuestamente bajo tu mando. La mayoría se convierten en @UUID[Compendium.wfrp4e-core.actors.F1vAZZcmVKkRw8xn]{guerreros de clan} o @UUID[Compendium.wfrp4e-core.actors.kl4qHg0mqWOApBqH]{alimañas}, pero los ogros suelen convertirse en @UUID[Compendium.wfrp4e-core.actors.VfJgGmCTWqb0IDSW]{ratas ogro}. Son tan leales como cualquier skaven, con vagos recuerdos de túneles, traición y la oscuridad del Imperio Subterráneo que sustituyen a los de su antigua vida. Su naturaleza es como la de cualquier skaven, y es improbable que sigan órdenes que les causen la muerte, a menos que desobedecerlas parezca igual de mortal.</p>\n<p>La fisonomía de la mayoría de los humanoides nunca fue pensada para convertirse en skaven, que, a pesar de ser conocidos coloquialmente como hombres rata, son mucho más ratas que hombres. En la mayoría de los casos las víctimas del hechizo vuelven a su verdadera forma cuando este termina, aunque todas llevan alguna marca de lo que se les hizo. Suele ser una mancha de pelo, una cola deforme o unos dientes amarillentos y puntiagudos. La víctima puede gastar un Punto de Destino para resistir los efectos de este hechizo o, si ya los sufre, para volver a su forma original.</p>\n<blockquote class=\"sidebar\">\n<h3 style=\"text-align: center;\"><em>¿Es divertido ser una rata?</em></h3>\n<p><em>¡Puede serlo! Ten en cuenta que este es el tipo de hechizo que podría poner fin a la carrera de un Personaje, que se escabulle con sus aliados skaven solo para despertar en el Imperio Subterráneo, esclavizado por las mismas criaturas que por un momento creyó sus parientes. Sin embargo, también podría ser una forma excelente de comenzar una aventura interesante, con los Personajes sumergiéndose en las profundidades para buscar a un skaven que una vez fue &mdash; y podría volver a ser &mdash; uno de sus compañeros.</em></p>\n<p><em>En cualquier caso, un DJ astuto prestará mucha atención a los Puntos de Destino de sus Personajes antes de desatar este horror en particular sobre ellos.</em></p>\n</blockquote><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>"
     },
     "Jezzail Bullet and Powder": {
-      "name": "Jezzail Bullet and Powder"
+      "name": "Bala y pólvora de jezzail"
     },
     "Warlock Optics": {
-      "name": "Warlock Optics"
+      "name": "Mirillas de brujo",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p>\n<p>Este dispositivo óptico mejorado con piedra bruja permite a un ingeniero brujo enfocar claramente a un enemigo, incluso a los que están parcialmente ocultos a cubierto. Cuando se instala en un arma a distancia, anula todos los modificadores de dificultad por disparar a un objetivo a cubierto.</p>"
     },
     "Ratling Gun Belt": {
-      "name": "Ratling Gun Belt"
+      "name": "Cinta de munición del Ratling",
+      "effects": [
+        {
+          "name": "Cinta de munición del Ratling",
+          "scriptData": [
+            {
+              "label": "Comprobación de recarga",
+              "script": "[Script.yDvxF9llUYwJg0sE]"
+            }
+          ]
+        }
+      ],
+      "special": "Tira Repetición la primera vez que dispares un Cañón Ratling tras recargarlo."
     },
     "Punch Dagger": {
-      "name": "Punch Dagger"
+      "name": "Daga de puño",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Eshin y aliados</p>\n<p>Los skaven del @UUID[JournalEntry.oXly0RXc3Z3vnVrH.JournalEntryPage.nMGc3gSeO4HsP3sU]{clan Eshin} utilizan dagas de puño, un tipo de arma de Ind con una o dos hojas que sobresalen de entre los dedos. Algunas variantes requieren que el portador se ate el arma a la muñeca. Un usuario hábil de las dagas de puño realiza rápidos movimientos de apuñalamiento o tajos rápidos.</p>"
     },
     "Ironbeard": {
-      "name": "Ironbeard"
+      "name": "Barbahierro",
+      "description": "<p>@UUID[Compendium.wfrp4e-horned-rat.journals.bmuHnv7PgHJ54BML.JournalEntryPage.DHz1ZX3hPihLzJOf]{Rompehierros}</p>"
     },
     "Buoyant Passage": {
-      "name": "Buoyant Passage"
+      "name": "Paso flotante",
+      "description": "<p>Flotas como un trozo de madera de balsa, lo que te permite pisar superficies líquidas como el agua, las aguas residuales o el aceite como si fueran tierra firme. Este hechizo también impide que se formen huellas en la tierra blanda, la nieve, el barro o similares, y cualquier intento de rastrearte utilizando dichas señales falla automáticamente.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>"
     },
     "Death Frenzy (Plague)": {
-      "name": "Death Frenzy (Plague)"
+      "name": "Locura asesina (Plaga)",
+      "description": "<p>Invades a un skaven con un hambre voraz horrible, haciendo que la espuma salpique de su boca y sus ojos giren locamente en su cabeza. Tu objetivo queda sujeto a @UUID[Compendium.wfrp4e-core.items.yRhhOlt18COq4e1q]{Frenesí} mientras dure el hechizo. Los objetivos que no estén dispuestos pueden intentar resistir estos efectos con un <strong>Chequeo Desafiante (+0) de Frialdad</strong>. Los que tienen éxito sufren 1 Herida mientras roen sus propias extremidades para distraerse de la llamada a la violencia del hechizo.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Locura asesina",
+          "scriptData": [
+            {
+              "label": "Locura asesina",
+              "script": "[Script.c31hjp7k0hlpdGBC]"
+            }
+          ]
+        }
+      ]
     },
     "Electro-Whip": {
-      "name": "Electro-Whip"
+      "name": "Látigo eléctrico",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Moulder y aliados</p>\n<p>Este látigo, que emite una energía verde brillante procedente de un trozo de piedra bruja en el mango, inflige un dolor terrible a sus víctimas. Suele dejar terribles cicatrices y, posiblemente, mutaciones.</p>"
     },
     "Plague Censer": {
-      "name": "Plague Censer"
+      "name": "Incensario de plaga",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Pestilens y aliados</p><p>Este gran mayal lleno de incienso dispersa humo de incienso de piedra bruja. Todas las criaturas vivas que se acerquen a un incensario de plaga encendido sufren exposición a la Corrupción; consulta la tabla.</p><table style=\"width: 100%;\" border=\"1\"><tbody><tr><td style=\"width: 17.5439%;\">Distancia (yardas)</td><td style=\"width: 82.4561%;\">Exposición</td></tr><tr><td style=\"width: 17.5439%;\">2</td><td style=\"width: 82.4561%;\">@Corruption[Mayor]</td></tr><tr><td style=\"width: 17.5439%;\">4</td><td style=\"width: 82.4561%;\">@Corruption[Moderada]</td></tr><tr><td style=\"width: 17.5439%;\">8</td><td style=\"width: 82.4561%;\">@Corruption[Menor]</td></tr></tbody></table>"
     },
     "Warpfire Fuel Vat": {
-      "name": "Warpfire Fuel Vat"
+      "name": "Cuba de combustible de disformidad"
     },
     "Curse of the Horned Rat": {
-      "name": "Curse of the Horned Rat"
+      "name": "Maldición de la Rata Cornuda",
+      "description": "<p>Con una sacudida enfermiza, el tejido de la realidad se desgarra por el poder retorcido de la Gran Cornuda. La criatura objetivo, y cualquier otra en un número de yardas igual a tu Bonificador por Voluntad, deben superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o ser transformadas en skaven de un tamaño apropiado a la víctima original, supuestamente bajo tu mando. La mayoría se convierten en @UUID[Compendium.wfrp4e-core.actors.F1vAZZcmVKkRw8xn]{guerreros de clan} o @UUID[Compendium.wfrp4e-core.actors.kl4qHg0mqWOApBqH]{alimañas}, pero los ogros suelen convertirse en @UUID[Compendium.wfrp4e-core.actors.VfJgGmCTWqb0IDSW]{ratas ogro}. Son tan leales como cualquier skaven, con vagos recuerdos de túneles, traición y la oscuridad del Imperio Subterráneo que sustituyen a los de su antigua vida. Su naturaleza es como la de cualquier skaven, y es improbable que sigan órdenes que les causen la muerte, a menos que desobedecerlas parezca igual de mortal.</p>\n<p>La fisonomía de la mayoría de los humanoides nunca fue pensada para convertirse en skaven, que, a pesar de ser conocidos coloquialmente como hombres rata, son mucho más ratas que hombres. En la mayoría de los casos las víctimas del hechizo vuelven a su verdadera forma cuando este termina, aunque todas llevan alguna marca de lo que se les hizo. Suele ser una mancha de pelo, una cola deforme o unos dientes amarillentos y puntiagudos. La víctima puede gastar un Punto de Destino para resistir los efectos de este hechizo o, si ya los sufre, para volver a su forma original.</p>\n<blockquote class=\"sidebar\">\n<h3 style=\"text-align: center;\"><em>¿Es divertido ser una rata?</em></h3>\n<p><em>¡Puede serlo! Ten en cuenta que este es el tipo de hechizo que podría poner fin a la carrera de un Personaje, que se escabulle con sus aliados skaven solo para despertar en el Imperio Subterráneo, esclavizado por las mismas criaturas que por un momento creyó sus parientes. Sin embargo, también podría ser una forma excelente de comenzar una aventura interesante, con los Personajes sumergiéndose en las profundidades para buscar a un skaven que una vez fue &mdash; y podría volver a ser &mdash; uno de sus compañeros.</em></p>\n<p><em>En cualquier caso, un DJ astuto prestará mucha atención a los Puntos de Destino de sus Personajes antes de desatar este horror en particular sobre ellos.</em></p>\n</blockquote>"
     },
     "Ratling Gun": {
-      "name": "Ratling Gun"
+      "name": "Cañón Ratling",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p><p>Una de las innovaciones más recientes del @UUID[JournalEntry.oXly0RXc3Z3vnVrH.JournalEntryPage.SJRe53QCz0UDC1Dn]{clan Skryre}, el cañón Ratling es un arma de fuego de repetición, grande y de cañones múltiples. Al apretar el gatillo dispara una andanada de balas de piedra bruja que acribilla una amplia zona.</p>"
     },
     "Poisonous Pustule": {
-      "name": "Poisonous Pustule"
+      "name": "Pústula venenosa",
+      "description": "<p>Creas una pústula pulsante y rezumante en una de tus extremidades. Cuando la revientas y la drenas (lo que te inflige 1 Herida, sin tener en cuenta tu Bonificador por Resistencia ni la armadura), puedes esparcir el pus sobre un arma cuerpo a cuerpo. Si un arma recubierta con esta secreción tóxica inflige al menos 1 Herida, inflige un número adicional de Heridas igual a tu Bonificador por Voluntad, a menos que el objetivo supere un <strong>Chequeo Difícil (&ndash;20) de Aguante</strong>.</p>\n<p>La pústula se forma en cuestión de segundos y puede dejarse en su sitio el tiempo que sea antes de drenarla. Una vez drenada, la duración indica el tiempo que el pus tóxico sigue siendo efectivo. Puedes tener un número de pústulas activas igual a tu Bonificador por Resistencia.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Pústula venenosa",
+          "filter": "return args.type == \"weapon\"",
+          "scriptData": [
+            {
+              "label": "Pústula venenosa",
+              "script": "[Script.JwYZJGkZMSM2M3Si]"
+            }
+          ]
+        }
+      ]
     },
     "Warplock Jezzail": {
-      "name": "Warplock Jezzail"
+      "name": "Jezzail brujo",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p><p>Similares en algunos aspectos a los jezzails de Arabia, los jezzails brujos tienen pequeñas cantidades de piedra bruja trabajadas en el arma y su munición. Pueden utilizar pólvora negra y balas corrientes, pero eso reduce su Alcance a 72 y su Daño a +5.</p><p>Los jezzails brujos son pesados, pero un skaven suele bastar para llevarlos. Sin embargo, sujetar y apuntar el arma es difícil, y se suele asignar un segundo skaven para que sostenga el cañón del fusil.</p><p>Si un ataque con un jezzail brujo resulta en una Pifia, tira [[/br 1d10 #Fumble]]. Con un resultado de 1, el jezzail explota en la mano de su portador, destruyéndose en una Explosión 1 que causa el mismo Daño que un disparo con éxito. Con un resultado de 2 a 10, tira en la tabla @Table[oops]{«¡Huy!»}.</p>",
+      "effects": [
+        {
+          "name": "Jezzail brujo",
+          "scriptData": [
+            {
+              "label": "Jezzail brujo",
+              "script": "[Script.6ZS1rQLkNvMDO0Fp]"
+            }
+          ]
+        }
+      ]
     },
     "Gas Mask": {
-      "name": "Gas Mask"
+      "name": "Máscara de gas",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p>\n<p>Los lanzadores de viento envenenado del clan Skryre llevan a la espalda complicados artilugios que consisten en tubos de metal y fuelles, todos ellos conectados a sus máscaras de gas. Estas máscaras, diseñadas exclusivamente para uso skaven, conceden a los lanzadores de viento un bonificador +40 a cualquier Chequeo de Aguante para resistir los efectos de venenos o gases inhalados.</p>",
+      "effects": [
+        {
+          "name": "Máscara de gas",
+          "scriptData": [
+            {
+              "label": "Resistir los efectos de venenos o gases inhalados",
+              "script": "[Script.UYLXm2W6jVn21Age]",
+              "hideScript": "[Script.PdClojv7yNgQpOUc]"
+            }
+          ]
+        }
+      ]
     },
     "Pelt of the Assassin": {
-      "name": "Pelt of the Assassin"
+      "name": "Piel del asesino",
+      "description": "<p>Imitando la naturaleza siempre cambiante de la piedra bruja en bruto, alteras la estructura de tu pelaje para que cambie de color y se adapte a tu entorno. Cuando estás completamente quieto, obtienes un bonificador +40 a todos los Chequeos de Sigilo.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>",
+      "effects": [
+        {
+          "name": "Piel del asesino",
+          "scriptData": [
+            {
+              "label": "Sigilo al permanecer completamente quieto",
+              "script": "[Script.UYLXm2W6jVn21Age]",
+              "hideScript": "[Script.5o1XiceC4rutjMms]"
+            }
+          ]
+        }
+      ]
     },
     "Flash-Bang": {
-      "name": "Flash-Bang"
+      "name": "Destello repentino",
+      "description": "<p>Haces un gesto con una pata y creas una explosión brillante y estruendosa. Todas las criaturas (sin incluirte a ti) dentro del área de efecto deben superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o sufrir un Estado de @Condition[Cegado] y otro de @Condition[Aturdido] por cada nivel de fracaso. Con un fracaso crítico, la víctima sufre un Estado de @Condition[Aturdido] adicional. Este hechizo no afecta a nadie con el Talento @UUID[Compendium.wfrp4e-core.items.3O9clK7LGyuLTHPW]{Magia arcana (Sigilo)}.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>",
+      "effects": [
+        {
+          "name": "Destello repentino",
+          "filter": "return (this.actor.uuid == this.effect.sourceActor.uuid) || this.actor.has(\"Arcane Magic (Stealth)\", \"talent\")",
+          "scriptData": [
+            {
+              "label": "Destello repentino",
+              "script": "[Script.tG1qGqzBLmAR3WHm]"
+            }
+          ]
+        }
+      ]
     },
     "Blade of Nurglitch": {
-      "name": "Blade of Nurglitch"
+      "name": "Espada de Nurglitch",
+      "description": "<p>Esta arma de mano está bendecida con los ungüentos especiales de los señores de la plaga. Estas espadas incrustadas de mugre llevan una versión más fuerte del Rasgo de monstruo @UUID[Compendium.wfrp4e-core.items.V0c3qBU1CMm8bmsW]{Infectado}. Para evitar una @UUID[Compendium.wfrp4e-core.items.kKccDTGzWzSXCBOb]{Herida supurante}, cualquier criatura herida por una de ellas debe superar un <strong>Chequeo Complicado (&ndash;10) de Aguante</strong>.</p>",
+      "effects": [
+        {
+          "name": "Espada de Nurglitch",
+          "scriptData": [
+            {
+              "label": "Espada de Nurglitch",
+              "script": "[Script.6H6vNjzvMGl2ZqCR]"
+            }
+          ]
+        }
+      ]
     },
     "Crack’s Call": {
-      "name": "Crack’s Call"
+      "name": "Invocar grietas",
+      "description": "<p>Con un encantamiento arcano, das un pisotón y el suelo se parte en dos. Una grieta de 1 yarda de ancho aparece bajo tus pies y recorre tantas yardas como tu Voluntad en línea recta en cualquier dirección dentro de tu línea de visión.</p>\n<p>Cualquier criatura de tamaño Normal o menor que se encuentre en su camino debe hacer un <strong>Chequeo Normal (+20) de Esquivar</strong> para apartarse de un salto. Los que fracasan caen tantas yardas como tu Bonificador por Voluntad más el NE de tu Chequeo de lanzamiento, y no pueden hacer nada excepto intentar salir. Los objetivos que caen en la grieta quedan @Condition[Tumbado]{Tumbados}. Los muros socavados por este hechizo probablemente se derrumban y los edificios no fortificados sufren graves daños.</p>\n<p>Si obtienes +4 NE o más, puedes aumentar la anchura de la grieta a 2 yardas. Ahora incluso las criaturas Grandes pueden caer en ella, los muros más resistentes se derrumban, los edificios no fortificados se vienen abajo y las estructuras fortificadas sufren graves daños.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Invocar grietas",
+          "scriptData": [
+            {
+              "label": "Invocar grietas",
+              "script": "[Script.shkBUtUuMPDKvFm7]"
+            }
+          ]
+        }
+      ]
     },
     "Tail Weapon": {
-      "name": "Tail Weapon"
+      "name": "Arma de cola",
+      "description": "<p>Los skaven con el Talento @UUID[Compendium.wfrp4e-horned-rat.items.UIoRIYI4w0BHU5Yw]{Combate con la cola} pueden usar pequeñas cuchillas o mazas unidas a la cola. Esto les proporciona un ataque cuerpo a cuerpo adicional en cada asalto.</p>"
     },
     "Cinderblast Bomb": {
-      "name": "Cinderblast Bomb"
+      "name": "Bomba de brasas",
+      "description": "<p>Estas armas letales son indispensables en los combates de túneles que se libran en las profundidades del Viejo Mundo, mientras los enanos se defienden desesperadamente de los ataques de skaven, goblins y cosas peores. Estas bombas suelen lanzarse en medio de las apretadas filas enemigas, y estallan en una explosión de llamas y metralla aterradora de contemplar.</p>"
     },
     "Mantle of Contagion": {
-      "name": "Mantle of Contagion"
+      "name": "Manto de contagio",
+      "description": "<p>Manchas un trozo de comida o una prenda de ropa con la @UUID[Compendium.wfrp4e-core.items.aKiuGzlVO51JvsjV]{Plaga Negra}, que sigue siendo infecciosa mientras dure el hechizo. Cualquiera que consuma la comida contaminada o lleve la prenda durante un minuto o más queda expuesto a la enfermedad.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>"
     },
     "Warpstone Charm": {
-      "name": "Warpstone Charm"
+      "name": "Amuleto de piedra bruja",
+      "description": "<p>Los talismanes y amuletos que incorporan un trocito de piedra bruja suelen llevarlos los skaven importantes, y se cree que atraen la protección de la Rata Cornuda. Un skaven con un amuleto de piedra bruja puede repetir un único Chequeo cada 13 horas.&nbsp;</p>"
     },
     "Skitterleap (Stealth)": {
-      "name": "Skitterleap (Stealth)"
+      "name": "Salto fugaz (Sigilo)",
+      "description": "<p>Con un sonido de aire repentino y una bocanada de humo con olor a azufre, te teletransportas a ti mismo o a un aliado que puedas tocar a cualquier lugar a tantas yardas como tu Voluntad. Si el objetivo no está dispuesto, resuelve el intento de toque con las reglas para lanzar un hechizo de toque en combate (ver @UUID[Compendium.wfrp4e-core.journals.YBVrpUHEjohB1H4f.JournalEntryPage.BU7yhLmMdEyvbfkR]{Reglas de magia}), y la víctima puede hacer un <strong>Chequeo Complicado (&ndash;10) de Frialdad</strong> para desplazar su destino tantas yardas como +NE. El objetivo debe ser de tamaño Normal o menor. Debes poder ver el destino, y ese lugar debe estar libre de objetos y criaturas o el hechizo falla.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>"
     },
     "Cloud of Corruption": {
-      "name": "Cloud of Corruption"
+      "name": "Nube de corrupción",
+      "description": "<p>Liberas una apestosa ráfaga de furia enfermiza. Todas las criaturas en un radio de 5 yardas deben hacer un <strong>Chequeo Desafiante (+0) de Aguante</strong> o sufrir un Estado de @Condition[Envenenado]. Además, cada ataque que realices durante tantos asaltos como tu Bonificador por Voluntad obtiene el Rasgo @UUID[Compendium.wfrp4e-core.items.V0c3qBU1CMm8bmsW]{Infectado}.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Nube de corrupción",
+          "preApplyScript": "this.actor.applyEffect({effectUuids : this.item.effects.contents[1].uuid})\nreturn true;",
+          "filter": "return this.actor.uuid == this.effect.sourceActor.uuid;",
+          "scriptData": [
+            {
+              "label": "Envenenado",
+              "script": "[Script.lYYkGzqNshiYc7WI]"
+            }
+          ]
+        },
+        {
+          "name": "Nube de corrupción",
+          "scriptData": [
+            {
+              "label": "Infectado",
+              "script": "[Script.njPP9wDAsdh4WHIj]"
+            }
+          ]
+        }
+      ]
     },
     "Skalm": {
-      "name": "Skalm"
+      "name": "Skalm",
+      "description": "<p>Este ungüento maloliente cura al instante [[/r 1d10 + 1 #Wounds Cured]] Heridas perdidas por aplicación, haciendo que la carne alrededor de la herida se retuerza y se fusione de forma perturbadora. Cada uso cuenta como una @Corruption[Moderada]{Exposición moderada a la Corrupción}.</p>",
+      "effects": [
+        {
+          "name": "Skalm",
+          "scriptData": [
+            {
+              "label": "Skalm",
+              "script": "[Script.fzTB7t3x4bLmAXji]"
+            }
+          ]
+        },
+        {
+          "name": "Aplicar skalm",
+          "scriptData": [
+            {
+              "label": "@effect.name",
+              "script": "[Script.xUpKYT7BZCSmAfUy]"
+            }
+          ]
+        }
+      ]
     },
     "Curse of the Horned Rat (Stealth)": {
-      "name": "Curse of the Horned Rat (Stealth)"
+      "name": "Maldición de la Rata Cornuda (Sigilo)",
+      "description": "<p>Con una sacudida enfermiza, el tejido de la realidad se desgarra por el poder retorcido de la Gran Cornuda. La criatura objetivo, y cualquier otra en un número de yardas igual a tu Bonificador por Voluntad, deben superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o ser transformadas en skaven de un tamaño apropiado a la víctima original, supuestamente bajo tu mando. La mayoría se convierten en @UUID[Compendium.wfrp4e-core.actors.F1vAZZcmVKkRw8xn]{guerreros de clan} o @UUID[Compendium.wfrp4e-core.actors.kl4qHg0mqWOApBqH]{alimañas}, pero los ogros suelen convertirse en @UUID[Compendium.wfrp4e-core.actors.VfJgGmCTWqb0IDSW]{ratas ogro}. Son tan leales como cualquier skaven, con vagos recuerdos de túneles, traición y la oscuridad del Imperio Subterráneo que sustituyen a los de su antigua vida. Su naturaleza es como la de cualquier skaven, y es improbable que sigan órdenes que les causen la muerte, a menos que desobedecerlas parezca igual de mortal.</p>\n<p>La fisonomía de la mayoría de los humanoides nunca fue pensada para convertirse en skaven, que, a pesar de ser conocidos coloquialmente como hombres rata, son mucho más ratas que hombres. En la mayoría de los casos las víctimas del hechizo vuelven a su verdadera forma cuando este termina, aunque todas llevan alguna marca de lo que se les hizo. Suele ser una mancha de pelo, una cola deforme o unos dientes amarillentos y puntiagudos. La víctima puede gastar un Punto de Destino para resistir los efectos de este hechizo o, si ya los sufre, para volver a su forma original.</p>\n<blockquote class=\"sidebar\">\n<h3 style=\"text-align: center;\"><em>¿Es divertido ser una rata?</em></h3>\n<p><em>¡Puede serlo! Ten en cuenta que este es el tipo de hechizo que podría poner fin a la carrera de un Personaje, que se escabulle con sus aliados skaven solo para despertar en el Imperio Subterráneo, esclavizado por las mismas criaturas que por un momento creyó sus parientes. Sin embargo, también podría ser una forma excelente de comenzar una aventura interesante, con los Personajes sumergiéndose en las profundidades para buscar a un skaven que una vez fue &mdash; y podría volver a ser &mdash; uno de sus compañeros.</em></p>\n<p><em>En cualquier caso, un DJ astuto prestará mucha atención a los Puntos de Destino de sus Personajes antes de desatar este horror en particular sobre ellos.</em></p>\n</blockquote><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>"
     },
     "Black Whirlwind": {
-      "name": "Black Whirlwind"
+      "name": "Torbellino oscuro",
+      "description": "<p>Invocas un pútrido torbellino de humo vil y ceniza urticante. El torbellino se mueve hasta 10 yardas por asalto en cualquier dirección que desees. Esto no requiere ninguna acción por tu parte más allá de unos chillidos susurrados. Los afectados por el torbellino deben superar un <strong>Chequeo Desafiante (+0) de Aguante</strong> o sufrir un penalizador &ndash;20 a todos los Chequeos de Habilidad de Armas, Habilidad de Proyectiles y Agilidad, y a cualquier Chequeo de Percepción que implique la vista, durante los siguientes [[/br 1d10]] minutos.</p><p>\n\n <b>Saber:</b> <p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p>",
+      "effects": [
+        {
+          "name": "Torbellino oscuro",
+          "avoidTestSkill": "Endurance",
+          "scriptData": [
+            {
+              "label": "Chequeos de Habilidad de Armas, Habilidad de Proyectiles y Agilidad, y Chequeos de Percepción que impliquen la vista",
+              "script": "[Script.0iTLDgFHO9Rgc010]",
+              "hideScript": "[Script.rxB1AqfVMDqTRieE]",
+              "activateScript": "[Script.X3bLbOfcJAftOMa7]"
+            }
+          ]
+        }
+      ]
     },
     "Scorch": {
-      "name": "Scorch"
+      "name": "Quemar",
+      "description": "<p>Clavas tus garras en el suelo mientras chillas los encantamientos necesarios, y un chorro de llamas verdes brota de la tierra en el punto que designes. Es un <em>proyectil mágico</em> con un Daño de +10. Cualquiera dañado por la llama sufre un Estado de @Condition[Ardiendo]. Ser incendiado por el odioso fuego brujo cuenta como una @Corruption[Menor]{Exposición menor a la Corrupción}.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Quemar",
+          "scriptData": [
+            {
+              "label": "Quemar",
+              "script": "[Script.6U8xox4mBrn5eYIp]"
+            }
+          ]
+        }
+      ]
     },
     "Bleeding Eyerot": {
-      "name": "Bleeding Eyerot"
+      "name": "Peste sangraojos",
+      "description": "<p>La peste sangraojos es una horrible enfermedad transmitida por el agua que ataca los ojos y los lagrimales. El enfermo llora un torrente constante de lágrimas ensangrentadas y cada vez le cuesta más ver. Aunque la enfermedad rara vez es mortal, deja a sus víctimas debilitadas e incapacitadas.</p>",
+      "effects": [
+        {
+          "name": "Persistente (Desafiante)"
+        },
+        {
+          "name": "Fallo orgánico (Ojos)"
+        },
+        {
+          "name": "Herido",
+          "scriptData": [
+            {
+              "label": "@effect.name",
+              "script": "let test = await this.actor.setupSkill(game.i18n.localize(\"NAME.Endurance\"), {fields: {difficulty : \"average\"}, appendTitle : \" - Wounded\"})\n                            await test.roll();\n                            if (test.failed)\n                            {\n                                fromUuid(\"Compendium.wfrp4e-core.items.kKccDTGzWzSXCBOb\").then(disease => {\n                                    this.actor.createEmbeddedDocuments(\"Item\", [disease.toObject()])\n                                    this.script.scriptNotification(\"Gained \" + disease.name)\n                                })\n                            }"
+            }
+          ]
+        }
+      ],
+      "duration": "3d10 + 8",
+      "contraction": "Si fracasas en un Chequeo Fácil (+40) de Resistencia después de beber agua infectada",
+      "incubation": "3d10 + 5",
+      "symptoms": "Persistente (Desafiante), Fallo orgánico (Ojos), Herido"
     },
     "Toxic Rain": {
-      "name": "Toxic Rain"
+      "name": "Lluvia tóxica",
+      "description": "<p>Conjuras una venenosa nube de humo y humedad tóxicos, que flota una docena de pies o más por encima del suelo. En el asalto posterior al lanzamiento del hechizo, la nube descarga un aguacero letal. Todas las criaturas en el área de efecto deben superar un <strong>Chequeo Complicado (&ndash;10) de Resistencia</strong> cada asalto o perder 3 Heridas, ignorando la armadura y el Bonificador por Resistencia. Si un Personaje pierde 6 o más Heridas por este hechizo en un solo encuentro, también sufre un Estado de @Condition[Inconsciente].</p>\n<p>Como acción, el lanzador puede mover el área de efecto de este hechizo a cualquier punto a tantas yardas de su posición como su Voluntad.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Plaga extrae su poder de la podredumbre y la decadencia, convirtiendo el <em>Dhar </em>en bruto en formas más refinadas de enfermedad y corrupción. Sus hechizos corrompen todo lo que tocan y, de hecho, son pocos los que llegan a dominar el Saber de la Plaga sin llevar algunas de sus marcas. La mayoría de los sacerdotes de la plaga están cubiertos de llagas y pústulas: gloriosos estigmas y señal de su dominio sobre las fuerzas de la entropía.</p><p>El Saber de la Plaga infunde al portador con la esencia de la putrefacción. Siempre que lances con éxito un hechizo del Saber de la Plaga, puedes obtener el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto} durante los siguientes [[/br 1d10]] asaltos.</p><p>Ingredientes: los sacerdotes de la plaga utilizan todo tipo de asquerosos excrementos, emanaciones insoportables y objetos corruptos como ingredientes para sus hechizos. La mayoría se dispersan en el aire y se inhalan ritualmente, o se queman dentro de un incensario de plaga.</p><p>",
+      "effects": [
+        {
+          "name": "Lluvia tóxica",
+          "scriptData": [
+            {
+              "label": "Lluvia tóxica",
+              "script": "[Script.MnqQkXVp20Lw84I1]"
+            },
+            {
+              "label": "Fin del asalto",
+              "script": "[Script.MnqQkXVp20Lw84I1]"
+            }
+          ]
+        }
+      ]
     },
     "Warp Lightning": {
-      "name": "Warp Lightning"
+      "name": "Rayo de disformidad",
+      "description": "<p>Disparas un poderoso y chisporroteante rayo de disformidad hacia un enemigo. Es un <em>proyectil mágico</em> con un Daño de +11. Si la localización impactada estaba cubierta por una armadura metálica, ignora sus PA y en su lugar súmalos al daño infligido. Si obtienes un éxito crítico en tu Chequeo de lanzamiento, la energía bruja te domina brevemente. Además de cualquier otro efecto del lanzamiento crítico, sufres un impacto de Daño +1.</p><p>\n\n <b>Saber:</b> <p>El Saber de la Ruina canaliza el terrible poder de la piedra bruja para arremeter contra los objetivos, a menudo incinerándolos por completo. Se centra en la destrucción y la desintegración y es temido tanto en Dominio Skaven como fuera de él.</p>  <p>Este terrible poder es muy vigorizante y la sensación de energía apenas contenida es casi adictiva. Siempre que lances con éxito un hechizo del Saber de la Ruina, puedes añadir +1 NE a cualquier Chequeo basado en la Iniciativa o la Agilidad durante los siguientes [[/br 1d10]] asaltos.</p>  <p>Ingredientes: los videntes grises utilizan varios trozos de pelaje, cuero, huesos y piedra bruja cristalina cuando lanzan hechizos del Saber de la Ruina.</p><p>",
+      "effects": [
+        {
+          "name": "Rayo de disformidad",
+          "scriptData": [
+            {
+              "label": "Rayo de disformidad",
+              "script": "[Script.i5AN97A7IOeygEFA]"
+            }
+          ]
+        }
+      ]
     },
     "Warpfire Thrower": {
-      "name": "Warpfire Thrower"
+      "name": "Lanzallamas de disformidad",
+      "description": "<p><strong>Disponibilidad:</strong> solo el clan Skryre y aliados</p>\n<p>El lanzallamas de disformidad lanza una ráfaga de llamas antinaturales. Requiere una tripulación de dos: un skaven lleva la cuba de combustible y el otro apunta con la boquilla. Con solo pulsar un interruptor, la piedra bruja pulverizada se mezcla con los productos químicos que salen a presión y estalla en una llama impía. El chorro infernal puede convertir a varios enemigos en una pila de baba humeante y convulsa.</p>\n<p>Como casi todas las creaciones del clan Skryre, el lanzallamas de disformidad es poco fiable. Si un ataque con él resulta en una Pifia, tira en la tabla y aplica el resultado.@Table[warpfire-thrower-fumble]</p>",
+      "effects": [
+        {
+          "name": "Lanzallamas de disformidad",
+          "scriptData": [
+            {
+              "label": "Lanzallamas de disformidad",
+              "script": "[Script.dbYjr4oG67Z880To]"
+            }
+          ]
+        }
+      ]
     },
     "Ironbreaker": {
-      "name": "Ironbreaker"
+      "name": "Rompehierros",
+      "description": "<p>@UUID[Compendium.wfrp4e-horned-rat.journals.bmuHnv7PgHJ54BML.JournalEntryPage.DHz1ZX3hPihLzJOf]{Rompehierros}</p>"
     },
     "Musk of Terror": {
-      "name": "Musk of Terror"
+      "name": "Almizcle espantoso",
+      "description": "<p>Invocas una gran nube de almizcle asfixiante. Cualquier criatura dentro de la nube queda expuesta a un efecto de @Terror[1]{Terror (1)}, o de @Terror[2]{Terror (2)} para los skaven, mientras el almizcle mortal llena su mente de pensamientos de miedo. Las víctimas perciben al lanzador como la fuente de ese Terror.</p>",
+      "effects": [
+        {
+          "name": "Almizcle espantoso",
+          "scriptData": [
+            {
+              "label": "Almizcle espantoso",
+              "script": "[Script.ZTE8LdRblyG4yYoE]"
+            }
+          ]
+        }
+      ]
     },
     "Warpstone Bullet and Powder": {
-      "name": "Warpstone Bullet and Powder"
+      "name": "Bala y pólvora de piedra bruja"
     },
     "Warp-Blade (Hand Weapon)": {
-      "name": "Warp-Blade (Hand Weapon)"
+      "name": "Cuchilla de disformidad (Arma de mano)",
+      "description": "<p>Las cuchillas de disformidad son exclusivas del clan Skryre. Suelen estar sujetas a astas, creando armas similares a las alabardas, o se implantan directamente en los brazos de los ingenieros brujos. Una maraña de cables alimenta las cuchillas, que zumban con energía bruja apenas contenida. En combate cuerpo a cuerpo, las cuchillas de disformidad se tratan como @UUID[Compendium.wfrp4e-core.items.CXg7XOFJwu4LZ9LM]{alabardas} (en el caso de las montadas en astas) o como @UUID[Compendium.wfrp4e-core.items.1zaqojk0Oq1m8vYv]{armas de mano} (cuando se implantan en los brazos de un ingeniero brujo), ambas con un bonificador +1 al Daño y la Cualidad ¡ZAS!</p>"
     },
     "Gudii's Shield": {
-      "name": "Gudii's Shield"
+      "name": "Escudo de Gudii",
+      "description": "<p>@UUID[JournalEntry.bmuHnv7PgHJ54BML.JournalEntryPage.iu6sP6Mpwc3MOCSN]{Gromril}</p>\n<p>Forjado en su día para un príncipe enano y posteriormente robado, este escudo está decorado con varias runas ostentosas, así como una única runa de poder. Al ser de gromril, el escudo adquiere la Cualidad Irrompible, y los ataques a los que se opone el escudo nunca pueden infligir un golpe crítico, excepto cuando el Personaje ya está a 0 Heridas. Además, una <em>Runa Maestra de Adamant</em> adorna el escudo, concediendo a su portador +10 de Resistencia mientras lo tenga en su poder.</p>",
+      "effects": [
+        {
+          "name": "Runa Maestra de Adamant"
+        }
+      ]
     },
     "Mark of the Horned Rat": {
-      "name": "Mark of the Horned Rat"
+      "name": "Marca de la Rata Cornuda",
+      "description": "<p>El objetivo debe superar un <strong>Chequeo Desafiante (+0) de Frialdad</strong> o le saldrá una antiestética llaga supurante en la frente o en el dorso de la mano. La llaga permanece durante [[/br 1d10]] horas e impone un penalizador &ndash;10 a todos los Chequeos de Empatía mientras dure.</p>\n<p>Los videntes grises utilizan este hechizo para marcar a sus mensajeros. A pesar del penalizador a Empatía, a los skaven que lo llevan se les suele permitir el paso con relativa libertad por los túneles y asentamientos skaven.</p>\n<p><strong>Saber:</strong> Ninguno</p>\n<p>&nbsp;</p>",
+      "effects": [
+        {
+          "name": "Marca de la Rata Cornuda",
+          "avoidTestSkill": "Cool",
+          "scriptData": [
+            {
+              "label": "Marca de la Rata Cornuda",
+              "script": "[Script.xvGxwv7X0Vq3vNqb]",
+              "hideScript": "[Script.6Fe8M5MdklKS2olx]",
+              "activateScript": "[Script.VuE1mhrB6X6MYTzg]"
+            }
+          ]
+        }
+      ]
     },
     "Musk of Terror (Stealth)": {
-      "name": "Musk of Terror (Stealth)"
+      "name": "Almizcle espantoso (Sigilo)",
+      "description": "<p>Invocas una gran nube de almizcle asfixiante. Cualquier criatura dentro de la nube queda expuesta a un efecto de @Terror[1]{Terror (1)}, o de @Terror[2]{Terror (2)} para los skaven, mientras el almizcle mortal llena su mente de pensamientos de miedo. Las víctimas perciben al lanzador como la fuente de ese Terror.</p><p><strong>Saber:</strong></p><p>El Saber del Sigilo se basa en el poder del <em>Dhar</em>, infundido con una porción particularmente grande de <em>Ulgu</em>, para confundir y ocultar. No está claro si este saber sigue siendo similar a como se practica en Catai, o si los hechiceros del clan Eshin han corrompido una forma más noble de magia del sigilo. Sea como fuere, sus hechizos se especializan en ocultar al hechicero de miradas indiscretas, utilizando la magia para distraer o disminuir las señales de la presencia de los skaven.</p><p>El Saber del Sigilo envuelve al hechicero en zarcillos de magia que ocultan su presencia. Siempre que lances con éxito un hechizo del Saber del Sigilo, obtienes el Rasgo de criatura @UUID[Compendium.wfrp4e-core.items.OzwDT6kzoLYeeR2d]{Sigiloso} durante [[/br 1d10]] asaltos.</p><p>Ingredientes: los hechiceros del clan Eshin utilizan trocitos de papel con varias runas inscritas, que luego se recubren con piedra bruja en polvo. Cuando se utilizan como ingrediente, el polvo de piedra bruja se consume, pero los trozos de papel permanecen y pueden recubrirse de nuevo y reutilizarse. Los caracteres utilizados no corresponden a ninguna forma conocida de queekish escrito, y los hechiceros del clan Eshin no tienen ninguna prisa por explicar ni su significado ni su procedencia.</p><p></p>",
+      "effects": [
+        {
+          "name": "Almizcle espantoso",
+          "scriptData": [
+            {
+              "label": "Almizcle espantoso",
+              "script": "[Script.ZTE8LdRblyG4yYoE]"
+            }
+          ]
+        }
+      ]
     },
     "Warpstone Snuff": {
-      "name": "Warpstone Snuff"
+      "name": "Rapé de piedra bruja",
+      "description": "<p>Los usuarios de magia skaven suelen llevar consigo preparaciones de polvo de piedra bruja para adquirir más poder mágico justo cuando lo necesitan. Un skaven que utilice magia puede ingerir una dosis de rapé cuando realiza un Chequeo de Canalización. El rapé le otorga +<span style=\"white-space: pre;\"> </span>1 NE adicional al Chequeo, pero si sufre una disfunción mágica debe añadir +[[/r 1d10]] a cualquier tirada que haga en la tabla de disfunciones.</p>",
+      "effects": [
+        {
+          "name": "Rapé de piedra bruja",
+          "scriptData": [
+            {
+              "label": "Ingerir rapé de piedra bruja",
+              "script": "[Script.wAETU6aTRr9d4oCU]",
+              "hideScript": "[Script.KQmb5B27eJ1lkbVL]",
+              "submissionScript": "[Script.YjAIsFlxKTJvYs60]"
+            }
+          ]
+        }
+      ]
     }
   }
 }

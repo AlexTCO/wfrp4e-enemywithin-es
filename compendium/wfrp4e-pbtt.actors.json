@@ -7898,7 +7898,7 @@
       "tokenName": "Graf Boris",
       "species": "Humano",
       "status": "Oro 7",
-      "gmnotes": "<p>Con 6’ 1” de altura, el Graf fue en su día una figura imponente. Últimamente parece menos joven; con el cabello castaño ralo y un impresionante bigote descuidado, ahora el Graf Boris es más bien una figura triste. No puede mantener la concentración durante mucho tiempo, se pasa la mayor parte del tiempo en la cama y, si tiene que aparecer en el salón del trono de palacio, se envuelve en mantas. Trata esto como un @Condition[Malaise]{Malestar} especialmente fuerte, que ha afligido al Graf con 3 Estados de @Condition[Fatigued]{Fatigado}, lo que supone un –30 en todos los Chequeos.</p>",
+      "gmnotes": "<p>Con 6’ 1” de altura, el Graf fue en su día una figura imponente. Últimamente parece menos joven; con el cabello castaño ralo y un impresionante bigote descuidado, ahora el Graf Boris es más bien una figura triste. No puede mantener la concentración durante mucho tiempo, se pasa la mayor parte del tiempo en la cama y, si tiene que aparecer en el salón del trono de palacio, se envuelve en mantas. Trata esto como un @Condition[Malestar] especialmente fuerte, que ha afligido al Graf con 3 Estados de @Condition[Fatigado], lo que supone un –30 en todos los Chequeos.</p>",
       "items": {
         "The Middenland Runefang (Peak Leveller)": {
           "name": "Colmillo Rúnico de Middenland (Muerdepiernas)"
