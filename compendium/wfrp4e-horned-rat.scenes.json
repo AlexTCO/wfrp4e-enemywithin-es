@@ -1,60 +1,60 @@
 {
-  "label": "Scenes (The Horned Rat)",
+  "label": "Escenas (La Rata Cornuda)",
   "folders": {
-    "The Horned Rat": "The Horned Rat",
-    "Oberholzbek Mines": "Oberholzbek Mines",
+    "The Horned Rat": "La Rata Cornuda",
+    "Oberholzbek Mines": "Minas de Oberholzbek",
     "Karak Skygg": "Karak Skygg"
   },
   "entries": {
     "Karak Skygg - Below Earth": {
-      "name": "Karak Skygg - Below Earth"
+      "name": "Karak Skygg - Bajo tierra"
     },
     "Karak Skygg - Fourth Stratum": {
-      "name": "Karak Skygg - Fourth Stratum"
+      "name": "Karak Skygg - Cuarto estrato"
     },
     "Street": {
-      "name": "Street",
+      "name": "Calle",
       "drawings": {
-        "View from telescope": "View from telescope"
+        "View from telescope": "Vista desde el telescopio"
       }
     },
     "Unterfraus": {
       "name": "Unterfraus",
       "drawings": {
-        "Miners' Cottages": "Miners' Cottages",
-        "Turnips & Cabbages": "Turnips & Cabbages",
-        "Farm": "Farm",
-        "Cattle Enclosure": "Cattle Enclosure",
-        "Skaven Scout": "Skaven Scout",
-        "Skaven Ambusher": "Skaven Ambusher",
-        "Warlock-Engineer Brakit and Demolition Crew": "Warlock-Engineer Brakit and Demolition Crew"
+        "Miners' Cottages": "Cabañas de los mineros",
+        "Turnips & Cabbages": "Nabos y coles",
+        "Farm": "Granja",
+        "Cattle Enclosure": "Cerramiento para el ganado",
+        "Skaven Scout": "Batidor skaven",
+        "Skaven Ambusher": "Rata de clan emboscada",
+        "Warlock-Engineer Brakit and Demolition Crew": "Brujo-ingeniero Brakit y equipo de demolición"
       },
       "notes": {
-        "The Temple to Ulric": "The Temple to Ulric",
-        "The Barn": "The Barn",
-        "The Pick and Shovel": "The Pick and Shovel",
-        "The Foundry": "The Foundry",
-        "The Stone": "The Stone"
+        "The Temple to Ulric": "Templo de Ulric",
+        "The Barn": "El Granero",
+        "The Pick and Shovel": "El Pico y la Pala",
+        "The Foundry": "Fundición",
+        "The Stone": "La Piedra"
       }
     },
     "Karak Skygg - Third Stratum": {
-      "name": "Karak Skygg - Third Stratum"
+      "name": "Karak Skygg - Tercer estrato"
     },
     "Oberholzbek Mines - Upper Levels": {
-      "name": "Oberholzbek Mines - Upper Levels",
+      "name": "Minas de Oberholzbek - Niveles superiores",
       "drawings": {
         "AC": "AC",
         "S": "S",
         "N": "N",
-        "WORKFACE": "WORKFACE",
-        "MINOR WORKFACE": "MINOR WORKFACE"
+        "WORKFACE": "FRENTE DE MINA",
+        "MINOR WORKFACE": "FRENTE SECUNDARIO"
       }
     },
     "Oberholzbek Mines - Lower Levels": {
-      "name": "Oberholzbek Mines - Lower Levels",
+      "name": "Minas de Oberholzbek - Niveles inferiores",
       "drawings": {
-        "WORKFACE": "WORKFACE",
-        "ABANDONED WORKFACE": "ABANDONED WORKFACE",
+        "WORKFACE": "FRENTE DE MINA",
+        "ABANDONED WORKFACE": "FRENTE ABANDONADO",
         "S": "S",
         "K": "K",
         "A": "A",
@@ -63,51 +63,51 @@
       }
     },
     "Karak Skygg - First Stratum": {
-      "name": "Karak Skygg - First Stratum"
+      "name": "Karak Skygg - Primer estrato"
     },
     "Middenland": {
       "name": "Middenland"
     },
     "Wendenbahn Warehouse": {
-      "name": "Wendenbahn Warehouse",
+      "name": "Almacén de la Wendenbahn",
       "drawings": {
-        "trapdoor": "trapdoor",
-        "Bedroom 1": "Bedroom 1",
-        "Bedroom 2": "Bedroom 2",
-        "Bedroom 3": "Bedroom 3",
-        "Box Room": "Box Room",
-        "Linen Room": "Linen Room",
-        "Kitchen": "Kitchen",
-        "up": "up",
-        "to basement": "to basement",
-        "Living Room": "Living Room",
-        "Dining Room": "Dining Room",
-        "Hall": "Hall",
-        "Lounge": "Lounge",
-        "Trapdoor": "Trapdoor",
-        "Skylight": "Skylight"
+        "trapdoor": "trampilla",
+        "Bedroom 1": "Dormitorio 1",
+        "Bedroom 2": "Dormitorio 2",
+        "Bedroom 3": "Dormitorio 3",
+        "Box Room": "Trastero",
+        "Linen Room": "Cuarto de la ropa blanca",
+        "Kitchen": "Cocina",
+        "up": "arriba",
+        "to basement": "al sótano",
+        "Living Room": "Sala de estar",
+        "Dining Room": "Comedor",
+        "Hall": "Vestíbulo",
+        "Lounge": "Salón",
+        "Trapdoor": "Trampilla",
+        "Skylight": "Claraboya"
       }
     },
     "Shrine of the Holy Companion": {
-      "name": "Shrine of the Holy Companion",
+      "name": "Santuario del Santo Compañero",
       "drawings": {
-        "Shrine": "Shrine",
-        "Bricked Up Entrance": "Bricked Up Entrance",
-        "Store Room": "Store Room",
-        "Concealed Entrance": "Concealed Entrance",
-        "Antechamber": "Antechamber",
+        "Shrine": "Santuario",
+        "Bricked Up Entrance": "Entrada tapiada",
+        "Store Room": "Almacén",
+        "Concealed Entrance": "Entrada oculta",
+        "Antechamber": "Antecámara",
         "Pendrag": "Pendrag",
         "Sigmar": "Sigmar"
       }
     },
     "Oberholzbek Mines - Lower Tunnels": {
-      "name": "Oberholzbek Mines - Lower Tunnels"
+      "name": "Minas de Oberholzbek - Túneles inferiores"
     },
     "Warehouse": {
-      "name": "Warehouse"
+      "name": "Almacén"
     },
     "Karak Skygg - Second Stratum": {
-      "name": "Karak Skygg - Second Stratum"
+      "name": "Karak Skygg - Segundo estrato"
     }
   }
 }

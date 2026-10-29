@@ -4593,7 +4593,7 @@
         },
         "Tracker": {
           "name": "Rastreador",
-          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Rastrear.</p>",
+          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Seguir rastros.</p>",
           "effects": [
             {
               "name": "Rastreador",
@@ -7819,7 +7819,7 @@
         },
         "Tracker": {
           "name": "Rastreador",
-          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Rastrear.</p>",
+          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Seguir rastros.</p>",
           "effects": [
             {
               "name": "Rastreador",
@@ -8863,7 +8863,7 @@
         },
         "Tracker": {
           "name": "Rastreador",
-          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Rastrear.</p>",
+          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Seguir rastros.</p>",
           "effects": [
             {
               "name": "Rastreador",
@@ -11734,7 +11734,7 @@
         },
         "Tracker": {
           "name": "Rastreador",
-          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Rastrear.</p>",
+          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Seguir rastros.</p>",
           "effects": [
             {
               "name": "Rastreador",
@@ -14246,7 +14246,7 @@
         },
         "Tracker": {
           "name": "Rastreador",
-          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Rastrear.</p>",
+          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Seguir rastros.</p>",
           "effects": [
             {
               "name": "Rastreador",
@@ -22144,7 +22144,7 @@
         },
         "Careful Step": {
           "name": "Paso cuidadoso",
-          "description": "<p>La magia que fluye a través de tus pies hace que toda la materia orgánica que pisas quede incólume: las ramas no se rompen, la hierba vuelve a su posición original e incluso las flores más delicadas permanecen intactas. Quienes pretendan utilizar la Habilidad Rastrear para perseguirte a través de terreno rural sufrirán un penalizador -30 a sus Chequeos.</p><p>\n\n <b>Saber:</b> Ninguno</p>"
+          "description": "<p>La magia que fluye a través de tus pies hace que toda la materia orgánica que pisas quede incólume: las ramas no se rompen, la hierba vuelve a su posición original e incluso las flores más delicadas permanecen intactas. Quienes pretendan utilizar la Habilidad Seguir rastros para perseguirte a través de terreno rural sufrirán un penalizador -30 a sus Chequeos.</p><p>\n\n <b>Saber:</b> Ninguno</p>"
         },
         "Dart": {
           "name": "Dardo",
@@ -23043,7 +23043,7 @@
         },
         "Tracker": {
           "name": "Rastreador",
-          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Rastrear.</p>",
+          "description": "<p>Los rastreadores son hábiles en seguir a su presa, por lo general mediante el olfato o el oído. Suman tantos NE como su Bonificador por Iniciativa a todos los Chequeos de Seguir rastros.</p>",
           "effects": [
             {
               "name": "Rastreador",
@@ -23118,7 +23118,7 @@
       "tokenName": "Snikkit"
     },
     "Brute, Force, And Bettë": {
-      "name": "Bruto, Fuerza y Bettë",
+      "name": "Bruto, Forzudo y Bettë",
       "items": {
         "Big": {
           "name": "Grande",
@@ -23178,7 +23178,7 @@
       },
       "species": "Perro",
       "hit": "hitloc",
-      "tokenName": "Bruto, Fuerza y Bettë"
+      "tokenName": "Bruto, Forzudo y Bettë"
     },
     "The Hellbeast of Seep-Gore": {
       "name": "La Bestia Infernal Rezumasangre",
